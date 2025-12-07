@@ -1,0 +1,13 @@
+200 OK
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Retry-Count: 0
+Last-Modified: Fri, 10 Jun 2016 09:31:58 GMT
+Etag: "85-534e935cc1891-gzip"
+Vary: Accept-Encoding
+Content-Type: text/html
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Xss-Protection: 1; mode=block
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:17 GMT

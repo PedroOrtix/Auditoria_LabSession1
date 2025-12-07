@@ -1,0 +1,14 @@
+200 OK
+Server: Apache/2.4.62 (Debian)
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: PHP/8.3.16
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:05 GMT
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Link: <https://investigacion.etsisi.upm.es/wp-json/>; rel="https://api.w.org/" <https://investigacion.etsisi.upm.es/wp-json/wp/v2/pages/279>; rel="alternate"; title="JSON"; type="application/json" <https://investigacion.etsisi.upm.es/>; rel=shortlink
+Referrer-Policy: same-origin

@@ -1,0 +1,14 @@
+200 OK
+Accept-Ranges: bytes
+X-Frame-Options: SAMEORIGIN
+Date: Sat, 06 Dec 2025 20:42:32 GMT
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html
+Last-Modified: Wed, 10 Sep 2014 09:34:19 GMT

@@ -1,0 +1,9 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:46 GMT
+Server: Apache/2
+Set-Cookie: pll_language=es; expires=Sun, 06 Dec 2026 20:42:48 GMT; Max-Age=31536000; path=/; domain=mhi.ws.fi.upm.es; secure; SameSite=Lax
+Link: <https://mhi.ws.fi.upm.es/wp-json/>; rel="https://api.w.org/" <https://mhi.ws.fi.upm.es/wp-json/wp/v2/pages/155>; rel="alternate"; title="JSON"; type="application/json" <https://mhi.ws.fi.upm.es/>; rel=shortlink
+X-Powered-By: PHP/8.2.29
+Vary: Accept-Encoding
+Retry-Count: 0

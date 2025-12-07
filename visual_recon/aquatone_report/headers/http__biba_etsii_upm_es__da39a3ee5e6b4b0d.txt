@@ -1,0 +1,9 @@
+200 OK
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:41:51 GMT
+Last-Modified: Tue, 08 Nov 2022 18:05:01 GMT
+Etag: "29cd-5ecf960f51998-gzip"
+Content-Type: text/html
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding
+Retry-Count: 0

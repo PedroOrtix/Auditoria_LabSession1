@@ -1,0 +1,8 @@
+200 OK
+Cache-Control: max-age=0, must-revalidate, private
+Expires: Sat, 06 Dec 2025 20:42:20 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:20 GMT
+Server: Apache
+Retry-Count: 0

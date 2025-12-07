@@ -1,0 +1,13 @@
+200 OK
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:43:01 GMT
+X-Logged-In: False
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+X-Content-Powered-By: K2 v2.11.20241016 (by JoomlaWorks)
+Last-Modified: Sat, 06 Dec 2025 20:43:01 GMT
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.4.33
+Content-Type: text/html; charset=utf-8
+Server: Apache/2.4.54 (Debian)
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache

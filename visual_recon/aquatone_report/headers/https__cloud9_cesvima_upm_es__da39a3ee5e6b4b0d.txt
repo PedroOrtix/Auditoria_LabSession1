@@ -1,0 +1,18 @@
+200 OK
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-EbLBFimlOA5n0OnoW6ltWXgWReXeUMwXhpCWUwUcpSw=';script-src-elem 'strict-dynamic' 'nonce-EbLBFimlOA5n0OnoW6ltWXgWReXeUMwXhpCWUwUcpSw=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-src 'self';frame-ancestors 'self';form-action 'self'
+X-Content-Type-Options: nosniff
+Upgrade: h2
+X-Request-Id: CJ8m07llvsuqPurfSTzc
+Cache-Control: no-cache, no-store, must-revalidate
+Set-Cookie: 511b5315c9cf7=aaid0qr8q8ri1c3tqjdr2c7uu8; path=/; secure; HttpOnly; SameSite=Lax
+Server: Apache/2.4.65 (Debian)
+X-Robots-Tag: noindex, nofollow
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload

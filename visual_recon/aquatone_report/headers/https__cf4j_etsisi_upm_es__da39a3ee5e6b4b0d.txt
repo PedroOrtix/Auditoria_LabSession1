@@ -1,0 +1,14 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Server: Apache/2.4.62 (Debian)
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Last-Modified: Wed, 22 Sep 2021 13:28:51 GMT
+Vary: Accept-Encoding
+Feature-Policy: geolocation 'self'; vibrate 'none'

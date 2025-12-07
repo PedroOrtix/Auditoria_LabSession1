@@ -1,0 +1,10 @@
+200 OK
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Last-Modified: Mon, 17 Mar 2025 14:50:20 GMT
+Etag: "54c7-6308ae83c9425-gzip"
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:41:58 GMT
+Server: Apache
+Retry-Count: 0

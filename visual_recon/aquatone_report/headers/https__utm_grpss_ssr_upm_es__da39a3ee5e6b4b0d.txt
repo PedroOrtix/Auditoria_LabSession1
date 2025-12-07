@@ -1,0 +1,10 @@
+200 OK
+Content-Type: text/html
+Vary: Accept-Encoding
+Etag: W/"5f536064-12fb"
+Strict-Transport-Security: max-age=63072000
+Referrer-Policy: strict-origin-when-cross-origin
+Retry-Count: 0
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:53 GMT
+Last-Modified: Sat, 05 Sep 2020 09:54:44 GMT

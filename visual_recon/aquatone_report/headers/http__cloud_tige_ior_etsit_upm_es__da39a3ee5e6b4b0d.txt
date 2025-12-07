@@ -1,0 +1,17 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Date: Sat, 06 Dec 2025 20:41:50 GMT
+Retry-Count: 0
+Content-Security-Policy: default-src 'none';manifest-src 'self';script-src 'self' 'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self';connect-src 'self';media-src 'self'
+X-Xss-Protection: 1; mode=block
+Content-Length: 10572
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Download-Options: noopen
+Server: nginx/1.21.0
+Cache-Control: no-cache, must-revalidate
+X-Robots-Tag: none

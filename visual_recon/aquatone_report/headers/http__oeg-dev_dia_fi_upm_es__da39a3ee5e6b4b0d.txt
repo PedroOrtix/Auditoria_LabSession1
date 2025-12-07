@@ -1,0 +1,9 @@
+200 OK
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:47:10 GMT
+Last-Modified: Thu, 07 Dec 2023 07:34:15 GMT
+Etag: "29af-60be67ea9e112-gzip"
+Accept-Ranges: bytes
+Retry-Count: 0
+Content-Type: text/html
+Server: Apache

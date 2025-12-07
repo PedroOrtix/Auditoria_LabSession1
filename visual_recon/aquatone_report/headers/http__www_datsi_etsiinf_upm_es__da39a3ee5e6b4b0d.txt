@@ -1,0 +1,8 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:22 GMT
+Server: Apache/2
+Vary: Accept-Encoding
+X-Powered-By: PHP/8.2.29
+Link: <http://datsi.ws.fi.upm.es/wp-json/>; rel="https://api.w.org/" <http://datsi.ws.fi.upm.es/wp-json/wp/v2/pages/35>; rel="alternate"; title="JSON"; type="application/json" <http://datsi.ws.fi.upm.es/>; rel=shortlink
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8

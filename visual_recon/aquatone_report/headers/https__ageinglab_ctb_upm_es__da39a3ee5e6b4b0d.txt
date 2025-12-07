@@ -1,0 +1,11 @@
+200 OK
+Server: openresty
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: pll_language=es; expires=Sun, 06 Dec 2026 20:42:31 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax
+X-Served-By: ageinglab.ctb.upm.es
+Strict-Transport-Security: max-age=63072000;includeSubDomains; preload
+Date: Sat, 06 Dec 2025 20:42:31 GMT
+X-Powered-By: PHP/8.2.27
+Vary: Accept-Encoding
+Link: <https://ageinglab.ctb.upm.es/wp-json/>; rel="https://api.w.org/" <https://ageinglab.ctb.upm.es/wp-json/wp/v2/pages/5595>; rel="alternate"; title="JSON"; type="application/json" <https://ageinglab.ctb.upm.es/>; rel=shortlink

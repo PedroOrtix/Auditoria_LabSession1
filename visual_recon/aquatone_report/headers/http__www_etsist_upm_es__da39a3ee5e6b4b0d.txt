@@ -1,0 +1,7 @@
+200 OK
+Set-Cookie: symfony=nbh3ra6sh5r4gklta3c05oqq27; path=/
+Server: nginx/1.21.0
+Date: Sat, 06 Dec 2025 20:42:23 GMT
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+X-Powered-By: PHP/5.6.25

@@ -1,0 +1,18 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: gevMWnJXAnFsb6npORm4
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-aZjOVUPp4D1N8jNngNOFujYgkoegUzYOWliw8Siq0IA=';script-src-elem 'strict-dynamic' 'nonce-aZjOVUPp4D1N8jNngNOFujYgkoegUzYOWliw8Siq0IA=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self' wss://drive.upm.es;media-src 'self';frame-ancestors 'self';form-action 'self'
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer
+Date: Sat, 06 Dec 2025 20:42:46 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+Set-Cookie: 511b5315c9cf7=eham3m08atpsc0t3qe5f7fer6m; path=/; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Upgrade: h2
+Content-Type: text/html; charset=UTF-8
+X-Robots-Tag: noindex, nofollow
+X-Permitted-Cross-Domain-Policies: none
+Retry-Count: 0

@@ -1,0 +1,11 @@
+200 OK
+Set-Cookie: symposium_ci=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2239b15ea375326b577b55ab8870106d34%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.1.1.117%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%29+AppleWebK%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221765053718%22%3B%7D0fed05579d19702abbd7e12fde7f0764; path=/; SameSite=Lax; secure; httponly
+Cache-Control: private, must-revalidate
+Date: Sat, 06 Dec 2025 20:42:00 GMT
+Content-Type: text/html
+X-Symposium-Unique-Request-Id: 0017d9f7-c3ea-4481-b501-8672afc79d65
+X-Content-Type-Options: nosniff
+Server: nginx
+Vary: Accept-Encoding
+Retry-Count: 0
+Last-Modified: Sat, 06 Dec 2025 20:42:00 GMT

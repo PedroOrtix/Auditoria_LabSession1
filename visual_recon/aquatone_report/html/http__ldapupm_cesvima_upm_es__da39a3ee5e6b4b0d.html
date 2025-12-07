@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet">
+<meta name="robots" content="noindex, noarchive, nofollow">
+<meta name="slurp" content="noindex, noarchive, nofollow, noodp, noydir">
+<meta name="msnbot" content="noindex, noarchive, nofollow, noodp">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REDCap</title>
+<link rel="shortcut icon" href="/redcap_v15.5.14/Resources/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/redcap_v15.5.14/Resources/images/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/webpack/css/bundle.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/webpack/css/bootstrap.min.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/webpack/css/datatables/jquery.dataTables.min.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/webpack/css/fontawesome/css/all.min.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/css/messenger.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/css/style.css?1757616286"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v15.5.14/Resources/css/home.css?1757616286"/>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/webpack/js/bundle.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/webpack/js/popper.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/webpack/js/bootstrap.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/webpack/js/pdfobject/pdfobject.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/Libraries/bundle.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/base.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/Accessibility.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/webpack/js/moment.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/Libraries/Chart.bundle.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/Libraries/patternomaly.min.js?1757616286"></script>
+<script type="text/javascript" src="/redcap_v15.5.14/Resources/js/Libraries/Chart.PluginLabels.js?1757616286"></script>
+</head>
+<body><script type="text/javascript">
+	if(window.ExternalModules === undefined){
+		window.ExternalModules = {}
+	}
+
+	window.ExternalModules.moduleDependentRequest = function(url, action){
+		$.get(url, function(response){
+			try{
+				response = JSON.parse(response)
+				action(response)
+			}
+			catch(e){
+				if(response.startsWith('<!DOCTYPE')){
+					console.error('An unexpected response was returned from ' + url)
+					/**
+					 * Assume the login page is being returned per:
+					 * https://redcap.vumc.org/community/post.php?id=138578
+					 */
+					return
+				}
+
+				// Escape the response to prevent injection
+				response = $('<div/>').text(response).html()
+				
+				simpleDialog(
+					"<p>The module mentioned in the error below is preventing REDCap from working properly.  It is recommended to disable this module until it can be updated to avoid this error:</p><pre style='max-height: 50vh; white-space: pre-wrap;'>" + response + "</pre>",
+					"Error",
+					'module-error-dialog',
+					1000
+				)
+			}
+		})
+	}
+</script>
+
+<script type="text/javascript">
+if(typeof lang=='undefined'){var lang={}};
+lang.system_config_873='Page speed was boosted using Rapid Retrieval';
+lang.system_config_874='The current REDCap webpage was able to load faster because it utilized REDCap\'s Rapid Retrieval feature. Rapid Retrieval is an automated internal feature that allows REDCap to store      certain pages in a temporary holding cache. When utilizing Rapid Retrieval, if no data or metadata has changed in the project recently, REDCap will output the stored cache of the page from when it was previously loaded.      This means that REDCap does not have to do all the work of normally loading the page but instead can load the page much faster by using the cache. The time that the current page was last cached was';
+lang.docs_1136='ERROR: The file cannot be uploaded because its file type is not permitted.';
+lang.alerts_24='Alert';
+lang.calendar_popup_01='Close';
+lang.calendar_widget_choosedatehint='Click to select a date';
+lang.calendar_widget_choosetime='Choose Time';
+lang.calendar_widget_done='Done';
+lang.calendar_widget_hour='Hour';
+lang.calendar_widget_min='Minute';
+lang.calendar_widget_sec='Second';
+lang.calendar_widget_month_jan='Jan';
+lang.calendar_widget_month_feb='Feb';
+lang.calendar_widget_month_mar='Mar';
+lang.calendar_widget_month_apr='Apr';
+lang.calendar_widget_month_may='May';
+lang.calendar_widget_month_jun='Jun';
+lang.calendar_widget_month_jul='Jul';
+lang.calendar_widget_month_aug='Aug';
+lang.calendar_widget_month_sep='Sep';
+lang.calendar_widget_month_oct='Oct';
+lang.calendar_widget_month_nov='Nov';
+lang.calendar_widget_month_dec='Dec';
+lang.calendar_widget_month_day_long_sun='Sunday';
+lang.calendar_widget_month_day_long_mon='Monday';
+lang.calendar_widget_month_day_long_tues='Tuesday';
+lang.calendar_widget_month_day_long_wed='Wednesday';
+lang.calendar_widget_month_day_long_thurs='Thursday';
+lang.calendar_widget_month_day_long_fri='Friday';
+lang.calendar_widget_month_day_long_sat='Saturday';
+lang.calendar_widget_month_day_short_sun='Su';
+lang.calendar_widget_month_day_short_mon='Mo';
+lang.calendar_widget_month_day_short_tues='Tu';
+lang.calendar_widget_month_day_short_wed='We';
+lang.calendar_widget_month_day_short_thurs='Th';
+lang.calendar_widget_month_day_short_fri='Fr';
+lang.calendar_widget_month_day_short_sat='Sa';
+lang.calendar_widget_next='Next';
+lang.calendar_widget_prev='Prev';
+lang.dash_72='Enable color-blind accessibility';
+lang.dash_73='Disable color-blind accessibility';
+lang.dashboard_32='Today';
+lang.design_401='Okay';
+lang.design_718='Valid';
+lang.design_839='Special Functions';
+lang.edit_project_186='Learn how to use';
+lang.form_renderer_29='Now';
+lang.global_13='Time';
+lang.global_53='Cancel';
+lang.global_146='Smart Variables';
+lang.global_147='REDCap Auto Logout Warning';
+lang.global_148='Log In';
+lang.global_149='Continue on this page';
+lang.global_150='You will be automatically logged out of REDCap in <b>2 MINUTES</b> due to inactivity. Click the button below to prevent auto logout.';
+lang.global_151='You will be automatically logged out of REDCap in <b>30 SECONDS</b> due to inactivity. Click the button below to prevent auto logout.';
+lang.global_152='<b>Due to inactivity, your REDCap session has expired.</b> Click the button below to log in again.';
+lang.global_167='Regular View Mode';
+lang.global_168='Fullscreen Mode';
+lang.global_169='Update & Close Editor';
+lang.global_170='Logic Editor';
+lang.global_171='Error in syntax';
+lang.global_172='(The determination of validity may not be 100% accurate in all contexts.)';
+lang.global_173='Enter new logic here';
+lang.design_482='Codebook';
+lang.design_962='or open the';
+lang.global_132='Action Tags';
+lang.global_208='Use the text box below to compose your logic, calculation, action tags, etc. If you need more space, click the Fullscreen Mode button to enlarge the text box. When you are finished, click the \'Update\' button to minimize the Editor window.';
+lang.global_266='TIP: Your logic and calculations may contain <b>comments</b>, which are not evaluated but only serve as annotations to help document or explain what the calc/logic is doing.  Comments must be on their own lines and start with // (double forward slash) or # (hash sign),  optionally preceded by whitespace characters (spaces, tabs). You may not append a comment to a line that is part of the logic or calc expression.';
+lang.global_267='View example';
+lang.global_272='Upload a file';
+lang.global_273='Drop a file or click here<br>to upload an attachment';
+lang.global_274='NOTE: Any files uploaded here using the rich text editor will be given a <b>publicly accessible download link</b> that will be placed into the text,  in which anyone in possession of that link (including people not logged into REDCap) will be able to download the file at any time.  Files containing <b>confidential or sensitive information (e.g., PHI or PII) should *not* be uploaded here</b>.  Additionally, all files uploaded here can be later accessed and/or deleted in the File Repository\'s "Miscellaneous File Attachments" folder,  whose contents does not count against the total amount of file storage used in the project. ';
+lang.global_275='Auto-fill form';
+lang.global_309='Use the text box below to compose your CSS to add additional styling to the page. If you need more space, click the Fullscreen Mode button to enlarge the text box. When you are finished, click the \'Update\' button to minimize the Editor window.';
+lang.global_310='CSS Editor';
+lang.global_311='<strong>TIP:</strong> You may include standard CSS comments in your code to help explain or document styles. Comments are ignored during processing and have no effect on how styles are applied. Use the syntax <code>/* your comment here */</code> for comments.<br><strong>Do not include <code>&lt;style&gt;</code> tags</strong> - these will be added automatically when your CSS is rendered.';
+lang.global_312='<b><u>Use with caution.</u> Please note that targeting internal REDCap elements (e.g., specific classes or IDs) may break without notice, as updates to REDCap can change or remove these elements at any time. Stability of these selectors across versions is not guaranteed, and any changes to them will not be announced in advance.</b>';
+lang.messaging_118='(click to go to project)';
+lang.messaging_119='(current project)';
+lang.messaging_177='NOTICE: It appears that you may have multiple browser windows/tabs open, which may prevent some things from working on this page until this page is refreshed. It is advised that you complete what you are doing, and then refresh this page.';
+lang.docs_83='Drag and drop files here to upload';
+lang.docs_81='Upload Error!';
+lang.sendit_03='File could not be loaded because it is too large';
+lang.sendit_04='Files must be smaller than';
+lang.sendit_05='for uploading.';
+lang.period='.';
+lang.control_center_4803='Database Query Tool';
+lang.docs_81='Upload Error!';
+lang.docs_82='File did not upload:';
+lang.data_entry_63='Max file size:';
+lang.design_08='Working &hellip;';
+lang.survey_1609='The test email was successfully sent to';
+lang.survey_1288='Email sent!';
+lang.survey_1610='Print for Respondent';
+</script>
+<div id="rc-ace-editor-example" style="display:none;" class="simpleDialog">
+	<div class="mb-2"><span data-rc-lang="global_271">The code block below illustrates how one might use # and // as comments in your logic and calculations.</span></div>
+	<pre># Text can be put here to explain what the logic/calculation does and why.
+if ([field1] = '1' and [field2] > 7,
+
+	// This comment can explain what the next line does.
+	[score] * [factor],
+
+	// Return '0' if the condition is False.
+	0
+)</pre>
+</div>
+	<script type="text/javascript">
+	// Admin privileges
+	var super_user = 0;
+	var super_user_not_impersonator = 0;
+	var admin_rights = '0';
+	var account_manager = '0';
+	var access_system_config = '0';
+	var access_system_upgrade = '0';
+	var access_external_module_install = '0';
+	var access_admin_dashboards = '0';
+		// System values
+	var redcap_version = '15.5.14';
+	var server_name = 'redcaptest.cesvima.upm.es';
+	var app_path_webroot = '/redcap_v15.5.14/';
+    var app_path_webroot_parent = '/';
+	var app_path_webroot_full = 'https://redcaptest.cesvima.upm.es/';
+	var app_path_survey_full = 'https://redcaptest.cesvima.upm.es/surveys/';
+	var app_path_images = '/redcap_v15.5.14/Resources/images/';
+	var page = 'index.php';
+    var secondary_pk = '';
+	var sendit_enabled = 1;
+	var surveys_enabled = 0;
+	var mycap_enabled = 0;
+	var reports_allow_public = '1';
+	var rich_text_image_embed_enabled = 1;
+	var rich_text_attachment_embed_enabled = 1;
+	var now = '2025-12-06 20:42:06'; var now_mdy = '12-06-2025 20:42:06'; var now_dmy = '06-12-2025 20:42:06';
+	var today = '2025-12-06'; var today_mdy = '12-06-2025'; var today_dmy = '06-12-2025';
+	var email_domain_allowlist = new Array();
+	var user_date_format_jquery = 'dd-mm-yy';
+	var user_date_format_validation = 'dmy';
+	var user_date_format_delimiter = '-';
+	var csv_delimiter = ',';
+	var ALLOWED_TAGS = '<rt><rp><ruby><wbr><blockquote><address><progress><meter><abbr><input><button><col><colgroup><strike><s><style><code><video><audio><source><caption><canvas><ol><ul><li><label><pre><p><a><br><center><font><b><i><u><h6><h5><h4><h3><h2><h1><hr><table><tbody><tr><th><td><thead><tfoot><img><span><div><em><strong><acronym><sub><sup><map><area>';
+	var AUTOMATE_ALL = '0';
+    var restricted_upload_file_types = ["ade","adp","apk","appx","appxbundle","bat","cab","chm","cmd","com","cpl","diagcab","diagcfg","diagpack","dll","dmg","ex","exe","hta","img","ins","iso","isp","jar","jnlp","js","jse","lib","lnk","mde","msc","msi","msix","msixbundle","msp","mst","nsh","php","pif","ps1","scr","sct","shb","sys","vb","vbe","vbs","vhd","vxd","wsc","wsf","wsh","xll"];
+	var cookie_samesite = 'Lax';
+	var cookie_secure = true;
+		var datatables_disable = [];
+	var fakeObjectTag = 'objecta1fovm9ublbjdmphyudymwlty1fqb1hmt1fpehu2agdxsek9';
+    var maxUploadSizeAttachment = 16777216; // bytes
+    var canConvertPdfToImages = 1;
+    var openAIImproveTextServiceEnabled = 0;
+	function setDatePickerDefaults() {
+		$.datepicker.setDefaults({
+			timeText: window.lang.global_13,
+			hourText: window.lang.calendar_widget_hour,
+			minuteText: window.lang.calendar_widget_min,
+			closeText: window.lang.calendar_widget_done,
+			prevText: window.lang.calendar_widget_prev,
+			nextText: window.lang.calendar_widget_next,
+			currentText: window.lang.dashboard_32,
+			monthNamesShort:[
+				window.lang.calendar_widget_month_jan,
+				window.lang.calendar_widget_month_feb,
+				window.lang.calendar_widget_month_mar,
+				window.lang.calendar_widget_month_apr,
+				window.lang.calendar_widget_month_may,
+				window.lang.calendar_widget_month_jun,
+				window.lang.calendar_widget_month_jul,
+				window.lang.calendar_widget_month_aug,
+				window.lang.calendar_widget_month_sep,
+				window.lang.calendar_widget_month_oct,
+				window.lang.calendar_widget_month_nov,
+				window.lang.calendar_widget_month_dec,
+			],
+			dayNames:[
+				window.lang.calendar_widget_month_day_long_sun,
+				window.lang.calendar_widget_month_day_long_mon,
+				window.lang.calendar_widget_month_day_long_tues,
+				window.lang.calendar_widget_month_day_long_wed,
+				window.lang.calendar_widget_month_day_long_thurs,
+				window.lang.calendar_widget_month_day_long_fri,
+				window.lang.calendar_widget_month_day_long_sat,
+			],
+			dayNamesMin:[
+				window.lang.calendar_widget_month_day_short_sun,
+				window.lang.calendar_widget_month_day_short_mon,
+				window.lang.calendar_widget_month_day_short_tues,
+				window.lang.calendar_widget_month_day_short_wed,
+				window.lang.calendar_widget_month_day_short_thurs,
+				window.lang.calendar_widget_month_day_short_fri,
+				window.lang.calendar_widget_month_day_short_sat,
+			],
+			isRTL: REDCap.MultiLanguage && typeof REDCap.MultiLanguage.isRTL == 'function' ? REDCap.MultiLanguage.isRTL() : false
+		});
+	}
+	$(function(){
+		setDatePickerDefaults();
+	});
+	</script>
+	
+		<script type='text/javascript'>
+		$(function(){
+			initAutoLogout(3,30);
+		});
+		</script><div id="working"><i class="fa-solid fa-spinner fa-spin-pulse me-3"></i><span data-rc-lang="design_08">Working &hellip;</span></div>
+<div id="fade"></div>
+	<!-- Add hidden text for slider accessiblity on surveys -->
+	<div id="slider-0means" class="hidden"><span data-rc-lang="survey_1142">0% means</span></div>
+	<div id="slider-50means" class="hidden"><span data-rc-lang="survey_1143">50% means</span></div>
+	<div id="slider-100means" class="hidden"><span data-rc-lang="survey_1144">100% means</span></div>
+
+	<!-- Text used for field validation errors -->
+	<div id="valtext_divs">
+		<div id="valtext_number"><span data-rc-lang="config_functions_52">This value you provided is not a number. Please try again.</span></div>
+		<div id="valtext_integer"><span data-rc-lang="config_functions_53">This value you provided is not an integer. Please try again.</span></div>
+		<div id="valtext_vmrn"><span data-rc-lang="config_functions_54">The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.</span></div>
+		<div id="valtext_rangehard"><span data-rc-lang="config_functions_56">The value you provided must be within the suggested range</span></div>
+		<div id="valtext_rangesoft1"><span data-rc-lang="config_functions_57">The value you provided is outside the suggested range</span></div>
+		<div id="valtext_rangesoft2"><span data-rc-lang="config_functions_58">This value is admissible, but you may wish to double check it.</span></div>
+		<div id="valtext_time"><span data-rc-lang="config_functions_59">The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).</span></div>
+		<div id="valtext_zipcode"><span data-rc-lang="config_functions_60">This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.</span></div>
+		<div id="valtext_phone"><span data-rc-lang="config_functions_130">This field must be a 10 digit North American phone number (like 415 555 1212). Please re-enter it now.</span></div>
+		<div id="valtext_email"><span data-rc-lang="config_functions_62">This field must be a valid email address (like joe@user.com). Please re-enter it now.</span></div>
+		<div id="valtext_regex"><span data-rc-lang="config_functions_77">The value you provided could not be validated because it does not follow the expected format. Please try again.</span></div>
+		<div id="valtext_requiredformat"><span data-rc-lang="config_functions_94">Required format:</span></div>
+	</div>
+	<!-- Regex used for field validation -->
+	<script>
+		if (typeof window.REDCap == 'undefined') {
+			window.REDCap = {};
+		}
+		window.REDCap.validations = {};
+				window.REDCap.validations['postalcode_french'] = {"datatype":"postal_code","regex":"\/^((0?[1-9])|([1-8][0-9])|(9[0-8]))[0-9]{3}$\/"};
+				window.REDCap.validations['date_dmy'] = {"datatype":"date","regex":"\/^((29([-\\\/])02\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\\d|2[0-8])([-\\\/])(0[1-9]|1[012]))|((29|30)([-\\\/])(0[13-9]|1[012]))|(31([-\\\/])(0[13578]|1[02])))(\\11|\\15|\\18)\\d{4}))$\/"};
+				window.REDCap.validations['date_mdy'] = {"datatype":"date","regex":"\/^((02([-\\\/])29\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\\\/])(0[1-9]|1\\d|2[0-8]))|((0[13-9]|1[012])([-\\\/])(29|30))|((0[13578]|1[02])([-\\\/])31))(\\11|\\15|\\19)\\d{4}))$\/"};
+				window.REDCap.validations['date_ymd'] = {"datatype":"date","regex":"\/^(((\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\\\/])02(\\6)29)|(\\d{4}([-\\\/])((0[1-9]|1[012])(\\9)(0[1-9]|1\\d|2[0-8])|((0[13-9]|1[012])(\\9)(29|30))|((0[13578]|1[02])(\\9)31))))$\/"};
+				window.REDCap.validations['datetime_dmy'] = {"datatype":"datetime","regex":"\/^((29([-\\\/])02\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\\d|2[0-8])([-\\\/])(0[1-9]|1[012]))|((29|30)([-\\\/])(0[13-9]|1[012]))|(31([-\\\/])(0[13578]|1[02])))(\\11|\\15|\\18)\\d{4})) (\\d|[0-1]\\d|[2][0-3]):[0-5]\\d$\/"};
+				window.REDCap.validations['datetime_mdy'] = {"datatype":"datetime","regex":"\/^((02([-\\\/])29\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\\\/])(0[1-9]|1\\d|2[0-8]))|((0[13-9]|1[012])([-\\\/])(29|30))|((0[13578]|1[02])([-\\\/])31))(\\11|\\15|\\19)\\d{4})) (\\d|[0-1]\\d|[2][0-3]):[0-5]\\d$\/"};
+				window.REDCap.validations['datetime_ymd'] = {"datatype":"datetime","regex":"\/^(((\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\\\/])02(\\6)29)|(\\d{4}([-\\\/])((0[1-9]|1[012])(\\9)(0[1-9]|1\\d|2[0-8])|((0[13-9]|1[012])(\\9)(29|30))|((0[13578]|1[02])(\\9)31)))) (\\d|[0-1]\\d|[2][0-3]):[0-5]\\d$\/"};
+				window.REDCap.validations['datetime_seconds_dmy'] = {"datatype":"datetime_seconds","regex":"\/^((29([-\\\/])02\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\\d|2[0-8])([-\\\/])(0[1-9]|1[012]))|((29|30)([-\\\/])(0[13-9]|1[012]))|(31([-\\\/])(0[13578]|1[02])))(\\11|\\15|\\18)\\d{4})) (\\d|[0-1]\\d|[2][0-3])(:[0-5]\\d){2}$\/"};
+				window.REDCap.validations['datetime_seconds_mdy'] = {"datatype":"datetime_seconds","regex":"\/^((02([-\\\/])29\\3(\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\\\/])(0[1-9]|1\\d|2[0-8]))|((0[13-9]|1[012])([-\\\/])(29|30))|((0[13578]|1[02])([-\\\/])31))(\\11|\\15|\\19)\\d{4})) (\\d|[0-1]\\d|[2][0-3])(:[0-5]\\d){2}$\/"};
+				window.REDCap.validations['datetime_seconds_ymd'] = {"datatype":"datetime_seconds","regex":"\/^(((\\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\\\/])02(\\6)29)|(\\d{4}([-\\\/])((0[1-9]|1[012])(\\9)(0[1-9]|1\\d|2[0-8])|((0[13-9]|1[012])(\\9)(29|30))|((0[13578]|1[02])(\\9)31)))) (\\d|[0-1]\\d|[2][0-3])(:[0-5]\\d){2}$\/"};
+				window.REDCap.validations['email'] = {"datatype":"email","regex":"\/^(?!\\.)((?!.*\\.{2})[a-zA-Z0-9\\u0080-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u0300-\\u036F\\u0370-\\u03FF\\u0400-\\u04FF\\u0500-\\u052F\\u0530-\\u058F\\u0590-\\u05FF\\u0600-\\u06FF\\u0700-\\u074F\\u0750-\\u077F\\u0780-\\u07BF\\u07C0-\\u07FF\\u0900-\\u097F\\u0980-\\u09FF\\u0A00-\\u0A7F\\u0A80-\\u0AFF\\u0B00-\\u0B7F\\u0B80-\\u0BFF\\u0C00-\\u0C7F\\u0C80-\\u0CFF\\u0D00-\\u0D7F\\u0D80-\\u0DFF\\u0E00-\\u0E7F\\u0E80-\\u0EFF\\u0F00-\\u0FFF\\u1000-\\u109F\\u10A0-\\u10FF\\u1100-\\u11FF\\u1200-\\u137F\\u1380-\\u139F\\u13A0-\\u13FF\\u1400-\\u167F\\u1680-\\u169F\\u16A0-\\u16FF\\u1700-\\u171F\\u1720-\\u173F\\u1740-\\u175F\\u1760-\\u177F\\u1780-\\u17FF\\u1800-\\u18AF\\u1900-\\u194F\\u1950-\\u197F\\u1980-\\u19DF\\u19E0-\\u19FF\\u1A00-\\u1A1F\\u1B00-\\u1B7F\\u1D00-\\u1D7F\\u1D80-\\u1DBF\\u1DC0-\\u1DFF\\u1E00-\\u1EFF\\u1F00-\\u1FFF\\u20D0-\\u20FF\\u2100-\\u214F\\u2C00-\\u2C5F\\u2C60-\\u2C7F\\u2C80-\\u2CFF\\u2D00-\\u2D2F\\u2D30-\\u2D7F\\u2D80-\\u2DDF\\u2F00-\\u2FDF\\u2FF0-\\u2FFF\\u3040-\\u309F\\u30A0-\\u30FF\\u3100-\\u312F\\u3130-\\u318F\\u3190-\\u319F\\u31C0-\\u31EF\\u31F0-\\u31FF\\u3200-\\u32FF\\u3300-\\u33FF\\u3400-\\u4DBF\\u4DC0-\\u4DFF\\u4E00-\\u9FFF\\uA000-\\uA48F\\uA490-\\uA4CF\\uA700-\\uA71F\\uA800-\\uA82F\\uA840-\\uA87F\\uAC00-\\uD7AF\\uF900-\\uFAFF\\.!#$%&'*+-\/=?^_`{|}~\\-\\d]+)@(?!\\.)([a-zA-Z0-9\\u0080-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u0300-\\u036F\\u0370-\\u03FF\\u0400-\\u04FF\\u0500-\\u052F\\u0530-\\u058F\\u0590-\\u05FF\\u0600-\\u06FF\\u0700-\\u074F\\u0750-\\u077F\\u0780-\\u07BF\\u07C0-\\u07FF\\u0900-\\u097F\\u0980-\\u09FF\\u0A00-\\u0A7F\\u0A80-\\u0AFF\\u0B00-\\u0B7F\\u0B80-\\u0BFF\\u0C00-\\u0C7F\\u0C80-\\u0CFF\\u0D00-\\u0D7F\\u0D80-\\u0DFF\\u0E00-\\u0E7F\\u0E80-\\u0EFF\\u0F00-\\u0FFF\\u1000-\\u109F\\u10A0-\\u10FF\\u1100-\\u11FF\\u1200-\\u137F\\u1380-\\u139F\\u13A0-\\u13FF\\u1400-\\u167F\\u1680-\\u169F\\u16A0-\\u16FF\\u1700-\\u171F\\u1720-\\u173F\\u1740-\\u175F\\u1760-\\u177F\\u1780-\\u17FF\\u1800-\\u18AF\\u1900-\\u194F\\u1950-\\u197F\\u1980-\\u19DF\\u19E0-\\u19FF\\u1A00-\\u1A1F\\u1B00-\\u1B7F\\u1D00-\\u1D7F\\u1D80-\\u1DBF\\u1DC0-\\u1DFF\\u1E00-\\u1EFF\\u1F00-\\u1FFF\\u20D0-\\u20FF\\u2100-\\u214F\\u2C00-\\u2C5F\\u2C60-\\u2C7F\\u2C80-\\u2CFF\\u2D00-\\u2D2F\\u2D30-\\u2D7F\\u2D80-\\u2DDF\\u2F00-\\u2FDF\\u2FF0-\\u2FFF\\u3040-\\u309F\\u30A0-\\u30FF\\u3100-\\u312F\\u3130-\\u318F\\u3190-\\u319F\\u31C0-\\u31EF\\u31F0-\\u31FF\\u3200-\\u32FF\\u3300-\\u33FF\\u3400-\\u4DBF\\u4DC0-\\u4DFF\\u4E00-\\u9FFF\\uA000-\\uA48F\\uA490-\\uA4CF\\uA700-\\uA71F\\uA800-\\uA82F\\uA840-\\uA87F\\uAC00-\\uD7AF\\uF900-\\uFAFF\\-\\.\\d]+)((\\.([a-zA-Z\\u0080-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u0300-\\u036F\\u0370-\\u03FF\\u0400-\\u04FF\\u0500-\\u052F\\u0530-\\u058F\\u0590-\\u05FF\\u0600-\\u06FF\\u0700-\\u074F\\u0750-\\u077F\\u0780-\\u07BF\\u07C0-\\u07FF\\u0900-\\u097F\\u0980-\\u09FF\\u0A00-\\u0A7F\\u0A80-\\u0AFF\\u0B00-\\u0B7F\\u0B80-\\u0BFF\\u0C00-\\u0C7F\\u0C80-\\u0CFF\\u0D00-\\u0D7F\\u0D80-\\u0DFF\\u0E00-\\u0E7F\\u0E80-\\u0EFF\\u0F00-\\u0FFF\\u1000-\\u109F\\u10A0-\\u10FF\\u1100-\\u11FF\\u1200-\\u137F\\u1380-\\u139F\\u13A0-\\u13FF\\u1400-\\u167F\\u1680-\\u169F\\u16A0-\\u16FF\\u1700-\\u171F\\u1720-\\u173F\\u1740-\\u175F\\u1760-\\u177F\\u1780-\\u17FF\\u1800-\\u18AF\\u1900-\\u194F\\u1950-\\u197F\\u1980-\\u19DF\\u19E0-\\u19FF\\u1A00-\\u1A1F\\u1B00-\\u1B7F\\u1D00-\\u1D7F\\u1D80-\\u1DBF\\u1DC0-\\u1DFF\\u1E00-\\u1EFF\\u1F00-\\u1FFF\\u20D0-\\u20FF\\u2100-\\u214F\\u2C00-\\u2C5F\\u2C60-\\u2C7F\\u2C80-\\u2CFF\\u2D00-\\u2D2F\\u2D30-\\u2D7F\\u2D80-\\u2DDF\\u2F00-\\u2FDF\\u2FF0-\\u2FFF\\u3040-\\u309F\\u30A0-\\u30FF\\u3100-\\u312F\\u3130-\\u318F\\u3190-\\u319F\\u31C0-\\u31EF\\u31F0-\\u31FF\\u3200-\\u32FF\\u3300-\\u33FF\\u3400-\\u4DBF\\u4DC0-\\u4DFF\\u4E00-\\u9FFF\\uA000-\\uA48F\\uA490-\\uA4CF\\uA700-\\uA71F\\uA800-\\uA82F\\uA840-\\uA87F\\uAC00-\\uD7AF\\uF900-\\uFAFF]){2,63})+)$\/i"};
+				window.REDCap.validations['integer'] = {"datatype":"integer","regex":"\/^[-+]?\\b\\d+\\b$\/"};
+				window.REDCap.validations['alpha_only'] = {"datatype":"text","regex":"\/^[a-z]+$\/i"};
+				window.REDCap.validations['mrn_10d'] = {"datatype":"mrn","regex":"\/^\\d{10}$\/"};
+				window.REDCap.validations['mrn_generic'] = {"datatype":"mrn","regex":"\/^[a-z0-9-_]+$\/i"};
+				window.REDCap.validations['number'] = {"datatype":"number","regex":"\/^[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?$\/"};
+				window.REDCap.validations['number_1dp_comma_decimal'] = {"datatype":"number_comma_decimal","regex":"\/^-?\\d+,\\d$\/"};
+				window.REDCap.validations['number_1dp'] = {"datatype":"number","regex":"\/^-?\\d+\\.\\d$\/"};
+				window.REDCap.validations['number_2dp_comma_decimal'] = {"datatype":"number_comma_decimal","regex":"\/^-?\\d+,\\d{2}$\/"};
+				window.REDCap.validations['number_2dp'] = {"datatype":"number","regex":"\/^-?\\d+\\.\\d{2}$\/"};
+				window.REDCap.validations['number_3dp_comma_decimal'] = {"datatype":"number_comma_decimal","regex":"\/^-?\\d+,\\d{3}$\/"};
+				window.REDCap.validations['number_3dp'] = {"datatype":"number","regex":"\/^-?\\d+\\.\\d{3}$\/"};
+				window.REDCap.validations['number_4dp_comma_decimal'] = {"datatype":"number_comma_decimal","regex":"\/^-?\\d+,\\d{4}$\/"};
+				window.REDCap.validations['number_4dp'] = {"datatype":"number","regex":"\/^-?\\d+\\.\\d{4}$\/"};
+				window.REDCap.validations['number_comma_decimal'] = {"datatype":"number_comma_decimal","regex":"\/^[-+]?[0-9]*,?[0-9]+([eE][-+]?[0-9]+)?$\/"};
+				window.REDCap.validations['phone_australia'] = {"datatype":"phone","regex":"\/^(\\(0[2-8]\\)|0[2-8])\\s*\\d{4}\\s*\\d{4}$\/"};
+				window.REDCap.validations['phone_france'] = {"datatype":"phone","regex":"\/^(?:(?:\\+|00)(?:33|262|508|590|594|596|687)[\\s.-]{0,3}(?:\\(0\\)[\\s.-]{0,3})?|0)[1-9](?:(?:[\\s.-]?\\d{2}){4}|\\d{2}(?:[\\s.-]?\\d{3}){2})$\/"};
+				window.REDCap.validations['phone'] = {"datatype":"phone","regex":"\/^(?:\\(?([2-9]0[1-9]|[2-9]1[02-9]|[2-9][2-9][0-9]|800|811)\\)?)\\s*(?:[.-]\\s*)?([0-9]{3})\\s*(?:[.-]\\s*)?([0-9]{4})(?:\\s*(?:#|x\\.?|ext\\.?|extension)\\s*(\\d+))?$\/"};
+				window.REDCap.validations['phone_uk'] = {"datatype":"phone","regex":"\/^((((\\+44|0044)\\s?\\d{4}|\\(?0\\d{4}\\)?)\\s?\\d{3}\\s?\\d{3})|(((\\+44|0044)\\s?\\d{3}|\\(?0\\d{3}\\)?)\\s?\\d{3}\\s?\\d{4})|(((\\+44|0044)\\s?\\d{2}|\\(?0\\d{2}\\)?)\\s?\\d{4}\\s?\\d{4}))(\\s?\\#(\\d{4}|\\d{3}))?$\/"};
+				window.REDCap.validations['postalcode_australia'] = {"datatype":"postal_code","regex":"\/^\\d{4}$\/"};
+				window.REDCap.validations['postalcode_canada'] = {"datatype":"postal_code","regex":"\/^[ABCEGHJKLMNPRSTVXY]{1}\\d{1}[A-Z]{1}\\s*\\d{1}[A-Z]{1}\\d{1}$\/i"};
+				window.REDCap.validations['postalcode_germany'] = {"datatype":"postal_code","regex":"\/^(0[1-9]|[1-9]\\d)\\d{3}$\/"};
+				window.REDCap.validations['postalcode_uk'] = {"datatype":"postal_code","regex":"\/^(([A-Z]{1,2}\\d{1,2})|([A-Z]{1,2}\\d[A-Z])) \\d[ABD-HJLNP-Z]{2}$\/"};
+				window.REDCap.validations['ssn'] = {"datatype":"ssn","regex":"\/^\\d{3}-\\d\\d-\\d{4}$\/"};
+				window.REDCap.validations['time_hh_mm_ss'] = {"datatype":"time","regex":"\/^(\\d|[01]\\d|(2[0-3]))(:[0-5]\\d){2}$\/"};
+				window.REDCap.validations['time'] = {"datatype":"time","regex":"\/^([0-9]|[0-1][0-9]|[2][0-3]):([0-5][0-9])$\/"};
+				window.REDCap.validations['time_mm_ss'] = {"datatype":"time","regex":"\/^[0-5]\\d:[0-5]\\d$\/"};
+				window.REDCap.validations['vmrn'] = {"datatype":"mrn","regex":"\/^[0-9]{4,9}$\/"};
+				window.REDCap.validations['zipcode'] = {"datatype":"postal_code","regex":"\/^\\d{5}(-\\d{4})?$\/"};
+			</script>
+	<div id="valregex_divs">
+			<div id="valregex-postalcode_french" datatype="postal_code" label="Code Postal 5 caracteres (France)"></div>
+			<div id="valregex-date_dmy" datatype="date" label="Date (D-M-Y)"></div>
+			<div id="valregex-date_mdy" datatype="date" label="Date (M-D-Y)"></div>
+			<div id="valregex-date_ymd" datatype="date" label="Date (Y-M-D)"></div>
+			<div id="valregex-datetime_dmy" datatype="datetime" label="Datetime (D-M-Y H:M)"></div>
+			<div id="valregex-datetime_mdy" datatype="datetime" label="Datetime (M-D-Y H:M)"></div>
+			<div id="valregex-datetime_ymd" datatype="datetime" label="Datetime (Y-M-D H:M)"></div>
+			<div id="valregex-datetime_seconds_dmy" datatype="datetime_seconds" label="Datetime w/ seconds (D-M-Y H:M:S)"></div>
+			<div id="valregex-datetime_seconds_mdy" datatype="datetime_seconds" label="Datetime w/ seconds (M-D-Y H:M:S)"></div>
+			<div id="valregex-datetime_seconds_ymd" datatype="datetime_seconds" label="Datetime w/ seconds (Y-M-D H:M:S)"></div>
+			<div id="valregex-email" datatype="email" label="Email"></div>
+			<div id="valregex-integer" datatype="integer" label="Integer"></div>
+			<div id="valregex-alpha_only" datatype="text" label="Letters only"></div>
+			<div id="valregex-mrn_10d" datatype="mrn" label="MRN (10 digits)"></div>
+			<div id="valregex-mrn_generic" datatype="mrn" label="MRN (generic)"></div>
+			<div id="valregex-number" datatype="number" label="Number"></div>
+			<div id="valregex-number_1dp_comma_decimal" datatype="number_comma_decimal" label="Number (1 decimal place - comma as decimal)"></div>
+			<div id="valregex-number_1dp" datatype="number" label="Number (1 decimal place)"></div>
+			<div id="valregex-number_2dp_comma_decimal" datatype="number_comma_decimal" label="Number (2 decimal places - comma as decimal)"></div>
+			<div id="valregex-number_2dp" datatype="number" label="Number (2 decimal places)"></div>
+			<div id="valregex-number_3dp_comma_decimal" datatype="number_comma_decimal" label="Number (3 decimal places - comma as decimal)"></div>
+			<div id="valregex-number_3dp" datatype="number" label="Number (3 decimal places)"></div>
+			<div id="valregex-number_4dp_comma_decimal" datatype="number_comma_decimal" label="Number (4 decimal places - comma as decimal)"></div>
+			<div id="valregex-number_4dp" datatype="number" label="Number (4 decimal places)"></div>
+			<div id="valregex-number_comma_decimal" datatype="number_comma_decimal" label="Number (comma as decimal)"></div>
+			<div id="valregex-phone_australia" datatype="phone" label="Phone (Australia)"></div>
+			<div id="valregex-phone_france" datatype="phone" label="Phone (France) (xx xx xx xx xx)(+33 x xx xx xx xx)"></div>
+			<div id="valregex-phone" datatype="phone" label="Phone (North America)"></div>
+			<div id="valregex-phone_uk" datatype="phone" label="Phone (UK)"></div>
+			<div id="valregex-postalcode_australia" datatype="postal_code" label="Postal Code (Australia)"></div>
+			<div id="valregex-postalcode_canada" datatype="postal_code" label="Postal Code (Canada)"></div>
+			<div id="valregex-postalcode_germany" datatype="postal_code" label="Postal Code (Germany)"></div>
+			<div id="valregex-postalcode_uk" datatype="postal_code" label="Postal Code (UK)"></div>
+			<div id="valregex-ssn" datatype="ssn" label="Social Security Number (U.S.)"></div>
+			<div id="valregex-time_hh_mm_ss" datatype="time" label="Time (HH:MM:SS)"></div>
+			<div id="valregex-time" datatype="time" label="Time (HH:MM)"></div>
+			<div id="valregex-time_mm_ss" datatype="time" label="Time (MM:SS)"></div>
+			<div id="valregex-vmrn" datatype="mrn" label="Vanderbilt MRN"></div>
+			<div id="valregex-zipcode" datatype="postal_code" label="Zipcode (U.S.)"></div>
+		</div>
+	<div id="random_text_hidden_div" style="display:none;">VL5e8voQnmucPz25XSeIQ9Mptz</div>
+<div id="pagecontainer" class="container-fluid" role="main"><div id="container"><div id="pagecontent"><style type="text/css">#container{ background: url("/redcap_v15.5.14/Resources/images/redcap-logo-large.png") no-repeat; }</style><div id="left_col"><h4 style="margin-top:60px;padding:3px;border-bottom:1px solid #AAAAAA;color:#000000;font-weight:bold;"><span data-rc-lang="config_functions_45">Log In</span></h4><div id='rc-login-form'><p style="font-size:13px;"><span data-rc-lang="config_functions_129">Please log in with your user name and password. If you are having trouble logging in, try clicking the "Forgot your password" link below.</span></p>
+<br/><center><form name='form' style='max-width:350px;' method='post' action='/'><div class='input-group'>
+				<div class='input-group-prepend' style='margin-left:30px;'>
+					<div class='d-flex input-group-text fs14 wrap' id='basic-addon1' style='width:120px;color:#333;border-top-right-radius:0;border-bottom-right-radius:0;'><span data-rc-lang="global_239">Username:</span></div>
+					<input type='text' class='form-control fs14' style='border-top-left-radius:0;border-bottom-left-radius:0;width:180px;' aria-labelledby='basic-addon1' name='username' id='username' value='' tabindex='1' >
+				</div>
+			</div><div class='input-group' style='margin-top:10px;'>
+				<div class='input-group-prepend' style='margin-left:30px;'>
+					<div class='d-flex input-group-text fs14 wrap' id='basic-addon1' style='width:120px;color:#333;border-top-right-radius:0;border-bottom-right-radius:0;'><span data-rc-lang="global_240">Password:</span></div>
+					<input type='password' class='form-control fs14' style='border-top-left-radius:0;border-bottom-left-radius:0;width:180px;' aria-labelledby='basic-addon1' name='password' id='password' value='' tabindex='2' >
+				</div>
+			</div>
+			<div style='text-align:left;margin:20px 0 0 120px;'>
+				<button class='btn btn-md btn-defaultrc fs14' id='login_btn' tabindex='3' onclick="setTimeout(function(){ $('#login_btn').prop('disabled',true); },10);"><span data-rc-lang="config_functions_45">Log In</span></button>
+				<div style="float:right;margin-top:10px;margin-right:10px;"><a style="font-size:12px;text-decoration:underline;" href="/redcap_v15.5.14/Authentication/password_recovery.php"><span data-rc-lang="pwd_reset_41">Forgot your password?</span></a></div>
+
+			</div>
+			<input type='hidden' name='submitted' value='1'>
+			<input type='hidden' id='redcap_login_a38us_09i85' name='redcap_login_a38us_09i85' value='kQhVonnPIvjaaGr1iSAZkvf2dMeDAiPKvglbcIRxy2oNgK6/6sOY6S9q3p5mE7r5y4lq177ISmKan2uIsNRlLA=='></form></center></div><br></div>
+	<hr style="margin-bottom: 10px; border-top: 1px solid #AAA;">
+<style type="text/css">
+    #pagecontainer { max-width: 1100px; }
+</style>
+<div class='row'>
+			<div class='col-12 col-md-6' style='padding-bottom:20px;'><div class='d-none' style='float:right;margin-right:20px;'>
+            <button class='jqbuttonmed' onclick="window.location.href = '/index.php?action=myprojects';"><img src='/redcap_v15.5.14/Resources/images/folders_stack.png'> <span style='vertical-align:middle;'>Go to My Projects</span></button>
+        </div>
+        <div class='clear'></div>
+		<p class='mt-0'>
+			REDCap is a secure web platform for building and managing online databases and surveys. REDCap's streamlined process for rapidly creating and designing projects offers a vast array of tools that can be tailored to virtually any data collection strategy.
+		</p>
+		<p>
+			REDCap provides automated export procedures for seamless data downloads to Excel and common statistical packages (SPSS, SAS, Stata, R), as well as a built-in project calendar, a scheduling module, ad hoc reporting tools, and advanced features, such as branching logic, file uploading, and calculated fields.
+		</p>
+		<p>
+			Learn more about REDCap by watching a
+			<i class="fas fa-film"></i> <a href='javascript:;' onclick="popupvid('redcap_overview_brief03','Brief Overview of REDCap')" style='text-decoration:underline;'>brief summary video (4 min)</a>.
+			If you would like to view other quick video tutorials of REDCap in action and an overview of its features, please see the
+			<a href='/index.php?action=training' style='text-decoration:underline;'>Training Resources</a>
+			page.<br>
+		</p><p style='color:#C00000;'>
+	<i>NOTICE:</i> If you are collecting data for the purposes of human subjects research, review and approval of the project is required by your Institutional Review Board.</p>
+
+<p>
+			If you require assistance or have any questions about REDCap, please contact
+			<a style='text-decoration:underline;' href='mailto:support@cesvima.upm.es'>Support CeSViMa</a>.
+		</p></div><div class='col-11 col-md-6'><div class="well fs12 py-1">
+				<p>
+					<b>Build online surveys and databases quickly and securely in your browser</b> - Create and design your project using a secure login from any device. No extra software required. Access from anywhere, at any time.
+				</p>
+				<p>
+					<b>Fast and flexible</b> - Go from project creation to starting data collection in less than one day. Customizations and changes are possible any time, even after data collection has begun.
+				</p>				<p>
+					<b>Advanced instrument design features</b> - Auto-validation, calculated fields, file uploading, branching/skip logic, and survey stop actions.
+				</p>			<p>
+                <b>Diverse and flexible survey distribution options</b> - Use a list of email addresses or phone numbers for your survey respondents and automatically contact them with personalized messages, and track who has responded. Or create a simple link for an anonymous survey for mass email mailings, to post on a website, or print on a flyer.
+            </p>		<p>
+                <b>Data quality</b> - Use field validation, branching/skip logic, and Missing Data Codes to improve and protect data quality during data entry. Open data queries to automatically identify and resolve discrepancies and other issues real-time. 
+            </p>
+            <p>
+                <b>Custom reporting</b> - Create custom searches for generating reports to view aggregate data. Identify trends with built-in basic statistics and charts.
+            </p><p>
+					<b>Export data to common analysis packages</b> - Export your data as a PDF or as CSV data for easy analysis in SAS, Stata, R, SPSS, or Microsoft Excel.
+				</p>		<p>
+					<b>Secure file storage and sharing</b> - Upload and share any type of file with anyone in the world through the File Repository feature or Send-It tool. Also works with exports and other built-in file uploading features.
+				</p>		<p>
+				<b>Data-based triggers and alerts</b> - Send real-time alerts and notifications to your team or other stakeholders via email, text, or phone based on certain data being entered or specific questions having a particular answer.
+			</p><p>
+            <b>Connect to other resources</b> - Use built-in features (API) to move data to/from your project. Build your own custom software development features to connect your project to other systems.</p>
+		</div>
+			</div>
+		</div><script type='text/javascript'>document.getElementById('username').focus();</script></div></div><div id="footer" class="d-none d-sm-block col-md-12"><a href="https://projectredcap.org" tabindex="-1" target="_blank">REDCap 15.5.14</a><span class="mx-2">-</span>&copy; 2025 Vanderbilt University<span class="mx-2">-</span><a href="javascript:;" onclick="getCookieUsagePolicy(&#039;Cookie policy&#039;);">Cookie policy</a></div></div></body></html>

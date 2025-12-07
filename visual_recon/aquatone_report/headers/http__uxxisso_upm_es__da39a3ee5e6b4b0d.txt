@@ -1,0 +1,12 @@
+200 OK
+X-Cache: pag
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:19 GMT
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache
+Cache-Control: no-store, no-cache, must-revalidate
+Retry-Count: 0
+Set-Cookie: PHPSESSID=2pfa9hjfdd0pu54298cld82uiu; path=/

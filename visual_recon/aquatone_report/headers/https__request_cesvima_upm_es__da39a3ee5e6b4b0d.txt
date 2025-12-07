@@ -1,0 +1,14 @@
+400 Bad Request
+Cache-Control: private, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Permitted-Cross-Domain-Policies: none
+X-Frame-Options: DENY
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Expires: -1
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin

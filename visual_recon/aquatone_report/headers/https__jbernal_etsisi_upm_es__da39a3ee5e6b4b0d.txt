@@ -1,0 +1,14 @@
+200 OK
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+Last-Modified: Tue, 02 Sep 2014 06:57:53 GMT
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:43 GMT
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Referrer-Policy: same-origin
+Content-Type: text/html
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding

@@ -1,0 +1,17 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Vary: Accept-Encoding
+X-Robots-Tag: none
+X-Download-Options: noopen
+Cache-Control: no-cache, no-store, must-revalidate
+Referrer-Policy: strict-origin
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Tue, 25 Oct 2022 05:47:39 GMT
+Retry-Count: 0
+Content-Type: text/html
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Xss-Protection: 1; mode=block
+Accept-Ranges: bytes
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff

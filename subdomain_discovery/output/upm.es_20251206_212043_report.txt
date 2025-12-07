@@ -1,0 +1,41 @@
+================================================================================
+SUBDOMAIN DISCOVERY AND ANALYSIS REPORT
+================================================================================
+
+1. RECONNAISSANCE EFFICIENCY METRICS
+--------------------------------------------------------------------------------
+Total Candidates (subfinder output): 100
+DNS Resolved: 100 (100.00%)
+Live Assets (validated hosts): 5 (5.00%)
+Noise Filtered: 95 (95.00%)
+
+Signal-to-Noise Ratio: 5.00%
+Discovery Efficiency: 5/100 live assets found
+
+2. HTTP STATUS CODE DISTRIBUTION
+--------------------------------------------------------------------------------
+HTTP 200: 4 assets
+HTTP 403: 1 assets
+
+3. ASSET CATEGORIZATION
+--------------------------------------------------------------------------------
+Fully Active (200 OK): 4 assets
+Restricted Access (403 Forbidden): 1 assets ⚠️ HIGH INTEREST
+Authentication Required (401): 0 assets
+Redirects (3xx): 0 assets
+Other Live: 0 assets
+DNS Resolved but Unreachable: 95 assets
+
+4. HIGH-VALUE TARGETS (Prioritized)
+--------------------------------------------------------------------------------
+No high-value targets identified based on keywords.
+
+5. DETAILED 403 FORBIDDEN ASSETS (Restricted Internal Assets)
+--------------------------------------------------------------------------------
+• apps2.aq.upm.es
+  Protocol: HTTPS
+  Title: Invalid Connection
+
+================================================================================
+END OF REPORT
+================================================================================

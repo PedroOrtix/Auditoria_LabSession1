@@ -1,0 +1,7 @@
+200 OK
+Cache-Control: no-cache
+Content-Length: 0
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Server: Caddy nginx
+Strict-Transport-Security: max-age=63072000
+Retry-Count: 0

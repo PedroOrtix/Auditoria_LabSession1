@@ -1,0 +1,21 @@
+200 OK
+X-Content-Type-Options: nosniff nosniff
+X-Frame-Options: SAMEORIGIN SAMEORIGIN
+Set-Cookie: oc_sessionPassphrase=Oc1Q1ACF7AS9%2FG4KtkNPt8mlhkwk8t7zdepAO0RXYfbyBntTFxB97NYQtiZlGClJmowNDaUii5I5ipe8mRqrGoBTREpX2GVcDQARBTLm8bWxtLr1rKvZFelEP0Tq8RTv; expires=Sat, 06-Dec-2025 21:02:35 GMT; Max-Age=1200; path=/; secure; HttpOnly; SameSite=Strict
+Feature-Policy: geolocation 'self'; vibrate 'none'
+X-Xss-Protection: 0 1; mode=block
+X-Download-Options: noopen
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Powered-By: PHP/7.4.32
+Content-Type: text/html; charset=UTF-8
+X-Robots-Tag: none
+X-Permitted-Cross-Domain-Policies: none
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Content-Security-Policy: default-src 'none';manifest-src 'self';script-src 'self' 'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self';connect-src 'self';media-src 'self'
+Vary: Accept-Encoding
+Referrer-Policy: same-origin
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Server: Apache/2.4.54 (Debian)
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache

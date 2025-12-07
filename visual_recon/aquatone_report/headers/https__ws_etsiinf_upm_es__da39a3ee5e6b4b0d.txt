@@ -1,0 +1,10 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:52 GMT
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2
+X-Powered-By: PHP/8.2.29
+X-Pingback: https://ws.fi.upm.es/xmlrpc.php
+Vary: Accept-Encoding
+Retry-Count: 0

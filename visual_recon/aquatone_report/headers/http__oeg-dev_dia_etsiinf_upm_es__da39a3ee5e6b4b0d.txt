@@ -1,0 +1,9 @@
+200 OK
+Server: Apache
+Last-Modified: Thu, 07 Dec 2023 07:34:15 GMT
+Etag: "29af-60be67ea9e112-gzip"
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:47:10 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0

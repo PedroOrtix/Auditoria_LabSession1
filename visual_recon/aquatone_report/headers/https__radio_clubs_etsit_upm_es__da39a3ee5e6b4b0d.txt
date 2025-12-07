@@ -1,0 +1,10 @@
+200 OK
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Content-Type: text/html
+Last-Modified: Sun, 24 Mar 2024 16:09:08 GMT
+Etag: "66005024-2369"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server: nginx
+Content-Length: 9065
+Retry-Count: 0

@@ -1,0 +1,11 @@
+200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Powered-By: PHP/8.1.24 ASP.NET
+Date: Sat, 06 Dec 2025 20:42:26 GMT
+Content-Length: 4421
+Content-Type: text/html; charset=UTF-8
+Pragma: no-cache
+Server: Microsoft-IIS/7.5
+Set-Cookie: PHPSESSID=8q372nfb4nfsbckjdhh23th6v5; path=/
+Retry-Count: 0
+Cache-Control: no-store, no-cache, must-revalidate

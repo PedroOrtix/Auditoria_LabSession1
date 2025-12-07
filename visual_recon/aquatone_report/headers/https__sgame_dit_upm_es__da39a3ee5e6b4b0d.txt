@@ -1,0 +1,20 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Etag: W/"82c9ce5de1403640bf42110f5c797d8c-gzip"
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Accept-Ranges: bytes
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: _sgame_platform_session=Vk5DZnlpU0lrK2FnbU9hZnNzZ0VpU1FFdUxhQlZpQnVQQUl4U1lWOXkvZUFaQi9NU1Z1NkZVb21tMjhoaWlEbXZocC8rNC9PM1RsT2l6NURiSGZhcTlFTURUT0FHMVlwMENnNjR0K3NOMlRlYWFvZi82amtKZ2Rhak8xeWwza2ttYk5UWGVYK3BYRW9iWUhYWjBhbzlUY0hzV010R1JZL2xJQzhUK1dZdVNtRWhYVitVeWo4ZXZQWmFGQjd1VFF6LS1ubVJMN3Z0ZjlFbEl2cEc4c1RaYnlRPT0%3D--6f1945e813af16d49c5c20c4e29e0573afc11ddd; path=/; HttpOnly
+Status: 200 OK
+Vary: Accept-Encoding
+Cache-Control: max-age=0, private, must-revalidate
+Referrer-Policy: strict-origin-when-cross-origin
+X-Download-Options: noopen
+X-Runtime: 0.019637
+X-Powered-By: Phusion Passenger(R) 6.0.13
+Server: Apache/2.4.52 (Ubuntu)
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 845a1967-a5a8-4a9e-9db7-9147703f6e06

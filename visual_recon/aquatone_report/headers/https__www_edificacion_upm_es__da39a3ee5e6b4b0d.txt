@@ -1,0 +1,18 @@
+200 OK
+Content-Language: es
+X-Frame-Options: SAMEORIGIN
+Etag: "1764935534-gzip"
+X-Generator: Drupal 9 (https://www.drupal.org)
+Retry-Count: 0
+Cache-Control: max-age=86400, public
+X-Content-Type-Options: nosniff
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: HIT
+Server: Apache/2.4.41 (Ubuntu)
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Permissions-Policy: interest-cohort=()
+Last-Modified: Fri, 05 Dec 2025 11:52:14 GMT
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:58 GMT
+X-Ua-Compatible: IE=edge
+Expires: Sun, 19 Nov 1978 05:00:00 GMT

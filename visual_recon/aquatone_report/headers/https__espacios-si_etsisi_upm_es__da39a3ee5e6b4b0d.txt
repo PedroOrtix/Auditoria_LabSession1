@@ -1,0 +1,10 @@
+200 OK
+Server: Apache/2.4.58 (Ubuntu)
+Set-Cookie: MRBS_SESSID=li6n45dvi3ea90gf5rq98rhs8u; expires=Mon, 05 Jan 2026 20:42:37 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Strict
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:37 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8

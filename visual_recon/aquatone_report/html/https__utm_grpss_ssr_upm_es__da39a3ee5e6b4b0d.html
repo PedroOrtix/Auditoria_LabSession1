@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common-styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-confirm.min.css">
+
+
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/popper.min.js"></script>
+    <script src="js/libs/bootstrap-material-design.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
+    <script src="js/libs/jquery.loadingModal.min.js" type="text/javascript"></script>
+    <script src="js/libs/jquery-confirm.min.js"></script>
+
+    <link rel="stylesheet" href="css/jquery.loadingModal.css" type="text/css"/>
+
+    <script>$(document).ready(function () {
+        $('body').bootstrapMaterialDesign();
+    });</script>
+
+
+    <link rel="stylesheet" href="css/fonts-googleapis.css">
+    <script src="js/utils.js"></script>
+</head>
+
+<body>
+<div class="background-container">
+    <img class="background-img" src="assets/images/background/login_background.jpg" alt="UTMConnect">
+</div>
+<div id="footer" style="width: 100%">
+    <img id="footer-logo" alt="Indra" src="./assets/images/logos/logo_indra.svg">
+    <div id="footer-color"></div>
+</div>
+<div id="login-container" class="sign-container">
+    <div id="login-card" class="card-container sign-card card">
+        <div class="card-body">
+            <img class="card-image-title" src="assets/images/logos/logo_utmConnect.svg" alt="UTMConnect">
+            <div class="form-group col-md-12">
+                <label for="login_username" class="bmd-label-floating">User</label>
+                <input type="text" class="form-control" id="login_username">
+                <div class="invalid-feedback">
+                    Wrong username.
+                </div>
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="login_password" class="bmd-label-floating">Password</label>
+                <input type="password" class="form-control" id="login_password">
+            </div>
+
+            <br>
+
+            <div class="sign-button-container">
+                <button class="bt-primary-colored card-button" id="login-button" onclick="loginClick()">Login</button>
+                <button class="bt-primary-line card-button" id="signup-button" onclick="showSignUpView()">Create user</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="signup-container" class="sign-container hidden">
+    <div id="signup-card" class="card-container sign-card card">
+        <div class="card-body">
+            <img class="card-image-title" src="assets/images/logos/logo_utmConnect.svg" alt="UTMConnect">
+            <div class="form-group col-md-12">
+                <select id="signup_role" class="form-control">
+                    <option value="undefined" selected disabled>Choose role...</option>
+                    <option value="Operator">Operator</option>
+                    <option value="Pilot">Pilot</option>
+                    <option value="StateAgent">State service</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="signup_username" class="bmd-label-floating">Username</label>
+                <input type="text" class="form-control" id="signup_username">
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="signup_password" class="bmd-label-floating">Password</label>
+                <input type="password" class="form-control" id="signup_password">
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="signup_email" class="bmd-label-floating">Email</label>
+                <input type="text" class="form-control" id="signup_email">
+            </div>
+
+            <div class="form-group col-md-12">
+                <label for="signup_name" class="bmd-label-floating">Name</label>
+                <input type="text" class="form-control" id="signup_name">
+            </div>
+
+            <br>
+
+            <div class="sign-button-container">
+                <div class="sign-button-container">
+                    <button class="bt-primary-colored card-button" id="signup-confirm-button" onclick="signUpClick()">Sign up</button>
+                    <button class="bt-primary-line card-button" id="cancel-button" onclick="showLoginView()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/directions.js"></script>
+<script src="js/users.js"></script>
+</body>
+
+</html>

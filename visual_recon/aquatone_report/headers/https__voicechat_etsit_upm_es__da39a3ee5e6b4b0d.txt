@@ -1,0 +1,12 @@
+200 
+Retry-Count: 0
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+Server: nginx
+Content-Type: text/html;charset=UTF-8
+Cache-Control: no-store
+Set-Cookie: JSESSIONID=A8E5B7AB89959E16F30003DEA2ED9E84; Path=/cas-upm; Secure; HttpOnly
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Content-Type-Options: nosniff
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Vary: Accept-Encoding

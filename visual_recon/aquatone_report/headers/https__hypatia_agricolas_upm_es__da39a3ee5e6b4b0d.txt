@@ -1,0 +1,9 @@
+200 OK
+Last-Modified: Mon, 07 Jul 2025 09:52:58 GMT
+Etag: "29d0-63953cf0590da-gzip"
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:43 GMT
+Server: Apache/2.4.62 (Debian)
+Accept-Ranges: bytes
+Retry-Count: 0
+Content-Type: text/html

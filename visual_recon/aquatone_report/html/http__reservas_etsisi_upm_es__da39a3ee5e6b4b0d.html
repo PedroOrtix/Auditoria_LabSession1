@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <link href="jquery/ui/css/sunny/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css">
+    
+    <link href="jquery/datatables/css/mrbs-page.css" rel="stylesheet" type="text/css">
+    <link href="jquery/datatables/css/mrbs-table.css" rel="stylesheet" type="text/css">
+    <link href="jquery/datatables/css/ColReorder.css" rel="stylesheet" type="text/css">
+    <link href="jquery/datatables/css/ColVis.css" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="mrbs.css.php" type="text/css">
+    <link rel="stylesheet" media="print" href="mrbs-print.css.php" type="text/css">
+
+    <!--[if IE]>
+    <link rel="stylesheet" href="mrbs-ie.css" type="text/css">
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="mrbs-ie8.css" type="text/css">
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="mrbs-ielte8.css" type="text/css">
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" href="mrbs-ielte7.css.php" type="text/css">
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" href="mrbs-ielte6.css" type="text/css">
+    <![endif]-->
+    
+    <meta name="robots" content="noindex">
+    <title>Meeting Room Booking System</title>
+
+        
+    <script type="text/javascript" src="jquery/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="jquery/ui/jquery-ui-i18n.js"></script>
+        <script type="text/javascript" src="jquery/ui/jquery-ui-datepicker-en.js"></script>
+    <script type="text/javascript" src="jquery/ui/jquery-ui-datepicker-en-US.js"></script>
+     
+        <script type="text/javascript">
+      //<![CDATA[
+      var lteIE6 = false;
+      //]]>
+    </script>
+    <!--[if lte IE 6]>
+    <script type="text/javascript">
+      //<![CDATA[
+      var lteIE6 = true;
+      //]]>
+    </script>
+    <![endif]-->
+    
+        <script type="text/javascript">
+      //<![CDATA[
+      var lteIE7 = false;
+      //]]>
+    </script>
+    <!--[if lte IE 7]>
+    <script type="text/javascript">
+      //<![CDATA[
+      var lteIE7 = true;
+      //]]>
+    </script>
+    <![endif]-->
+    
+        <script type="text/javascript">
+      //<![CDATA[
+      var lteIE8 = false;
+      //]]>
+    </script>
+    <!--[if lte IE 8]>
+    <script type="text/javascript">
+      //<![CDATA[
+      var lteIE8 = true;
+      //]]>
+    </script>
+    <![endif]-->
+      
+        <script type="text/javascript">
+
+//<![CDATA[
+
+function getErrorList(errors)
+{
+  var result = {html: '', text: ''};
+  var patternSpan = /<span[\s\S]*span>/gi;
+  var patternTags = /<\S[^><]*>/g;
+  result.html += "<ul>";
+  for (var i=0; i<errors.length; i++)
+  {
+    result.html += "<li>" + errors[i] + "<\/li>";
+    result.text += '(' + (i+1).toString() + ') ';
+        result.text += errors[i].replace(patternSpan, '').replace(patternTags, '') + "  \n";
+  }
+  result.html += "<\/ul>";
+  return result;
+}
+
+$(function() {
+  $.datepicker.setDefaults($.datepicker.regional['en']);
+$.datepicker.setDefaults($.datepicker.regional['en']);
+  $.datepicker.setDefaults({
+    showOtherMonths: true,
+    selectOtherMonths: true,
+    changeMonth: true,
+    changeYear: true,
+    duration: 'fast',
+    showWeek: false,
+    firstDay: 1,
+    altFormat: 'yy-mm-dd',
+    onClose: function(dateText, inst) {datepicker_close(dateText, inst);}
+  });
+});
+
+
+function datepicker_close(dateText, inst, formId)
+{
+  var alt_id = inst.id + '_alt';
+  var date = document.getElementById(alt_id).value.split('-');
+  document.getElementById(alt_id + '_year').value  = date[0];
+  document.getElementById(alt_id + '_month').value = date[1];
+  document.getElementById(alt_id + '_day').value   = date[2];
+  document.getElementById(inst.id).blur();
+    if (formId)
+  {
+    var form = document.getElementById(formId);
+    form.submit();
+  }
+}
+
+
+
+
+$(window).load(function() {
+
+    // if there's a logon box, set the username input field in focus
+  var logonForm = document.getElementById('logon');
+  if (logonForm && logonForm.NewUserName)
+  {
+    logonForm.NewUserName.focus();
+  }
+  
+    if (!lteIE6)
+  {
+    $('<input>').attr({
+        type: 'hidden',
+        name: 'datatable',
+        value: '1'
+      }).appendTo('#header_search');
+  }
+  
+
+      var table = $('table.dwm_main');
+    
+        table.find('td.multiple_booking')
+        .removeClass('maximized')
+        .addClass('minimized');
+        table.find('div.multiple_control')
+        .click(function() {
+            var cell = $(this).closest('td');
+            if (cell.hasClass('maximized'))
+            {
+              cell.removeClass('maximized')
+              cell.addClass('minimized');
+            }
+            else
+            {
+              cell.removeClass('minimized')
+              cell.addClass('maximized');
+            }
+          });
+                                          
+     
+          if (!lteIE8)
+      {
+                function getSides(jqObject)
+        {
+          var sides = {};
+          sides.n = Math.ceil(jqObject.offset().top);
+          sides.w = Math.ceil(jqObject.offset().left);
+          sides.s = Math.floor(sides.n + jqObject.outerHeight());
+          sides.e = Math.floor(sides.w + jqObject.outerWidth());
+          return sides;
+        }
+        
+        
+                function rectanglesIdentical(r1, r2)
+        {
+          var tolerance = 2;            return ((Math.abs(r1.n - r2.n) < tolerance) &&
+                  (Math.abs(r1.s - r2.s) < tolerance) &&
+                  (Math.abs(r1.e - r2.e) < tolerance) &&
+                  (Math.abs(r1.w - r2.w) < tolerance));
+        }
+            
+                              
+                 
+        function rectanglesOverlap(r1, r2)
+        {
+                    if ( (( ((r1.w > r2.w) && (r1.w < r2.e)) || ((r1.e > r2.w) && (r1.e < r2.e)) ) && (r1.n < r2.s) && (r1.s > r2.n)) ||
+               (( ((r1.n > r2.n) && (r1.n < r2.s)) || ((r1.s > r2.n) && (r1.s < r2.s)) ) && (r1.w < r2.e) && (r1.e > r2.w)) )
+          {
+            return true;
+          }
+                    if ((r1.w >= r2.w) && (r1.n >= r2.n) && (r1.e <= r2.e) && (r1.s <= r2.s))
+          {
+            return true;
+          }
+                    if ((r2.w >= r1.w) && (r2.n >= r1.n) && (r2.e <= r1.e) && (r2.s <= r1.s))
+          {
+            return true;
+          }
+          return false;
+        }
+            
+            
+                function overlapsBooked(rectangle)
+        {
+                    for (var i=0; i<bookedMap.length; i++)
+          {
+            if (rectanglesOverlap(rectangle, bookedMap[i]))
+            {
+              return true;
+            }
+          }
+          return false;
+        }
+      
+                function getDataName(jqObject)
+        {
+          possibleNames = ['room', 'date', 'seconds'];
+          for (var i=0; i<possibleNames.length; i++)
+          {
+            if (jqObject.data(possibleNames[i]) !== undefined)
+            {
+              return possibleNames[i];
+            }
+          }
+          return false;
+        }
+        
+        
+        function redrawClones()
+        {
+          table.find('div.clone').each(function() {
+              var clone = $(this);
+              var original = clone.prev();
+              clone.width(original.outerWidth())
+                   .height(original.outerHeight())
+            });
+        }
+        
+        function getTableData(table, tableData)
+        {
+                    tableData.x = {};
+          tableData.x.data = [];
+          var columns = table.find('thead tr:first-child th').not('.first_last');
+          columns.each(function() {
+              if (tableData.x.key === undefined)
+              {
+                tableData.x.key = getDataName($(this));
+              }
+              tableData.x.data.push({coord: $(this).offset().left,
+                                     value: $(this).data(tableData.x.key)});
+            });
+                    columns.filter(':last').each(function() {
+              var value = null;
+              if (tableData.x.key == 'seconds')
+              {
+                value = tableData.x.data[tableData.x.data.length - 1].value +
+                        tableData.x.data[1].value - tableData.x.data[0].value;
+              }
+              tableData.x.data.push({coord: $(this).offset().left + $(this).outerWidth(),
+                                     value: value});
+            });
+
+          tableData.y = {};
+          tableData.y.data = [];
+          var rows = table.find('tbody td:first-child').not('.multiple_booking td');
+          rows.each(function() {
+              if (tableData.y.key === undefined)
+              {
+                tableData.y.key = getDataName($(this));
+              }
+              tableData.y.data.push({coord: $(this).offset().top,
+                                     value: $(this).data(tableData.y.key)});
+            });
+                    rows.filter(':last').each(function() {
+              var value = null;
+              if (tableData.y.key == 'seconds')
+              {
+                value = tableData.y.data[tableData.y.data.length - 1].value + 
+                        tableData.y.data[1].value - tableData.y.data[0].value;
+              }
+              tableData.y.data.push({coord: $(this).offset().top + $(this).outerHeight(),
+                                     value: value});
+            });
+        }
+        
+        
+                function outsideTable(p)
+        {
+          return ((p.x < tableData.x.data[0].coord) ||
+                  (p.y < tableData.y.data[0].coord) ||
+                  (p.x > tableData.x.data[tableData.x.data.length - 1].coord) ||
+                  (p.y > tableData.y.data[tableData.y.data.length - 1].coord) );
+        }
+        
+                function snapToGrid(div, side, force)
+        {
+          var snapGap = (force) ? 100000: 20;           var tolerance = 2;           var isLR = (side=='left') || (side=='right');
+ 
+          data = (isLR) ? tableData.x.data : tableData.y.data;
+
+          for (var i=0; i<(data.length -1); i++)
+          {
+            var topLeft = data[i].coord + 1;
+            var bottomRight = data[i+1].coord;
+            var divTop = div.offset().top;
+            var divLeft = div.offset().left;
+            var divWidth = div.outerWidth();
+            var divHeight = div.outerHeight();
+            switch (side)
+            {
+              case 'top':
+                thisCoord = divTop;
+                break;
+              case 'bottom':
+                thisCoord = divTop + divHeight;
+                break;
+              case 'left':
+                thisCoord = divLeft;
+                break;
+              case 'right':
+                thisCoord = divLeft + divWidth;
+                break;
+            }
+            var gapTopLeft = thisCoord - topLeft;
+            var gapBottomRight = bottomRight - thisCoord;
+            
+            if (((gapTopLeft>0) && (gapBottomRight>0)) ||
+                                ((i==0) && (gapTopLeft<0)) ||
+                ((i==(data.length-2)) && (gapBottomRight<0)) )
+            {
+              var gap = bottomRight - topLeft;
+              
+              if ((gapTopLeft <= gap/2) && (gapTopLeft < snapGap))
+              {
+                switch (side)
+                {
+                  case 'left':
+                    div.offset({top: divTop, left: topLeft});
+                    div.width(divWidth + gapTopLeft);
+                    break;
+                  case 'right':
+                                        if ((divWidth - gapTopLeft) < tolerance)
+                    {
+                      div.width(divWidth + gapBottomRight);
+                    }
+                    else
+                    {
+                      div.width(divWidth - gapTopLeft);
+                    }
+                    break;
+                  case 'top':
+                    div.offset({top: topLeft, left: divLeft});
+                    div.height(divHeight + gapTopLeft);
+                    break;
+                  case 'bottom':
+                    div.height(divHeight - gapTopLeft);
+                    break;
+                }
+                return;
+              }
+              else if ((gapBottomRight <= gap/2) && (gapBottomRight < snapGap))
+              {
+                switch (side)
+                {
+                  case 'left':
+                                        if ((divWidth - gapBottomRight) < tolerance)
+                    {
+                      div.offset({top: div.Top, left: topLeft});
+                      div.width(divWidth + gapTopLeft);
+                    }
+                    else
+                    {
+                      div.offset({top: divTop, left: bottomRight});
+                      div.width(divWidth - gapBottomRight);
+                    }
+                    break;
+                  case 'right':
+                    div.width(divWidth + gapBottomRight);
+                    break;
+                  case 'top':
+                    div.offset({top: bottomRight, left: divLeft});
+                    div.height(divHeight - gapBottomRight);
+                    break;
+                  case 'bottom':
+                    div.height(divHeight + gapBottomRight);
+                    break;
+                }
+                return;
+              }
+            }
+          }          }                
+
+                function getBookingParams(div)
+        {
+          var params = {};
+          var data;
+          var tolerance = 2;           var cell = {x: {}, y: {}}
+          cell.x.start = div.offset().left;
+          cell.y.start = div.offset().top;
+          cell.x.end = cell.x.start + div.outerWidth();
+          cell.y.end = cell.y.start + div.outerHeight();
+          for (var axis in cell)
+          {
+            data = tableData[axis].data;
+            if (params[tableData[axis].key] === undefined)
+            {
+              params[tableData[axis].key] = [];
+            }
+            for (var i=0; i<data.length; i++)
+            {
+              if ((data[i].coord + tolerance) > cell[axis].end)
+              {
+                                if ((tableData[axis].key == 'seconds') ||
+                    (params[tableData[axis].key].length == 0))
+                {
+                  params[tableData[axis].key].push(data[i].value);
+                }
+                break;
+              }
+              if ((data[i].coord + tolerance) > cell[axis].start)
+              {
+                params[tableData[axis].key].push(data[i].value);
+              }
+            }
+          }
+          return params;
+        }
+        
+        
+        function getRowNumber(y)
+        {
+          for (var i=0; i<tableData.y.data.length - 1; i++)
+          {
+            if (y >= tableData.y.data[i].coord && y < tableData.y.data[i+1].coord)
+            {
+              return i;
+            }
+          }
+          return null;
+        }
+              
+                var highlightRowLabels = function (div)
+        {
+          if (highlightRowLabels.rows === undefined)
+          {
+                        highlightRowLabels.rows = [];
+            table.find('tbody tr').each(function() {
+                highlightRowLabels.rows.push($(this).find('td.row_labels'));
+              });
+          }
+          var divStartRow = getRowNumber(div.offset().top);
+          var divEndRow = getRowNumber(div.offset().top + div.outerHeight());
+          for (var i=0; i<highlightRowLabels.rows.length ; i++)
+          {
+            if (((divStartRow === null) || (divStartRow <= i)) && 
+                ((divEndRow === null) || (i < divEndRow)))
+            {
+              highlightRowLabels.rows[i].addClass('selected');
+            }
+            else
+            {
+              highlightRowLabels.rows[i].removeClass('selected');
+            }
+          }
+        }
+        
+        
+                function clearRowLabels()
+        {
+          if (highlightRowLabels.rows !== undefined)
+          {
+            for (var i=0; i<highlightRowLabels.rows.length; i++)
+            {
+              highlightRowLabels.rows[i].removeClass('selected');
+            }
+          }
+        }
+        
+        
+        var tableData = {};
+        getTableData(table, tableData);
+      
+                var bookedMap = [];
+
+        var downHandler = function(e) {
+                        table.find('td').not('td.new, td.row_labels').each(function() {
+                bookedMap.push(getSides($(this)));
+              });
+                        table.wrap('<div class="resizing"><\/div>');
+            var jqTarget = $(e.target);
+            downHandler.origin = jqTarget.offset();
+            downHandler.firstPosition = {x: e.pageX, y: e.pageY};
+                        downHandler.originalLink = jqTarget.find('a').andSelf('a').attr('href');
+            downHandler.box = $('<div class="div_select">');
+              
+            downHandler.box.offset(downHandler.origin);
+            $(document.body).append(downHandler.box);
+          };
+          
+        var moveHandler = function(e) {
+            var box = downHandler.box;
+            var oldBoxOffset = box.offset();
+            var oldBoxWidth = box.outerWidth();
+            var oldBoxHeight = box.outerHeight();
+            
+                        if ((downHandler.maxWidth && (e.pageX < downHandler.origin.left)) ||
+                (downHandler.maxHeight && (e.pageY < downHandler.origin.top)))
+            {
+              return;
+            }
+                        if (e.pageX < downHandler.origin.left)
+            {
+              if (e.pageY < downHandler.origin.top)
+              {
+                box.offset({top: e.pageY, left: e.pageX})
+              }
+              else
+              {
+                box.offset({top: downHandler.origin.top, left: e.pageX})
+              }
+            }
+            else if (e.pageY < downHandler.origin.top)
+            {
+              box.offset({top: e.pageY, left: downHandler.origin.left})
+            }
+            else
+            {
+              box.offset(downHandler.origin);
+            }
+            box.width(Math.abs(e.pageX - downHandler.origin.left))
+            box.height(Math.abs(e.pageY - downHandler.origin.top));
+            var boxSides = getSides(box);
+            snapToGrid(box, 'top');
+            snapToGrid(box, 'bottom');
+            snapToGrid(box, 'right');
+            snapToGrid(box, 'left');
+                        if (overlapsBooked(getSides(box)))
+            {
+              box.offset(oldBoxOffset)
+                 .width(oldBoxWidth)
+                 .height(oldBoxHeight);
+            }
+                        if (outsideTable({x: e.pageX, y: e.pageY}))
+            {
+              if (!moveHandler.outside)
+              {
+                box.addClass('outside');
+                moveHandler.outside = true;
+                clearRowLabels();
+              }
+            }
+            else if (moveHandler.outside)
+            {
+              box.removeClass('outside');
+              moveHandler.outside = false;
+            }
+                        if (!moveHandler.outside)
+            {
+              highlightRowLabels(box);
+            }
+          };
+ 
+               
+        var upHandler = function(e) {
+            e.preventDefault();
+            var tolerance = 2;             var box = downHandler.box;
+            var params = getBookingParams(box);
+            $(document).unbind('mousemove',moveHandler);
+            $(document).unbind('mouseup', upHandler);
+                        $('table.dwm_main').unwrap();
+                        if (outsideTable({x: e.pageX, y: e.pageY}))
+            {
+              box.remove();
+              return;
+            }
+                        else if ((Math.abs(e.pageX - downHandler.firstPosition.x) <= tolerance) &&
+                     (Math.abs(e.pageY - downHandler.firstPosition.y) <= tolerance))
+            {
+              if (downHandler.originalLink !== undefined)
+              {
+                window.location = downHandler.originalLink;
+              }
+              else
+              {
+                box.remove();
+              }
+              return;
+            }
+                        var queryString = 'drag=1';              queryString += '&area=2';
+            queryString += '&start_seconds=' + params.seconds[0];
+            queryString += '&end_seconds=' + params.seconds[params.seconds.length - 1];
+                          for (var i=0; i<params.room.length; i++)
+              {
+                queryString += '&rooms[]=' + params.room[i];
+              }
+              queryString += '&day=6';
+              queryString += '&month=12';
+              queryString += '&year=2025';
+                          window.location = 'edit_entry.php?' + queryString;
+            return;
+          };
+
+          
+             
+        table.find('td.new').each(function() {
+            $(this).find('a').click(function(event) {
+                event.preventDefault();
+              });
+            $(this).mousedown(function(event) {
+                event.preventDefault();
+                downHandler(event);
+                $(document).bind('mousemove', moveHandler);
+                $(document).bind('mouseup', upHandler);
+              })
+          });
+            
+          
+          
+                table.find('td.writable')
+          .each(function() {
+                            var divResize = function (event, ui)
+              {
+                if (divResize.origin === undefined)
+                {
+                  divResize.origin = divBooking.offset();
+                  divResize.lastPosition = $.extend({}, divClone.position());
+                  divResize.lastSize = {width: divClone.outerWidth(),
+                                        height: divClone.outerHeight()};
+                }
+
+                var rectangle = {};
+                rectangle.n = Math.round(divResize.origin.top + divClone.position().top);
+                rectangle.w = Math.round(divResize.origin.left + divClone.position().left);
+                rectangle.s = rectangle.n + Math.round(divClone.outerHeight());
+                rectangle.e = rectangle.w + Math.round(divClone.outerWidth());
+                            
+                if (overlapsBooked(rectangle))
+                {
+                  divClone.resizable("disable");
+                }
+                else if (divClone.resizable('option', 'disabled'))
+                {
+                  divClone.resizable("enable");
+                }
+                              
+                                if (divClone.position().left != divResize.lastPosition.left)
+                {
+                  snapToGrid(divClone, 'left');
+                }
+                                if ((divClone.position().left + divClone.outerWidth()) != (divResize.lastPosition.left + divResize.lastSize.width))
+                {
+                  snapToGrid(divClone, 'right');
+                }
+                                if (divClone.position().top != divResize.lastPosition.top)
+                {
+                  snapToGrid(divClone, 'top');
+                }
+                                if ((divClone.position().top + divClone.outerHeight()) != (divResize.lastPosition.top + divResize.lastSize.height))
+                {
+                  snapToGrid(divClone, 'bottom');
+                }
+                
+                highlightRowLabels(divClone);
+                
+                divResize.lastPosition = $.extend({}, divClone.position());
+                divResize.lastSize = {width: divClone.outerWidth(),
+                                      height: divClone.outerHeight()};
+              }              
+            
+                            var divResizeStart = function (event, ui)
+              {
+                                table.wrap('<div class="resizing"><\/div>');
+                                divClone.css('max-width', 'none');
+                                $('<div class="outline"><\/div>')
+                    .width(divClone.outerWidth() - 2)
+                    .height(divClone.outerHeight() - 2)
+                    .offset(divClone.offset())
+                    .appendTo($('div.resizing'));
+                                table.find('td').not('td.new, td.row_labels').not(divBooking.closest('td')).each(function() {
+                    bookedMap.push(getSides($(this)));
+                  });
+
+              }              
+            
+                            var divResizeStop = function (event, ui)
+              {
+                                bookedMap = [];
+              
+                if (divClone.resizable('option', 'disabled'))
+                { 
+                                    divClone.resizable('enable')
+                          .offset(divBooking.offset())
+                          .width(divBooking.outerWidth())
+                          .height(divBooking.outerHeight());
+                }
+                else
+                {
+                                    snapToGrid(divClone, 'left', true);
+                  snapToGrid(divClone, 'right', true);
+                  snapToGrid(divClone, 'top', true);
+                  snapToGrid(divClone, 'bottom', true);
+                }
+              
+                                $('div.outline').remove();
+                                $('table.dwm_main').unwrap();
+              
+                var r1 = getSides(divBooking);
+                var r2 = getSides(divClone);
+                if (!rectanglesIdentical(r1, r2))
+                {
+                                    var data = {ajax: 1, 
+                              commit: 1,
+                              day: 6,
+                              month: 12,
+                              year: 2025};
+                                    data.id = divClone.data('id');
+                                    var oldParams = getBookingParams(divBooking);
+                  var newParams = getBookingParams(divClone);
+                  if (newParams.seconds !== undefined)
+                  {
+                                        if (newParams.seconds[0] != oldParams.seconds[0])
+                    {
+                      data.start_seconds = newParams.seconds[0];
+                    }
+                    if (newParams.seconds[newParams.seconds.length - 1] !=
+                        oldParams.seconds[oldParams.seconds.length - 1])
+                    {
+                      data.end_seconds = newParams.seconds[newParams.seconds.length - 1];
+                                          }
+                  }
+                                      data.page = 'day';
+                    data.start_day = 6;
+                    data.start_month = 12;
+                    data.start_year = 2025;
+                                      data.end_day = data.start_day;
+                  data.end_month = data.start_month;
+                  data.end_year = data.start_year;
+                  if (newParams.room !== undefined)
+                  {
+                    data.rooms = newParams.room;
+                  }
+                                    $.post('edit_entry_handler.php',
+                         data,
+                         function(result) {
+                            if (result.valid_booking)
+                            {
+                                                            table.empty();
+                              table.html(result.table_innerhtml);
+                              $(window).trigger('load');
+                            }
+                            else
+                            {
+                              divClone.offset(divBooking.offset())
+                                      .width(divBooking.outerWidth())
+                                      .height(divBooking.outerHeight());
+                              var alertMessage = '';
+                              if (result.conflicts.length > 0)
+                              {
+                                alertMessage += 'The new booking will conflict with the following entries' + ":  \n\n";
+                                var conflictsList = getErrorList(result.conflicts);
+                                alertMessage += conflictsList.text;
+                              }
+                              if (result.rules_broken.length > 0)
+                              {
+                                if (result.conflicts.length > 0)
+                                {
+                                  alertMessage += "\n\n";
+                                }
+                                alertMessage += 'The new booking will conflict with the following policies' + ":  \n\n";
+                                var rulesList = getErrorList(result.rules_broken);
+                                alertMessage += rulesList.text;
+                              }
+                              alert(alertMessage);
+                            }
+                          },
+                         'json');
+                }
+              }              
+                            var directions = {times: {plus: true, minus: true},
+                                other: {plus: true, minus: true}};
+              if ($(this).hasClass('series'))
+              {
+                                directions.other = {plus: false, minus: false};
+              }
+                            if ($(this).hasClass('multiday_start'))
+              {
+                directions.times.minus = false;
+                directions.other = {plus: false, minus: false};
+              }
+              if ($(this).hasClass('multiday_end'))
+              {
+                directions.times.plus = false;
+                directions.other = {plus: false, minus: false};
+              }
+                            var aHandles = [];
+              if (directions.times.plus)
+              {
+                aHandles.push('s');
+              }
+              if (directions.times.minus)
+              {
+                aHandles.push('n');
+              }
+              if (directions.other.plus)
+              {
+                aHandles.push('e');
+              }
+              if (directions.other.minus)
+              {
+                aHandles.push('w');
+              }
+                            var corners = ['nw', 'ne', 'se', 'sw'];
+              for (var i=0; i<corners.length; i++)
+              {
+                if ((aHandles.indexOf(corners[i][0]) >= 0) &&
+                    (aHandles.indexOf(corners[i][1]) >= 0))
+                {
+                  aHandles.push(corners[i]);
+                }
+              }
+              var handles = aHandles.join(',');
+              var divBooking = $(this).children('div');
+              var divClone = divBooking.clone();
+              divBooking.css('visibility', 'hidden');
+              divClone.css('z-index', '500')
+                      .css('position', 'absolute')
+                      .css('top', '0')
+                      .css('left', '0')
+                      .css('background-color', $(this).css('background-color'))
+                      .css('max-height', 'none')
+                      .css('min-height', '17px')
+                      .addClass('clone')
+                      .width(divBooking.outerWidth())
+                      .height(divBooking.outerHeight())
+              if (handles)
+              {
+                divClone.resizable({handles: handles,
+                                    resize: divResize,
+                                    start: divResizeStart,
+                                    stop: divResizeStop});
+              }
+              divClone.appendTo($(this));
+              $(this).css('background-color', 'transparent')
+                     .wrapInner('<div style="position: relative"><\/div>');
+            });
+
+        $(window).resize(function(event) {
+            if (event.target == this)              {
+                            redrawClones();
+              getTableData(table, tableData);
+            }
+          });
+
+                table.find('div.multiple_control')
+            .click(function() {
+                redrawClones();
+                getTableData(table, tableData);
+              });
+
+      }        
+          if (lteIE6)
+    {
+      var dayWeekTable = $('#day_main, #week_main');
+      dayWeekTable.find('td.new')
+        .hover(function() {
+            $(this).not('.multiple_booking').toggleClass('new_hover');
+          });
+      dayWeekTable.find('td')
+        .hover(function() {
+            $(this).parent().find('td.row_labels').toggleClass('row_labels_hover');
+          });
+      $('#month_main .valid a.new_booking')
+        .parent().parent()
+        .hover(function() {
+            $(this).toggleClass('valid_hover');
+          });
+    }                             
+                                     
+    
+});
+
+
+//]]>
+    </script>
+  </head>
+  <body class="non_js day">
+    <script type="text/javascript">
+      //<![CDATA[
+      $('body').addClass('js').removeClass('non_js');
+      //]]>
+    </script> 
+
+    <div class="screenonly">
+
+
+  <table id="banner">
+    <tr>
+      <td id="company">
+        <div>
+          <div id="logo">
+<span>Reservas de espacios comunes en la ETSI de Sistemas Inform&aacute;ticos</span>
+</div>
+          <div id="mrbs">
+            <a href="index.php">Meeting Room Booking System</a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <a href="https://cic.etsisi.upm.es/espacio/solicitud-create" style='color: yellow; font-weight: bold'>Solicitud<br/>de reserva</a>
+      </td>
+      <td>
+        <form action="day.php" method="get" id="Form1">
+          <div>
+            <span id="dateselector">
+<select name="day">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option selected="selected">6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+</select>
+<select name="month">
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12" selected="selected">Dec</option>
+</select>
+<select name="year">
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025" selected="selected">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+</select>
+</span>
+  <script type="text/javascript">
+
+  $(function() {
+    $("#datepicker").datepicker({yearRange: '2023:2027',
+                                                       altField: '#datepicker_alt'
+                                                       , onClose: function(dateText, inst) {datepicker_close(dateText, inst, 'Form1');}                                                      });
+        var initial_date = new Date(2025, 11, 6);
+    var dateFormat = $("#datepicker").datepicker( "option", "dateFormat" );
+    document.getElementById('datepicker').value = $.datepicker.formatDate(dateFormat, initial_date);
+    document.getElementById('datepicker_alt_day').value = 6;
+    document.getElementById('datepicker_alt_month').value = 12;
+    document.getElementById('datepicker_alt_year').value = 2025;
+    $(".ui-datepicker").draggable();
+  });
+ 
+  
+  var dateselector = document.getElementById('dateselector');
+  var datepicker_html = '<input class="date" type="text" id="datepicker">\n';
+    datepicker_html += '<input type="hidden" id="datepicker_alt"'
+  datepicker_html += ' name="_alt"';
+  datepicker_html += ' value="2025-12-6"';
+  datepicker_html += ' disabled="disabled">\n';
+    datepicker_html += '<input type="hidden" id="datepicker_alt_day" name="day">\n';
+  datepicker_html += '<input type="hidden" id="datepicker_alt_month" name="month">\n';
+  datepicker_html += '<input type="hidden" id="datepicker_alt_year" name="year">\n';
+  dateselector.innerHTML = datepicker_html;
+  
+  </script>
+  <input type="hidden" name="area" value="2">
+<input type="hidden" name="room" value="9">
+<input type="submit" value="goto">
+           </div>
+        </form>
+              </td>
+      <td>
+<a href="help.php?day=6&amp;month=12&amp;year=2025&amp;area=2&amp;room=9">Help</a>
+</td>
+<td>
+<a href="admin.php?day=6&amp;month=12&amp;year=2025&amp;area=2&amp;room=9">Rooms</a>
+</td>
+<td>
+<a href="report.php?day=6&amp;month=12&amp;year=2025&amp;area=2&amp;room=9">Report</a>
+</td>
+      
+      <td>
+        <form id="header_search" method="get" action="search.php">
+          <div>
+            <a href="search.php?advanced=1">Search:</a>
+            <input type="text"   name="search_str" value="">
+            <input type="hidden" name="day"        value="6">
+            <input type="hidden" name="month"      value="12">
+            <input type="hidden" name="year"       value="2025">
+            <input type="hidden" name="area" value="2">
+<input type="hidden" name="room" value="9">
+          </div>
+        </form>
+      </td>
+      <td>
+<div id="logon_box">
+                <a href="">Unknown user</a>
+                <form method="post" action="admin.php">
+                  <div>
+                    <input type="hidden" name="TargetURL" value="day.php?year=2025&amp;month=12&amp;day=06&amp;area=2&amp;room=9">
+                    <input type="hidden" name="Action" value="QueryName">
+                    <input type="submit" value=" Log in ">
+                  </div>
+                </form>
+</div>
+</td>
+    </tr>
+  </table>
+</div>
+
+<div id="contents">
+<div id="dwm_header" class="screenonly">
+<div id="dwm_areas">
+<h3>Areas</h3>
+<ul>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2"><span class="current">Aula Magna</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=13"><span>Bloque I</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=11"><span>Bloque III</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=12"><span>Bloque IV</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=15"><span>Bloque VI</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=3"><span>Bloque VIII (Prisma)</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=6"><span>Bloques IX, X y Aula C7100</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=10"><span>CIC</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=8"><span>Rotonda de la Cafetería</span></a></li>
+<li><a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=4"><span>Salon Actos (Campus)</span></a></li>
+</ul>
+</div>
+<div id="cals" class="screenonly">
+<div id="cal_last">
+<table class="calendar">
+<thead>
+<tr>
+<th colspan="7"><a href="month.php?year=2025&amp;month=11&amp;day=6&amp;area=2&amp;room=9">November&nbsp;2025</a></th>
+</tr>
+<tr>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+<th>Sun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=1&amp;area=2&amp;room=9">1</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=2&amp;area=2&amp;room=9">2</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=3&amp;area=2&amp;room=9">3</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=4&amp;area=2&amp;room=9">4</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=5&amp;area=2&amp;room=9">5</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=6&amp;area=2&amp;room=9">6</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=7&amp;area=2&amp;room=9">7</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=8&amp;area=2&amp;room=9">8</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=9&amp;area=2&amp;room=9">9</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=10&amp;area=2&amp;room=9">10</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=11&amp;area=2&amp;room=9">11</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=12&amp;area=2&amp;room=9">12</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=13&amp;area=2&amp;room=9">13</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=14&amp;area=2&amp;room=9">14</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=15&amp;area=2&amp;room=9">15</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=16&amp;area=2&amp;room=9">16</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=17&amp;area=2&amp;room=9">17</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=18&amp;area=2&amp;room=9">18</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=19&amp;area=2&amp;room=9">19</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=20&amp;area=2&amp;room=9">20</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=21&amp;area=2&amp;room=9">21</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=22&amp;area=2&amp;room=9">22</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=23&amp;area=2&amp;room=9">23</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=24&amp;area=2&amp;room=9">24</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=25&amp;area=2&amp;room=9">25</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=26&amp;area=2&amp;room=9">26</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=27&amp;area=2&amp;room=9">27</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=28&amp;area=2&amp;room=9">28</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=29&amp;area=2&amp;room=9">29</a></td>
+<td><a href="day.php?year=2025&amp;month=11&amp;day=30&amp;area=2&amp;room=9">30</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="cal_this">
+<table class="calendar">
+<thead>
+<tr>
+<th colspan="7"><a href="month.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">December&nbsp;2025</a></th>
+</tr>
+<tr>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+<th>Sun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=1&amp;area=2&amp;room=9">1</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=2&amp;area=2&amp;room=9">2</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=3&amp;area=2&amp;room=9">3</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=4&amp;area=2&amp;room=9">4</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=5&amp;area=2&amp;room=9">5</a></td>
+<td id="sticky_day"><a class="current" href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">6</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=7&amp;area=2&amp;room=9">7</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=8&amp;area=2&amp;room=9">8</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=9&amp;area=2&amp;room=9">9</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=10&amp;area=2&amp;room=9">10</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=11&amp;area=2&amp;room=9">11</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=12&amp;area=2&amp;room=9">12</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=13&amp;area=2&amp;room=9">13</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=14&amp;area=2&amp;room=9">14</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=15&amp;area=2&amp;room=9">15</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=16&amp;area=2&amp;room=9">16</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=17&amp;area=2&amp;room=9">17</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=18&amp;area=2&amp;room=9">18</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=19&amp;area=2&amp;room=9">19</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=20&amp;area=2&amp;room=9">20</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=21&amp;area=2&amp;room=9">21</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=22&amp;area=2&amp;room=9">22</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=23&amp;area=2&amp;room=9">23</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=24&amp;area=2&amp;room=9">24</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=25&amp;area=2&amp;room=9">25</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=26&amp;area=2&amp;room=9">26</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=27&amp;area=2&amp;room=9">27</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=28&amp;area=2&amp;room=9">28</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=29&amp;area=2&amp;room=9">29</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=30&amp;area=2&amp;room=9">30</a></td>
+<td><a href="day.php?year=2025&amp;month=12&amp;day=31&amp;area=2&amp;room=9">31</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="cal_next">
+<table class="calendar">
+<thead>
+<tr>
+<th colspan="7"><a href="month.php?year=2026&amp;month=01&amp;day=6&amp;area=2&amp;room=9">January&nbsp;2026</a></th>
+</tr>
+<tr>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+<th>Sun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=1&amp;area=2&amp;room=9">1</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=2&amp;area=2&amp;room=9">2</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=3&amp;area=2&amp;room=9">3</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=4&amp;area=2&amp;room=9">4</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=5&amp;area=2&amp;room=9">5</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=6&amp;area=2&amp;room=9">6</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=7&amp;area=2&amp;room=9">7</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=8&amp;area=2&amp;room=9">8</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=9&amp;area=2&amp;room=9">9</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=10&amp;area=2&amp;room=9">10</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=11&amp;area=2&amp;room=9">11</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=12&amp;area=2&amp;room=9">12</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=13&amp;area=2&amp;room=9">13</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=14&amp;area=2&amp;room=9">14</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=15&amp;area=2&amp;room=9">15</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=16&amp;area=2&amp;room=9">16</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=17&amp;area=2&amp;room=9">17</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=18&amp;area=2&amp;room=9">18</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=19&amp;area=2&amp;room=9">19</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=20&amp;area=2&amp;room=9">20</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=21&amp;area=2&amp;room=9">21</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=22&amp;area=2&amp;room=9">22</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=23&amp;area=2&amp;room=9">23</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=24&amp;area=2&amp;room=9">24</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=25&amp;area=2&amp;room=9">25</a></td>
+</tr>
+<tr>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=26&amp;area=2&amp;room=9">26</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=27&amp;area=2&amp;room=9">27</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=28&amp;area=2&amp;room=9">28</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=29&amp;area=2&amp;room=9">29</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=30&amp;area=2&amp;room=9">30</a></td>
+<td><a href="day.php?year=2026&amp;month=01&amp;day=31&amp;area=2&amp;room=9">31</a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="dwm">
+<h2>Saturday 06 December 2025</h2>
+</div>
+
+<div class="screenonly">
+  <div class="date_nav">
+    <div class="date_before">
+      <a href="day.php?year=2025&amp;month=12&amp;day=05&amp;area=2&amp;room=9">&lt;&lt;&nbsp;Go To Day Before
+      </a>
+    </div>
+    <div class="date_now">
+      <a href="day.php?area=2&amp;room=9">Go To Today</a>
+    </div>
+    <div class="date_after">
+      <a href="day.php?year=2025&amp;month=12&amp;day=07&amp;area=2&amp;room=9">Go To Day After&nbsp;&gt;&gt;
+      </a>
+    </div>
+  </div>
+</div>
+<table class="dwm_main" id="day_main">
+<thead>
+<tr>
+<th class="first_last">Time:</th><th data-room="9" style="width: 95%">
+                        <a href="week.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9"
+                        title="View Week &#10;&#10;Sala polivalente">Aula Magna (4201) (96)</a></th></tr>
+</thead>
+<tbody>
+<tr class="even_row">
+<td class="row_labels" data-seconds="32400">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=900" title="Highlight this line">09:00 - 10:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=09&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="36000">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1000" title="Highlight this line">10:00 - 11:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=10&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="39600">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1100" title="Highlight this line">11:00 - 12:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=11&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="43200">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1200" title="Highlight this line">12:00 - 13:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=12&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="46800">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1300" title="Highlight this line">13:00 - 14:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=13&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="50400">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1400" title="Highlight this line">14:00 - 15:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=14&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="54000">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1500" title="Highlight this line">15:00 - 16:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=15&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="57600">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1600" title="Highlight this line">16:00 - 17:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=16&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="61200">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1700" title="Highlight this line">17:00 - 18:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=17&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="64800">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1800" title="Highlight this line">18:00 - 19:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=18&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="68400">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=1900" title="Highlight this line">19:00 - 20:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=19&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="odd_row">
+<td class="row_labels" data-seconds="72000">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=2000" title="Highlight this line">20:00 - 21:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=20&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+<tr class="even_row">
+<td class="row_labels" data-seconds="75600">
+<div class="celldiv slots1">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9&amp;timetohighlight=2100" title="Highlight this line">21:00 - 22:00</a>
+</div></td>
+<td class="new">
+<div class="celldiv slots1">
+<a href="edit_entry.php?area=2&amp;room=9&amp;hour=21&amp;minute=00&amp;year=2025&amp;month=12&amp;day=6">
+</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div class="screenonly">
+  <div class="date_nav">
+    <div class="date_before">
+      <a href="day.php?year=2025&amp;month=12&amp;day=05&amp;area=2&amp;room=9">&lt;&lt;&nbsp;Go To Day Before
+      </a>
+    </div>
+    <div class="date_now">
+      <a href="day.php?area=2&amp;room=9">Go To Today</a>
+    </div>
+    <div class="date_after">
+      <a href="day.php?year=2025&amp;month=12&amp;day=07&amp;area=2&amp;room=9">Go To Day After&nbsp;&gt;&gt;
+      </a>
+    </div>
+  </div>
+</div>
+<table id="colour_key"><tr>
+<td class="E">
+<div class="celldiv slots1" title="External">
+External</div></td>
+<td class="I">
+<div class="celldiv slots1" title="Internal">
+Internal</div></td>
+</tr></table>
+</div><div class="screenonly trailer" id="trailer">
+<div id="viewday">
+<div class="trailer_label">
+<a href="day.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">View Day:</a>
+</div>
+<div class="trailer_links">
+<span><a href="day.php?year=2025&amp;month=11&amp;day=30&amp;area=2&amp;room=9">30 Nov</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=01&amp;area=2&amp;room=9">01 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=02&amp;area=2&amp;room=9">02 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=03&amp;area=2&amp;room=9">03 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=04&amp;area=2&amp;room=9">04 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=05&amp;area=2&amp;room=9">05 Dec</a></span>
+ | <span class="current">[ <a href="day.php?year=2025&amp;month=12&amp;day=06&amp;area=2&amp;room=9">06 Dec</a> ]</span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=07&amp;area=2&amp;room=9">07 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=08&amp;area=2&amp;room=9">08 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=09&amp;area=2&amp;room=9">09 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=10&amp;area=2&amp;room=9">10 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=11&amp;area=2&amp;room=9">11 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=12&amp;area=2&amp;room=9">12 Dec</a></span>
+ | <span><a href="day.php?year=2025&amp;month=12&amp;day=13&amp;area=2&amp;room=9">13 Dec</a></span>
+</div>
+</div>
+<div id="viewweek">
+<div class="trailer_label">
+<a href="week.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">View Week:</a>
+</div>
+<div class="trailer_links">
+  <a href="week.php?year=2025&amp;month=11&amp;day=08&amp;area=2&amp;room=9">03 Nov</a>
+ |   <a href="week.php?year=2025&amp;month=11&amp;day=15&amp;area=2&amp;room=9">10 Nov</a>
+ |   <a href="week.php?year=2025&amp;month=11&amp;day=22&amp;area=2&amp;room=9">17 Nov</a>
+ |   <a href="week.php?year=2025&amp;month=11&amp;day=29&amp;area=2&amp;room=9">24 Nov</a>
+ | <span class="current">
+[   <a href="week.php?year=2025&amp;month=12&amp;day=06&amp;area=2&amp;room=9">01 Dec</a>
+]</span>
+ |   <a href="week.php?year=2025&amp;month=12&amp;day=13&amp;area=2&amp;room=9">08 Dec</a>
+ |   <a href="week.php?year=2025&amp;month=12&amp;day=20&amp;area=2&amp;room=9">15 Dec</a>
+ |   <a href="week.php?year=2025&amp;month=12&amp;day=27&amp;area=2&amp;room=9">22 Dec</a>
+ |   <a href="week.php?year=2026&amp;month=01&amp;day=03&amp;area=2&amp;room=9">29 Dec</a>
+</div>
+</div>
+<div id="viewmonth">
+<div class="trailer_label">
+<a href="month.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">View Month:</a>
+</div>
+<div class="trailer_links">
+  <a href="month.php?year=2025&amp;month=10&amp;day=6&amp;area=2&amp;room=9">Oct 2025</a>
+ |   <a href="month.php?year=2025&amp;month=11&amp;day=6&amp;area=2&amp;room=9">Nov 2025</a>
+ | <span class="current">
+[   <a href="month.php?year=2025&amp;month=12&amp;day=6&amp;area=2&amp;room=9">Dec 2025</a>
+]</span>
+ |   <a href="month.php?year=2026&amp;month=01&amp;day=6&amp;area=2&amp;room=9">Jan 2026</a>
+ |   <a href="month.php?year=2026&amp;month=02&amp;day=6&amp;area=2&amp;room=9">Feb 2026</a>
+ |   <a href="month.php?year=2026&amp;month=03&amp;day=6&amp;area=2&amp;room=9">Mar 2026</a>
+ |   <a href="month.php?year=2026&amp;month=04&amp;day=6&amp;area=2&amp;room=9">Apr 2026</a>
+ |   <a href="month.php?year=2026&amp;month=05&amp;day=6&amp;area=2&amp;room=9">May 2026</a>
+ |   <a href="month.php?year=2026&amp;month=06&amp;day=6&amp;area=2&amp;room=9">Jun 2026</a>
+</div>
+</div>
+</div>
+  </body>
+</html>
+<script type='text/javascript'>
+// gines. 08-abr-14. puesta para los bedeles:
+//  $( "a:contains('Examen')" ).css("color", "white").parent().css({"backgroundColor": "red", "font-size": "110%"});
+</script>
+<script type='text/javascript' src='colorea_celdas.js'></script>

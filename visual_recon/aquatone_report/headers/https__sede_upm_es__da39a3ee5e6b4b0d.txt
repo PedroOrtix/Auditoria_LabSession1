@@ -1,0 +1,7 @@
+500 500 Service unavailable (with message)
+Retry-Count: 0
+Content-Type: text/html; charset=ISO-8859-1
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Server: Apache
+Cache-Control: no-cache, private

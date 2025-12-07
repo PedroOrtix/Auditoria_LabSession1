@@ -1,0 +1,11 @@
+200 OK
+Pragma: no-cache
+X-Cache: pag
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:54 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Set-Cookie: PHPSESSID=qr11940ngfaurhefamtc0391rd; path=/
+Server: Apache
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8

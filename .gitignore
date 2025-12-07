@@ -1,0 +1,21 @@
+# Ignore generated PDF reports
+*.pdf
+
+# Ignore log files
+*.log
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments (common names)
+venv/
+.venv/
+env/
+ENV/
+
+# Pytest cache
+.pytest_cache/
+

@@ -1,0 +1,11 @@
+200 OK
+Access-Control-Allow-Methods: HEAD, PUT, POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Headers: origin, content-type
+Content-Length: 6417
+Etag: "72530326"
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Retry-Count: 0
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Set-Cookie: connect.sess=s%3Aj%3A%7B%7D.xDsz5acEFCwNA9Q84djARGh0AMXN6AnQSqnfGIu7ipg; Path=/; HttpOnly

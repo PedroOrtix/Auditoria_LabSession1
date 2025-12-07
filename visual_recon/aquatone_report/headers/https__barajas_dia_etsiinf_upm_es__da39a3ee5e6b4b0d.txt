@@ -1,0 +1,11 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 28ms
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Vary: Origin,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi <strapi.io>
+Retry-Count: 0
+Access-Control-Allow-Origin: *
+Server: Apache

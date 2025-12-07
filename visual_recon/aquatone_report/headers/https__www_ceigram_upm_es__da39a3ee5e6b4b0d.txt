@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin, origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Server: Angie/1.10.3
+Content-Security-Policy: upgrade-insecure-requests
+Last-Modified: Fri, 05 Dec 2025 21:24:55 GMT
+Vary: Accept-Encoding
+Etag: W/"69334da7-368ab"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:53 GMT
+Permissions-Policy: interest-cohort=()

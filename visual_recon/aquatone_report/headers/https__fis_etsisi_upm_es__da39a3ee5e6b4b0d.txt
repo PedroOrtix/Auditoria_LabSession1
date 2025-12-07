@@ -1,0 +1,17 @@
+200 OK
+Etag: W/"1e0941e411b4e665b84438240bf1b798"
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: _redmine_session=NmpRNVFGNTlKYVFLQXArNWRnS3ZCSjZDRkFJU1hxQXl3OVQyRlFndU5TMTVDbGlka2xycElNaTRTMitJcVBnTDVFSVU0YmtLeFIxM0ZXMjhHcDBmN1AxT01rcy9mSEpiNkhSMHhiU2ZUR1hpbjJOUi9qS3Z5dC9HeHJaRG1TTytlRFEwaC9oUTh1Sy8wd0pOaE1veUpoVE15TTBvcW5ZVVFMZE9ZaWhNdzFDU0hsK3M3ejJ4SFR0VG85RFgvVWZTLS1YVVNDU3htL1dDZGJDRmVma1BFd2t3PT0%3D--1d89b30e314bd790136a5980f713964c975effcd; path=/; HttpOnly
+Content-Length: 4668
+Date: Sat, 06 Dec 2025 20:42:38 GMT
+Server: WEBrick/1.4.2 (Ruby/2.6.5/2019-10-01)
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 1431067e-d93d-4996-8946-a6e1d5589169
+X-Runtime: 0.033965

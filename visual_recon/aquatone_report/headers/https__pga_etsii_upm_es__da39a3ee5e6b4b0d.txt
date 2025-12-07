@@ -1,0 +1,11 @@
+200 OK
+Server: Microsoft-IIS/7.5
+Date: Sat, 06 Dec 2025 20:42:33 GMT
+Retry-Count: 0
+Content-Length: 4421
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Powered-By: PHP/8.1.24 ASP.NET
+Set-Cookie: PHPSESSID=2nmdj73hrte2uukma4f79slp75; path=/
+Pragma: no-cache

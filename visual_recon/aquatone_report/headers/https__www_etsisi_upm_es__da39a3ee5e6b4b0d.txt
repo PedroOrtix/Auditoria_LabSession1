@@ -1,0 +1,18 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:43:00 GMT
+X-Drupal-Cache: HIT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Server: Apache
+Upgrade: h2,h2c
+Link: <https://www.etsisi.upm.es/>; rel="canonical",<https://www.etsisi.upm.es/>; rel="shortlink"
+Vary: Cookie,Accept-Encoding
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Etag: "1765052354-1"
+Cache-Control: public, max-age=0
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN SAMEORIGIN
+Content-Language: es
+X-Generator: Drupal (http://drupal.org)
+Last-Modified: Sat, 06 Dec 2025 20:19:14 GMT
+X-Xss-Protection: 1; mode=block

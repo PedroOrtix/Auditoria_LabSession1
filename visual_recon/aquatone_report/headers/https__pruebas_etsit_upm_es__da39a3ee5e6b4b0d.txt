@@ -1,0 +1,14 @@
+200 OK
+X-Etsit-Production-Forced-Headers: X-Frame-Options, X-Content-Type-Options, Strinct-Transport-Security, X-XSS-Protection
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Retry-Count: 0
+Etag: W/"5bd080e0-94"
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Etsit-Production-Notes: Ask administrator for custom configuration
+Server: nginx
+Last-Modified: Wed, 24 Oct 2018 14:25:36 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Content-Type: text/html
+X-Frame-Options: sameorigin

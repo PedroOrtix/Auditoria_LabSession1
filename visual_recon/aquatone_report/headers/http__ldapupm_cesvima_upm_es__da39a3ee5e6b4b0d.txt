@@ -1,0 +1,18 @@
+200 OK
+Redcap-Random-Text: W35qXqR8EmnQhCUzz
+Server: Apache/2.4.65 (Debian)
+X-Xss-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Sat, 06 Dec 2025 20:42:06 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=pjaa4lva34i82m1fq9agvk3djc; path=/; secure; HttpOnly; SameSite=Lax PHPSESSID=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly; SameSite=Lax
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: accelerometer=*, autoplay=*, camera=*, encrypted-media=*, fullscreen=*, geolocation=*, gyroscope=*, magnetometer=*, microphone=*, midi=*, payment=*, picture-in-picture=*, publickey-credentials-get=*, sync-xhr=*, usb=*, xr-spatial-tracking=*
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' data: blob:; style-src * 'unsafe-inline' data: blob:;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Retry-Count: 0
+Vary: Accept-Encoding

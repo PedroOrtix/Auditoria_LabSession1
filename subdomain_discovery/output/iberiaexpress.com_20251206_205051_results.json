@@ -1,0 +1,347 @@
+{
+  "domain": "iberiaexpress.com",
+  "timestamp": "20251206_205051",
+  "total_discovered": 42,
+  "results": [
+    {
+      "subdomain": "i2bookingflights-prodintranet.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingpayment-devintranet.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "activacion.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingflights-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "blog.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Inicio | Blog Iberia Express - Blog",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "correoweb.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ecrews.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "booking.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": null,
+        "error": null
+      }
+    },
+    {
+      "subdomain": "i2checkin.int.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2checkin-staging.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2reservation-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2reservation-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2checkin-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingpayment-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingpayment-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingflights-devintranet.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cms-pre-staging.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cms.uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "autodiscover.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "http",
+        "redirect_url": "https://outlook.office365.com/mail/?realm=iberiaexpress.com&vd=autodiscover",
+        "title": "Outlook",
+        "error": "HTTPS connection error"
+      }
+    },
+    {
+      "subdomain": "i2cms-prod.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2auth-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2webtri-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cms.pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "www.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": null,
+        "error": null
+      }
+    },
+    {
+      "subdomain": "elearning.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": "https://elearning.iberiaexpress.com/login/loginPage",
+        "title": "iberiaexpress",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "payments.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2checkin.uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingpayment-prodintranet.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cms.int.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "ftp.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "enews.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 404,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Error 404",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "activities.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 403,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "GetYourGuide \u2013 Error",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "i2bookingpayment-staging.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingweb-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cms-pre.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "portal.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "onboard.iberiaexpress.com",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Club Express Onboard - Nuestra plataforma de entretenimiento a bordo.",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "i2bookingflights-staging.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2cdn-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "v.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "correoweb2007.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "i2bookingflights-uat.iberiaexpress.com",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    }
+  ],
+  "analysis": {
+    "metrics": {
+      "total_candidates": 42,
+      "dns_resolved": 10,
+      "live_assets": 8,
+      "dead_domains": 32,
+      "dns_resolution_rate": 23.809523809523807,
+      "live_asset_rate": 19.047619047619047,
+      "noise_filtered": 34,
+      "noise_percentage": 80.95238095238095,
+      "status_distribution": {
+        "200": 6,
+        "404": 1,
+        "403": 1
+      }
+    },
+    "high_value_assets": []
+  }
+}

@@ -1,0 +1,9 @@
+200 OK
+Last-Modified: Mon, 26 Aug 2024 08:56:41 GMT
+Etag: "1ac9-620924db0a440-gzip"
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Server: Apache
+Accept-Ranges: bytes
+Content-Type: text/html

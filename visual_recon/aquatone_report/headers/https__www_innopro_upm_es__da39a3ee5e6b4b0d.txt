@@ -1,0 +1,8 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:57 GMT
+Set-Cookie: pll_language=es; expires=Sun, 06-Dec-2026 20:42:57 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax
+Link: <https://www.innopro.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.innopro.upm.es/wp-json/wp/v2/pages/4>; rel="alternate"; title="JSON"; type="application/json" <https://www.innopro.upm.es/>; rel=shortlink

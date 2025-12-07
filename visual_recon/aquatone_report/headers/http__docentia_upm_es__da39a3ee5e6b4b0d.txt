@@ -1,0 +1,14 @@
+200 OK
+X-Content-Type-Options: nosniff
+Allow: GET, PATCH, POST, OPTIONS, PUT, DELETE
+Date: Sat, 06 Dec 2025 20:41:52 GMT
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method
+Cache-Control: no-cache, private
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Server: nginx
+Access-Control-Allow-Methods: GET, PATCH, POST, OPTIONS, PUT, DELETE

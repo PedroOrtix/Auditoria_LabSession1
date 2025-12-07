@@ -1,0 +1,11 @@
+401 Unauthorized
+Date: Sat, 06 Dec 2025 20:42:16 GMT
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Set-Cookie: siu=sso;domain=siu.upm.es;Path=/;Secure;HttpOnly;SameSite=None
+Retry-Count: 0
+Content-Type: application/json
+Content-Length: 33

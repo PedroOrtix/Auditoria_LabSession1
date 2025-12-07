@@ -1,0 +1,7 @@
+200 OK
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:39 GMT
+Strict-Transport-Security: max-age=15768000
+Content-Type: text/html; charset=UTF-8
+Link: <https://gea.ssr.upm.es/wp-json/>; rel="https://api.w.org/" <https://gea.ssr.upm.es/wp-json/wp/v2/pages/17055>; rel="alternate"; type="application/json" <https://gea.ssr.upm.es/>; rel=shortlink
+Retry-Count: 0

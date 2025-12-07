@@ -1,0 +1,14 @@
+200 OK
+Link: <https://miw.etsisi.upm.es/wp-json/>; rel="https://api.w.org/" <https://miw.etsisi.upm.es/wp-json/wp/v2/pages/279>; rel="alternate"; title="JSON"; type="application/json" <https://miw.etsisi.upm.es/>; rel=shortlink
+Referrer-Policy: same-origin
+Server: Apache/2.4.62 (Debian)
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:48 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/8.3.16
+Retry-Count: 0
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN

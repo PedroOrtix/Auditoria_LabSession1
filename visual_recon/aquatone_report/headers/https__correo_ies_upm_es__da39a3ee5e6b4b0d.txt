@@ -1,0 +1,14 @@
+200 OK
+X-Frame-Options: sameorigin
+Vary: Accept-Encoding
+Server: Apache
+Cache-Control: private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Dns-Prefetch-Control: off
+Date: Sat, 06 Dec 2025 19:26:19 GMT
+Set-Cookie: roundcube_sessid=uktuhka5puheld6g2els9o0geh; path=/; secure; HttpOnly
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Expires: Sat, 06 Dec 2025 19:26:19 GMT
+Last-Modified: Sat, 06 Dec 2025 19:26:19 GMT
+Retry-Count: 0

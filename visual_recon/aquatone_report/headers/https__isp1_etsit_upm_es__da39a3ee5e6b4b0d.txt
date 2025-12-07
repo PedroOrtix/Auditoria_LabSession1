@@ -1,0 +1,9 @@
+200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:43 GMT
+Server: Apache
+Last-Modified: Tue, 27 Sep 2011 17:10:04 GMT
+Etag: "99-4adef58c38a2e-gzip"
+Content-Type: text/html

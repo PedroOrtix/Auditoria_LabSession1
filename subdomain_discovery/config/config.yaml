@@ -1,0 +1,40 @@
+# Configuración del Proyecto de Descubrimiento de Subdominios
+
+# Target de prueba
+target_domain: "www.upm.es"
+
+# Configuración de timeouts
+http_timeout: 3  # segundos
+dns_timeout: 2   # segundos
+
+# Configuración de verificación HTTP
+http_headers:
+  User-Agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+
+# Keywords para identificar assets de alto valor
+high_value_keywords:
+  - "vpn"
+  - "citrix"
+  - "portal"
+  - "employee"
+  - "admin"
+  - "intranet"
+  - "internal"
+  - "management"
+  - "staff"
+  - "remote"
+
+# HTTP Status codes de interés
+interesting_status_codes:
+  - 200  # OK - Fully active
+  - 403  # Forbidden - Restricted access (high interest)
+  - 401  # Unauthorized - Requires authentication
+  - 301  # Redirect
+  - 302  # Redirect
+
+# Configuración de logging
+log_file: "subdomain_discovery.log"
+log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+
+# Configuración de output
+output_dir: "output"

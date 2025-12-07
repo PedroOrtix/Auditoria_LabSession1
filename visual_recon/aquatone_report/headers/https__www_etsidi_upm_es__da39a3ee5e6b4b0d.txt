@@ -1,0 +1,9 @@
+200 200
+Retry-Count: 0
+Set-Cookie: JSESSIONID=93252C54E0F538AC9BA32BCCF33DA54A; Path=/; Secure; HttpOnly
+Last-Modified: Sat, 06 Dec 2025 20:43:01 GMT
+Cache-Control: public, max-age=0
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:59 GMT
+Server: OpenCms/16.0

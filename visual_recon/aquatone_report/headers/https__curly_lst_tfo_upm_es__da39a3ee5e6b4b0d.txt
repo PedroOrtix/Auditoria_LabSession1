@@ -1,0 +1,9 @@
+200 OK
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Last-Modified: Thu, 09 Jun 2022 12:00:22 GMT
+Server: Caddy Apache/2.4.54 (Unix)
+Retry-Count: 0
+Content-Length: 2105
+Etag: "839-5e10290f96180"

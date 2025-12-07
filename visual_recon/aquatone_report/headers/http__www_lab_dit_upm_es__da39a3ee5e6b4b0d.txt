@@ -1,0 +1,9 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:28 GMT
+Etag: "1440-624a8eb543127-gzip"
+Vary: Accept-Encoding
+Retry-Count: 0
+Content-Type: text/html
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Thu, 17 Oct 2024 09:36:21 GMT
+Accept-Ranges: bytes

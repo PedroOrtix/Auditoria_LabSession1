@@ -1,0 +1,10 @@
+200 OK
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:19 GMT
+Content-Type: text/html
+Etag: W/"5f536064-12fb"
+Strict-Transport-Security: max-age=63072000
+Retry-Count: 0
+Vary: Accept-Encoding
+Last-Modified: Sat, 05 Sep 2020 09:54:44 GMT
+Referrer-Policy: strict-origin-when-cross-origin

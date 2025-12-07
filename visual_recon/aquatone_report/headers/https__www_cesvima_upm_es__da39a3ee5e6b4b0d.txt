@@ -1,0 +1,15 @@
+200 OK
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Set-Cookie: 7e1008004515b88801c53d8deec281fd=nnt76g056d3fi1noqh2hcsf042; path=/; domain=.cesvima.upm.es; HttpOnly
+Pragma: no-cache
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"

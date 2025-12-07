@@ -1,0 +1,15 @@
+200 OK
+X-Frame-Options: sameorigin
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: glpi_3f946f74140a3178722cb675d5bf6b47=ai4arq4p0o642gjbut7iglamoi; path=/cau/etsit; HttpOnly
+Pragma: no-cache
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-store, no-cache, must-revalidate
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+X-Powered-By: PHP/7.3.33
+Retry-Count: 0

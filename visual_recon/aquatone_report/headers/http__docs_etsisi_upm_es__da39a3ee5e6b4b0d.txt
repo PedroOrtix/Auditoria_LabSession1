@@ -1,0 +1,21 @@
+200 OK
+Pragma: no-cache
+Date: Sat, 06 Dec 2025 20:41:57 GMT
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: PHP/7.4.32
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.54 (Debian)
+Vary: Accept-Encoding
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Retry-Count: 0
+X-Content-Type-Options: nosniff nosniff
+Set-Cookie: oc_sessionPassphrase=Mcj%2BspD4OEh97omWDWRA0zSNUFxCai1uPvCd5o5y%2ByULx4jGtlbsJ1ZlVwXWnWgY4rSjRbcVf7g6jUatlSHoi5x7t5YotPIr%2FPimbZLGF4nostK8NJJS4VzbDMS0LtEl; expires=Sat, 06-Dec-2025 21:01:57 GMT; Max-Age=1200; path=/; secure; HttpOnly; SameSite=Strict
+Content-Security-Policy: default-src 'none';manifest-src 'self';script-src 'self' 'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self';connect-src 'self';media-src 'self'
+Referrer-Policy: same-origin
+X-Xss-Protection: 0 1; mode=block
+X-Robots-Tag: none
+X-Frame-Options: SAMEORIGIN SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubDomains

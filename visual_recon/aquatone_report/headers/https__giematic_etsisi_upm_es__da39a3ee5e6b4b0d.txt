@@ -1,0 +1,19 @@
+200 OK
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Last-Modified: Sat, 06 Dec 2025 20:42:40 GMT
+Server: Apache/2.4.62 (Debian)
+Set-Cookie: b314dbd20438a1b73991f1f625b2c9bd=7b74d49fe484c08fa42ef01610e8f4c3; path=/; HttpOnly
+Date: Sat, 06 Dec 2025 20:42:40 GMT
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Referrer-Policy: same-origin
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+X-Powered-By: PHP/8.3.21RC1
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0

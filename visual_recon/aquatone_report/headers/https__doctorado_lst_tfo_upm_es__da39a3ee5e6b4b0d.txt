@@ -1,0 +1,8 @@
+200 OK
+Retry-Count: 0
+Server: Caddy Apache/2.4.38 (Debian)
+X-Powered-By: PHP/7.4.11
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Link: <https://doctorado.lst.tfo.upm.es/wp-json/>; rel="https://api.w.org/" <https://doctorado.lst.tfo.upm.es/wp-json/wp/v2/pages/66>; rel="alternate"; type="application/json" <https://doctorado.lst.tfo.upm.es/>; rel=shortlink
+Vary: Accept-Encoding

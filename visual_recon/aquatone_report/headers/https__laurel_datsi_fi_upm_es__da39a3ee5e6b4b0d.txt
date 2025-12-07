@@ -1,0 +1,10 @@
+200 OK
+Set-Cookie: DokuWiki=hggi63e8n5p6qua68s8iv9n9l7; path=/; secure; HttpOnly DW7fa065a06cb74b536c124cfbe56ac6d3=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure; httponly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+Server: Apache/2.4.18 (Debian)
+X-Powered-By: PHP/5.6.20-1
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Retry-Count: 0

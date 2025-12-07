@@ -1,0 +1,13 @@
+200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Retry-Count: 0
+Server: Apache/2.4.65 (Debian)
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Vary: Accept-Encoding
+Last-Modified: Sat, 06 Dec 2025 20:42:28 GMT
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:28 GMT
+X-Content-Powered-By: K2 v2.11.20230505 (by JoomlaWorks)
+Pragma: no-cache
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+X-Logged-In: False

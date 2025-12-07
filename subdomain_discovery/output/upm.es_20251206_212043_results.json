@@ -1,0 +1,1324 @@
+{
+  "domain": "upm.es",
+  "timestamp": "20251206_212043",
+  "total_discovered": 100,
+  "results": [
+    {
+      "subdomain": "ai250.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biobec1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2pc19.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula7pc6.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "labemat1.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc3.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "becaestruct.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai199.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai234.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "dir4.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "cc099.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "geo02.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "agsantos.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ana3.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2pc45.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "fito2.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "idea2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "inter.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc9.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula7pc7.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "fis2.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "multi10.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "zootec11.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "1g1.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "sdg.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula7pc1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "mot2.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "cc086.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "gen4.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai230.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2pc42.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "www.aprendizajeservicio.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "INICIO | aprendizajeservicio.upm.es",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "aula4.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai247.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "dibu7.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aalto.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "servicios.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "fitolab1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblioteca23.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc16.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula7pc16.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai227.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "iberoamerica.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "pc2-da.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula6pc16.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "mat2.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aromero.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblioteca28.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "mastvivienda2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "adfspruebas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc7.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "apps2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 403,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Invalid Connection",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "arangoa2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "asoler.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai235.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai251.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula5pc01.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "gen3.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2pc22.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "subdirector01.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aisarges1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ana1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula2pc48.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula5pc17.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "moodle.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "http",
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTPS connection error"
+      }
+    },
+    {
+      "subdomain": "aula5pc03.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ai245.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "cc108.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula7pc9.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "asouto.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "3dlabs.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": null,
+        "error": null
+      }
+    },
+    {
+      "subdomain": "bvillanueva.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "cerezo.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc6.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblioteca9.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "portatileco1.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "imejias.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblioteca14.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblioteca4.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "direc2.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "prueba.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "zoo6.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ainnovation.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "berriochoa.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "cc154.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "bio8.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "hal2.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "jsainz.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "oracle.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ind11.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "alternativo.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula6pc11.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "dibu22.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "multi06.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "corbu.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "fito4.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula10.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aulaweb.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "http",
+        "redirect_url": "http://aulaweb.aq.upm.es/general/status.html",
+        "title": "Brother HL-3170CDW series",
+        "error": "HTTPS timeout"
+      }
+    }
+  ],
+  "analysis": {
+    "metrics": {
+      "total_candidates": 100,
+      "dns_resolved": 100,
+      "live_assets": 5,
+      "dead_domains": 0,
+      "dns_resolution_rate": 100.0,
+      "live_asset_rate": 5.0,
+      "noise_filtered": 95,
+      "noise_percentage": 95.0,
+      "status_distribution": {
+        "200": 4,
+        "403": 1
+      }
+    },
+    "high_value_assets": []
+  }
+}

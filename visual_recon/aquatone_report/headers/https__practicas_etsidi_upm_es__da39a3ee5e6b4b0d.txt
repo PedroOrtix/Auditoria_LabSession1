@@ -1,0 +1,14 @@
+200 OK
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;
+Access-Control-Allow-Origin: *
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Link: <https://www.practicas.etsidi.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.practicas.etsidi.upm.es/wp-json/wp/v2/pages/14>; rel="alternate"; title="JSON"; type="application/json" <https://www.practicas.etsidi.upm.es/>; rel=shortlink
+Retry-Count: 0
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade
+Upgrade: h2,h2c
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Vary: Accept-Encoding

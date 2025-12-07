@@ -1,0 +1,14 @@
+200 OK
+Server: Caddy Apache/2.4.53 (Debian)
+Set-Cookie: roundcube_sessid=0bf6c689f76e4026bcc77643da4d1e67; path=/; HttpOnly
+Content-Language: en
+Expires: Sat, 06 Dec 2025 20:42:20 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sat, 06 Dec 2025 20:42:20 GMT
+Pragma: no-cache
+Date: Sat, 06 Dec 2025 20:42:20 GMT
+Retry-Count: 0
+Cache-Control: private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+X-Frame-Options: sameorigin
+X-Powered-By: PHP/7.4.30

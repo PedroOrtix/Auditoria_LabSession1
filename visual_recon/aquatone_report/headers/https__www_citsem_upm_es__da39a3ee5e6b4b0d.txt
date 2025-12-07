@@ -1,0 +1,12 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 23:50:59 GMT
+X-Powered-By: PHP/7.4.32
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Pragma: no-cache
+Retry-Count: 0
+Server: Apache/2.4.53 (Unix) OpenSSL/1.0.2k-fips PHP/7.4.32
+X-Content-Type-Options: nosniff
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sat, 06 Dec 2025 23:51:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0

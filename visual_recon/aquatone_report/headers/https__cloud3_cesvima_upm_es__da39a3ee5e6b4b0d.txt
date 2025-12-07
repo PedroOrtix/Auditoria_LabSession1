@@ -1,0 +1,18 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Content-Type: text/html; charset=UTF-8
+X-Request-Id: 9VENqqVpDaBxRQNJrkWb
+X-Robots-Tag: noindex, nofollow
+Set-Cookie: 514c3d586c28a=itkhickros844lucek1mriq52f; path=/; secure; HttpOnly; SameSite=Lax
+Referrer-Policy: no-referrer
+Server: Apache/2.4.65 (Debian)
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-15c8hUWQL/tszdQc8Umuk8VZejZEVuwb/ZZGZz/kAb4=';script-src-elem 'strict-dynamic' 'nonce-15c8hUWQL/tszdQc8Umuk8VZejZEVuwb/ZZGZz/kAb4=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-ancestors 'self';form-action 'self'
+Retry-Count: 0
+X-Xss-Protection: 1; mode=block
+Upgrade: h2

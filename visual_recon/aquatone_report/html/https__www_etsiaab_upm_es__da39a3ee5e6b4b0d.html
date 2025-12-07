@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.upm.es/favicon.ico">
+  <link rel="stylesheet" href="/themes/comun/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/themes/comun/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/themes/comun/css/style.css?20240930">
+  <link rel="stylesheet" href="/themes/comun/css/print.css" media="print">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+        <script src="/themes/comun/js/jquery-1.11.1.min.js"></script>
+  <script src="/themes/comun/js/bootstrap.min.js"></script>
+  <script src="/themes/comun/js/upm.min.js"></script>
+        <title>Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10874068-21"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-10874068-21');
+  </script>
+  </head>
+<body>
+<!--INICIO MENUS ACCESIBILIDAD-->
+<div id="skip"><a href="#contenido">Saltar a contenido</a></div>
+<div id="accesKeyMenu">
+  <ul>
+    <li><a class="topMenuActionClose_ac" href="http://www.upm.es/institucional/UPM/WebUPM/Accesibilidad" accesskey="0">Accesibilidad</a></li>
+    <li><a href="/" accesskey="1">Home</a></li>
+    <li><a href="#contenido" accesskey="2">Ppal</a></li>
+    <li><a href="#form_buscador_rapido" accesskey="3">Buscador</a></li>
+      </ul>
+</div><!--/.accesKeyMenu-->
+<!--/FIN MENUS ACCESIBILIDAD-->
+<style>
+	#headerUPM {
+		width: 100%;
+		overflow: hidden;
+		background-color: #26447a;
+	}
+	#headerUPM span {
+		font-size:1.1em;
+		text-transform: uppercase;
+		color:white;
+		padding-left: 0.5em;
+	}
+	#headerUPM .box {
+		display: flex;
+		align-items:center;
+		padding: 0.2em 0;
+	}
+	#iconMenuMobile {
+		float: right;
+	}
+	#iconMenuMobile > span {
+		font-size: 2em;
+		color: white;
+		float: right;
+	}
+	.canales > .row {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+	#logoEELISA, #logoCrueConUcrania{
+		float: right;
+		margin-top: 1em;
+		margin-left: 1em;
+		max-height: 30px;
+	}
+	#cresponCanalesCabeceraUPM {
+		height: 50px;
+		float: right;
+	}
+	.language {
+		display: inline-block;
+		padding-right: 1em;
+		color: white;
+		cursor: pointer;
+		float: right;
+		margin: 0;
+	}
+	.language > ul {
+		position: relative;
+		float: none;
+		min-width: auto;"
+	}
+	.listLanguages > a{
+		padding: 0.2em 0.8em;
+	}
+	.lang {
+		/*Para centrar el span a la derecha*/
+		display: table;
+		margin: 0 0 0 auto;
+	}
+	.code {
+		padding: 0.2em;
+		background-color: transparent;
+		color: white;
+		border-radius: 3px;
+		margin-right: 0.2em;
+		text-transform: uppercase;
+	}
+
+	@media (min-width: 768px) {
+		#navCanalesCabeceraUPM {
+			display: contents !important;
+		}
+		#tipoCabecera {
+			display: flex;
+		}
+		#tipoCabecera > div {
+			align-self: center;
+		}
+	}
+
+	@media (max-width: 768px) {
+		#headerUPM img{
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			display: block;
+		}
+		#headerUPM span{
+			display: none;
+		}
+		#logoEELISA, #logoCrueConUcrania {
+			display: none;
+		}
+	}
+
+</style>
+
+  <div id="headerUPM">
+    <div class="wrapper">
+      <a href="https://www.upm.es">
+        <div class="box">
+          <img class="img-responsive" src="/themes/comun/img/upm_barra.png" alt="Universidad Politécnica de Madrid">
+          <span>Universidad Politécnica de Madrid</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+ <header id="headerUniversidad">
+  <div class="wrapper">
+    <div class="row" id="tipoCabecera">
+      <div class="col-xs-12 col-sm-7">
+                              <a href="/">
+                            <div class="logo">
+                <img class="img-responsive" src="/themes/comun/logos/ETSIAAB.png"
+                     alt="Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas">
+              </div>
+            </a>
+                          <div class="cabecera">
+                                                                                                      <h1>
+                    <span class="fontMin">Escuela Técnica Superior de Ingeniería </span><br>
+                    <span class="fontMed">Agronómica, Alimentaria y de Biosistemas</span>
+                  </h1>
+                            </div><!--/.cabecera-->
+            <div id="iconMenuMobile" class="col-xs-2 visible-xs">
+              <span class="fa fa-bars"></span>
+            </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 canales">
+            <div class="row">
+    <nav id="navCanalesCabeceraUPM">
+      <ul>
+                                                <li><a href="https://www.etsiaab.upm.es/Calidad/Buzon_de_Quejas,_Sugerencias_y_Felicitaciones" >QSF</a></li>
+              
+                                                          <li><a href="http://fpremioarce.etsiaab.upm.es/" >Fundación Premio Arce</a></li>
+              
+                                                          <li><a href="https://moodle.upm.es/titulaciones/oficiales/login/login.php" >Moodle</a></li>
+              
+                                                          <li><a href="https://intranet.etsiaab.upm.es/" >Intranet</a></li>
+              
+                                                          <li><a href="http://www.etsiaab.upm.es/Centro/Gabinete_de_Comunicacion" >Comunicación</a></li>
+              
+                        </ul>
+    </nav>
+  </div>
+
+
+
+        <div class="row">
+                    </div>
+
+          
+
+
+
+                                                                                                                                                                                                                  
+
+                                                                                                                                                                                                              </div><!--/col-sm-5 .canales-->
+
+    </div><!--/row-->
+  </div><!--/.wrapper-->
+</header>
+
+
+<nav id="menuPrincipal">
+  <div class="wrapper">
+    <ul>
+      
+                                                                                                                                                                                                                                                                  
+                        <li>
+      <a href="/Centro">Centro</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Docencia">Docencia</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Investigacion">Investigación</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Calidad">Calidad</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Empleo">Empleo</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Estudiantes">Estudiantes</a>
+      <span class ="separador"></span>      </li>
+                                    <li>
+      <a href="/Internacional">English</a>
+            </li>
+                      </ul>
+  </div><!--/.wrapper-->
+</nav><!--/#menuPrincipal-->
+
+
+
+<nav id="menuMobile">
+	<ul>
+										<li><a href="/Centro"> Centro </a></li>
+															<li><a href="/Docencia"> Docencia </a></li>
+															<li><a href="/Investigacion"> Investigación </a></li>
+															<li><a href="/Calidad"> Calidad </a></li>
+															<li><a href="/Empleo"> Empleo </a></li>
+															<li><a href="/Estudiantes"> Estudiantes </a></li>
+															<li><a href="/Internacional"> English </a></li>
+						</ul>
+
+
+
+	<ul class="canales">
+					<li><a href="https://www.etsiaab.upm.es/Calidad/Buzon_de_Quejas,_Sugerencias_y_Felicitaciones">QSF</a></li>
+							<li><a href="http://fpremioarce.etsiaab.upm.es/">Fundación Premio Arce</a></li>
+							<li><a href="https://moodle.upm.es/titulaciones/oficiales/login/login.php">Moodle</a></li>
+							<li><a href="https://intranet.etsiaab.upm.es/">Intranet</a></li>
+							<li><a href="http://www.etsiaab.upm.es/Centro/Gabinete_de_Comunicacion">Comunicación</a></li>
+			</ul>
+
+</nav><!--/#menuMobile-->
+<div id="contenido">
+  
+  <section id="novedades">
+    <div class="wrapper">
+      <div class="row">
+                    <div id="video" class="col-sm-8">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                                          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                                    </ol>
+                <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                <a href="https://www.youtube.com/watch?v=o6rum3Axqy4">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS41923">
+                  </div>
+                  <div class="texto">
+                    <h2>Estudia en la ETSIAAB</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Docencia/Grados/Biotecnologia2019">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39375">
+                  </div>
+                  <div class="texto">
+                    <h2>Grado en Biotecnología</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Docencia/Grados/CciasAgrariasBioeco2017">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39376">
+                  </div>
+                  <div class="texto">
+                    <h2>Grado en Ciencias Agrarias y Bioeconomía</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Docencia/Grados/IngAgricola2017">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39377">
+                  </div>
+                  <div class="texto">
+                    <h2>Grado en Ingeniería Agrícola</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Docencia/Grados/IngAgroambiental2010">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39378">
+                  </div>
+                  <div class="texto">
+                    <h2>Grado en Ingeniería Agroambiental</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Docencia/Grados/IngAlimentaria">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39379">
+                  </div>
+                  <div class="texto">
+                    <h2>Grado en Ingeniería Alimentaria</h2>
+                  </div>
+                </a>
+              </div>
+                                                <div class="item">
+                <a href="https://www.etsiaab.upm.es/Centro/Igualdad">
+                  <div class="imagen">
+                    <img alt="texto" src="/gsfs/SFS39722">
+                  </div>
+                  <div class="texto">
+                    <h2>Espacio de igualdad, diversidad y compromiso social</h2>
+                  </div>
+                </a>
+              </div>
+                              </div>
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">&lt;<span class="sr-only">Previous</span></a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">&gt;<span class="sr-only">Next</span></a>
+                  </div>
+</div>
+
+
+          
+          <div id="destacados" class="col-sm-4">
+      <div class="row">
+                                <div class="col-sm-12 novedad">
+            <div class="cabecera">
+              <a href="https://www.etsiaab.upm.es/Centro/Gabinete_de_Comunicacion/Noticias_de_investigacion?id=CON23900&fmt=detail&prefmt=articulo">
+                <span class="glyphicon glyphicon-play"></span>
+                <h2>Lectura de Tesis Doctoral</h2>
+              </a>
+            </div>
+            <p>‘Machine Learning Approaches Applied to Genomic-Assisted Plant Breeding’. Miércoles 10 de diciembre, 15:00, online.</p>
+          </div>
+                                        <div class="col-sm-12 novedad">
+            <div class="cabecera">
+              <a href="https://www.etsiaab.upm.es/Calidad/Acreditacion_Institucional">
+                <span class="glyphicon glyphicon-play"></span>
+                <h2>Acreditación Institucional de la ETSIAAB</h2>
+              </a>
+            </div>
+            <p>La Comisión del Consejo de Universidades declaró el 29 de octubre de 2025 la Acreditación Institucional de la ETSIAAB, respaldando la calidad y excelencia del centro.</p>
+          </div>
+                                        <div class="col-sm-12 novedad">
+            <div class="cabecera">
+              <a href="https://www.etsiaab.upm.es/Centro/Tablon_de_anuncios/Elecciones">
+                <span class="glyphicon glyphicon-play"></span>
+                <h2>Elecciones</h2>
+              </a>
+            </div>
+            <p>Convocatoria de elecciones a Claustro Universitario, Junta de Escuela, Consejos de Departamento y representantes de estudiantes.</p>
+          </div>
+                  </div>
+  </div>
+
+          
+            <section id="tips">
+    <div class="wrapper">
+      <div class="row">
+                                                      <div class="col-sm-3">
+                  <div id="enlace1" class="enlace">
+                    <a href="https://www.etsiaab.upm.es/Centro/ServiciosGenerales/SecretariaAlumnos">Secretaría de Alumnos</a>
+                                        </div>
+                  <div class="img">
+                                              <img src="/gsfs/SFS15276" alt="Secretaría de Alumnos">
+                                        </div>
+                    <span></span>                </div>
+                                                                    <div class="col-sm-3">
+                  <div id="enlace2" class="enlace">
+                    <a href="http://www.etsiaab.upm.es/Estudios">Oferta de grados, másteres y doctorados</a>
+                                        </div>
+                  <div class="img">
+                                              <img src="/gsfs/SFS15274" alt="Oferta de grados, másteres y doctorados">
+                                        </div>
+                    <span></span>                </div>
+                                                                    <div class="col-sm-3">
+                  <div id="enlace3" class="enlace">
+                    <a href="http://www.etsiaab.upm.es/Centro/Gabinete_de_Comunicacion/Agenda">Agenda ETSIAAB</a>
+                                        </div>
+                  <div class="img">
+                                              <img src="/gsfs/SFS15272" alt="Agenda ETSIAAB">
+                                        </div>
+                    <span></span>                </div>
+                                                                    <div class="col-sm-3">
+                  <div id="enlace4" class="enlace">
+                    <a href="http://www.etsiaab.upm.es/Estudios/OrganizacionDocente">Programación docente curso 2025-26</a>
+                                        </div>
+                  <div class="img">
+                                              <img src="/gsfs/SFS15275" alt="Programación docente curso 2025-26">
+                                        </div>
+                                    </div>
+                              </div>
+    </div>
+  </section>
+
+          
+              </div>
+    </div>
+  </section>
+  
+  <style>
+      </style>
+  <section id="noticias">
+    <div class="wrapper">
+              <div class="row">
+                                                <div class="col-xs-6 col-sm-3">
+                <div id="caja1" class="caja">
+                                          <img src="/gsfs/SFS41958" alt="Prueba SAI de inglés">
+                                      <h2><a href="?id=CON23341&prefmt=articulo&fmt=detail">Prueba SAI de inglés</a></h2>
+                    <p>El 11 de diciembre se celebra la primera convocatoria de este curso académico de la prueba Sistema de Acreditación Interna del nivel B2 de inglés. Ya está disponible la asignación de aulas y horarios de la prueba.</p>                </div><!--/.caja-->
+              </div><!--/.col-xs-6 col-sm-3-->
+                                                                        <div class="col-xs-6 col-sm-3">
+                <div id="caja2" class="caja">
+                                          <img src="/gsfs/SFS42030" alt="Savia dedica su número de diciembre al Día Mundial del Suelo">
+                                      <h2><a href="?id=CON24469&prefmt=articulo&fmt=detail">Savia dedica su número de diciembre al Día Mundial del Suelo</a></h2>
+                    <p>Ya está disponible un nuevo boletín de la ETSIAAB que celebra esta efeméride con una recopilación de proyectos de investigación sobre la salud del suelo y un repaso de la participación de dos estudiantes en concursos de clasificación.</p>                </div><!--/.caja-->
+              </div><!--/.col-xs-6 col-sm-3-->
+                                                                        <div class="col-xs-6 col-sm-3">
+                <div id="caja3" class="caja">
+                                          <img src="/gsfs/SFS42006" alt="Ganadores de los concursos de diseño de la Navidad 2025">
+                                      <h2><a href="?id=CON24455&prefmt=articulo&fmt=detail">Ganadores de los concursos de diseño de la Navidad 2025</a></h2>
+                    <p>Tras el periodo de votación popular, el jurado ha deliberado sobre los ganadores de los certámenes de tarjetas navideñas y de etiquetas para botellas de aceite.</p>                </div><!--/.caja-->
+              </div><!--/.col-xs-6 col-sm-3-->
+                                                                        <div class="col-xs-6 col-sm-3">
+                <div id="caja4" class="caja">
+                                          <img src="/gsfs/SFS41998" alt="La ETSIAAB da la bienvenida a la nueva “cantera” de profesores e investigadores">
+                                      <h2><a href="?id=CON24452&prefmt=articulo&fmt=detail">La ETSIAAB da la bienvenida a la nueva “cantera” de profesores e investigadores</a></h2>
+                    <p>El V Encuentro de Doctorandos ha sido la acogida de los estudiantes que centrarán sus próximos años en la investigación. En total, la Escuela imparte cinco Programas de Doctorado en los que hay 250 alumnos matriculados, el 10% del total de la UPM.</p>                </div><!--/.caja-->
+              </div><!--/.col-xs-6 col-sm-3-->
+                                                                                                                                  </div><!--/.row-->
+          </div><!--/.wrapper-->
+  </section><!--/#noticias-->
+  <!--/FIN NOTICIAS-->
+
+  
+  
+
+</div>
+
+
+
+<footer>
+  <div class="row">
+    <div class="col-sm-12 icons">
+      <div class="wrapper">
+        <div class="col-sm-6">
+          	<div class="iconUpm">
+				<a href="https://www.upm.es/politecnica_virtual/"><img src="/themes/comun/img/icon_pv.png" alt="Politécnica Virtual"></a>
+				<a href="https://moodle.upm.es/titulaciones/oficiales/login/login.php"><img src="/themes/comun/img/moodle.png" alt="Moodle"></a>
+				<a href="https://drive.upm.es/index.php/login"><img src="/themes/comun/img/icon_UPMdrive.png" alt="UPMdrive"></a>
+			</div><!--/.iconUpm-->
+        </div><!--/.col-sm-6-->
+        <div class="col-sm-6">
+          <div class="iconSocial">
+	<a href="https://www.facebook.com/etsiaab" aria-label="ETSIAAB Icono facebook"><span class="fa fa-facebook"></span></a>
+	<a href="https://www.youtube.com/Etsiagronomos" aria-label="ETSIAAB Icono wordpress"><span class="fa fa-youtube"></span></a>
+	<a href="http://twitter.com/etsiaab" aria-label="ETSIAAB Icono twitter"><span class="fa fa-twitter"></span></a>
+	<a href="https://www.instagram.com/etsiaabupm/" aria-label="ETSIAAB Icono Instagram"><span class="fa fa-instagram"></span></a>
+	<a href="https://www.linkedin.com/company/18315237/" aria-label="ETSIAAB Icono Linkedin"><span class="fa fa-linkedin"></span></a>
+	<a href="https://www.flickr.com/photos/160984479@N02/albums" aria-label="ETSIAAB Icono Flickr"><span class="fa fa-flickr"></span></a>
+</div><!--/.</div>-->
+        </div><!--/.col-sm-6-->
+      </div><!--/.wrapper-->  
+    </div><!--/.col-sm-12-->
+  </div><!--/.row-->
+  <div class="row">
+    <div class="col-sm-12 creditos">
+      <div class="wrapper">
+        <div class="row">
+                        <div class="col-sm-9 menuFooter">
+    <div class="row">
+      <ul class="col-sm-4">
+                                              <li>
+                  <a href="http://www.etsiaab.upm.es/Centro/InstalacionesdelCentro/Listin_alfabetico"> Directorio ETSIAAB </a>
+                                </li>
+                                                                                      <li>
+                  <a href="http://www.upm.es/directorio"> Directorio UPM </a>
+                                </li>
+                                                                                      <li>
+                  <a href="https://reservas.etsiaab.upm.es//Web/?"> Reserva de aulas </a>
+                                </li>
+                                                                                      <li>
+                  <a href="https://blogs.upm.es/empleoagronomos/"> Blog de Empleo </a>
+                                </li>
+                                      </ul>
+      <ul class="col-sm-4">
+                                                                <li>
+                  <a href="http://www.upm.es/webmail_personal"> Webmail </a>
+                                </li>
+                                                                                      <li>
+                  <a href="http://www.upm.es/wifi"> Wifi - Ayuda </a>
+                                </li>
+                                                                                      <li>
+                  <a href="http://www.etsiaab.upm.es/Centro/Localización"> Contacto </a>
+                                </li>
+                                                                                      <li>
+                  <a href="http://www.etsiaab.upm.es/Centro/Gabinete_de_Comunicacion/NoticiasActualidad?id=315935a83d764710VgnVCM10000009c7648a____&fmt=detail&prefmt=articulo?fmt=detail&prefmt=articulo&id=277753f3736fd610VgnVCM10000009c7648a____"> Aviso Legal </a>
+                                </li>
+                                                </ul>
+                    </div>
+  </div><!--/.col-sm-9-->
+
+                    <!--/.col-sm-6-->
+                  </div><!--/.row-->
+        <div class="row">
+          <p>Universidad Politécnica de Madrid © 2025</p>
+        </div><!--/.row-->
+      </div><!--/.wrapper-->
+    </div><!--/.col-sm-12 creditos-->
+  </div><!--/.row-->  
+  
+</footer>
+</body>
+</html>
+

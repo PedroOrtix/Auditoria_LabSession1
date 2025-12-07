@@ -1,0 +1,9 @@
+200 OK
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:33 GMT
+Content-Type: text/html; charset=UTF-8
+Link: <https://cdcrom.clubs.etsit.upm.es/wp-json/>; rel="https://api.w.org/", <https://cdcrom.clubs.etsit.upm.es/?p=91>; rel=shortlink
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Server: Apache
+X-Pingback: https://cdcrom.clubs.etsit.upm.es/xmlrpc.php

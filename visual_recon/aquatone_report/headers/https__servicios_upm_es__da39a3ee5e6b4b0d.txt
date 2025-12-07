@@ -1,0 +1,10 @@
+200 OK
+Server: Apache
+Last-Modified: Mon, 13 May 2019 11:15:15 GMT
+Etag: "b0-588c307e2cb9a-gzip"
+Vary: Accept-Encoding
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Accept-Ranges: bytes
+Retry-Count: 0
+Strict-Transport-Security: max-age=16070400; includeSubDomains

@@ -1,0 +1,364 @@
+{
+  "domain": "upm.es",
+  "timestamp": "20251206_204144",
+  "total_discovered": 30,
+  "results": [
+    {
+      "subdomain": "correo.etsist.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "inscripciones.etsin.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "aula2pc49.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "arquilav6.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "gea.ssr.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "GEA SSR UPM \u2013 Grupo de Electromagnetismo Aplicado",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "hackmd.radio.clubs.etsit.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "www.datsi.fi.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "http",
+        "redirect_url": "http://datsi.ws.fi.upm.es/",
+        "title": "Inicio - Departamento de Arquitectura y Tecnolog\u00eda de sistemas inform\u00e1ticos",
+        "error": "HTTPS timeout"
+      }
+    },
+    {
+      "subdomain": "imap.aero.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "www.etsit.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "ETSI de Telecomunicaci\u00f3n: ETSIT",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "info1.fi.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "aula7pc19.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "biblio9.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "activage-test.lst.tfo.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "www.gitlab.etsisi.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "etsiaab.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": "https://www.etsiaab.upm.es/",
+        "title": "Escuela T\u00e9cnica Superior de Ingenier\u00eda Agron\u00f3mica, Alimentaria y de Biosistemas",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "drop.dit.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "documentos.etsidi.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Welcome to nginx!",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "drone.cluster.gsi.dit.upm.es",
+      "dns_resolves": false,
+      "is_live": false,
+      "http_info": null
+    },
+    {
+      "subdomain": "ai242.aero.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc12.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aula1pc3.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "zootec13.agricolas.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "ahdb.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": "Presentaci\u00f3n - Archivo Hist\u00f3rico Digital de la Biblioteca de la UPM",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "aulaweb.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "http",
+        "redirect_url": "http://aulaweb.aq.upm.es/general/status.html",
+        "title": "Brother HL-3170CDW series",
+        "error": "HTTPS timeout"
+      }
+    },
+    {
+      "subdomain": "grabador06.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "inter.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "aagrafa1.aq.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP timeout"
+      }
+    },
+    {
+      "subdomain": "gitlab.etsisi.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": "https://gitlab.etsisi.upm.es/users/sign_in",
+        "title": "Sign in \u00b7 GitLab",
+        "error": null
+      }
+    },
+    {
+      "subdomain": "betterathome.d.lst.tfo.upm.es",
+      "dns_resolves": true,
+      "is_live": false,
+      "http_info": {
+        "accessible": false,
+        "status_code": null,
+        "protocol": null,
+        "redirect_url": null,
+        "title": null,
+        "error": "HTTP connection error"
+      }
+    },
+    {
+      "subdomain": "pruebas.etsit.upm.es",
+      "dns_resolves": true,
+      "is_live": true,
+      "http_info": {
+        "accessible": true,
+        "status_code": 200,
+        "protocol": "https",
+        "redirect_url": null,
+        "title": null,
+        "error": null
+      }
+    }
+  ],
+  "analysis": {
+    "metrics": {
+      "total_candidates": 30,
+      "dns_resolved": 23,
+      "live_assets": 9,
+      "dead_domains": 7,
+      "dns_resolution_rate": 76.66666666666667,
+      "live_asset_rate": 30.0,
+      "noise_filtered": 21,
+      "noise_percentage": 70.0,
+      "status_distribution": {
+        "200": 9
+      }
+    },
+    "high_value_assets": []
+  }
+}

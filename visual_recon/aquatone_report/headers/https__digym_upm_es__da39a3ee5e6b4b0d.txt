@@ -1,0 +1,14 @@
+200 OK
+Upgrade: h2,h2c
+Retry-Count: 0
+Link: <https://digym.upm.es/wp-json/>; rel="https://api.w.org/" <https://digym.upm.es/wp-json/wp/v2/pages/561>; rel="alternate"; title="JSON"; type="application/json" <https://digym.upm.es/>; rel=shortlink
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Strict-Transport-Security: max-age=31536000
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Server: Apache
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;

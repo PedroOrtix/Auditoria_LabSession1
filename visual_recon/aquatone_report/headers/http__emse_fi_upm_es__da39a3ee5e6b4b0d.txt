@@ -1,0 +1,8 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:41:56 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Server: Apache/2.4.29 (Ubuntu)
+Set-Cookie: pll_language=es; expires=Sun, 06-Dec-2026 20:41:56 GMT; Max-Age=31536000; path=/; secure
+Link: <https://emse.fi.upm.es/wp-json/>; rel="https://api.w.org/" <https://emse.fi.upm.es/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8

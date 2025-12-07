@@ -1,0 +1,18 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: FeiJnttSFQ24POrsxly9
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:54 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-eJD2pRXInOHvZVPk0ci5GtCDIUkOrQBGRIREGlj7Azg=';script-src-elem 'strict-dynamic' 'nonce-eJD2pRXInOHvZVPk0ci5GtCDIUkOrQBGRIREGlj7Azg=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-ancestors 'self';form-action 'self'
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex, nofollow
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+Upgrade: h2
+Set-Cookie: 511b5315c9cf7=8iv6ski6karl9t3o7rnbrn0u24; path=/; secure; HttpOnly; SameSite=Lax
+X-Xss-Protection: 1; mode=block

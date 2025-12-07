@@ -1,0 +1,10 @@
+200 OK
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 10 May 2018 08:53:38 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:41:54 GMT
+Server: Apache

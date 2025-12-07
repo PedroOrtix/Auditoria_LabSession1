@@ -1,0 +1,9 @@
+200 OK
+X-Powered-By: PHP/5.4.16
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Server: nginx/1.21.0
+Date: Sat, 06 Dec 2025 20:42:43 GMT
+Content-Type: text/html
+Retry-Count: 0
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache

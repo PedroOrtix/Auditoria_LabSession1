@@ -1,0 +1,14 @@
+200 OK
+Referrer-Policy: strict-origin-when-cross-origin
+Last-Modified: Mon, 24 Mar 2025 08:46:18 GMT
+Retry-Count: 0
+Etag: "b6-63112a33b2a80-gzip"
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; mode=block
+Permissions-Policy: 
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Server: Apache
+Accept-Ranges: bytes
+Content-Type: text/html

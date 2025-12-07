@@ -1,0 +1,8 @@
+200 OK
+X-Powered-By: PHP/8.2.29
+Last-Modified: Fri, 31 Jan 2025 11:36:08 GMT
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:56 GMT
+Server: Apache/2
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8

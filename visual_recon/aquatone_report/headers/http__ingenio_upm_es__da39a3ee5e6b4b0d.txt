@@ -1,0 +1,17 @@
+200 
+X-Request-Id: pJx1PGLdfR
+Set-Cookie: JSESSIONID=A11A3023DB7AB047DF4104C9F4158B3B.apd01.eu02.prod.alma.dc03.hosted.exlibrisgroup.com:1801; Path=/; HttpOnly; SameSite=None; Secure
+Expires: Sat, 06 Dec 2025 20:42:09 GMT
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:09 GMT
+Etag: W/"4784-1762425986000"
+Last-Modified: Thu, 06 Nov 2025 10:46:26 GMT
+Cache-Control: max-age=0
+Content-Security-Policy: object-src blob: 'self' *.exlibrisgroup.com *.exlibrisgroup.com.cn www.google-analytics.com stats.g.doubleclick.net s3.amazonaws.com www.youtube.com youtube.com *.contentdm.oclc.org iiif.nlm.nih.gov ingenio.upm.es ;worker-src blob: 'self' *.exlibrisgroup.com *.exlibrisgroup.com.cn www.google-analytics.com stats.g.doubleclick.net s3.amazonaws.com www.youtube.com youtube.com artic.contentdm.oclc.org ingenio.upm.es ;upgrade-insecure-requests; report-uri /infra/CSPReportEndpoint.jsp; report-to csp-report-endpoint;
+Retry-Count: 0
+Vary: accept-encoding
+P3p: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Accept-Ranges: bytes
+Report-To: {"max_age":10886400,"endpoints":[{"url":"https://eu02.alma.exlibrisgroup.com/infra/CSPReportEndpoint.jsp"}],"group":"csp-report-endpoint"}
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=1209600; includeSubDomains

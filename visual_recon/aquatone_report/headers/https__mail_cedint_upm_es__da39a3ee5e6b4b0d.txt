@@ -1,0 +1,16 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Cache-Control: private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Dns-Prefetch-Control: off
+Vary: Accept-Encoding
+Server: Apache
+Set-Cookie: roundcube_sessid=hjj6mjtu2c4b1k8elodblrbto5; path=/; secure; HttpOnly
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex, nofollow
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Expires: Sat, 06 Dec 2025 20:42:44 GMT
+Last-Modified: Sat, 06 Dec 2025 20:42:44 GMT

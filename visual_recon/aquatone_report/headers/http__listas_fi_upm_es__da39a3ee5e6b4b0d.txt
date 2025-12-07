@@ -1,0 +1,7 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:06 GMT
+Server: Apache/2.4.25 (Debian)
+Cache-Control: no-cache
+Vary: Accept-Encoding
+Retry-Count: 0

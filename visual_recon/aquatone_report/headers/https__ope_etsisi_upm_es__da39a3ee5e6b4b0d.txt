@@ -1,0 +1,14 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:49 GMT
+Server: Apache/2.4.25 (Debian)
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Type: text/html; charset=UTF-8
+Feature-Policy: geolocation 'self'; vibrate 'none'
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/7.3.3
+Retry-Count: 0
+Cache-Control: no-cache, private
+Referrer-Policy: same-origin
+Vary: Accept-Encoding

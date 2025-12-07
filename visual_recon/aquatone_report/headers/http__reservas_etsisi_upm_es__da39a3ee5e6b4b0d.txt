@@ -1,0 +1,11 @@
+200 OK
+Upgrade: h2,h2c
+Pragma: no-cache
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate

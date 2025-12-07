@@ -1,0 +1,14 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:29 GMT
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;
+Upgrade: h2,h2c
+Server: Apache
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade
+Link: <https://www.lenguas.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.lenguas.upm.es/wp-json/wp/v2/pages/17>; rel="alternate"; title="JSON"; type="application/json" <https://www.lenguas.upm.es/>; rel=shortlink
+Retry-Count: 0
+Vary: Accept-Encoding

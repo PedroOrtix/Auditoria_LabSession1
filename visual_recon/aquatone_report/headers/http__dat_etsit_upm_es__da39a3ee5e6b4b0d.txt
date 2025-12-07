@@ -1,0 +1,9 @@
+200 OK
+Set-Cookie: quform_session_e6f35bce26c61d317b3574d5194d17cf=ud9iwGwhLvDLb2eFCFX9XMxPjJM1NPMPxf97N7Wq; path=/; secure; httponly; samesite=None
+Link: <https://dat.etsit.upm.es/wp-json/>; rel="https://api.w.org/" <https://dat.etsit.upm.es/wp-json/wp/v2/pages/1016>; rel="alternate"; title="JSON"; type="application/json" <https://dat.etsit.upm.es/>; rel=shortlink
+Server: nginx/1.18.0
+Date: Sat, 06 Dec 2025 20:41:55 GMT
+Retry-Count: 0
+X-Powered-By: PHP/8.2.27
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding

@@ -1,0 +1,18 @@
+200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-48JBd5/YEM6HLCfVfroR9HFzP1VCrD1vCi62wkCiuYI=';script-src-elem 'strict-dynamic' 'nonce-48JBd5/YEM6HLCfVfroR9HFzP1VCrD1vCi62wkCiuYI=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self' wss://cloud.cesvima.upm.es;media-src 'self';frame-src 'self';frame-ancestors 'self';form-action 'self'
+Set-Cookie: 511b5315c9cf7=uc174i8lvqdomf2ep7v81ajkss; path=/; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Xss-Protection: 1; mode=block
+Upgrade: h2
+Date: Sat, 06 Dec 2025 20:41:49 GMT
+Server: Apache/2.4.65 (Debian)
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-Request-Id: fz52XIe1SlK7mhpBCmeL
+X-Robots-Tag: noindex, nofollow
+Retry-Count: 0

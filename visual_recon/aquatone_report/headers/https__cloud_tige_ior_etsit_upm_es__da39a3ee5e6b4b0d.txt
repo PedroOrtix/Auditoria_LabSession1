@@ -1,0 +1,17 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Content-Length: 10572
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Content-Security-Policy: default-src 'none';manifest-src 'self';script-src 'self' 'unsafe-eval';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self';connect-src 'self';media-src 'self'
+X-Robots-Tag: none
+X-Download-Options: noopen
+Server: nginx/1.21.0
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Cache-Control: no-cache, must-revalidate
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff

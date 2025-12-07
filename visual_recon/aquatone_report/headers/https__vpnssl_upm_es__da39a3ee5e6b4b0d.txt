@@ -1,0 +1,13 @@
+200 OK
+X-Content-Type-Options: nosniff
+Date: Sat, 06 Dec 2025 20:42:53 GMT
+Accept-Ranges: bytes
+Retry-Count: 0
+Content-Type: text/html
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Etag: cfr30HctzcQpsGzdQt5Hrwhf4sxd48jn
+Cache-Control: max-age=0, must-revalidate
+Content-Length: 131
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https:  'unsafe-eval' 'unsafe-inline' blob:;
+Strict-Transport-Security: max-age=31536000

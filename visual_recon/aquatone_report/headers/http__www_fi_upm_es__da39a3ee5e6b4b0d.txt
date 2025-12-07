@@ -1,0 +1,11 @@
+200 OK
+Server: Apache/2
+Set-Cookie: PHPSESSID=j6ef75s0qkva6tmuimm0ar9fbv; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:21 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=ISO-8859-1
+X-Powered-By: PHP/8.2.29

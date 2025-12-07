@@ -1,0 +1,10 @@
+200 OK
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:48 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+Last-Modified: Sun, 16 Nov 2025 20:01:13 GMT
+Etag: "27d3-643bbb1584e17-gzip"
+Accept-Ranges: bytes
+Server: Apache/2.4.65 (Debian)
+Upgrade: h2

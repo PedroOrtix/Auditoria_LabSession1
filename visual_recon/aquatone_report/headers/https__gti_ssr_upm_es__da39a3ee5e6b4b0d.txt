@@ -1,0 +1,15 @@
+200 OK
+Set-Cookie: fbcaa025d6a5bc743ebf7a2b485c7c41=3ab01ur9vlo5j1ucavd4u42s40; path=/; HttpOnly cwGeoData=unknown%20city%7Cunknown%20country%7Cxx; expires=Mon, 05-Jan-2026 20:42:40 GMT; Max-Age=2592000; path=/ st_king-showcase=-1; expires=Sun, 06-Dec-2026 20:42:40 GMT; Max-Age=31536000; path=/
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:40 GMT
+Server: Apache/2.4.65 (Debian)
+X-Content-Powered-By: K2 v2.11.20241016 (by JoomlaWorks)
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Pragma: no-cache
+X-Logged-In: False
+Upgrade: h2,h2c
+Last-Modified: Sat, 06 Dec 2025 20:42:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0

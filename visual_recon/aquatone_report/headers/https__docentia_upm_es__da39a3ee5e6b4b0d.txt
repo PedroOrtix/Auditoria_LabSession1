@@ -1,0 +1,14 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Server: nginx
+Access-Control-Allow-Methods: GET, PATCH, POST, OPTIONS, PUT, DELETE
+Allow: GET, PATCH, POST, OPTIONS, PUT, DELETE
+Cache-Control: no-cache, private
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Retry-Count: 0

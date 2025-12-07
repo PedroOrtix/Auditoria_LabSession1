@@ -1,0 +1,7 @@
+200 
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Set-Cookie: JSESSIONID=A63E9D0C5634C5F01026C3C1D4ED9B41; Path=/observatorio; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 985
+Date: Sat, 06 Dec 2025 20:42:47 GMT
+Retry-Count: 0

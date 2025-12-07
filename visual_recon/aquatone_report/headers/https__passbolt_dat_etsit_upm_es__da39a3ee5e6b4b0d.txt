@@ -1,0 +1,25 @@
+200 OK
+X-Gpgauth-Verify-Url: /auth/verify
+X-Permitted-Cross-Domain-Policies: all
+X-Gpgauth-Version: 1.3.0
+Access-Control-Expose-Headers: X-GPGAuth-Verify-Response X-GPGAuth-Progress X-GPGAuth-User-Auth-Token X-GPGAuth-Authenticated X-GPGAuth-Refer X-GPGAuth-Debug X-GPGAuth-Error X-GPGAuth-Pubkey X-GPGAuth-Logout-Url X-GPGAuth-Version
+X-Gpgauth-Progress: stage0
+Server: nginx/1.18.0
+Retry-Count: 0
+X-Content-Type-Options: nosniff
+X-Gpgauth-Login-Url: /auth/login
+Content-Type: text/html; charset=UTF-8
+X-Download-Options: noopen
+X-Gpgauth-Pubkey-Url: /auth/verify.json
+X-Gpgauth-Authenticated: false
+Referrer-Policy: same-origin
+X-Frame-Options: sameorigin
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Set-Cookie: csrfToken=03eb4fe00858348f29f3dd345d7271ffdffb034cb2e354efdb2fb2bb31927a0c646f078c96b1ad421d80a0ad6d0c2465085af506c546f67358b269e7b41332c8; path=/
+Pragma: no-cache
+X-Gpgauth-Debug: There is no user associated with this key. No key id set.
+X-Gpgauth-Logout-Url: /auth/logout
+X-Gpgauth-Error: true
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self';frame-src 'self' https://*.duosecurity.com;
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+Cache-Control: no-store, no-cache, must-revalidate

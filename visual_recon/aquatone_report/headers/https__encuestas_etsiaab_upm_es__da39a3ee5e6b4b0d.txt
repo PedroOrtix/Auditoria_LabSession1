@@ -1,0 +1,10 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:37 GMT
+Set-Cookie: PHPSESSID=e85f2s0q1hluc5a1t69tfaq1a9; path=/; secure; HttpOnly
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Retry-Count: 0

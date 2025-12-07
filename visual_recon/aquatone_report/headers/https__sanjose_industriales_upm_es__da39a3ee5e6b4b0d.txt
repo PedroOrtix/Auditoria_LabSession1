@@ -1,0 +1,7 @@
+200 OK
+Link: <https://www.cei.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.cei.upm.es/>; rel=shortlink
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:50 GMT
+Server: Apache/2.4.65 (Debian)
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8

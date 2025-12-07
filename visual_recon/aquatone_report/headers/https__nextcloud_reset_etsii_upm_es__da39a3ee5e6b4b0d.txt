@@ -1,0 +1,17 @@
+200 OK
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 1; mode=block
+Feature-Policy: autoplay 'self';camera 'self';fullscreen 'self';geolocation 'none';microphone 'self';payment 'none'
+Date: Sat, 06 Dec 2025 22:42:41 GMT
+Strict-Transport-Security: max-age=15768000
+X-Request-Id: VJjqYzEhm5FTHMxZRcRo
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+X-Permitted-Cross-Domain-Policies: none
+Server: Apache/2.4.52 (Ubuntu)
+Referrer-Policy: no-referrer
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-/ccooANH0sbhW4JbpMwdaKngUiedCmVxIhxU80wFseA=' blob:;script-src-elem 'strict-dynamic' 'nonce-/ccooANH0sbhW4JbpMwdaKngUiedCmVxIhxU80wFseA=' blob:;style-src 'self' 'unsafe-inline';img-src 'self' data: blob: https://*.tile.openstreetmap.org;font-src 'self' data:;connect-src 'self' blob: stun.nextcloud.com:443;media-src 'self' blob:;frame-src 'self';child-src blob: 'self';frame-ancestors 'self';worker-src blob: 'self';form-action 'self'
+Set-Cookie: ocaa9ce293d2=263tem6obo365fet1j4g526tob; path=/; secure; HttpOnly; SameSite=Lax
+Retry-Count: 0

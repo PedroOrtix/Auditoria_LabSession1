@@ -1,0 +1,14 @@
+200 OK
+Upgrade: h2,h2c
+X-Xss-Protection: 1; mode=block
+Link: <https://solidario.upm.es/wp-json/>; rel="https://api.w.org/"
+Date: Sat, 06 Dec 2025 20:42:49 GMT
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Retry-Count: 0
+Server: Apache
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;

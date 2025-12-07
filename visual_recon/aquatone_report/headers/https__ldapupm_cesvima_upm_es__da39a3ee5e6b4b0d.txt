@@ -1,0 +1,18 @@
+200 OK
+Set-Cookie: PHPSESSID=ks5asndoelkctkbkp4hjdcm9fh; path=/; secure; HttpOnly; SameSite=Lax PHPSESSID=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly; SameSite=Lax
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.65 (Debian)
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' data: blob:; style-src * 'unsafe-inline' data: blob:;
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Redcap-Random-Text: vb8eWbLtcky3v6HWEGNfEW5NrazC4w
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Retry-Count: 0
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Permissions-Policy: accelerometer=*, autoplay=*, camera=*, encrypted-media=*, fullscreen=*, geolocation=*, gyroscope=*, magnetometer=*, microphone=*, midi=*, payment=*, picture-in-picture=*, publickey-credentials-get=*, sync-xhr=*, usb=*, xr-spatial-tracking=*
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Date: Sat, 06 Dec 2025 20:42:44 GMT

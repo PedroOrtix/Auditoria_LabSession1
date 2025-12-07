@@ -1,0 +1,16 @@
+200 OK
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Link: </inicio>; rel="canonical",</node/1>; rel="shortlink"
+X-Generator: Drupal 7 (http://drupal.org)
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:42 GMT
+Server: Apache/2.4.65 (Debian)
+X-Ua-Compatible: IE=edge
+Cache-Control: public, max-age=21600
+Retry-Count: 0
+X-Drupal-Cache: HIT
+Content-Language: es
+Etag: "1765011790-1"
+Last-Modified: Sat, 06 Dec 2025 09:03:10 GMT

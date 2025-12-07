@@ -1,0 +1,9 @@
+200 OK
+Etag: "47-5a877f27bdc1a-gzip"
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Retry-Count: 0
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:03 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Fri, 19 Jun 2020 23:06:46 GMT

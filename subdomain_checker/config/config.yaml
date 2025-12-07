@@ -1,0 +1,38 @@
+# Configuración del Subdomain Checker
+
+# Parámetro de búsqueda para crt.sh
+# Ejemplos:
+#   - "%.upm.es" -> Busca TODOS los subdominios (puede tardar mucho o fallar)
+#   - "moodle.upm.es" -> Busca solo ese subdominio específico
+#   - "%.moodle.upm.es" -> Busca subdominios de moodle.upm.es
+search_query: "%.upm.es"
+
+# Usar API JSON (más rápido) o scraping HTML
+use_json_api: true
+
+# URL base de crt.sh
+crt_sh_url: "https://crt.sh/"
+
+# Configuración de timeouts (en segundos)
+request_timeout: 60
+verification_timeout: 5
+
+# Número de reintentos para requests fallidos
+max_retries: 2
+
+# Número de workers concurrentes para verificación
+max_workers: 20
+
+# User-Agent para las peticiones HTTP
+user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+# Protocolos a verificar (http, https o ambos)
+protocols:
+  - "https"
+  - "http"
+
+# Archivo de salida para resultados
+output_file: "subdominios_activos.txt"
+
+# Nivel de logging (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+log_level: "INFO"

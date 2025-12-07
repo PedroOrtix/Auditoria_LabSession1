@@ -1,0 +1,18 @@
+200 OK
+Upgrade: h2
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-r7VrcgOjX+TCAZQYWfhu3Wy5+dxdwc2Q00O41zyNDxk=';script-src-elem 'strict-dynamic' 'nonce-r7VrcgOjX+TCAZQYWfhu3Wy5+dxdwc2Q00O41zyNDxk=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-ancestors 'self';form-action 'self'
+Referrer-Policy: no-referrer
+Cache-Control: no-cache, no-store, must-revalidate
+Set-Cookie: 511b5315c9cf7=fv79r37p5tbd4lnfs0t43jgvjo; path=/; secure; HttpOnly; SameSite=Lax
+X-Robots-Tag: noindex, nofollow
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: rpa4sPfmmpxGcSHGj885
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:52 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN

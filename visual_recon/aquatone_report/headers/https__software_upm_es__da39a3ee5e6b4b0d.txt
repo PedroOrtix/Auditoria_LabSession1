@@ -1,0 +1,11 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: 
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Date: Sat, 06 Dec 2025 20:42:57 GMT
+Server: Apache

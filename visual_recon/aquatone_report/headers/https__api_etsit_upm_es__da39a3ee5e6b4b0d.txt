@@ -1,0 +1,12 @@
+200 OK
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:32 GMT
+Content-Type: text/html
+Retry-Count: 0
+Last-Modified: Tue, 28 Aug 2018 18:19:36 GMT
+Vary: Accept-Encoding
+Etag: W/"5b859238-f2"
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block

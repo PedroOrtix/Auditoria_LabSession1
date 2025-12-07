@@ -1,0 +1,10 @@
+200 OK
+Etag: "14f8-55b190d0fc2c0-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+Last-Modified: Mon, 09 Oct 2017 08:33:55 GMT
+X-Content-Type-Options: nosniff
+Server: Apache

@@ -1,0 +1,7 @@
+200 OK
+Link: <https://www.fundetel.etsit.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.fundetel.etsit.upm.es/wp-json/wp/v2/pages/237>; rel="alternate"; title="JSON"; type="application/json" <https://www.fundetel.etsit.upm.es/>; rel=shortlink
+Retry-Count: 0
+Server: Apache/2.4.41 (Ubuntu)
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:26 GMT

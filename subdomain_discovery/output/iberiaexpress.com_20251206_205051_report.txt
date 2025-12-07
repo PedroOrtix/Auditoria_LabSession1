@@ -1,0 +1,42 @@
+================================================================================
+SUBDOMAIN DISCOVERY AND ANALYSIS REPORT
+================================================================================
+
+1. RECONNAISSANCE EFFICIENCY METRICS
+--------------------------------------------------------------------------------
+Total Candidates (subfinder output): 42
+DNS Resolved: 10 (23.81%)
+Live Assets (validated hosts): 8 (19.05%)
+Noise Filtered: 34 (80.95%)
+
+Signal-to-Noise Ratio: 19.05%
+Discovery Efficiency: 8/42 live assets found
+
+2. HTTP STATUS CODE DISTRIBUTION
+--------------------------------------------------------------------------------
+HTTP 200: 6 assets
+HTTP 403: 1 assets
+HTTP 404: 1 assets
+
+3. ASSET CATEGORIZATION
+--------------------------------------------------------------------------------
+Fully Active (200 OK): 6 assets
+Restricted Access (403 Forbidden): 1 assets ⚠️ HIGH INTEREST
+Authentication Required (401): 0 assets
+Redirects (3xx): 0 assets
+Other Live: 1 assets
+DNS Resolved but Unreachable: 2 assets
+
+4. HIGH-VALUE TARGETS (Prioritized)
+--------------------------------------------------------------------------------
+No high-value targets identified based on keywords.
+
+5. DETAILED 403 FORBIDDEN ASSETS (Restricted Internal Assets)
+--------------------------------------------------------------------------------
+• activities.iberiaexpress.com
+  Protocol: HTTPS
+  Title: GetYourGuide – Error
+
+================================================================================
+END OF REPORT
+================================================================================

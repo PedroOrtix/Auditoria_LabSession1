@@ -1,0 +1,10 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.65 (Debian)
+Pragma: no-cache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:42 GMT
+Set-Cookie: PHPSESSID=ngf4cl67ldj3fd1g6pscitjv8a; path=/

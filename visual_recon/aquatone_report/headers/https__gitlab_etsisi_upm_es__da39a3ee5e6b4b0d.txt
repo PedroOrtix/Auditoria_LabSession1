@@ -1,0 +1,22 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:41 GMT
+Permissions-Policy: interest-cohort=()
+X-Frame-Options: SAMEORIGIN
+X-Gitlab-Meta: {"correlation_id":"01KBTPE1BWB7KHWZ2ZAFXFN6KE","version":"1"}
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=63072000
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.114574
+X-Xss-Protection: 1; mode=block
+Cache-Control: max-age=0, private, must-revalidate
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Ua-Compatible: IE=edge
+Set-Cookie: preferred_language=en; path=/; Secure; SameSite=None _gitlab_session=c3f8f491d6b13a9b97bd100db65c028d; path=/; expires=Sat, 06 Dec 2025 22:42:41 GMT; secure; HttpOnly; SameSite=None
+Etag: W/"09a3506caddb0078508ef0e149560969"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Vary: Accept-Encoding
+X-Request-Id: 01KBTPE1BWB7KHWZ2ZAFXFN6KE
+Retry-Count: 0
+Content-Security-Policy: 

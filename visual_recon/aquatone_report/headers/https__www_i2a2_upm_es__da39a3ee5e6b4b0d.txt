@@ -1,0 +1,14 @@
+200 OK
+Access-Control-Allow-Origin: *
+Server: Apache
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:54 GMT
+Strict-Transport-Security: max-age=31536000
+Upgrade: h2,h2c
+Link: <https://blogs.upm.es/i2a2/wp-json/>; rel="https://api.w.org/" <https://blogs.upm.es/i2a2/wp-json/wp/v2/pages/776>; rel="alternate"; title="JSON"; type="application/json" <https://blogs.upm.es/i2a2/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade

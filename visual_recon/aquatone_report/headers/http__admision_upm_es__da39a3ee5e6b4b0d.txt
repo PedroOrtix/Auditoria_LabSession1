@@ -1,0 +1,10 @@
+200 OK
+Pragma: no-cache
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:46 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Strict-Transport-Security: max-age=600;

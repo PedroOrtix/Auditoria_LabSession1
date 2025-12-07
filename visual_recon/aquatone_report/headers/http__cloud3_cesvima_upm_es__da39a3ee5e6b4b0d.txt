@@ -1,0 +1,18 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: U2ollQnS3rqfT0Xussja
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Xss-Protection: 1; mode=block
+Upgrade: h2
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-6R8zS4j/In0JLTo+oBR0E4PFmfQn0lGC6bmShY0rhhY=';script-src-elem 'strict-dynamic' 'nonce-6R8zS4j/In0JLTo+oBR0E4PFmfQn0lGC6bmShY0rhhY=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-ancestors 'self';form-action 'self'
+X-Robots-Tag: noindex, nofollow
+Set-Cookie: 514c3d586c28a=fkjce6277arvet169o35k3ugb9; path=/; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Referrer-Policy: no-referrer
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:53 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff

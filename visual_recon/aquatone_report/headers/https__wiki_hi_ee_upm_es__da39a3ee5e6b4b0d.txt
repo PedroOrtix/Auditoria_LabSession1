@@ -1,0 +1,7 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:52 GMT
+Content-Type: text/html; charset=UTF-8
+Link: <https://vps181.cesvima.upm.es/wp-json/>; rel="https://api.w.org/" <https://vps181.cesvima.upm.es/wp-json/wp/v2/pages/2267>; rel="alternate"; title="JSON"; type="application/json" <https://vps181.cesvima.upm.es/>; rel=shortlink
+Server: nginx
+Retry-Count: 0
+Permissions-Policy: private-state-token-redemption=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com"), private-state-token-issuance=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com")

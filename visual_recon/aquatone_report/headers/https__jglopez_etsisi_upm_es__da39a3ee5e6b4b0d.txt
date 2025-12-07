@@ -1,0 +1,13 @@
+200 OK
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Powered-By: PHP/8.3.21RC1
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Referrer-Policy: same-origin
+Server: Apache/2.4.62 (Debian)
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Date: Sat, 06 Dec 2025 20:42:43 GMT

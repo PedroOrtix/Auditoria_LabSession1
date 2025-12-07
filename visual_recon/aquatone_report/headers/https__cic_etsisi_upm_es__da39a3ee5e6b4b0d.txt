@@ -1,0 +1,12 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Server: Apache
+Retry-Count: 0
+Set-Cookie: PHPSESSID=a07c5043d8b6cf50135fa82ec16254d6; path=/; domain=.cic.etsisi.upm.es; HttpOnly _csrf=2872dfbb2b985883cd322e22b481920a51bbc04a9252b1394db3c210ac5ec2e0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22iZ5THtERFKOyOlPisJ7N5m69MlHOAKDE%22%3B%7D; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Upgrade: h2,h2c
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8

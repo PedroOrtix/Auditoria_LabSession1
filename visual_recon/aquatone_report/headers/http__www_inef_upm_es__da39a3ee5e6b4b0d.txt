@@ -1,0 +1,10 @@
+200 OK
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:26 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PHPSESSID=up8dg4h2c367l9b229jrl3lim6; path=/ upm_lang=es-ES0; expires=Sun, 06-Dec-2026 20:42:26 GMT; Max-Age=31536000; path=/
+Server: Apache
+Pragma: no-cache

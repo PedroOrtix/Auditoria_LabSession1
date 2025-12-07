@@ -1,0 +1,13 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 04 Sep 2025 09:35:36 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Security-Policy: frame-ancestors 'self';
+Retry-Count: 0
+X-Content-Type-Options: nosniff
+Server: nginx/1.22.1
+Date: Sat, 06 Dec 2025 20:42:52 GMT
+Content-Type: text/html
+Cache-Control: max-age=420, private, must-revalidate
+X-Xss-Protection: 1; mode=block

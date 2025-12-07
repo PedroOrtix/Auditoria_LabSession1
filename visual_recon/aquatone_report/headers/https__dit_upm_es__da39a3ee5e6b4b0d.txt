@@ -1,0 +1,14 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://maps.googleapis.com/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/; img-src 'self' https://maps.gstatic.com https://csi.gstatic.com https://maps.googleapis.com/ https://khms0.googleapis.com/ https://khms1.googleapis.com/ https://lh3.ggpht.com/ https://cbks0.googleapis.com/ https://lh3.ggpht.com/ https://geo0.ggpht.com/ https://geo2.ggpht.com/ https://geo1.ggpht.com/ https://geo3.ggpht.com/; font-src 'self' https://fonts.gstatic.com/;
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+Last-Modified: Wed, 25 Jun 2025 06:36:57 GMT
+Etag: "35e1-6385fabe35c9d-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+Date: Sat, 06 Dec 2025 20:42:35 GMT
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff

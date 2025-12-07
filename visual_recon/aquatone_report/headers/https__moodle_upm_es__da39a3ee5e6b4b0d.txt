@@ -1,0 +1,12 @@
+200 OK
+Etag: W/"683ee2e6-6d0"
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Date: Sat, 06 Dec 2025 20:42:49 GMT
+Last-Modified: Tue, 03 Jun 2025 11:56:22 GMT
+Retry-Count: 0
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Type: text/html
+Vary: Accept-Encoding

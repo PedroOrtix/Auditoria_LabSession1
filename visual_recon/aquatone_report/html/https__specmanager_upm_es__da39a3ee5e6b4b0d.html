@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>SM SPECManager - Login</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/login.css"/>
+<base href="https://211.115.100.146:443/" target="_self" ></head>
+<body>
+
+<!-- Spinner -->
+<div id="spinner-wrap">
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+</div>
+
+<!-- Messages -->
+<div id="popup-overlay" class="overlay">s
+    <div id="popup" class="popup">
+        <h2 id="popup-header"></h2>
+        <a id="popup-close" class="close" href="#">&times;</a>
+        <div id="popup-content" class="content"></div>
+        <div id="popup-footer" class="popup-footer">
+            <button id="popup-close-btn" class="button small" data-l10n="mCerrar">Cerrar</button>
+            <button id="popup-copy-btn" class="button small" data-l10n="mCopiar">Copiar</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- lang  -->
+    <select id="lang-selector" name="lang-selector">
+        <option value="es" selected>Español</option>
+        <option value="ca">Català</option>
+        <option value="pt">Português</option>
+        <option value="eu">Euskara</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+    </select>
+
+    <!-- Enterprise data  -->
+    <div class="left">
+        <div class="left-content">
+            <div class="marca">
+                <div class="sm5-marca">
+                    <div class="sm5-logo">SM</div>
+                    <h2>SPECManager</h2>
+                </div>
+            </div>
+            <div id="brand-logo" class="login"></div>
+        </div>
+    </div>
+
+    <!-- Forms -->
+    <div class="right">
+        <div class="right-content">
+            <div class="header-up">
+                <div class="marca">
+                    <div class="sm5-marca">
+                        <div class="sm5-logo">SM</div>
+                        <h2>SPECManager</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="form-container" class="login-form-container">
+                <!-- Mount Point-->
+            </div>
+        </div>
+    </div>
+
+    <div id="login-footer" class="footer">
+        <p class="copyright">SPECManager© All rights reserved.</p>
+    </div>
+</div>
+<script type="text/javascript" src="/libraries/loginPageLib.js"></script>
+<script type="text/javascript" src="/portal/theme"></script>
+</body>
+</html>

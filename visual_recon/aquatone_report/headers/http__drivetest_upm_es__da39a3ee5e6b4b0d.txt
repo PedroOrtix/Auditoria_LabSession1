@@ -1,0 +1,18 @@
+200 OK
+Upgrade: h2
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+X-Robots-Tag: noindex, nofollow
+X-Request-Id: F2SimUPmi2sPWvGeF4yS
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'self';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self' wss://drivetest.upm.es;media-src 'self';frame-ancestors 'self';form-action 'self'
+Server: Apache/2.4.65 (Debian)
+Cache-Control: no-cache, no-store, must-revalidate
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Date: Sat, 06 Dec 2025 20:41:59 GMT
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Set-Cookie: 511b5315c9cf7=v49qvqsofpars5em0o2vr1nqj2; path=/; secure; HttpOnly; SameSite=Lax

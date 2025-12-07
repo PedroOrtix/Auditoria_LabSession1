@@ -1,0 +1,9 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:20 GMT
+X-Pingback: http://ws.fi.upm.es/xmlrpc.php
+Link: <http://ws.fi.upm.es/wp-json/>; rel="https://api.w.org/" <http://ws.fi.upm.es/wp-json/wp/v2/pages/3>; rel="alternate"; title="JSON"; type="application/json" <http://ws.fi.upm.es/>; rel=shortlink
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2
+X-Powered-By: PHP/8.2.29
+Retry-Count: 0

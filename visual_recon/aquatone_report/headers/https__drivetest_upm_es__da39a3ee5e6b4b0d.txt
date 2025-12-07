@@ -1,0 +1,18 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Date: Sat, 06 Dec 2025 20:42:38 GMT
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Robots-Tag: noindex, nofollow
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache, no-store, must-revalidate
+X-Permitted-Cross-Domain-Policies: none
+Retry-Count: 0
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: TXAGi5OwdUhmNI69YcZh
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-WNmEJpB0dYFADxQ55NCxR1YqpePwjflyqdkT8vrchz4=';script-src-elem 'strict-dynamic' 'nonce-WNmEJpB0dYFADxQ55NCxR1YqpePwjflyqdkT8vrchz4=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self' wss://drivetest.upm.es;media-src 'self';frame-ancestors 'self';form-action 'self'
+Upgrade: h2
+Set-Cookie: 511b5315c9cf7=812qpmkulvhncgopo63q0v7o1u; path=/; secure; HttpOnly; SameSite=Lax
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer

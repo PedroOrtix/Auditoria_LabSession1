@@ -1,0 +1,11 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:41:57 GMT
+Last-Modified: Wed, 20 Sep 2023 00:20:55 GMT
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+Cache-Control: max-age=31536000
+Retry-Count: 0
+Server: Caddy
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block

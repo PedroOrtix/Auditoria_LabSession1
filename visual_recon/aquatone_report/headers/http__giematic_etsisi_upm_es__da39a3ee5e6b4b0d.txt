@@ -1,0 +1,19 @@
+200 OK
+X-Powered-By: PHP/8.3.21RC1
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Last-Modified: Sat, 06 Dec 2025 20:42:01 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Referrer-Policy: same-origin
+Server: Apache/2.4.62 (Debian)
+X-Xss-Protection: 1; mode=block
+Date: Sat, 06 Dec 2025 20:42:01 GMT
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Retry-Count: 0
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Set-Cookie: b314dbd20438a1b73991f1f625b2c9bd=646e7901c72d60c1ffe9b106d2d33fce; path=/; HttpOnly

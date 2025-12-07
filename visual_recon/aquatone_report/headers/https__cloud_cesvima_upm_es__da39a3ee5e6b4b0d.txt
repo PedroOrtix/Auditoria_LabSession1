@@ -1,0 +1,18 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-HWhnitAHt7cSeMQQSsYIOZV3TKgqX9DVWTzIgGpLvPo=';script-src-elem 'strict-dynamic' 'nonce-HWhnitAHt7cSeMQQSsYIOZV3TKgqX9DVWTzIgGpLvPo=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self' wss://cloud.cesvima.upm.es;media-src 'self';frame-src 'self';frame-ancestors 'self';form-action 'self'
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: no-referrer
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:48 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+X-Robots-Tag: noindex, nofollow
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=UTF-8
+X-Request-Id: CKPL7Nrdvj2EKjX9AXLY
+Set-Cookie: 511b5315c9cf7=adnmk72giijhvl0vha1vdal0m4; path=/; secure; HttpOnly; SameSite=Lax
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Upgrade: h2

@@ -1,0 +1,10 @@
+200 OK
+Last-Modified: Wed, 22 Feb 2017 14:49:15 GMT
+Etag: "0-5491f99b379d7"
+Date: Sat, 06 Dec 2025 19:42:02 GMT
+Server: Apache/2.4.65 (Debian)
+Strict-Transport-Security: max-age=15768000
+Accept-Ranges: bytes
+Content-Length: 0
+Content-Type: text/html
+Retry-Count: 0

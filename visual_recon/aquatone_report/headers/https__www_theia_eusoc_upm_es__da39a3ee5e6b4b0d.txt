@@ -1,0 +1,7 @@
+200 OK
+Retry-Count: 0
+Link: <https://www.theia.eusoc.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.theia.eusoc.upm.es/wp-json/wp/v2/pages/8>; rel="alternate"; type="application/json" <https://www.theia.eusoc.upm.es/>; rel=shortlink
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:57 GMT
+Server: Apache

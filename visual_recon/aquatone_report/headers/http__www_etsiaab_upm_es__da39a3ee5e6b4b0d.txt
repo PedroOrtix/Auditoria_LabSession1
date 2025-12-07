@@ -1,0 +1,12 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+X-Cache: pag
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:22 GMT
+Strict-Transport-Security: max-age=600;
+Pragma: no-cache
+Retry-Count: 0
+Set-Cookie: PHPSESSID=1pgq1o1svp7iu9khhekphqfg2q; path=/

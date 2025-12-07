@@ -1,0 +1,10 @@
+200 OK
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+Etag: "64-5bcb2908d9d65-gzip"
+Last-Modified: Thu, 04 Mar 2021 09:26:38 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0
+Server: Apache/2.4.65 (Debian)
+Strict-Transport-Security: max-age=63072000

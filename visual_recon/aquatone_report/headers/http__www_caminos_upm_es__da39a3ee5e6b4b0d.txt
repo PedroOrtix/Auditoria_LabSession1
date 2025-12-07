@@ -1,0 +1,12 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:20 GMT
+Strict-Transport-Security: max-age=31536000
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PHPSESSID=npn9snciad6cljbnei7a1dd080; path=/
+Link: <https://caminos.upm.es/wp-json/>; rel="https://api.w.org/" <https://caminos.upm.es/wp-json/wp/v2/pages/136983>; rel="alternate"; title="JSON"; type="application/json" <https://caminos.upm.es/>; rel=shortlink
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate
+Retry-Count: 0

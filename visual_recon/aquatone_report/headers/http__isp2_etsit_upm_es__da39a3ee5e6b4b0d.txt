@@ -1,0 +1,10 @@
+200 OK
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:04 GMT
+Server: Apache
+Last-Modified: Wed, 27 Feb 2013 18:25:29 GMT
+Etag: "1e-4d6b8e61ebf3a"
+Content-Length: 30
+Retry-Count: 0

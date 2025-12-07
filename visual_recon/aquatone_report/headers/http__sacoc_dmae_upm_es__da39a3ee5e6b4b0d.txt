@@ -1,0 +1,10 @@
+200 OK
+Content-Type: text/html
+Server: Apache
+Upgrade: h2,h2c
+Last-Modified: Thu, 14 Mar 2019 12:41:58 GMT
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:20 GMT
+Retry-Count: 0
+Etag: "10c4-5840d3f7ab180-gzip"
+Vary: Accept-Encoding

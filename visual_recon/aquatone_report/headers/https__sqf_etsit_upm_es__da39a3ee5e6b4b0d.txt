@@ -1,0 +1,13 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Etag: "85-534e935cc1891-gzip"
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Server: nginx
+Last-Modified: Fri, 10 Jun 2016 09:31:58 GMT
+Retry-Count: 0
+Content-Type: text/html
+Vary: Accept-Encoding
+X-Frame-Options: sameorigin

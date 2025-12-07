@@ -1,0 +1,9 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Server: Caddy Apache/2.4.65 (Debian)
+Vary: Accept-Encoding
+X-Ua-Compatible: IE=100
+Cache-Control: max-age=0
+Date: Sat, 6 Dec 2025 20:42:43 GMT
+Set-Cookie: sympa_session=40431135249607; path=/; HttpOnly

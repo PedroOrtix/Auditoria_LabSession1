@@ -1,0 +1,15 @@
+200 OK
+Referrer-Policy: same-origin
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding
+X-Powered-By: PHP/8.3.16
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Date: Sat, 06 Dec 2025 20:42:49 GMT
+Link: <https://mssde.etsisi.upm.es/wp-json/>; rel="https://api.w.org/" <https://mssde.etsisi.upm.es/wp-json/wp/v2/pages/279>; rel="alternate"; title="JSON"; type="application/json" <https://mssde.etsisi.upm.es/>; rel=shortlink
+Permissions-Policy: private-state-token-redemption=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com"), private-state-token-issuance=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com")
+Content-Type: text/html; charset=UTF-8
+Feature-Policy: geolocation 'self'; vibrate 'none'
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0

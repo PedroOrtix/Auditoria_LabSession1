@@ -1,0 +1,18 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Upgrade: h2
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-v0AlCZ2m5y8zFyXZ7f6LCA8YH0ggUYIYoAUGtpPgdbY=';script-src-elem 'strict-dynamic' 'nonce-v0AlCZ2m5y8zFyXZ7f6LCA8YH0ggUYIYoAUGtpPgdbY=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-ancestors 'self';form-action 'self'
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+Set-Cookie: 511b5315c9cf7=3m24jnnue0e7b4ckjr7fe6ivei; path=/; secure; HttpOnly; SameSite=Lax
+X-Permitted-Cross-Domain-Policies: none
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: dLBn1MR4YJdYB9kxL2Cz
+Cache-Control: no-cache, no-store, must-revalidate
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer
+Retry-Count: 0
+X-Robots-Tag: noindex, nofollow
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Content-Type-Options: nosniff

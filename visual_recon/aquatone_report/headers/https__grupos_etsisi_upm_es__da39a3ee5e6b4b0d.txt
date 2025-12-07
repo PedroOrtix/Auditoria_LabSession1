@@ -1,0 +1,11 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:40 GMT
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Accept-Ranges: bytes
+Content-Length: 4235
+Content-Type: text/html; charset=utf-8
+Server: Apache
+Upgrade: h2,h2c
+Retry-Count: 0
+Last-Modified: Mon, 23 Jun 2025 09:42:09 GMT

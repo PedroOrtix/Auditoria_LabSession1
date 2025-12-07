@@ -1,0 +1,9 @@
+200 OK
+Etag: "194-514edb4b737cd-gzip"
+Date: Sat, 06 Dec 2025 19:41:07 GMT
+Last-Modified: Thu, 30 Apr 2015 09:27:35 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Content-Type: text/html
+Server: Apache/2.4.62 (Debian)
+Accept-Ranges: bytes

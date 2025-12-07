@@ -1,0 +1,8 @@
+200 OK
+Retry-Count: 0
+Upgrade: h2
+Link: <https://navales.etsin.upm.es/wp-json/>; rel="https://api.w.org/" <https://navales.etsin.upm.es/wp-json/wp/v2/pages/10>; rel="alternate"; title="JSON"; type="application/json" <https://navales.etsin.upm.es/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:43:01 GMT
+Server: Apache/2.4.52 (Ubuntu)

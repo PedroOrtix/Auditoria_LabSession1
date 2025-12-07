@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html>
+
+<html>
+   <head>
+		
+<meta http-equiv="Content-Language" content="es">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+
+<meta name="Description" content="Instituto de Ciencias de la Educación. Universidad Politécnica de Madrid">
+<meta name="Keywords" content="upm, universidad, politecnica, madrid, cursos, formacion profesorado, educacion secundaria, investigacion educativa, gestion hotelera, direccion hotelera, master hoteles">
+
+<link rel="favicon" type="image/png" href="/img/ICE.ico" />
+
+<link rel="alternate" href="/Actividades/RSS/Actividades.xml" type="application/rss+xml" title="RSS:Actividades"/>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="/css/materialize.min.css">
+<link rel="stylesheet" href="/css/ice.css">	
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/materialize.min.js"></script>
+<script type="text/javascript" src="/js/inicializacion.js"></script>
+		<title>Instituto de Ciencias de la Educación (UPM)</title>
+		<!--forzar recarga cache--> <meta http-equiv="Last-Modified" content="0">
+		 
+		<link rel="stylesheet" href="css/portada.css">
+		<script type="text/javascript" src="js/sesion.js"></script>
+		<script type="text/javascript"> <!-- no archivo js por ASP -->
+			// Función general que se ejecuta al inicio
+			function paginaInicio() {
+				$('#Actualidad').modal({
+					dismissible: true, // Modal can be dismissed by clicking outside of the modal
+					opacity: .5, // Opacity of modal background
+					inDuration: 500, // Transition in duration
+					outDuration: 500, // Transition out duration
+					startingTop: '4%', // Starting top style attribute
+					endingTop: '10%', // Ending top style attribute
+					ready: null, // Callback for Modal open. Modal and trigger parameters available.
+					complete: actualidadCompleta // Callback for Modal close
+				});
+				$(".actualidad-titulo").on('click', tooltipsMostrar);
+				actualidadEntrada("/P1234/P1233/A7617/");
+			}
+
+			// Configura los elementos de actualidad visibles a la entrada (no vistos en este navegador) teniendo en cuenta el contenido de la actualidad
+			// El contenido se codifica en forma de secuencia de IDs: N=Noticia, A=Actividad, P=Programa, pe. /N34/A354/A876/P23/ 
+			var ActualidadNNoticias=0;
+			var ActualidadNProgramas=2;
+			var ActualidadNActividades=1;
+			function actualidadEntrada(contenido) {
+				if (typeof(Storage)!=="undefined") {
+					var nNoticias=ActualidadNNoticias;
+					var nProgramas=ActualidadNProgramas;
+					var nActividades=ActualidadNActividades;
+					var contenidoNoMostrado="";
+					// Leer actualidad mostrada
+					var contenidoMostrado=localStorage.getItem("ActualidadMostrada");
+					if (!contenidoMostrado)
+						contenidoMostrado="/";
+					// Comprobar los que se han mostrado
+					var elementos=contenido.substring(1,contenido.length-1).split("/");
+					var tipo;
+					for (var i=0;i<elementos.length;i++) {
+						tipo=elementos[i].substring(0,1);
+						if ((contenidoMostrado.indexOf("/"+elementos[i]+"/")<0) && (tipo!="a")) {
+							contenidoNoMostrado+=elementos[i]+"/";
+							document.getElementById("Actualidad"+elementos[i]).className="actualidad-elementoEntrada";
+						} else {
+							switch(tipo) {
+								case "N": nNoticias--; break;
+								case "P": nProgramas--; break;
+								case "A":
+								case "a": nActividades--; break;
+							}
+						}
+					}
+					// Ocultar apartados si no tienen elementos
+					var objApartado;
+					if (nNoticias<=0)
+						if (objApartado=document.getElementById("ActualidadApartadoNoticias"))
+							objApartado.style.display="none";
+					if (nProgramas<=0)
+						if (objApartado=document.getElementById("ActualidadApartadoProgramas"))
+							objApartado.style.display="none";						
+					if (nActividades<=0)
+						if (objApartado=document.getElementById("ActualidadApartadoActividades"))
+							objApartado.style.display="none";	
+					// Actualizar la variable de seguimiento
+					localStorage.setItem("ActualidadMostrada", contenidoMostrado+contenidoNoMostrado);
+					//localStorage.setItem("ActualidadMostrada", "/");
+					// Abrir actualidad si hay pendientes
+					if (nNoticias+nProgramas+nActividades>0)
+						$('#Actualidad').modal('open');
+					else
+						actualidadCompleta();
+				}
+			}
+
+			// Función que se ejecuta al cerrar la barra de actualidad. Muestra todos los elementos, incluso los que ya fueron mostrados 
+			function actualidadCompleta() {
+				// Mostrar elementos ocultos ya mostrados
+				$(".actualidad-elemento").css("display", "block");
+				// Mostrar los emergentes-tooltips por si se ocultaron al mostrar la actualidad
+				tooltipsMostrar();
+				// Mostrar los apartados
+				if (ActualidadNNoticias>0)
+					document.getElementById("ActualidadApartadoNoticias").style.display="block";
+				if (ActualidadNProgramas>0)
+					document.getElementById("ActualidadApartadoProgramas").style.display="block";
+				if (ActualidadNActividades>0)
+					document.getElementById("ActualidadApartadoActividades").style.display="block";				
+			}			
+			
+			// Abre un destino URL en ventana nueva
+			function ventanaNueva(destino) {
+				if (destino)
+					window.open(destino);
+			}
+		</script>
+    </head>
+	
+	<body>
+
+		<!--Encabezado-->
+<div id="Encabezado" class="row z-depth-4">
+    <a onmouseup="sesionVinculoICE('https://www.ice.upm.es/');" style="cursor:pointer">
+		<img id="EncabezadoLogoICE" class="tooltipped" src="/img/Encabezado/LogoICE.svg" data-position="bottom" data-delay="50" data-tooltip="Instituto de Ciencias de la Educación">
+    </a>
+	<a href="http://www.upm.es">
+        <img id="EncabezadoLogoUPM" src="/img/Encabezado/LogoUPM.png" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Universidad Politécnica de Madrid">
+	</a>
+    <p id="EncabezadoTitulo" class="truncate hide-on-small-only">Instituto de Ciencias de la Educación</p>
+</div><!--Barra ID-->
+<!--Barra Menú-->
+<ul id="menuActividades" class="dropdown-content">
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/mes/');">Máster Universitario en Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional</a></li>
+	<li><a onmouseup="sesionVinculoICE('https://educyt.ice.upm.es/');" target="_blank">Doctorado en Educación en Ciencia y Tecnología</a></li>
+	
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FC');">Formación continua</a></li>
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FI');">Formación inicial</a></li>
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=POS');">Posgrado</a></li>
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=GRA');">Grado UPM</a></li>
+	<!--<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=IE');">Investigaciones y estudios</a></li>-->
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=OTR');">Otras</a></li>
+</ul>
+
+<ul id="menuID" class="dropdown-content">
+	
+	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Identificacion/SesionCerrar.asp');">Cerrar sesión</a></li>
+</ul>
+
+<nav id="BarraMenu">
+	<!--<div class="nav-wrapper">-->
+	<div class="nav-wrapper">
+		<a href="#" data-activates="BarraMenuLateral" class="button-collapse"><i class="material-icons">menu</i></a>
+		<ul id="menu" class="left hide-on-med-and-down">
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Informacion/');">Información</a></li>
+			<li><a class="dropdown-button" href="#!" data-activates="menuActividades">Actividades formativas<i class="material-icons right">arrow_drop_down</i></a></li>
+			<!-- <li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/AulaVirtual/');">Aula virtual</a></li>-->
+			<li><a target="_blank" href='http://forprofe.ice.upm.es/'>Investigación</a></li>
+			<!-- <li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Documentacion/');">Documentación</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Asesoramiento/');">Asesoramiento</a></li> -->
+		</ul>
+					
+		
+					
+		<ul id="BarraMenuLateral" class="side-nav">
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Informacion/');">Información</a></li>
+			<!--<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/');">Actividades</a></li>-->
+			<li><a target="_blank" href='https://www.ice.upm.es/mes/'>Máster</a></li>
+			<li><a target="_blank" href='https://educyt.ice.upm.es/'>Doctorado</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FI');">Formación inicial</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FC');">Formación continua</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=POS');">Posgrado</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=GRA');">Grado UPM</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=OTR');">Otras</a></li>
+			<li><a target="_blank" href='http://forprofe.ice.upm.es/'>Investigación</a></li>
+		<!--	<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Documentacion/');">Documentación</a></li>
+			<li><a onmouseup="sesionVinculoICE('https://www.ice.upm.es/Asesoramiento/');">Asesoramiento</a></li> -->
+		</ul>
+	</div>
+</nav>
+
+		<!-- Actualidad -->
+		
+			<div id="Actualidad" class="modal bottom-sheet">
+				<div class="modal-content container">
+					
+						<h4 id="ActualidadApartadoProgramas" class="actualidad-apartado">Programas en curso</h4>
+						<ul class="collapsible popout" data-collapsible="accordion">
+							
+								<li id="ActualidadP1234" class="actualidad-elemento">
+									<div class="collapsible-header actualidad-linea">
+										<i class="material-icons actualidad-icono">library_books</i>
+										<p class="actualidad-titulo">Formación Continua para el Profesorado de la Universidad (octubre 2025 - febrero 2026)										
+										</p>
+									</div>
+									<div class="collapsible-body actualidad-cuerpo">
+										<a href="/Datos/Programas/FC/oct2025-feb2026/PDF/Programa.pdf" target="_blank"><img class="z-depth-4 actualidad-imagen" src="/Datos/Programas/FC/oct2025-feb2026/Portada.png"></a>
+										<p class="actualidad-descripcion">Actividades de perfeccionamiento dirigidas al profesorado de la UPM.</p>
+										<p class="actualidad-acceso"><button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/Programas/?i=SO1234JN');"><i class="material-icons right">play_arrow</i></button></p>
+										<div style="clear:both; margin:0; padding:0"/>
+									</div>
+								</li>
+								
+								<li id="ActualidadP1233" class="actualidad-elemento">
+									<div class="collapsible-header actualidad-linea">
+										<i class="material-icons actualidad-icono">library_books</i>
+										<p class="actualidad-titulo">Formación Inicial para la Docencia Universitaria (2025-2026)										
+										</p>
+									</div>
+									<div class="collapsible-body actualidad-cuerpo">
+										<a href="/Datos/Programas/FI/2025-2026/PDF/Programa.pdf" target="_blank"><img class="z-depth-4 actualidad-imagen" src="/Datos/Programas/FI/2025-2026/Portada.png"></a>
+										<p class="actualidad-descripcion">Dirigido a profesores que se inician en la docencia universitaria y a profesores en activo que deseen ampliar conocimientos sobre docencia universitaria.</p>
+										<p class="actualidad-acceso"><button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/Programas/?i=QZ1233OL');"><i class="material-icons right">play_arrow</i></button></p>
+										<div style="clear:both; margin:0; padding:0"/>
+									</div>
+								</li>
+									
+						</ul>
+					
+						<h4 id="ActualidadApartadoActividades" class="actualidad-apartado">Actividades en curso</h4>
+						<ul class="collapsible popout" data-collapsible="accordion">
+							
+								<li id="ActualidadA7617" class="actualidad-elemento">
+									<div class="collapsible-header actualidad-linea">
+										<i class="material-icons actualidad-icono">event_note</i>
+										<p class="actualidad-titulo">
+											<span class="actualidad-tipo">Módulo:</span> Técnicas de comunicación en el aula	
+										</p>
+									</div>
+									<div class="collapsible-body actualidad-cuerpo">
+										
+													<img class="actualidad-imagen" src="img/Portada/TipoFI.png">
+											
+											<p class="actualidad-descripcion">Actividad para profesrores de la UPM</p>
+										
+											<p class="actualidad-dato"><span class="actualidad-etiqueta">Lugar: </span>
+											Instituto de Ciencias de la Educación (ICE)
+											</p>
+										
+											<p class="actualidad-dato"><span class="actualidad-etiqueta">Fechas: </span>25 de noviembre, 2 y 9 de diciembre de 2025</p>
+										
+										<p class="actualidad-acceso"><button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FI&ma=7617');"><i class="material-icons right">play_arrow</i></button></p>
+										<div style="clear:both"/>
+									</div>
+								</li>
+									
+						</ul>
+					
+					<div class="modal-footer">
+						<a href="#!" style="padding: 0 1rem 0 1rem" class="modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+					</div>
+				</div>
+			</div>
+  		
+		
+<!--Contenido principal-->
+<div class="container">
+
+			<!--Barra información-->
+<div id="BarraInformacion" class="row">
+	<!--<p id="BarraInformacion-Mensaje">ERROR</p>-->
+</div>
+     
+<!--Fichas-->
+<!--Ficha MES-->
+		<div class="row">
+				<div class="col s12 m12 l12 xl10 offset-xl1">
+                    <div class="fichaB z-depth-5 hide-on-med-and-down" style="background-color:transparent;">
+                    <a class="fichaB-boton btn-floating waves-effect waves-light tooltipped orange lighten-2" data-position="bottom" data-delay="50" data-tooltip="Acceso a la Web del Máster de Secundaria (ventana nueva)" href="http://www.ice.upm.es/mes" target="_blank"><i class="material-icons">play_arrow</i></a>
+                        
+                        <div class="fichaB-contenido" style="background-image: url('../img/Portada/MES_fondo.png');background-size:cover;">
+						<img class="fichaB-imagen" src="../Actividades/img/LogoUPM.svg" style="margin-left:30px;">
+                            <p class="ficha-tipo" style="color:#ffd300;margin-left:300px;margin-top:-10px;padding-top:45px;"><b>Máster Universitario en</b></p>
+                            <p class="ficha-titulo" style="color:white;margin-left:300px;margin-top:-10px;">Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional</p>
+                        </div>
+                    </div>
+                    <div class="fichaC z-depth-5 hide-on-large-only" style="background-image: url('../img/Portada/MES_fondo.png');background-size:cover;">
+                         
+						<div class="fichaB-contenido" >
+						<img class="fichaB-imagen" src="../Actividades/img/LogoUPM.svg" style="margin-left:clamp(0px, 9vw, 1000px);margin-right:clamp(0px, 9vw, 1000px);">
+                        <p class="ficha-tipo" style="color:#ffd300;margin-left:30px;margin-right:30px;margin-top:0px;padding-top:10px;"><b>Máster Universitario en</b></p>
+                        <p class="ficha-titulo" style="color:white;margin-left:30px;margin-right:30px;margin-top:-10px;padding-bottom:20px;">Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional</p>
+                        <a class="fichaC-boton btn-floating waves-effect waves-light tooltipped orange lighten-2" data-position="bottom" data-delay="50" data-tooltip="Acceso a la Web del Máster de Secundaria (ventana nueva)" href="http://www.ice.upm.es/mes" target="_blank" style="margin-top:-20px;"><i class="material-icons">play_arrow</i></a>
+                    </div>
+                </div>
+				<div class="fichaImprimir">
+					<img class="fichaImprimir-imagen" src="../Actividades/img/LogoUPM.svg">
+					<p class="ficha-tipo">Máster Universitario</p>
+					<p class="ficha-titulo">Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional</p>
+				</div>                    
+			</div>
+		</div>
+		
+<!--Ficha DOCTORADO -->
+		<div class="row">
+				<div class="col s12 m12 l12 xl10 offset-xl1">
+                    <div class="fichaB z-depth-5 hide-on-med-and-down" style="background-color:transparent;">
+                        <a class="fichaB-boton btn-floating waves-effect waves-light tooltipped orange lighten-2" data-position="bottom" data-delay="50" data-tooltip="Acceso a la Web del Doctorado (ventana nueva)" href="https://educyt.ice.upm.es/" target="_blank"><i class="material-icons">play_arrow</i></a>
+                        
+						 
+						 <div class="fichaB-contenido2" style="background-image: url('../img/Portada/DOC_fondo.png');background-size:cover; background-position-x: center;">
+                            
+							
+							<div class="centroH">
+								<div class="centroH2" style="margin-top:-1.5rem">
+									<div class="centroH3">
+										<img class="fichaB-imagen2" src="../img/Portada/DOC_icono.png">
+									</div>
+									<div class="centroH4" style="margin-top:-2.3rem">
+										<p class="ficha-titulo2" >Doctorado de Educación en Ciencia y Tecnología</p>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                    
+					<div class="fichaC z-depth-5 hide-on-large-only" style="background-image: url('../img/Portada/DOC_fondo.png');background-size:cover; background-position-x: center;">
+
+							
+
+                        <div class="fichaB-contenido2" style="background-image: url('../img/Portada/DOC_fondo.png');background-size:cover; background-position-x: center;">                      						
+							<div class="centroH">
+								<div class="centroH2">
+
+									<div class="centroH4">
+										<img class="fichaB-imagen3" src="../img/Portada/DOC_icono.png">
+										<p class="ficha-titulo2">Doctorado de Educación en Ciencia y Tecnología</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="fichaC-boton btn-floating waves-effect waves-light tooltipped orange lighten-2" data-position="bottom" data-delay="50" data-tooltip="Acceso a la Web del Doctorado (ventana nueva)" href="https://educyt.ice.upm.es/" target="_blank" style="margin-top:0px;"><i class="material-icons">play_arrow</i></a>
+                </div>
+				<div class="fichaImprimir">
+					<img class="fichaImprimir-imagen" src="../Actividades/img/LogoUPM.svg">
+					<p class="ficha-titulo">Doctorado de Educación en Ciencia y Tecnología</p>
+				</div>                    
+			</div>
+		</div>
+
+<!--Fichas FC y FI-->
+		<div class="row">
+			<div class="col s12 m12 l6 xl5 offset-xl1">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen" src="../Actividades/img/IconoFC.svg">
+						<p class="ficha-texto">Actividades de <b>formación continua</b> para profesores de la UPM</p>
+					</div>							
+					<div class="fichaA-accion">
+						<a href="Actividades/?c=FC">FORMACIÓN CONTINUA</a>
+						<button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('Actividades/?c=FC');"><i class="material-icons right">play_arrow</i></button>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m12 l6 xl5">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen" src="../Actividades/img/LogoFI.svg">
+						<p class="ficha-texto">Curso de <b>formación inicial</b> para la docencia universitaria para profesores de la UPM</p>
+					</div>							
+					<div class="fichaA-accion">
+						<a href="Actividades/?c=FI">FORMACIÓN INICIAL</a>
+						<button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('Actividades/?c=FI');"><i class="material-icons right">play_arrow</i></button>
+					</div>
+				</div>
+			</div>
+			<div class="fichaImprimir">
+				<img class="fichaImprimir-imagen" src="../Actividades/img/LogoFI.svg">
+				<p class="ficha-tipo">Curso para profesores de la UPM</p>
+				<p class="ficha-titulo">Formación inicial para la docencia universitaria</p>
+			</div>                    
+			<div class="fichaImprimir">
+				<img class="fichaImprimir-imagen" src="../Actividades/img/IconoFC.svg">
+				<p class="ficha-titulo">Cursos de FORMACIÓN CONTINUA para profesores de la UPM</p>
+			</div>			
+		</div>
+
+<!--Fichas MASTER y GRADO -->			
+		<div class="row">
+			<div class="col s12 m12 l6 xl5 offset-xl1">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen"src="../Actividades/img/LogoPOS.svg">
+						<p class="ficha-texto">Asignaturas y cursos complementarios para estudiantes de <b>máster y doctorado</b> de la UPM</p>
+					</div>							
+					<div class="fichaA-accion">
+						<a href="Actividades/?c=POS">MÁSTER y DOCTORADO</a>
+						<button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('Actividades/?c=POS');"><i class="material-icons right">play_arrow</i></button>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m12 l6 xl5">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen"src="../Actividades/img/LogoGRA.svg">
+						<p class="ficha-texto">Cursos de formación en <b>competencias trasversales</b> para estudiantes de grado de la UPM</p>
+					</div>							
+					<div class="fichaA-accion">
+						<a href="Actividades/?c=GRA">GRADO</a>
+						<button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('Actividades/?c=GRA');"><i class="material-icons right">play_arrow</i></button>
+					</div>
+				</div>
+			</div>
+			<div class="fichaImprimir">
+				<img class="fichaImprimir-imagen" src="../Actividades/img/LogoPOS.svg">
+				<p class="ficha-titulo">Asignaturas y cursos complementarios para estudiantes de MÁSTER y DOCTORADO de la UPM</p>
+			</div>  
+			<div class="fichaImprimir">
+				<img class="fichaImprimir-imagen" src="../Actividades/img/LogoGRA.svg">
+				<p class="ficha-titulo">Cursos de formación en COMPETENCIAS TRASVERSALES para estudiantes de GRADO de la UPM</p>
+			</div>  
+		</div>			
+
+<!--Fichas REVISTA y AULA VIRTUAL-->			
+		<div class="row">
+			<div class="col s12 m12 l6 xl5 offset-xl1">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen"src="img/Portada/Documentacion.png">
+						<p class="ficha-texto">Revista <b>+FORPROFE</b>: espacio de intercambio y crecimiento para docentes con compromiso, curiosidad e inquietudes</p>
+					</div>
+					<div class="fichaA-accion">
+						<a target="_blank" href="https://www.ice.upm.es/masforprofe/">+FORPROFE
+						<button class="btn-flat waves-effect waves-light"><i class="material-icons right">play_arrow</i></button></a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m12 l6 xl5">
+				<div class="fichaA z-depth-5">
+					<div class="fichaA-contenido">
+						<img class="fichaA-contenido-imagen"src="../Actividades/img/LogoEV.svg">
+						<p class="ficha-texto"><b>Entornos Virtuales de Aprendizaje</b> de apoyo a los cursos que se desarrollan en el ICE</p>
+					</div>							
+					<div class="fichaA-accion">
+						<a href="AulaVirtual/">AULA VIRTUAL</a>
+						<button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('AulaVirtual/');"><i class="material-icons right">play_arrow</i></button>
+					</div>
+				</div>
+			</div>
+		</div>			      
+</div><!--Fin container de contenido principal-->
+
+
+		<!--Actividades próximas-->
+		
+			<h3 class="proximas-apartado z-depth-4">Próximas actividades</h3>
+			<div class="container">
+				<ul id="Proximas" class="collapsible popout" data-collapsible="accordion">
+					
+						<li>
+							<div class="collapsible-header proximas-linea">
+								<i class="material-icons proximas-icono">event_note</i>
+								<p class="proximas-titulo">
+									<span class="proximas-tipo">Módulo:</span> Práctica docente acompañada
+								</p>
+							</div>
+							<div class="collapsible-body proximas-cuerpo">
+								
+											<img class="proximas-imagen" src="img/Portada/TipoFI.png">
+									
+									<p class="proximas-descripcion">Actividad para profesores de la UPM</p>
+								
+									<p class="proximas-dato"><span class="proximas-etiqueta">Lugar:</span>
+										Instituto de Ciencias de la Educación (ICE)
+									</p>
+								
+									<p class="proximas-dato"><span class="proximas-etiqueta">Fechas:</span> Sesiones presenciales el 16 de diciembre de 2025 y el 2 de junio de 2026</p>
+								
+								<p class="proximas-acceso"><button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FI&ma=7624');"><i class="material-icons right">play_arrow</i></button></p>
+								<div style="clear:both"/>
+							</div>
+						</li>
+						
+						<li>
+							<div class="collapsible-header proximas-linea">
+								<i class="material-icons proximas-icono">event_note</i>
+								<p class="proximas-titulo">
+									<span class="proximas-tipo">Curso a distancia:</span> Sexenios 2025: localización y redacción de los indicios de calidad de las publicaciones 
+								</p>
+							</div>
+							<div class="collapsible-body proximas-cuerpo">
+								
+											<img class="proximas-imagen" src="img/Portada/TipoFC.png">
+									
+									<p class="proximas-descripcion">Actividad para profesores de la UPM</p>
+								
+									<p class="proximas-dato"><span class="proximas-etiqueta">Lugar:</span>
+										A distancia por medios telemáticos
+									</p>
+								
+									<p class="proximas-dato"><span class="proximas-etiqueta">Fechas:</span> 16 y 17 de diciembre de 2025</p>
+								
+								<p class="proximas-acceso"><button class="btn-flat waves-effect waves-light" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Actividades/?c=FC&ma=7646');"><i class="material-icons right">play_arrow</i></button></p>
+								<div style="clear:both"/>
+							</div>
+						</li>
+							
+				</ul>
+			</div> <!--Fin container de próximas-->
+		<!--Pie-->
+
+<!-- Para sacar un mensaje 
+<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" href="#Mensaje" data-position="top" data-delay="50" data-tooltip="Identificador (Login)" onclick="mensaje('NoDisponible');"><img src="/img/Pie/IconoSesionIniciar.svg"></a>
+-->
+
+<footer id="Pie">
+	<div id="PieBarra">
+		<div class="container">
+			<div class="row sinMargen">
+				<div class="col l6 s12">
+					<a class="tooltipped pieBarraBotonUPM" href="https://www.upm.es/politecnica_virtual/" target="_blank" data-position="top" data-delay="50" data-tooltip="Politécnica Virtual (ventana nueva)"><img src="/img/Pie/IconoPV.png"></a>
+					<a class="tooltipped pieBarraBotonUPM" href="https://drive.upm.es/" target="_blank" data-position="top" data-delay="50" data-tooltip="UPM Drive (ventana nueva)"><img src="/img/Pie/IconoDrive.png"></a>
+				</div>
+				<div class="col l6 s12">
+					
+						<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" href="#Identificador" data-position="top" data-delay="50" data-tooltip="Identificador (Login)" onclick="identificador('-');"><img src="/img/Pie/IconoSesionIniciar.svg"></a>
+					
+					<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" href="https://twitter.com/iceupm" target="_blank" data-position="top" data-delay="50" data-tooltip="Twitter"><img src="/img/Pie/IconoTwitter.svg"></a>
+					<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" href="#Mensaje" data-position="top" data-delay="50" data-tooltip="RSS" onclick="mensaje('NoDisponible');"><img src="/img/Pie/IconoRSS.svg"></a>
+					<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Comunicacion/');" data-position="top" data-delay="50" data-tooltip="Sugerencias y consultas"><img src="/img/Pie/IconoComunicacion.svg"></a>
+					
+						<a class="btn-floating waves-effect waves-light white right tooltipped pieBarraBotonICE" href="#Actualidad" data-position="top" data-delay="50" data-tooltip="Actualidad" onclick="tooltipsOcultar();"><img src="/img/Pie/IconoActualidad.svg"></a>
+					
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div id="PieInformacion">
+		<div class="container">
+			<div class="row sinMargen">
+				<div id="PieAccesos" class="col l6 s12">
+					<ul>
+						<li><a class="pieInformacionAcceso" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Informacion/Contacto.asp');">Contacto</a></li>
+						<li><a class="pieInformacionAcceso" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Informacion/ComoLlegar.asp');">Cómo llegar</a></li>
+						<li><a class="pieInformacionAcceso" onmouseup="sesionVinculoICE('https://www.ice.upm.es/Informacion/AvisoLegal.asp');">Aviso legal</a></li>
+					</ul>
+				</div>
+				<div class="col l6 s12">
+					<p class="grey-text text-lighten-3 right">Instituto de Ciencias de la Educación @ 2025</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	
+		<!--Fondo-->
+		<div id="Fondo">
+			<img id="FondoContenido" class="fondo" src="img/Portada/Fondo_aula.png">
+			<!--<img id="FondoProfesor" class="fondo" src="img/Portada/FondoProfesor.png">
+			<img id="FondoPensando" class="fondo" src="img/Portada/FondoPensando.png">-->
+			<!--
+			<video id="FondoContenido" loop muted autoplay poster="img/Portada/Fondo.png" >
+				<source src="" type="video/webm">
+				<source src="img/Portada/Fondo.mp4" type="video/mp4">
+				<source src="" type="video/ogg">
+			</video>
+			-->
+		</div>
+		
+        <!-- Mensaje -->
+<div id="Mensaje" class="modal">
+	<div class="modal-content">
+		<h4 id="Mensaje-Titulo">Título</h4>
+		<p id="Mensaje-Contenido">Contenido</p>
+	</div>
+	<div class="modal-footer">
+		<a id="Mensaje-BotonSi" style="padding: 0 1rem 0 1rem; display: none" class="modal-action modal-close waves-effect waves-red btn-flat">Aceptar</a>
+		<a id="Mensaje-BotonNo" style="padding: 0 1rem 0 1rem" class="modal-action modal-close waves-effect waves-red btn-flat">Cerrar</a>
+	</div>
+</div>
+<script type="text/javascript" src="/js/mensajes.js"></script>
+<script type="text/javascript">
+	Mensajes["NoDisponible"]={
+		titulo:"Servicio no disponible",
+		contenido:"El servicio está en proceso de diseño o mantenimiento"
+	};
+</script><!-- Identificador -->
+<div id="Identificador" class="modal">
+	<div class="modal-content">
+		<h4 id="Identificador-Titulo">Identificación</h4>
+		<div id="Identificador-Esperando"><img src="/img/Esperando.gif"/></div>
+		<p id="Identificador-Respuesta" />
+		<div id="Identificador-Contenido">
+			<p id="Identificador-Informacion">Formulario para el acceso identificado a la Web del <em>Instituto de Ciencias de la Educación (ICE)</em>.<br/>Solo para personal de la <em>Universidad Politécnica de Madrid</em> con correo <span class="destacado">@upm.es</span> y dentro de la red UPM.</p>
+			<p class="identificadorAyuda">Modo</p>
+			<div id="Identificador-Modo">
+				<div id="Identificador-ModoE" class="identificadorModo">Identificación temporal</div> 
+				<div id="Identificador-ModoL" class="identificadorModo" style="top:2rem">Identificación login</div> 
+				<i class="material-icons" onclick="identificadorModo()">format_line_spacing</i>
+			</div>
+			<div id="Identificador-ContenidoModoE" class="identificadorContenidoModo">
+				<p class="identificadorInformacionModo">Acceso que no requiere estar registrado con un login permanente en esta Web. Se notificará un acceso temporal por correo electrónico.</p>
+				<div class="input-field" style="margin-left:1rem">
+					<i class="material-icons prefix">contact_mail</i>
+					<input id="Identificador-CorreoElectronico" type="text" class="validate" onkeyup="identificadorComprobarBotonSI()">
+					<label for="Identificador-CorreoElectronico">Correo electrónico UPM</label>
+					<span style="color:#909090;font-size:1.2rem;font-weight:bold">@upm.es</span>
+				</div>
+			</div>
+			<div id="Identificador-ContenidoModoL" class="identificadorContenidoModo">
+				<p class="identificadorInformacionModo">Acceso que requiere estar registrado con un login permanente en esta Web (no usar el login UPM).</p>
+				<div class="input-field" style="margin-left:1rem">
+					<i class="material-icons prefix">person</i>
+					<input id="Identificador-Usuario" type="text" class="validate" onkeyup="identificadorComprobarBotonSI()">
+					<label for="Identificador-Usuario">Usuario</label>
+				</div>
+				<div class="input-field" style="margin-left:1rem">
+					<i class="material-icons prefix">lock_outline</i>
+					<input id="Identificador-Clave" type="password" class="validate" onkeyup="identificadorComprobarBotonSI()">
+					<label for="Identificador-Clave">Clave</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<a id="Identificador-BotonSi" style="padding: 0 1rem 0 1rem" class="modal-action waves-effect waves-red btn-flat disabled" onmouseup="identificadorBotonSI();">Identificar</a>
+		<a id="Identificador-BotonNo" style="padding: 0 1rem 0 1rem" class="modal-action modal-close waves-effect waves-red btn-flat">Cerrar</a>
+	</div>
+</div>
+<script type="text/javascript" src="/js/identificador.js"></script>
+
+	<form id="Datos" method="POST">
+		<input id="Sesion" name="SESION" type="hidden" value="">
+	</form>
+
+       
+    </body>
+</html>

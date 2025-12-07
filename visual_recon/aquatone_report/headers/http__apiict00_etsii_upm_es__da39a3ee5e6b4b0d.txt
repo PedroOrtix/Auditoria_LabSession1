@@ -1,0 +1,9 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:30 GMT
+Server: Apache/2.4.57 (Ubuntu)
+Upgrade: h2
+Last-Modified: Sat, 26 Oct 2024 08:22:56 GMT
+Retry-Count: 0
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html

@@ -1,0 +1,11 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Link: <https://www.industriales.upm.es/wp-json/>; rel="https://api.w.org/", <https://www.industriales.upm.es/wp-json/wp/v2/pages/23>; rel="alternate"; title="JSON"; type="application/json", <https://www.industriales.upm.es/>; rel=shortlink
+Pragma: public
+Vary: Accept-Encoding
+Etag: "feb88c08168ed63bb461b27a0231e6ef"
+Date: Sat, 06 Dec 2025 20:42:42 GMT
+Server: Apache
+Cache-Control: max-age=2609, public
+Retry-Count: 0
+Last-Modified: Sat, 06 Dec 2025 20:26:11 GMT

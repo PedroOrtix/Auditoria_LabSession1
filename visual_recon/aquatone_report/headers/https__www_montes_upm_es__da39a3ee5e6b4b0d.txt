@@ -1,0 +1,7 @@
+200 OK
+Link: <https://web.montes.upm.es/index.php?rest_route=/>; rel="https://api.w.org/" <https://web.montes.upm.es/index.php?rest_route=/wp/v2/pages/164>; rel="alternate"; title="JSON"; type="application/json" <https://web.montes.upm.es/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.58 (Ubuntu)
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:58 GMT

@@ -1,0 +1,11 @@
+200 OK
+Link: <https://www.erma.etsidi.upm.es/wp-json/>; rel="https://api.w.org/", <https://www.erma.etsidi.upm.es/wp-json/wp/v2/pages/4908>; rel="alternate"; title="JSON"; type="application/json", <https://www.erma.etsidi.upm.es/>; rel=shortlink
+Upgrade: h2,h2c
+Vary: Accept-Encoding,User-Agent
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:41:57 GMT
+Cache-Control: must-revalidate
+Last-Modified: Sat, 06 Dec 2025 20:41:57 GMT
+Server: Apache/2.4.62 (Debian)
+Set-Cookie: pll_language=es; expires=Sun, 06-Dec-2026 20:41:57 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax

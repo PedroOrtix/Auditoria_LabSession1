@@ -1,0 +1,12 @@
+200 OK
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:32 GMT
+Last-Modified: Fri, 09 Mar 2018 10:33:46 GMT
+Etag: W/"5aa2630a-ef"
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+Server: nginx
+Content-Type: text/html

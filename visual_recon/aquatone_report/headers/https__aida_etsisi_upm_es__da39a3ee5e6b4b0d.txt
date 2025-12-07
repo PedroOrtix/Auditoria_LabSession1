@@ -1,0 +1,16 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sat, 06 Dec 2025 15:11:51 GMT
+X-Powered-By: PHP/8.3.21RC1
+Retry-Count: 0
+Referrer-Policy: same-origin
+Server: Apache/2.4.62 (Debian)
+X-Xss-Protection: 1; mode=block
+Date: Sat, 06 Dec 2025 20:42:31 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Wpo-Cache-Status: cached
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Vary: User-Agent
+X-Content-Type-Options: nosniff

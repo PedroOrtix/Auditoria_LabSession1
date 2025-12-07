@@ -1,0 +1,14 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: PHP/7.3.3
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Referrer-Policy: same-origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, private
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Server: Apache/2.4.25 (Debian)
+Date: Sat, 06 Dec 2025 20:42:15 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Type: text/html; charset=UTF-8

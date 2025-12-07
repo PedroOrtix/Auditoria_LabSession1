@@ -1,0 +1,13 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+Permissions-Policy: 
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Strict-Transport-Security: max-age=31536000
+Upgrade: h2,h2c
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Server: Apache
+Referrer-Policy: strict-origin-when-cross-origin

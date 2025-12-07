@@ -1,0 +1,10 @@
+200 OK
+Server: Apache
+Last-Modified: Mon, 09 Oct 2017 08:33:55 GMT
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:58 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+Etag: "14f8-55b190d0fc2c0-gzip"

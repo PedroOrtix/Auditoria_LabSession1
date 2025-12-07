@@ -1,0 +1,9 @@
+200 OK
+Retry-Count: 0
+Content-Type: text/html
+Server: Apache
+Last-Modified: Mon, 23 Apr 2018 12:31:57 GMT
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:05:27 GMT
+Etag: "2c39-56a8339420c05-gzip"
+Accept-Ranges: bytes

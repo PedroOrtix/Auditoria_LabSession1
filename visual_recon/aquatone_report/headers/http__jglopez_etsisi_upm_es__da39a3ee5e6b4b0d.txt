@@ -1,0 +1,13 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:06 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Server: Apache/2.4.62 (Debian)
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: PHP/8.3.21RC1
+Content-Type: text/html; charset=UTF-8

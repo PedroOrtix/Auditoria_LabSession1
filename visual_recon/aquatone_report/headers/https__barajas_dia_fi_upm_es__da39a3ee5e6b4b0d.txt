@@ -1,0 +1,18 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Mon, 23 Apr 2018 12:31:57 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0
+Server: Apache
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin
+Etag: "2c39-56a83393b4940-gzip"
+X-Robots-Tag: none
+X-Permitted-Cross-Domain-Policies: none
+Content-Type: text/html
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Sat, 06 Dec 2025 20:06:10 GMT
+X-Download-Options: noopen

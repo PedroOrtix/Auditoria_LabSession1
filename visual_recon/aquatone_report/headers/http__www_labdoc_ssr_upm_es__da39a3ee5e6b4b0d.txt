@@ -1,0 +1,10 @@
+200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:28 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Last-Modified: Tue, 23 Sep 2025 10:17:40 GMT
+Retry-Count: 0
+Etag: "1d6f-63f753ef6cf1f-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding

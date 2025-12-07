@@ -1,0 +1,8 @@
+200 OK
+Link: <https://futurosalumnos.etsit.upm.es/wp-json/>; rel="https://api.w.org/", <https://futurosalumnos.etsit.upm.es/>; rel=shortlink
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Sat, 06 Dec 2025 20:42:38 GMT
+Server: Apache
+Vary: Accept-Encoding

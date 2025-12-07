@@ -1,0 +1,18 @@
+200 OK
+X-Ua-Compatible: IE=edge
+Last-Modified: Sat, 06 Dec 2025 20:42:04 GMT
+Accept-Ranges: none
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Cache-Control: no-store, no-cache, must-revalidate post-check=0, pre-check=0, no-transform
+Pragma: no-cache
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-Frame-Options: sameorigin
+Server: Apache/2.4.62 (Debian)
+Content-Language: es
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:04 GMT
+X-Powered-By: PHP/8.2.28
+Set-Cookie: MoodleSession=rbqumtkgvha3mc0mle0at8qdq2; path=/; secure; HttpOnly
+Expires: Mon, 20 Aug 1969 09:23:00 GMT

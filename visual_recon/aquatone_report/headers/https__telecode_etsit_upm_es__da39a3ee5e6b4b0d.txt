@@ -1,0 +1,10 @@
+200 OK
+Etag: "432-5996e93b331c0-gzip"
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Last-Modified: Wed, 11 Dec 2019 14:38:07 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Server: Apache

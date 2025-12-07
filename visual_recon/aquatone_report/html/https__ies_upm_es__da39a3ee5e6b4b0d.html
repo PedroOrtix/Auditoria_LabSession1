@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>IES</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" href="https://blogs.upm.es/ies/?page_id=1198&#038;lang=es" hreflang="es" />
+<link rel="alternate" href="https://blogs.upm.es/ies/" hreflang="en" />
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel="alternate" type="application/rss+xml" title="IES &raquo; Feed" href="https://blogs.upm.es/ies/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="IES &raquo; Comments Feed" href="https://blogs.upm.es/ies/?feed=comments-rss2" />
+		
+							<script src="//www.googletagmanager.com/gtag/js?id=G-J9NKPCCVM6"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var em_version = '8.10.1';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/blogs.upm.es\/ies\/"};
+								if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-J9NKPCCVM6',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-J9NKPCCVM6', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							
+		<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blogs.upm.es\/ies\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #101010;--wp--preset--color--secondary: #ffffff;--wp--preset--color--header-footer: #101010;--wp--preset--color--tertiary: #6C6C77;--wp--preset--color--lightgrey: #D9D9D9;--wp--preset--color--foreground: #000;--wp--preset--color--background: #f9fafd;--wp--preset--color--light-background: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--black-primary: linear-gradient(180deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--secondary) 73%, var(--wp--preset--color--background) 73%, var(--wp--preset--color--background) 100%);--wp--preset--gradient--black-secondary: linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--tertiary) 100%);--wp--preset--font-size--small: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.177), 16px);--wp--preset--font-size--medium: clamp(16px, 1rem + ((1vw - 3.2px) * 0.354), 20px);--wp--preset--font-size--large: clamp(22px, 1.375rem + ((1vw - 3.2px) * 1.239), 36px);--wp--preset--font-size--x-large: clamp(30px, 1.875rem + ((1vw - 3.2px) * 1.77), 50px);--wp--preset--font-size--x-small: clamp(14px, 0.875rem + ((1vw - 3.2px) * 1), 14px);--wp--preset--font-size--max-36: clamp(24px, 1.5rem + ((1vw - 3.2px) * 1.062), 36px);--wp--preset--font-size--max-48: clamp(26px, 1.625rem + ((1vw - 3.2px) * 1.947), 48px);--wp--preset--font-size--max-60: clamp(30px, 1.875rem + ((1vw - 3.2px) * 2.655), 60px);--wp--preset--font-size--max-72: clamp(38px, 2.375rem + ((1vw - 3.2px) * 3.009), 72px);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--x-small: 20px;--wp--preset--spacing--small: 40px;--wp--preset--spacing--medium: 60px;--wp--preset--spacing--large: 80px;--wp--preset--spacing--x-large: 100px;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--font-weight--black: 900;--wp--custom--font-weight--bold: 700;--wp--custom--font-weight--extra-bold: 800;--wp--custom--font-weight--light: 300;--wp--custom--font-weight--medium: 500;--wp--custom--font-weight--regular: 400;--wp--custom--font-weight--semi-bold: 600;--wp--custom--line-height--body: 1.75;--wp--custom--line-height--heading: 1.1;--wp--custom--line-height--medium: 1.5;--wp--custom--line-height--one: 1;--wp--custom--spacing--outer: 30px;}:root { --wp--style--global--content-size: 1200px;--wp--style--global--wide-size: 1450px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 20px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 20px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 20px;}:root :where(.is-layout-grid){gap: 20px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{font-size: var(--wp--preset--font-size--small);font-weight: var(--wp--custom--font-weight--regular);line-height: var(--wp--custom--line-height--body);--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: 0px;--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--primary);text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-radius: 0;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding-top: 10px;padding-right: 25px;padding-bottom: 10px;padding-left: 25px;text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-header-footer-color{color: var(--wp--preset--color--header-footer) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-lightgrey-color{color: var(--wp--preset--color--lightgrey) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-light-background-color{color: var(--wp--preset--color--light-background) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-header-footer-background-color{background-color: var(--wp--preset--color--header-footer) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-lightgrey-background-color{background-color: var(--wp--preset--color--lightgrey) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-light-background-background-color{background-color: var(--wp--preset--color--light-background) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-header-footer-border-color{border-color: var(--wp--preset--color--header-footer) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-lightgrey-border-color{border-color: var(--wp--preset--color--lightgrey) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-light-background-border-color{border-color: var(--wp--preset--color--light-background) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-black-primary-gradient-background{background: var(--wp--preset--gradient--black-primary) !important;}.has-black-secondary-gradient-background{background: var(--wp--preset--gradient--black-secondary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-x-small-font-size{font-size: var(--wp--preset--font-size--x-small) !important;}.has-max-36-font-size{font-size: var(--wp--preset--font-size--max-36) !important;}.has-max-48-font-size{font-size: var(--wp--preset--font-size--max-48) !important;}.has-max-60-font-size{font-size: var(--wp--preset--font-size--max-60) !important;}.has-max-72-font-size{font-size: var(--wp--preset--font-size--max-72) !important;}
+:root :where(.wp-block-button .wp-block-button__link){background-color: var(--wp--preset--color--primary);}
+:root :where(.wp-block-columns){border-radius: 4px;border-width: 0;margin-bottom: 0px;}
+:root :where(.wp-block-pullquote){font-size: clamp(0.984em, 0.984rem + ((1vw - 0.2em) * 0.731), 1.5em);line-height: 1.6;}
+:root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: 10px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: 10px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: 10px;}:root :where(.wp-block-buttons-is-layout-grid){gap: 10px;}
+:root :where(.wp-block-column){border-radius: 4px;border-width: 0;margin-bottom: 0px;}
+:root :where(.wp-block-cover){padding-top: 30px;padding-right: 30px;padding-bottom: 30px;padding-left: 30px;}
+:root :where(.wp-block-group){padding: 0px;}
+:root :where(.wp-block-spacer){margin-top: 0 !important;}
+</style>
+<link rel='stylesheet' id='rfw-style-css' href='https://blogs.upm.es/ies/wp-content/plugins/rss-feed-widget/css/style.css' media='all' />
+<link rel='stylesheet' id='wp-biographia-bio-css' href='https://blogs.upm.es/ies/wp-content/plugins/wp-biographia/public/css/wp-biographia.min.css' media='all' />
+<link rel='stylesheet' id='inspiro-google-fonts-css' href='https://blogs.upm.es/ies/wp-content/fonts/454e74fa973f0b2fc3deb6b0930216f0.css' media='all' />
+<link rel='stylesheet' id='inspiro-style-css' href='https://blogs.upm.es/ies/wp-content/themes/inspiro/assets/css/minified/style.min.css' media='all' />
+<style id='inspiro-style-inline-css'>
+body, button, input, select, textarea {
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+}
+@media screen and (min-width: 782px) {
+body, button, input, select, textarea {
+font-size: 18px;
+line-height: 1.8;
+} }
+body:not(.wp-custom-logo) a.custom-logo-text {
+font-family: 'Onest', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
+@media screen and (min-width: 782px) {
+body:not(.wp-custom-logo) a.custom-logo-text {
+font-size: 26px;
+line-height: 1.8;
+} }
+h1, h2, h3, h4, h5, h6, .home.blog .entry-title, .page .entry-title, .page-title, #comments>h3, #respond>h3, .wp-block-button a, .entry-footer {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 1.4;
+}
+.home.blog .entry-title, .single .entry-title, .single .entry-cover-image .entry-header .entry-title {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.4;
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+.home.blog .entry-title, .single .entry-title, .single .entry-cover-image .entry-header .entry-title {
+font-size: 32px;
+} }
+@media screen and (min-width: 1025px) {
+.home.blog .entry-title, .single .entry-title, .single .entry-cover-image .entry-header .entry-title {
+font-size: 45px;
+} }
+.page .entry-title, .page-title, .page .entry-cover-image .entry-header .entry-title {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.4;
+text-align: left;
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+.page .entry-title, .page-title, .page .entry-cover-image .entry-header .entry-title {
+font-size: 32px;
+} }
+@media screen and (min-width: 1025px) {
+.page .entry-title, .page-title, .page .entry-cover-image .entry-header .entry-title {
+font-size: 45px;
+} }
+.entry-content h1, .widget-area h1, h1:not(.entry-title):not(.page-title):not(.site-title) {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.4;
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+.entry-content h1, .widget-area h1, h1:not(.entry-title):not(.page-title):not(.site-title) {
+font-size: 32px;
+} }
+@media screen and (min-width: 1025px) {
+.entry-content h1, .widget-area h1, h1:not(.entry-title):not(.page-title):not(.site-title) {
+font-size: 45px;
+} }
+.entry-content h2, .page-content h2, .comment-content h2 {
+font-size: 30px;
+font-weight: 600;
+line-height: 1.4;
+}
+.entry-content h3, .page-content h3, .comment-content h3 {
+font-size: 24px;
+font-weight: 600;
+line-height: 1.4;
+}
+.entry-content h4, .page-content h4, .comment-content h4 {
+font-size: 16px;
+font-weight: 600;
+line-height: 1.4;
+}
+.entry-content h5, .page-content h5, .comment-content h5 {
+font-size: 14px;
+font-weight: 600;
+line-height: 1.4;
+}
+.entry-content h6, .page-content h6, .comment-content h6 {
+font-size: 13px;
+font-weight: 600;
+line-height: 1.4;
+}
+.site-title {
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 1.25;
+}
+@media screen and (min-width: 782px) {
+.site-title {
+font-size: 80px;
+} }
+.site-description {
+font-family: 'Inter', sans-serif;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.site-description {
+font-size: 28px;
+} }
+.custom-header-button {
+font-family: 'Inter', sans-serif;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.custom-header-button {
+font-size: 16px;
+} }
+.navbar-nav a {
+font-family: 'Onest', sans-serif;
+font-weight: 500;
+line-height: 1.8;
+}
+@media screen and (min-width: 782px) {
+.navbar-nav a {
+font-size: 16px;
+} }
+@media screen and (max-width: 64em) {
+.navbar-nav li a {
+font-family: 'Onest', sans-serif;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1.8;
+} }
+
+
+		:root {
+			--container-width: 1200px;
+			--container-width-narrow: 950px;
+			--container-padding: 30px;
+		}
+		
+		/* Dynamic responsive padding media queries */
+		@media (max-width: 1260px) {
+			.wrap,
+			.inner-wrap,
+			.page .entry-content,
+			.page:not(.inspiro-front-page) .entry-footer,
+			.single .entry-wrapper,
+			.single.has-sidebar.page-layout-sidebar-right .entry-header .inner-wrap,
+			.wp-block-group > .wp-block-group__inner-container {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+		
+		@media (max-width: 1010px) {
+			.single .entry-header .inner-wrap,
+			.single .entry-content,
+			.single .entry-footer,
+			#comments {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+		
+</style>
+<link rel='stylesheet' id='addtoany-css' href='https://blogs.upm.es/ies/wp-content/plugins/add-to-any/addtoany.min.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/css/frontend.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-626-css' href='https://blogs.upm.es/ies/wp-content/uploads/sites/1240/elementor/css/post-626.css' media='all' />
+<link rel='stylesheet' id='lae-animate-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/lib/animate.css' media='all' />
+<link rel='stylesheet' id='lae-sliders-styles-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/lib/sliders.min.css' media='all' />
+<link rel='stylesheet' id='lae-icomoon-styles-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/icomoon.css' media='all' />
+<link rel='stylesheet' id='lae-frontend-styles-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/lae-frontend.css' media='all' />
+<link rel='stylesheet' id='lae-grid-styles-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/lae-grid.css' media='all' />
+<link rel='stylesheet' id='lae-widgets-styles-css' href='https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/css/widgets/lae-widgets.min.css' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/css/widget-spacer.min.css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/css/widget-heading.min.css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/css/widget-image.min.css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeIn-css' href='https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-1724-css' href='https://blogs.upm.es/ies/wp-content/uploads/sites/1240/elementor/css/post-1724.css' media='all' />
+<link rel='stylesheet' id='moove_gdpr_frontend-css' href='https://blogs.upm.es/ies/wp-content/plugins/gdpr-cookie-compliance/dist/styles/gdpr-main.css' media='all' />
+<style id='moove_gdpr_frontend-inline-css'>
+#moove_gdpr_cookie_modal,#moove_gdpr_cookie_info_bar,.gdpr_cookie_settings_shortcode_content{font-family:&#039;Nunito&#039;,sans-serif}#moove_gdpr_save_popup_settings_button{background-color:#373737;color:#fff}#moove_gdpr_save_popup_settings_button:hover{background-color:#000}#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{background-color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green{background-color:#0C4DA2;border-color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover{background-color:#fff;color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{background-color:#0C4DA2;border:1px solid #0C4DA2}#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-allow-all:focus,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar span.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn.focus-g,#moove_gdpr_cookie_info_bar button.moove-gdpr-infobar-reject-btn:focus,#moove_gdpr_cookie_info_bar span.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar span.change-settings-button:focus,#moove_gdpr_cookie_info_bar button.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar button.change-settings-button:focus{-webkit-box-shadow:0 0 1px 3px #0C4DA2;-moz-box-shadow:0 0 1px 3px #0C4DA2;box-shadow:0 0 1px 3px #0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button{color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .gdpr-acc-link{line-height:0;font-size:0;color:transparent;position:absolute}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button.focus-g,span.change-settings-button:focus,button.change-settings-button.focus-g,button.change-settings-button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:focus{color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-branding.focus-g span,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main a.focus-g,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .gdpr-cd-details-toggle.focus-g{color:#0C4DA2}#moove_gdpr_cookie_modal.gdpr_lightbox-hide{display:none}
+</style>
+<link rel='stylesheet' id='elementor-gf-local-opensans-css' href='https://blogs.upm.es/ies/wp-content/uploads/sites/1240/elementor/google-fonts/css/opensans.css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://blogs.upm.es/ies/wp-content/uploads/sites/1240/elementor/google-fonts/css/roboto.css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-montserrat-css' href='https://blogs.upm.es/ies/wp-content/uploads/sites/1240/elementor/google-fonts/css/montserrat.css' media='all' />
+<script src="https://blogs.upm.es/ies/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js" id="exactmetrics-frontend-script-js" async data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" id='exactmetrics-frontend-script-js-extra'>var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/blogs.upm.es\/ies","hash_tracking":"false","v4_id":"G-J9NKPCCVM6"};</script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script id="addtoany-core-js-before">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Share",
+	Save: "Save",
+	Subscribe: "Subscribe",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "Show All",
+	ShowLess: "Show less",
+	FindServices: "Find service(s)",
+	FindAnyServiceToAddTo: "Instantly find any service to add to",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Bookmark in your browser",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Add to your favourites",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;",
+	ThanksForSharing: "Thanks for sharing!",
+	ThanksForFollowing: "Thanks for following!"
+};
+</script>
+<script defer src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script defer src="https://blogs.upm.es/ies/wp-content/plugins/add-to-any/addtoany.min.js" id="addtoany-jquery-js"></script>
+<link rel="https://api.w.org/" href="https://blogs.upm.es/ies/index.php?rest_route=/" /><link rel="alternate" title="JSON" type="application/json" href="https://blogs.upm.es/ies/index.php?rest_route=/wp/v2/pages/1724" /><link rel="canonical" href="https://blogs.upm.es/ies/" />
+<link rel='shortlink' href='https://blogs.upm.es/ies/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://blogs.upm.es/ies/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fblogs.upm.es%2Fies%2F&#038;lang=en" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://blogs.upm.es/ies/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fblogs.upm.es%2Fies%2F&#038;format=xml&#038;lang=en" />
+
+
+<style type="text/css">
+p.cc-block { clear: both; width: 90%; margin: 8px auto; padding: 4px; text-align: center; border: 1px solid #cccccc; color: #000000; background-color: #eef6e6; }
+p.cc-block a:link, p.cc-block a:visited, p.cc-block a:hover, p.cc-block a:active { text-decoration: underline; color: #000000; border: none;}
+.cc-button { display: block; margin-left: auto; margin-right: auto; margin-top: 6px; margin-bottom: 6px; border-width: 0; }
+.wp-caption { border: 0; }
+.widget_bccl_widget { text-align: center; }
+</style>
+
+
+
+<style>
+        input[type="email"] {
+            direction: ltr;
+            font-size: 14pt;
+            border: 0px solid #000;
+        }
+    </style>        <script type="text/javascript">
+            ( function () {
+                window.lae_fs = { can_use_premium_code: false};
+            } )();
+        </script>
+        			<style type="text/css" id="custom-theme-colors" data-hex="#ffffff" data-palette="default" data-scheme="custom">
+				
+/**
+ * Inspiro Lite: Custom Color Scheme
+ */
+
+:root {
+    --inspiro-primary-color: #ffffff;
+    --inspiro-secondary-color: #ffffff;
+    --inspiro-tertiary-color: #ffffff;
+    --inspiro-accent-color: #ffffff;
+}
+
+body {
+    --wp--preset--color--secondary: #ffffff;
+}
+			</style>
+			<meta name="generator" content="Elementor 3.33.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+					<style id="inspiro-custom-header-styles">
+						.site-title a,
+			.colors-dark .site-title a,
+			.site-title a,
+			body.has-header-image .site-title a,
+			body.has-header-video .site-title a,
+			body.has-header-image.colors-dark .site-title a,
+			body.has-header-video.colors-dark .site-title a,
+			body.has-header-image .site-title a,
+			body.has-header-video .site-title a,
+			.site-description,
+			.colors-dark .site-description,
+			.site-description,
+			body.has-header-image .site-description,
+			body.has-header-video .site-description,
+			body.has-header-image.colors-dark .site-description,
+			body.has-header-video.colors-dark .site-description,
+			body.has-header-image .site-description,
+			body.has-header-video .site-description {
+				color: #fff;
+			}
+
+			
+						.custom-header-button {
+				color: #ffffff;
+				border-color: #ffffff;
+			}
+
+			
+						.custom-header-button:hover {
+				color: #ffffff;
+			}
+
+			
+						.custom-header-button:hover {
+				background-color: #13498a !important;
+				border-color: #13498a !important;
+			}
+
+			
+			
+						.navbar {
+				background-color: #0f1c82;
+			}
+
+			
+						.headroom--not-top .navbar,
+			.has-header-image.home.blog .headroom--not-top .navbar,
+			.has-header-image.inspiro-front-page .headroom--not-top .navbar,
+			.has-header-video.home.blog .headroom--not-top .navbar,
+			.has-header-video.inspiro-front-page .headroom--not-top .navbar {
+				background-color: #0f1c82;
+			}
+
+			
+			
+            
+            
+			
+			
+						a.custom-logo-text:hover {
+				color: #ffffff;
+			}
+
+			
+			
+
+			/* hero section */
+						#scroll-to-content:before {
+				border-color: #fff;
+			}
+
+			
+						.has-header-image .custom-header-media:before {
+				background-image: linear-gradient(to bottom,
+				rgba(0, 0, 0, 0.3) 0%,
+				rgba(0, 0, 0, 0.5) 100%);
+
+				/*background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0.5) 100%)*/
+			}
+
+
+			
+
+			/* content */
+						.entry-content a:not(.wp-element-button),
+			.entry-summary a, .comment-content a, .posts-navigation a {
+				color: #f1b351;
+			}
+
+			
+						.entry-content a:not(.wp-element-button):hover,
+			.entry-summary a:hover, .comment-content a:hover, .posts-navigation a:hover {
+				color: #f1b351;
+			}
+
+			
+			
+
+			/* sidebar */
+			
+						.side-nav__scrollable-container {
+				color: #666666;
+			}
+
+			
+			
+						:root :where(.side-nav__wrap a:where(:not(.wp-element-button))) {
+				color: #ffffff;
+			}
+
+			
+
+			/* footer */
+						.site-footer {
+				background-color: #0f1c82;
+			}
+
+			
+						.site-footer {
+				color: #ffffff;
+			}
+
+			
+			
+
+			/* general */
+						h1, h2, h3, h4, h5, h6 {
+				color: #ffffff;
+			}
+
+			
+						h1 {
+				color: #ffffff;
+			}
+
+			
+						h2 {
+				color: #000000;
+			}
+
+			
+						h3 {
+				color: #000000;
+			}
+
+			
+						h4 {
+				color: #ffffff;
+			}
+
+			
+			
+			
+						.page .entry-title,
+			.page.colors-dark .entry-title,
+			.page.colors-custom .entry-title {
+				color: #000000;
+			}
+
+			
+			
+			
+					</style>
+		<link rel="icon" href="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/cropped-Flat-icon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/cropped-Flat-icon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/cropped-Flat-icon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/cropped-Flat-icon-270x270.jpg" />
+<style id="sccss">/* Escribe aquí tu código CSS */
+h1.site-title > a:lang(en) {
+	display: none;
+}
+
+h1.site-title:lang(en):before{
+	 content: "Solar Energy Institute";
+}
+
+.entry-meta span:first-child + span::before, .entry-meta span:first-child, .entry-comments::before {
+	display: none;
+}
+.related-posts, .post-navigation, .entry-footer {
+    display: none !important;
+}
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Cambia el número 8 por el número de columnas que desees */
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+.footer-columns div {
+    padding: 10px;
+    /* Opcional: estilos adicionales, por ejemplo colores, fuentes, etc. */
+}
+
+</style>
+</head>
+
+<body class="home wp-singular page-template page-template-page-templates page-template-no-title page-template-page-templatesno-title-php page page-id-1724 wp-custom-logo wp-embed-responsive wp-theme-inspiro group-blog inspiro-front-page has-header-image page-layout-full-width post-display-content-excerpt colors-custom elementor-default elementor-kit-626 elementor-page elementor-page-1724">
+
+<aside id="side-nav" class="side-nav" tabindex="-1">
+	<div class="side-nav__scrollable-container">
+		<div class="side-nav__wrap">
+			<div class="side-nav__close-button">
+				<button type="button" class="navbar-toggle">
+					<span class="screen-reader-text">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+							<nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
+					<ul id="menu-principal-english" class="nav navbar-nav"><li id="menu-item-4879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4879"><a href="#">ABOUT US<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4851"><a href="https://blogs.upm.es/ies/?page_id=2165">WELCOME</a></li>
+	<li id="menu-item-4849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4849"><a href="https://blogs.upm.es/ies/?page_id=2168">OUR MISSION</a></li>
+	<li id="menu-item-4850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4850"><a href="https://blogs.upm.es/ies/?page_id=1932">PEOPLE</a></li>
+	<li id="menu-item-4848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4848"><a href="https://blogs.upm.es/ies/?page_id=2695">CONTACT AND LOCATION</a></li>
+</ul>
+</li>
+<li id="menu-item-4880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4880"><a href="#">RESEARCH<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4852"><a href="https://blogs.upm.es/ies/?page_id=1700">AREAS</a></li>
+	<li id="menu-item-4854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4854"><a href="https://blogs.upm.es/ies/?page_id=1760">GROUPS</a></li>
+	<li id="menu-item-4853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4853"><a href="https://blogs.upm.es/ies/?page_id=1778">FACILITIES</a></li>
+</ul>
+</li>
+<li id="menu-item-4881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4881"><a href="#">INNOVATION<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4856"><a href="https://blogs.upm.es/ies/?page_id=1940">SERVICES</a></li>
+	<li id="menu-item-4857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4857"><a href="https://blogs.upm.es/ies/?page_id=1943">SPIN-OFFS</a></li>
+	<li id="menu-item-4855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4855"><a href="https://blogs.upm.es/ies/?page_id=1946">PARTNERSHIP</a></li>
+</ul>
+</li>
+<li id="menu-item-4882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4882"><a href="#">EDUCATION<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4858"><a href="https://blogs.upm.es/ies/?page_id=1953">MASTER IN PHOTOVOLTAICS</a></li>
+	<li id="menu-item-4860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4860"><a href="https://blogs.upm.es/ies/?page_id=1956">PhD IN PHOTOVOLTAICS</a></li>
+	<li id="menu-item-4859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4859"><a href="https://blogs.upm.es/ies/?page_id=1959">MORE PV EDUCATION</a></li>
+</ul>
+</li>
+<li id="menu-item-4883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4883"><a href="#">OUTREACH<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4864"><a href="https://blogs.upm.es/ies/?page_id=3898">NEWS AND EVENTS</a></li>
+</ul>
+</li>
+<li id="menu-item-4884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4884"><a href="#">JOIN US<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-4866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4866"><a href="https://blogs.upm.es/ies/?page_id=1972">PhD  POSITIONS</a></li>
+	<li id="menu-item-4862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4862"><a href="https://blogs.upm.es/ies/?page_id=1968">JOB OPENINGS</a></li>
+	<li id="menu-item-4861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4861"><a href="https://blogs.upm.es/ies/?page_id=1976">INTERNSHIPS &amp; MORE</a></li>
+</ul>
+</li>
+</ul>				</nav>
+								</div>
+	</div>
+</aside>
+<div class="side-nav-overlay"></div>
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div id="site-navigation" class="navbar">
+	<div class="header-inner inner-wrap wpz_layout_full wpz_menu_center">
+
+		<div class="header-logo-wrapper">
+			<a href="https://blogs.upm.es/ies/" class="custom-logo-link" rel="home" aria-current="page"><img loading="lazy" width="1919" height="779" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1.png" class="custom-logo" alt="IES" decoding="async" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1.png 1919w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1-300x122.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1-1024x416.png 1024w" sizes="100vw" /></a>		</div>
+
+		<div class="header-navigation-wrapper">
+                        <nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu" role="navigation">
+                <ul id="menu-principal-english-1" class="nav navbar-nav dropdown sf-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4879"><a href="#">ABOUT US<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4851"><a href="https://blogs.upm.es/ies/?page_id=2165">WELCOME</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4849"><a href="https://blogs.upm.es/ies/?page_id=2168">OUR MISSION</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4850"><a href="https://blogs.upm.es/ies/?page_id=1932">PEOPLE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4848"><a href="https://blogs.upm.es/ies/?page_id=2695">CONTACT AND LOCATION</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4880"><a href="#">RESEARCH<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4852"><a href="https://blogs.upm.es/ies/?page_id=1700">AREAS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4854"><a href="https://blogs.upm.es/ies/?page_id=1760">GROUPS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4853"><a href="https://blogs.upm.es/ies/?page_id=1778">FACILITIES</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4881"><a href="#">INNOVATION<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4856"><a href="https://blogs.upm.es/ies/?page_id=1940">SERVICES</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4857"><a href="https://blogs.upm.es/ies/?page_id=1943">SPIN-OFFS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4855"><a href="https://blogs.upm.es/ies/?page_id=1946">PARTNERSHIP</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4882"><a href="#">EDUCATION<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4858"><a href="https://blogs.upm.es/ies/?page_id=1953">MASTER IN PHOTOVOLTAICS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4860"><a href="https://blogs.upm.es/ies/?page_id=1956">PhD IN PHOTOVOLTAICS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4859"><a href="https://blogs.upm.es/ies/?page_id=1959">MORE PV EDUCATION</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4883"><a href="#">OUTREACH<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4864"><a href="https://blogs.upm.es/ies/?page_id=3898">NEWS AND EVENTS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4884"><a href="#">JOIN US<svg class="svg-icon svg-icon-angle-down" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="21" height="32" viewBox="0 0 21 32"><path d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path></svg></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4866"><a href="https://blogs.upm.es/ies/?page_id=1972">PhD  POSITIONS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4862"><a href="https://blogs.upm.es/ies/?page_id=1968">JOB OPENINGS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4861"><a href="https://blogs.upm.es/ies/?page_id=1976">INTERNSHIPS &amp; MORE</a></li>
+</ul>
+</li>
+</ul>            </nav>
+                    </div>
+
+		<div class="header-widgets-wrapper">
+							<div class="header_social">
+					<div id="block-50" class="widget widget_block widget_text">
+<p></p>
+</div>				</div>
+			
+			<div id="sb-search" class="sb-search" style="display: none;">
+				
+<form method="get" id="searchform" action="https://blogs.upm.es/ies/">
+	<label for="search-form-input">
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="sb-search-input" placeholder="Type your keywords and hit Enter..." name="s" id="search-form-input" autocomplete="off" />
+	</label>
+	<button class="sb-search-button-open" aria-expanded="false">
+		<span class="sb-icon-search">
+			<svg class="svg-icon svg-icon-search" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)" /></svg>		</span>
+	</button>
+	<button class="sb-search-button-close" aria-expanded="false">
+		<span class="sb-icon-search">
+			<svg class="svg-icon svg-icon-cross" aria-hidden="true" role="img" focusable="false" xmlns="https://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>		</span>
+	</button>
+</form>
+			</div>
+
+							<button type="button" class="navbar-toggle">
+					<span class="screen-reader-text">Toggle sidebar &amp; navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					</div>
+	</div>
+</div>
+	</header>
+
+    
+	<div class="custom-header">
+	<div class="site-branding">
+	<div class="inner-wrap">
+		
+		<div class="site-branding-text">
+			
+			
+							<h1 class="site-title"><a href="https://www.upm.es/" target="_blank">INSTITUTO DE ENERGÍA SOLAR</a></h1>
+			
+							<p class="site-description">Universidad Politécnica de Madrid</p>
+					</div>
+
+		<div class="custom-header-button-wrapper">
+		<a class="custom-header-button button" href="https://www.upm.es/" target="_blank" rel="nofollow" style="display: none;">
+			</a>
+</div>
+
+	</div>
+</div>
+
+    
+	<div class="custom-header-media">
+		<div id="wp-custom-header" class="wp-custom-header"></div>	</div>
+
+		<div id="scroll-to-content" title="Scroll down to content">
+		<span class="screen-reader-text">Scroll down to content</span>
+	</div>
+	</div>
+
+	<div class="site-content-contain">
+		<div id="content" class="site-content">
+
+<main id="main" class="site-main" role="main">
+
+    
+        <article id="post-1724" class="post-1724 page type-page status-publish hentry">
+
+            <div class="entry-content">
+                		<div data-elementor-type="wp-page" data-elementor-id="1724" class="elementor elementor-1724">
+				<div class="elementor-element elementor-element-f9d843f e-flex e-con-boxed e-con e-parent" data-id="f9d843f" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-302be24 elementor-widget elementor-widget-spacer" data-id="302be24" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8e4ce40 e-flex e-con-boxed e-con e-parent" data-id="8e4ce40" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7981650 elementor-widget elementor-widget-heading" data-id="7981650" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Latest news</h1>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5d42983 e-con-full e-flex e-con e-parent" data-id="5d42983" data-element_type="container">
+				<div class="elementor-element elementor-element-5e18378 lae-slider-arrow-placement-middle-center lae-slider-arrow-shape-circle lae-slider-arrow-color-dark lae-slider-arrow-visibility-always elementor-widget elementor-widget-lae-posts-gridbox-slider" data-id="5e18378" data-element_type="widget" data-widget_type="lae-posts-gridbox-slider.default">
+				<div class="elementor-widget-container">
+					
+<div class="lae-posts-gridbox-slider-wrap">
+    <div            id="lae-posts-gridbox-slider-5e18378"
+            class="lae-posts-gridbox-slider lae-container lae-posts-gridbox-slider-style-1"
+            data-settings='{&quot;slider_id&quot;:&quot;5e18378&quot;,&quot;arrows&quot;:true,&quot;dots&quot;:false,&quot;autoplay&quot;:false,&quot;autoplay_speed&quot;:3000,&quot;animation_speed&quot;:300,&quot;pause_on_hover&quot;:true}'><div class="lae-posts-gridbox-slide">
+    <div class="lae-posts-gridbox">
+        
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:500px;">
+
+            <article id="post-5062"
+                     class="lae-post-entry post-5062 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute tag-conference tag-eupvsec-2025 tag-photovoltraics">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=5062"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/10/IES-shines-at-EUPVSEC-2025.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=5062" title="IES shines at EUPVSEC 2025" rel="bookmark">IES shines at EUPVSEC 2025</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Monday, October, 2025, 11:11 am">20 de October de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                        <div class="lae-post-content">
+
+                                            
+                                            
+                                                
+                                                
+<a class="lae-read-more" href="https://blogs.upm.es/ies/?p=5062">Read More</a>
+
+                                            
+                                        </div>
+
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-5055"
+                     class="lae-post-entry post-5055 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute tag-great-talks tag-seminar tag-speak">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=5055"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/10/great-talks-2025-IES.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=5055" title="GREAT talks are back!" rel="bookmark">GREAT talks are back!</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Friday, October, 2025, 9:52 am">10 de October de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-4922"
+                     class="lae-post-entry post-4922 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute tag-ies-research-day-2025 tag-upm-south-campus">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4922"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/07/IES-Research-Day-2025-6.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4922" title="IES Research Day 2025" rel="bookmark">IES Research Day 2025</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Friday, June, 2025, 4:22 pm">27 de June de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+            </div>
+</div>
+
+<div class="lae-posts-gridbox-slide">
+    <div class="lae-posts-gridbox">
+        
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:500px;">
+
+            <article id="post-4938"
+                     class="lae-post-entry post-4938 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute tag-demo-center tag-solar-energy-institute tag-trinasolar">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4938"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/06/Trinasolar-and-the-Solar-Energy-Institute-Strengthen-Partnership-with-Inauguration-of-Demo-Center.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4938" title="Trinasolar and the Solar Energy Institute Strengthen Partnership with Inauguration of Demo Center" rel="bookmark">Trinasolar and the Solar Energy Institute Strengthen Partnership with Inauguration of Demo Center</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Wednesday, June, 2025, 4:34 pm">25 de June de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                        <div class="lae-post-content">
+
+                                            
+                                            
+                                                
+                                                
+<a class="lae-read-more" href="https://blogs.upm.es/ies/?p=4938">Read More</a>
+
+                                            
+                                        </div>
+
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-4737"
+                     class="lae-post-entry post-4737 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4737"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/06/III-Premio-Fundacion-Naturgy.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4737" title="III Premio Fundación Naturgy-CSIC al proyecto APE2SOL del IES-UPM y la UAM" rel="bookmark">III Premio Fundación Naturgy-CSIC al proyecto APE2SOL del IES-UPM y la UAM</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Tuesday, June, 2025, 10:39 am">24 de June de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-4596"
+                     class="lae-post-entry post-4596 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4596"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/05/IES-Aitana-Cano-Promotes-Photovoltaics-Among-High-School-Students-5.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4596" title="IES Aitana Cano Promotes Photovoltaics Among High School Students" rel="bookmark">IES Aitana Cano Promotes Photovoltaics Among High School Students</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Wednesday, May, 2025, 1:08 pm">21 de May de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+            </div>
+</div>
+
+<div class="lae-posts-gridbox-slide">
+    <div class="lae-posts-gridbox">
+        
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:500px;">
+
+            <article id="post-4489"
+                     class="lae-post-entry post-4489 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4489"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/04/IES-I.-Ramiro-awarded-ERC-Consolidator-Grant-2.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4489" title="IES I. Ramiro awarded ERC Consolidator Grant" rel="bookmark">IES I. Ramiro awarded ERC Consolidator Grant</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Tuesday, April, 2025, 8:32 am">29 de April de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                        <div class="lae-post-content">
+
+                                            
+                                            
+                                                
+                                                
+<a class="lae-read-more" href="https://blogs.upm.es/ies/?p=4489">Read More</a>
+
+                                            
+                                        </div>
+
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-4499"
+                     class="lae-post-entry post-4499 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=4499"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/04/Your-Solar-PhD-Thesis-in-3-minutes.png);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=4499" title="Your Solar PhD Thesis in 3 minutes" rel="bookmark">Your Solar PhD Thesis in 3 minutes</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Thursday, April, 2025, 8:41 am">10 de April de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-3562"
+                     class="lae-post-entry post-3562 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=3562"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/Science-Industry-Forum.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=3562" title="IES Participates in the Spanish Space Agency’s Science &amp; Industry Forum" rel="bookmark">IES Participates in the Spanish Space Agency’s Science &amp; Industry Forum</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Wednesday, February, 2025, 11:14 am">26 de February de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+            </div>
+</div>
+
+<div class="lae-posts-gridbox-slide">
+    <div class="lae-posts-gridbox">
+        
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:500px;">
+
+            <article id="post-3559"
+                     class="lae-post-entry post-3559 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=3559"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/CDE-2025.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=3559" title="Strong IES Presence at CDE 2025" rel="bookmark">Strong IES Presence at CDE 2025</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Wednesday, February, 2025, 11:13 am">26 de February de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                        <div class="lae-post-content">
+
+                                            
+                                            
+                                                
+                                                
+<a class="lae-read-more" href="https://blogs.upm.es/ies/?p=3559">Read More</a>
+
+                                            
+                                        </div>
+
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+        
+
+        <div class="lae-posts-gridbox-item lae-align-bottom-left" style="height:250px;">
+
+            <article id="post-3759"
+                     class="lae-post-entry post-3759 post type-post status-publish format-standard has-post-thumbnail hentry category-solar-energy-institute">
+
+                
+                    
+                        <a class="lae-post-link-overlay"
+                           href="https://blogs.upm.es/ies/?p=3759"
+                           target=""></a>
+
+                    
+                    
+                    
+                    <div class="lae-post-overlay lae-post-featured-img-bg" style="background-image: url(https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/EU-PVSEC-2025-Carlos-Canizo.jpg);">
+
+                        
+                            <div class="lae-post-text-wrap">
+
+                                <div class="lae-post-text">
+
+                                    
+                                    
+                                        <h3 class="lae-post-title"><a href="https://blogs.upm.es/ies/?p=3759" title="Prof. Carlos del Cañizo appointed as General Chair of EUPVSEC 2025" rel="bookmark">Prof. Carlos del Cañizo appointed as General Chair of EUPVSEC 2025</a></h3>
+                                    
+                                    
+                                        <div class="lae-post-meta">
+
+                                            
+                                            
+                                                
+<span class="published">
+    <abbr title="Tuesday, February, 2025, 7:11 pm">25 de February de 2025</abbr>
+</span>
+
+                                            
+                                            
+                                        </div>
+
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                        
+                    </div>
+
+                
+            </article>
+
+        </div>
+
+            </div>
+</div>
+
+    </div>
+
+</div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f3084bc e-flex e-con-boxed e-con e-parent" data-id="f3084bc" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-dc38bd1 elementor-widget elementor-widget-heading" data-id="dc38bd1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default"><h2 class="wp-block-heading" style="padding-top: 0.625em">Activities &amp; events</h2></h1>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-ada6cd4 e-flex e-con-boxed e-con e-parent" data-id="ada6cd4" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bf01fc4 e-con-full e-flex e-con e-child" data-id="bf01fc4" data-element_type="container">
+				<div class="elementor-element elementor-element-4235757 elementor-widget elementor-widget-image" data-id="4235757" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://blogs.upm.es/ies/?p=3705">
+							<img fetchpriority="high" fetchpriority="high" decoding="async" width="1024" height="576" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Chipnation-1024x576.jpg" class="attachment-large size-large wp-image-5006" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Chipnation-1024x576.jpg 1024w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Chipnation-300x169.jpg 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Chipnation.jpg 1297w" sizes="100vw" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-21783c6 e-con-full e-flex e-con e-child" data-id="21783c6" data-element_type="container">
+				<div class="elementor-element elementor-element-c21b816 elementor-widget elementor-widget-image" data-id="c21b816" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://eventos.upm.es/109366/detail/great-talks-genuine-research-events-teleco.html">
+							<img decoding="async" width="350" height="200" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Great-talks-IES-event.jpg" class="attachment-medium_large size-medium_large wp-image-3757" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Great-talks-IES-event.jpg 350w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/Great-talks-IES-event-300x171.jpg 300w" sizes="100vw" />								</a>
+															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-ae313aa e-flex e-con-boxed e-con e-parent" data-id="ae313aa" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d61c36f elementor-widget elementor-widget-heading" data-id="d61c36f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><h2 class="wp-block-heading" style="padding-top: 0.625em">What we do</h2></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0851699 e-flex e-con-boxed e-con e-parent" data-id="0851699" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cae3986 elementor-invisible elementor-widget elementor-widget-image" data-id="cae3986" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="900" height="522" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/master-en-energia-solar-fotovoltaica-ies-upm-investigacion.jpg" class="attachment-large size-large wp-image-3018" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/master-en-energia-solar-fotovoltaica-ies-upm-investigacion.jpg 900w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/master-en-energia-solar-fotovoltaica-ies-upm-investigacion-300x174.jpg 300w" sizes="100vw" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-78d792c elementor-invisible elementor-widget elementor-widget-image" data-id="78d792c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" loading="lazy" decoding="async" width="1024" height="592" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-PHD-PROGRAM-1024x592.jpg" class="attachment-large size-large wp-image-3132" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-PHD-PROGRAM-1024x592.jpg 1024w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-PHD-PROGRAM-300x173.jpg 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-PHD-PROGRAM-1536x888.jpg 1536w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-PHD-PROGRAM.jpg 1920w" sizes="100vw" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-02ae9c0 elementor-absolute elementor-widget elementor-widget-button" data-id="02ae9c0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://blogs.upm.es/ies/?page_id=1953">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-803f43a elementor-absolute elementor-widget elementor-widget-button" data-id="803f43a" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://blogs.upm.es/ies/?page_id=1956">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-5497d56 elementor-absolute elementor-widget elementor-widget-heading" data-id="5497d56" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">A postgraduate course fully centered in PV</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0888026 elementor-absolute elementor-widget elementor-widget-heading" data-id="0888026" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">The pinnacle of academic excellence in photovoltaics research groups</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6c81c50 elementor-absolute elementor-widget elementor-widget-heading" data-id="6c81c50" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Master of Science in Photovotaic Solar Energy</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c124f6c elementor-absolute elementor-widget elementor-widget-heading" data-id="c124f6c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">PhD in Photovoltaic Solar Energy</h3>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2b548bc e-con-full e-flex e-con e-parent" data-id="2b548bc" data-element_type="container">
+		<div class="elementor-element elementor-element-3fed1e2 e-con-full e-flex e-con e-child" data-id="3fed1e2" data-element_type="container">
+				<div class="elementor-element elementor-element-69e062f elementor-invisible elementor-widget elementor-widget-image" data-id="69e062f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" loading="lazy" decoding="async" width="1024" height="592" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-areas-1024x592.jpg" class="attachment-large size-large wp-image-3079" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-areas-1024x592.jpg 1024w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-areas-300x173.jpg 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-areas-1536x888.jpg 1536w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-areas.jpg 1920w" sizes="100vw" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-478d808 elementor-absolute elementor-widget elementor-widget-button" data-id="478d808" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://blogs.upm.es/ies/?page_id=1700">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-0361465 elementor-absolute elementor-widget elementor-widget-heading" data-id="0361465" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Our research at IES</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5d9c791 elementor-absolute elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading" data-id="5d9c791" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">R&amp;D</h3>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-861c5fa e-con-full e-flex e-con e-child" data-id="861c5fa" data-element_type="container">
+				<div class="elementor-element elementor-element-6141d51 elementor-invisible elementor-widget elementor-widget-image" data-id="6141d51" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" loading="lazy" decoding="async" width="1024" height="592" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-welcome-1024x592.jpg" class="attachment-large size-large wp-image-3036" alt="" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-welcome-1024x592.jpg 1024w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-welcome-300x173.jpg 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-welcome-1536x888.jpg 1536w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/02/IES-welcome.jpg 1920w" sizes="100vw" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-3deb9d0 elementor-absolute elementor-widget elementor-widget-button" data-id="3deb9d0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://blogs.upm.es/ies/?page_id=2165">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-97f2f58 elementor-absolute elementor-widget elementor-widget-heading" data-id="97f2f58" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Get to know us</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b4898e9 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="b4898e9" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">ABOUT US</h3>				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		            </div>
+        </article>
+
+    
+</main>
+
+
+
+		</div>
+
+		
+<section class="site-widgetized-section section-footer">
+	<div class="widgets clearfix">
+		<section class="widget widget_block widget_text" id="block-82">
+<p></p>
+<div class="clear"></div></section>	</div>
+</section>
+
+
+		<footer id="colophon" class="site-footer has-footer-widgets" role="contentinfo">
+			<div class="inner-wrap">
+				
+
+	<aside class="footer-widgets widgets widget-columns-3" role="complementary" aria-label="Footer">
+
+							<div class="widget-column footer-widget-1">
+					<section id="block-7" class="widget widget_block widget_media_image">
+<figure class="wp-block-image alignleft size-full is-resized" style="margin-top:0px;margin-bottom:var(--wp--preset--spacing--small)"><img loading="lazy" loading="lazy" decoding="async" width="1919" height="779" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1.png" alt="" class="wp-image-1342" style="width:300px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1.png 1919w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1-300x122.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/08/cropped-Logo-IES-Politecnica-1-1024x416.png 1024w" sizes="(max-width: 1919px) 100vw, 1919px" /></figure>
+</section>					</div>
+									<div class="widget-column footer-widget-2">
+					<section id="block-41" class="widget widget_block widget_media_image">
+<figure class="wp-block-image alignleft size-full is-resized" style="margin-top:30px"><img loading="lazy" loading="lazy" decoding="async" width="400" height="159" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/12/LOGOTIPO-upm-prueba-blanco-1.png" alt="" class="wp-image-2730" style="width:300px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/12/LOGOTIPO-upm-prueba-blanco-1.png 400w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2024/12/LOGOTIPO-upm-prueba-blanco-1-300x119.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
+</section>					</div>
+									<div class="widget-column footer-widget-3">
+					<section id="block-107" class="widget widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3c5622cb wp-block-columns-is-layout-flex" style="margin-top:60px">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://www.linkedin.com/company/instituto-de-energ-a-solar---universidad-polit-nica-de-madrid" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LINKEDIN-IES.png" alt="" class="wp-image-3952" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LINKEDIN-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LINKEDIN-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LINKEDIN-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://www.instagram.com/ies_upm/" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/INSTAGRAM-IES.png" alt="" class="wp-image-3951" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/INSTAGRAM-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/INSTAGRAM-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/INSTAGRAM-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://www.youtube.com/channel/UCSs_iN4Db0D43kVwY0JBCgg" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/YOUTUBE-IES.png" alt="" class="wp-image-3953" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/YOUTUBE-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/YOUTUBE-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/YOUTUBE-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://blogs.upm.es/ies/?page_id=2695" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LLamar-IES.png" alt="" class="wp-image-4051" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LLamar-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LLamar-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/LLamar-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://blogs.upm.es/ies/?page_id=2695" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/EMAIL-IES.png" alt="" class="wp-image-3960" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/EMAIL-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/EMAIL-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/EMAIL-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><a href="https://blogs.upm.es/ies/?page_id=2695" target="_blank" rel=" noreferrer noopener"><img loading="lazy" loading="lazy" decoding="async" width="512" height="512" src="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/UBICACION-IES.png" alt="" class="wp-image-3961" style="width:52px" srcset="https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/UBICACION-IES.png 512w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/UBICACION-IES-300x300.png 300w, https://blogs.upm.es/ies/wp-content/uploads/sites/1240/2025/03/UBICACION-IES-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</div>
+</div>
+</section>					</div>
+				
+	</aside>
+
+	<div class="site-footer-separator"></div>
+
+
+<div class="site-info">
+		<span class="copyright">
+		<span>
+							<a style="color: #ffffff;font-family: Inter, sans-serif;font-size: 14px;text-align: center" href="https://www.upm.es/AvisoLegal" target="_blank" rel="noreferrer noopener">Aviso legal</a><span style="color: #ffffff;font-family: Inter, sans-serif;font-size: 14px;text-align: center">   |   </span><a style="color: #ffffff;font-family: Inter, sans-serif;font-size: 14px;text-align: center" href="https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Tecnologias%20de%20la%20Informacion%20y%20Servicios%20en%20Red/Servicio%20de%20Planificacion%20Informatica%20y%20Comunicaciones/Web%20institucional/POLITICA_PRIVACIDAD_UPM.pdf" target="_blank" rel="noreferrer noopener">Política de privacidad</a><span style="color: #ffffff;font-family: Inter, sans-serif;font-size: 14px;text-align: center"> |  </span><a style="color: #ffffff;font-family: Inter, sans-serif;font-size: 14px;text-align: center" href="https://blogs.upm.es/politica-de-cookies-upmblogs/" target="_blank" rel="noreferrer noopener">Cookies</a>					</span>
+		<span>
+			<a href="https://www.wpzoom.com/themes/inspiro/?utm_source=inspiro-lite&utm_medium=theme&utm_campaign=inspiro-lite-footer" target="_blank" rel="nofollow">Inspiro Theme</a>
+            by			<a href="https://www.wpzoom.com/" target="_blank" rel="nofollow">WPZOOM</a>
+		</span>
+	</span>
+</div>
+			</div>
+		</footer>
+	</div>
+</div>
+	
+	<aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom" aria-label="GDPR Cookie Banner" style="display: none;">
+	<div class="moove-gdpr-info-bar-container">
+		<div class="moove-gdpr-info-bar-content">
+		
+<div class="moove-gdpr-cookie-notice">
+  <p>We are using cookies to give you the best experience on our website.</p><p>You can find out more about which cookies we are using or switch them off in <button  aria-haspopup="true" data-href="#moove_gdpr_cookie_modal" class="change-settings-button">settings</button>.</p></div>
+
+		
+<div class="moove-gdpr-button-holder">
+			<button class="mgbutton moove-gdpr-infobar-allow-all gdpr-fbo-0" aria-label="Accept" >Accept</button>
+		</div>
+
+		</div>
+		
+	</div>
+	
+	</aside>
+	
+	
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<style id='core-block-supports-inline-css'>
+.wp-container-core-columns-is-layout-3c5622cb{flex-wrap:nowrap;}
+</style>
+<script src="https://blogs.upm.es/ies/wp-content/themes/inspiro/custom-scripts.js" id="my-custom-script-js"></script>
+<script id="rfw-script-js-extra">
+var rfw = {"speed":""};
+</script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/rss-feed-widget/js/functions.js" id="rfw-script-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/rss-feed-widget/js/jquery.fitvids.js" id="rfw-script-fitvid-js"></script>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+<script src="https://blogs.upm.es/ies/wp-content/themes/inspiro/assets/js/minified/plugins.min.js" id="inspiro-lite-js-plugins-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/themes/inspiro/assets/js/minified/scripts.min.js" id="inspiro-lite-script-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.33.2","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true},"urls":{"assets":"https:\/\/blogs.upm.es\/ies\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/blogs.upm.es\/ies\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/blogs.upm.es\/ies\/wp-content\/uploads\/sites\/1240"},"nonces":{"floatingButtonsClickTracking":"8b105335a4"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1724,"title":"IES","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/js/slick.min.js" id="lae-jquery-slick-js"></script>
+<script id="lae-frontend-scripts-js-extra">
+var lae_js_vars = {"custom_css":""};
+</script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/js/lae-frontend.min.js" id="lae-frontend-scripts-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/addons-for-elementor/assets/js/widgets/posts-gridbox-slider.min.js" id="lae-posts-gridbox-slider-scripts-js"></script>
+<script id="moove_gdpr_frontend-js-extra">
+var moove_frontend_gdpr_scripts = {"ajaxurl":"https:\/\/blogs.upm.es\/ies\/wp-admin\/admin-ajax.php","post_id":"1724","plugin_dir":"https:\/\/blogs.upm.es\/ies\/wp-content\/plugins\/gdpr-cookie-compliance","show_icons":"all","is_page":"1","ajax_cookie_removal":"false","strict_init":"2","enabled_default":{"strict":1,"third_party":0,"advanced":0,"performance":0,"preference":0},"geo_location":"false","force_reload":"false","is_single":"","hide_save_btn":"false","current_user":"0","cookie_expiration":"365","script_delay":"2000","close_btn_action":"1","close_btn_rdr":"","scripts_defined":"{\"cache\":true,\"header\":\"\",\"body\":\"\",\"footer\":\"\",\"thirdparty\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"strict\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"advanced\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"}}","gdpr_scor":"true","wp_lang":"_en","wp_consent_api":"false","gdpr_nonce":"4598f02968"};
+</script>
+<script src="https://blogs.upm.es/ies/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/main.js" id="moove_gdpr_frontend-js"></script>
+<script id="moove_gdpr_frontend-js-after">
+var gdpr_consent__strict = "false"
+var gdpr_consent__thirdparty = "false"
+var gdpr_consent__advanced = "false"
+var gdpr_consent__performance = "false"
+var gdpr_consent__preference = "false"
+var gdpr_consent__cookies = ""
+</script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/dist/dom-ready.min.js" id="wp-dom-ready-js"></script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-11-13 00:57:08+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/dist/a11y.min.js" id="wp-a11y-js"></script>
+<script id="wp-custom-header-js-extra">
+var _wpCustomHeaderSettings = {"mimeType":"video\/mp4","posterUrl":"","videoUrl":"https:\/\/blogs.upm.es\/ies\/wp-content\/uploads\/sites\/1240\/2024\/06\/4.mp4","width":"2000","height":"1200","minWidth":"100","minHeight":"100","l10n":{"pause":"<span class=\"screen-reader-text\">Pause background video<\/span><svg class=\"svg-icon svg-icon-pause\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"28\" viewBox=\"0 0 24 28\"><path d=\"M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z\"><\/path><\/svg>","play":"<span class=\"screen-reader-text\">Play background video<\/span><svg class=\"svg-icon svg-icon-play\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"https:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"28\" viewBox=\"0 0 22 28\"><path d=\"M21.625 14.484l-20.75 11.531c-0.484 0.266-0.875 0.031-0.875-0.516v-23c0-0.547 0.391-0.781 0.875-0.516l20.75 11.531c0.484 0.266 0.484 0.703 0 0.969z\"><\/path><\/svg>","pauseSpeak":"Video is paused.","playSpeak":"Video is playing."}};
+</script>
+<script src="https://blogs.upm.es/ies/wp-includes/js/wp-custom-header.min.js" id="wp-custom-header-js"></script>
+<script src="https://blogs.upm.es/ies/wp-content/themes/inspiro/assets/js/minified/custom-header-vimeo.min.js" id="wp-custom-header-vimeo-js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const overlay = document.querySelector('.header-menu-sidebar-overlay');
+        if (overlay) {
+            overlay.setAttribute('role', 'button');
+            overlay.setAttribute('tabindex', '0');
+            overlay.setAttribute('aria-label', 'Cerrar menú lateral');
+            overlay.removeAttribute('aria-hidden');
+
+            overlay.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    if (typeof toggleAriaClick !== 'undefined') toggleAriaClick();
+                }
+            });
+        }
+    });
+    </script>
+    
+    
+	
+	
+	<dialog id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" aria-modal="true" aria-label="GDPR Settings Screen">
+	<div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
+		    
+		<button class="moove-gdpr-modal-close" autofocus aria-label="Close GDPR Cookie Settings">
+			<span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
+			<span class="gdpr-icon moovegdpr-arrow-close"></span>
+		</button>
+				<div class="moove-gdpr-modal-left-content">
+		
+<div class="moove-gdpr-company-logo-holder">
+	<img loading="lazy" src="https://blogs.upm.es/ies/wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png" alt="IES"   width="350"  height="233"  class="img-responsive" />
+</div>
+
+		<ul id="moove-gdpr-menu">
+			
+<li class="menu-item-on menu-item-privacy_overview menu-item-selected">
+	<button data-href="#privacy_overview" class="moove-gdpr-tab-nav" aria-label="Privacy Overview">
+	<span class="gdpr-nav-tab-title">Privacy Overview</span>
+	</button>
+</li>
+
+	<li class="menu-item-strict-necessary-cookies menu-item-off">
+	<button data-href="#strict-necessary-cookies" class="moove-gdpr-tab-nav" aria-label="Strictly Necessary Cookies">
+		<span class="gdpr-nav-tab-title">Strictly Necessary Cookies</span>
+	</button>
+	</li>
+
+
+
+
+
+		</ul>
+		
+<div class="moove-gdpr-branding-cnt">
+			<a href="https://wordpress.org/plugins/gdpr-cookie-compliance/" rel="noopener noreferrer" target="_blank" class='moove-gdpr-branding'>Powered by&nbsp; <span>GDPR Cookie Compliance</span></a>
+		</div>
+
+		</div>
+		
+		<div class="moove-gdpr-modal-right-content">
+		<div class="moove-gdpr-modal-title">
+			 
+		</div>
+		
+		<div class="main-modal-content">
+
+			<div class="moove-gdpr-tab-content">
+			
+<div id="privacy_overview" class="moove-gdpr-tab-main">
+		<span class="tab-title">Privacy Overview</span>
+		<div class="moove-gdpr-tab-main-content">
+	<p>This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.</p>
+		</div>
+	
+
+</div>
+
+			
+  <div id="strict-necessary-cookies" class="moove-gdpr-tab-main" style="display:none">
+    <span class="tab-title">Strictly Necessary Cookies</span>
+    <div class="moove-gdpr-tab-main-content">
+      <p>Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.</p>
+      <div class="moove-gdpr-status-bar ">
+        <div class="gdpr-cc-form-wrap">
+          <div class="gdpr-cc-form-fieldset">
+            <label class="cookie-switch" for="moove_gdpr_strict_cookies">    
+              <span class="gdpr-sr-only">Enable or Disable Cookies</span>        
+              <input type="checkbox" aria-label="Strictly Necessary Cookies"  value="check" name="moove_gdpr_strict_cookies" id="moove_gdpr_strict_cookies">
+              <span class="cookie-slider cookie-round gdpr-sr" data-text-enable="Enabled" data-text-disabled="Disabled">
+                <span class="gdpr-sr-label">
+                  <span class="gdpr-sr-enable">Enabled</span>
+                  <span class="gdpr-sr-disable">Disabled</span>
+                </span>
+              </span>
+            </label>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+                                              
+    </div>
+    
+  </div>
+  
+			
+			
+									
+			</div>
+			
+		</div>
+		
+		<div class="moove-gdpr-modal-footer-content">
+			<div class="moove-gdpr-button-holder">
+						<button class="mgbutton moove-gdpr-modal-allow-all button-visible" aria-label="Enable All">Enable All</button>
+								<button class="mgbutton moove-gdpr-modal-save-settings button-visible" aria-label="Save Settings">Save Settings</button>
+				</div>
+
+		</div>
+		
+		</div>
+		
+
+		<div class="moove-clearfix"></div>
+
+	</div>
+	
+	</dialog>
+	
+	
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: blogs.upm.es @ 2025-12-06 21:42:41 by W3 Total Cache
+-->

@@ -1,0 +1,9 @@
+200 200
+Cache-Control: public, max-age=0
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:24 GMT
+Server: OpenCms/16.0
+Set-Cookie: JSESSIONID=8B1F3E9C41C05BF12A383F383D0DEAA0; Path=/; Secure; HttpOnly
+Last-Modified: Sat, 06 Dec 2025 20:42:25 GMT
+Vary: Accept-Encoding

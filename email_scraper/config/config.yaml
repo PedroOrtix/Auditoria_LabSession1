@@ -1,0 +1,7 @@
+# Configuración del Email Scraper
+
+# URL objetivo
+url: "https://www.fi.upm.es/?id=estructura/departamentos"
+
+# Directorio de salida
+output_dir: "output"

@@ -1,0 +1,11 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Cache: pag
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:30 GMT
+Server: Apache
+Strict-Transport-Security: max-age=600;

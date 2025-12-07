@@ -1,0 +1,11 @@
+200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Set-Cookie: PHPSESSID=7ff9bb083d1881317da23f42176f24b0; path=/; HttpOnly
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.4.16
+Retry-Count: 0
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Caddy Apache/2.4.38 (Debian)

@@ -1,0 +1,13 @@
+200 OK
+Referrer-Policy: same-origin
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:09 GMT
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/8.3.21RC1

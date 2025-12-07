@@ -1,0 +1,15 @@
+200 OK
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';img-src 'self' data: https://tile.openstreetmap.org;frame-ancestors 'self';style-src 'self';script-src 'self';script-src-elem 'self';
+X-Frame-Options: deny
+Cross-Origin-Opener-Policy: same-origin
+Feature-Policy: fullscreen 'self'; microphone 'none'; geolocation 'none'; camera 'none';
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Referrer-Policy: no-referrer
+Cross-Origin-Embedder-Policy: credentialless
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Cross-Origin-Resource-Policy: same-origin
+X-Dns-Prefetch-Control: off
+Vary: Accept-Encoding
+Retry-Count: 0

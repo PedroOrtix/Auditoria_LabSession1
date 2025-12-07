@@ -1,0 +1,7 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:38 GMT
+Server: Apache
+Last-Modified: Wed, 22 Oct 2025 14:38:25 GMT
+Vary: Accept-Encoding
+Retry-Count: 0

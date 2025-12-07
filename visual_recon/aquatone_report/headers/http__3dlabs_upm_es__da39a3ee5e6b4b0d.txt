@@ -1,0 +1,13 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:41:46 GMT
+Server: Apache
+X-Xss-Protection: 1; mode=block
+Permissions-Policy: 
+Last-Modified: Thu, 15 Jul 2021 08:55:59 GMT
+Accept-Ranges: bytes
+Content-Type: text/html
+Retry-Count: 0
+Referrer-Policy: strict-origin-when-cross-origin
+Etag: "3a-5c725a3c705c0"
+Content-Length: 58
+X-Frame-Options: SAMEORIGIN

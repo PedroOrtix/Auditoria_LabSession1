@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CF4J: Collaborative Filtering for Java</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="description" content="A Java's Collaborative Filtering library to carry out experiments in research of Collaborative Filtering based Recommender Systems.">
+	<meta name=”robots” content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body class="bg-light">
+
+	<header class="container-fluid py-3 py-lg-4 py-xl-5 px-0 px-sm-1 px-md-2 px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5" style="background-image:url(images/header.png); background-size:cover; background-position:center;">
+		<div class="row my-3 my-lg-4 my-xl-5">
+			<div class="col-12">
+				<h1 class="text-white text-center">CF4J: Collaborative Filtering for Java</h1>
+			</div>
+		</div>
+		<div class="row my-3 my-lg-4 my-xl-5">
+			<div class="col-12">
+				<h5 class="text-white text-center">A Java's Collaborative Filtering library to carry out experiments in research of Collaborative Filtering based Recommender Systems</h5>
+			</div>
+		</div>
+		<div class="row my-3 my-lg-4 my-xl-5">
+			<div class="col text-center">
+				<a class="btn btn-lg btn-outline-light mx-2" href="https://github.com/ferortega/cf4j" target="_blank" role="button"><i class="fab fa-github mr-2"></i><span class="d-none d-md-inline">View on </span>GitHub</a>
+				<a class="btn btn-lg btn-outline-light mx-2" href="https://mvnrepository.com/artifact/es.upm.etsisi/cf4j" target="_blank" role="button"><i class="fas fa-cloud-download-alt mr-2"></i><span class="d-none d-md-inline">Get from </span>Maven</a>
+				<a class="btn btn-lg btn-outline-light mx-2 d-none d-md-inline-block" href="apidocs/latest/" role="button"><i class="fas fa-file-alt mr-2"></i>Read the docs</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="container text-dark text-justify py-3 py-lg-4 pb-xl-5">
+		<div class="row mb-3 mb-lg-4">
+			<div class="col text-center">
+				<a class="d-none d-md-inline" href="https://travis-ci.org/ferortega/cf4j" target="_blank"><img src="https://travis-ci.org/ferortega/cf4j.svg?branch=master"></a>
+				<a href="https://maven-badges.herokuapp.com/maven-central/es.upm.etsisi/cf4j" target="_blank"><img src="https://maven-badges.herokuapp.com/maven-central/es.upm.etsisi/cf4j/badge.svg"></a>
+				<a href="https://javadoc.io/doc/es.upm.etsisi/cf4j" target="_blank"><img src="https://javadoc.io/badge2/es.upm.etsisi/cf4j/javadoc.svg"></a>
+				<a class="d-none d-sm-inline" href="https://lgtm.com/projects/g/ferortega/cf4j/context:java" target="_blank"><img src="https://img.shields.io/lgtm/grade/java/g/ferortega/cf4j.svg?logo=lgtm&logoWidth=18"></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<h2>Overview</h2>
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col">
+				CF4J provides an object-oriented Java framework designed for the trial and error process for Collaborative Filtering research. It has been created to facilitate the experimentation of new Collaborative Filtering based recommendation algorithms. Its flexibility allows researchers to modify any Collaborative Filtering component or step. CF4J includes multiple published methods to be used as baselines. CF4J has been designed to simplify experiments codification. CF4J has been designed from researchers to researchers.
+			</div>
+		</div>
+
+		<div class="row mt-3 mt-lg-4 mt-xl-5">
+			<div class="col">
+				<h2>Features</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="d-flex align-content-stretch flex-wrap">
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> In memory data storage</h6>
+					<div class="mt-3">Information required by Collaborative Filtering (i.e. users, items and ratings) is stored in memory using efficient data structures.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Extensible pipeline</h6>
+					<div class="mt-3">Collaborative Filtering execution pipeline can be easily extended using the abstract classes and methods provided.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Benchmark datasets</h6>
+					<div class="mt-3">Most popular datasets used in Collaborative Filtering research has been preloaded.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Hyperparameter optimization</h6>
+					<div class="mt-3">Models' hyperparameter can be quickly tuned using the included grid search utility.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Data and results analysis</h6>
+					<div class="mt-3">Experimental results can be efficiently analyzed using the amazing plots.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> State of the Art baselines	</h6>
+					<div class="mt-3">Some of the most referenced recommendations models has been included.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Compiles and runs with Java 8</h6>
+					<div class="mt-3">Fully support of Java 8.</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 my-2 my-lg-3">
+					<h6><i class="fas fa-certificate"></i> Open to the community</h6>
+					<div class="mt-3">As an open source project, the repository in <a href="https://github.com/ferortega/cf4j" target="_blank">GitHub</a> is fully available for other developers to extend and improve the library.</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-3 mt-lg-4 mt-xl-5">
+			<div class="col">
+				<h2>Citations</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<ul class="col list-unstyled">
+				<li class="mt-3">El Fazziki, A., El Aissaoui, O., El Alami, Y. E. M., Benbrahim, M., & El Allioui, Y. (2020). <em>A Novel Collaborative Filtering Approach Based on the Opposite Neighbors’ Preferences</em>. In Embedded Systems and Artificial Intelligence (pp. 815-824). Springer, Singapore.</li>
+
+				<li class="mt-3">Bobadilla, J., Alonso, S., & Hernando, A. (2020). <em>Deep Learning Architecture for Collaborative Filtering Recommender Systems</em>. Applied Sciences, 10(7), 2441.</li>
+
+				<li class="mt-3">Lara-Cabrera, R., González-Prieto, Á., Ortega, F., & Bobadilla, J. (2020). <em>Evolving Matrix-Factorization-Based Collaborative Filtering Using Genetic Programming</em>. Applied Sciences, 10(2), 675.</li>
+
+				<li class="mt-3">Fazziki, A. E., El Aissaoui, O., El Alami, Y. E. M., Allioui, Y. E., & Benbrahim, M. (2019, October). <em>A new collaborative approach to solve the gray-sheep users problem in recommender systems</em>. In 2019 Third International Conference on Intelligent Computing in Data Sciences (ICDS) (pp. 1-4). IEEE.</li>
+
+				<li class="mt-3">El Fazziki, A., El Alami, Y. E. M., El Aissaoui, O., El Allioui, Y., & Benbrahim, M. (2019, July). <em>Improving Collaborative Filtering Approach by Leveraging Opposite Users</em>. In International Conference on Advanced Intelligent Systems for Sustainable Development (pp. 136-145). Springer, Cham.</li>
+
+				<li class="mt-3">Peng, Y., Chen, Y., & Shen, B. (2019, July). <em>An Adaptive Approach to Recommending Obfuscation Rules for Java Bytecode Obfuscators</em>. In 2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC) (Vol. 1, pp. 97-106). IEEE.</li>
+
+				<li class="mt-3">Indira, K., Santhiya, C., & Swetha, K. (2019, February). <em>Cloud Service Prediction Using KCFC Approach</em>. In Intelligent Communication Technologies and Virtual Mobile Networks (pp. 353-362). Springer, Cham.</li>
+
+				<li class="mt-3">Alonso, S., Bobadilla, J., Ortega, F., & Moya, R. (2019). <em>Robust model-based reliability approach to tackle shilling attacks in collaborative filtering recommender systems</em>. IEEE Access, 7, 41782-41798.
+
+				<li class="mt-3">Verma, V., & Aggarwal, R. K. (2019). <em>A New Similarity Measure Based on Simple Matching Coefficient for Improving the Accuracy of Collaborative Recommendations</em>.</li>
+
+				<li class="mt-3">Valdiviezo-Diaz, P., Ortega, F., Cobos, E., & Lara-Cabrera, R. (2019). <em>A collaborative filtering approach based on Naïve Bayes classifier</em>. IEEE Access, 7, 108581-108592.</li>
+
+				<li class="mt-3">Verma, V., & Aggarwal, R. K. (2019). <em>Accuracy Assessment of Similarity Measures in Collaborative Recommendations Using CF4J Framework</em>. International Journal of Modern Education and Computer Science, 11(5), 41.</li>
+
+				<li class="mt-3">Yan, H., & Tang, Y. (2019). <em>Collaborative Filtering Based on Gaussian Mixture Model and Improved Jaccard Similarity</em>. IEEE Access, 7, 118690-118701.</li>
+
+				<li class="mt-3">Barros, M., Moitinho, A., & Couto, F. M. (2019). <em>Using Research Literature to Generate Datasets of Implicit Feedback for Recommending Scientific Items</em>. IEEE Access, 7, 176668-176680.</li>
+
+				<li class="mt-3">Aissaoui, Y. E. A., & Benbrahim, M. <em>Improving Collaborative Filtering Approach by Leveraging Opposite Users</em>. Advanced Intelligent Systems for Sustainable Development (AI2SD’2019): Volume 1-Advanced Intelligent Systems for Education and Intelligent Learning System, 136.</li>
+
+				<li class="mt-3">Srifi, M., Hammou, B. A., Mouline, S., & Lahcen, A. A. (2018, November). <em>Collaborative recommender systems based on user-generated reviews: A concise survey</em>. In 2018 International Symposium on Advanced Electrical and Communication Technologies (ISAECT) (pp. 1-6). IEEE.</li>
+				
+				<li class="mt-3">Ortega, F., Bobadilla, J., Gutiérrez, A., Hurtado, R., & Li, X. (2018). <em>Artificial intelligence scientific documentation dataset for recommender systems</em>. IEEE Access, 6, 48543-48555.</li>
+
+				<li class="mt-3">Zhu, B., Hurtado, R., Bobadilla, J., & Ortega, F. (2018). <em>An efficient recommender system method based on the numerical relevances and the non-numerical structures of the ratings</em>. IEEE Access, 6, 49935-49954.</li>
+
+				<li class="mt-3">Ortega, F., Rojo, D., Valdiviezo-Díaz, P., & Raya, L. (2018). <em>Hybrid collaborative filtering based on users rating behavior</em>. IEEE Access, 6, 69582-69591.</li>
+
+				<li class="mt-3">Inan, E., Tekbacak, F., & Ozturk, C. (2018). <em>Moreopt: A goal programming based movie recommender system</em>. Journal of computational science, 28, 43-50.</li>
+
+				<li class="mt-3">Ortega, F., Hurtado, R., Bobadilla, J., & Bojorque, R. (2018). <em>Recommendation to groups of users using the singularities concept</em>. IEEE Access, 6, 39745-39761.</li>
+
+				<li class="mt-3">Bo, Z. H. U. (2018). <em>Towards reliability in collaborative filtering recommender systems</em> (Doctoral dissertation, Universidad Politecnica DE Madrid).</li>
+
+				<li class="mt-3">Hurtado, R., Bobadilla, J., Bojorque, R., Ortega, F., & Li, X. (2018). <em>A new recommendation approach based on probabilistic soft clustering methods: A scientific documentation case study</em>. IEEE Access, 7, 7522-7534.</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer class="container-fluid bg-dark py-4">
+		<div class="row mb-4">
+			<div class="d-flex justify-content-center">
+				<div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 align-self-center">
+					<a href="http://etsisi.upm.es/">
+						<img class="w-100" src="images/etsisi.png" alt="http://etsisi.upm.es/">
+					</a>
+				</div>
+
+				<div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 align-self-center">
+					<a href="http://www.upm.es/">
+						<img class="w-100" src="images/upm.png" alt="http://www.upm.es/">
+					</a>
+				</div>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col text-center">
+				<a class="text-muted" href="https://www.freepik.com/free-photos-vectors/background">Background photo created by natanaelginting - www.freepik.com</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

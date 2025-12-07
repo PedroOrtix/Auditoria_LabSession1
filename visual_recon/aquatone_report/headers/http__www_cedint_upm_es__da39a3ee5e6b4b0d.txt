@@ -1,0 +1,13 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:21 GMT
+X-Content-Type-Options: nosniff
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+Vary: Accept-Encoding
+Server: Apache/2.4.41 (Ubuntu)
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Permissions-Policy: interest-cohort=()
+Retry-Count: 0

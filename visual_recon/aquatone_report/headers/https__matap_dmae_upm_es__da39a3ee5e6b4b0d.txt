@@ -1,0 +1,10 @@
+200 OK
+Last-Modified: Thu, 14 Mar 2019 12:41:58 GMT
+Etag: "10c4-5840d3f7ab180-gzip"
+Accept-Ranges: bytes
+Server: Apache
+Upgrade: h2,h2c
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:44 GMT
+Vary: Accept-Encoding
+Retry-Count: 0

@@ -1,0 +1,14 @@
+200 OK
+Server: Apache
+Cache-Control: private, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+X-Dns-Prefetch-Control: off
+X-Frame-Options: sameorigin
+Content-Language: en
+Date: Sat, 06 Dec 2025 19:25:59 GMT
+Set-Cookie: roundcube_sessid=t9io1qhdi1ln5o6c7o2ocgv135; path=/; secure; HttpOnly
+Expires: Sat, 06 Dec 2025 19:25:59 GMT
+Pragma: no-cache
+Last-Modified: Sat, 06 Dec 2025 19:25:59 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8

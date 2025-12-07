@@ -1,0 +1,18 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Last-Modified: Sat, 06 Dec 2025 20:27:16 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1765052836-1"
+Content-Type: text/html; charset=utf-8
+Server: Apache
+X-Frame-Options: SAMEORIGIN SAMEORIGIN
+X-Drupal-Cache: HIT
+Date: Sat, 06 Dec 2025 20:42:09 GMT
+Content-Language: es
+X-Generator: Drupal (http://drupal.org)
+Cache-Control: public, max-age=0
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Upgrade: h2,h2c
+Retry-Count: 0
+Link: <https://www.etsisi.upm.es/escuela/dptos/ma>; rel="canonical",<https://www.etsisi.upm.es/node/275>; rel="shortlink"

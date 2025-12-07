@@ -1,0 +1,18 @@
+200 OK
+Referrer-Policy: no-referrer
+X-Request-Id: gUpySV5E8ygiNY721K6p
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, must-revalidate
+Set-Cookie: oc4hkvkv2h9l=trk81a30ammcr3eoctmis65ccb; path=/; secure; HttpOnly; SameSite=Lax
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Upgrade: h2
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.65 (Debian)
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-uYP1d6aoo6yJX5BIZ5Zp0BtgILLpga/nIFDglP8hWjw=';script-src-elem 'strict-dynamic' 'nonce-uYP1d6aoo6yJX5BIZ5Zp0BtgILLpga/nIFDglP8hWjw=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-src 'self';frame-ancestors 'self';form-action 'self'

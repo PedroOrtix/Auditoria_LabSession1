@@ -1,0 +1,10 @@
+200 OK
+Set-Cookie: PHPSESSID=gajcg0gv6uf7hcsp5ubrkvp52p; path=/
+Cache-Control: no-store, no-cache, must-revalidate
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:04 GMT
+Server: Apache/2.4.65 (Debian)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Vary: Accept-Encoding

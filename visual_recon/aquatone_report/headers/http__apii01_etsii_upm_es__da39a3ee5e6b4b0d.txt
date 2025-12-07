@@ -1,0 +1,9 @@
+200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:45 GMT
+Server: Apache/2.4.57 (Ubuntu)
+Etag: "2c39-5220cab649180-gzip"
+Content-Type: text/html
+Last-Modified: Wed, 14 Oct 2015 08:51:34 GMT

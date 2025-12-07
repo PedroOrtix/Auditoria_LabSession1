@@ -1,0 +1,18 @@
+200 OK
+Set-Cookie: 511b5315c9cf7=7vsupk9leo656jnt6rf6220b2r; path=/; secure; HttpOnly; SameSite=Lax
+Upgrade: h2
+Server: Apache/2.4.65 (Debian)
+X-Request-Id: t9hpAtQyqtHBxrPXjDLN
+Retry-Count: 0
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: no-referrer
+Cache-Control: no-cache, no-store, must-revalidate
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Robots-Tag: noindex, nofollow
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:41:48 GMT
+Content-Security-Policy: default-src 'none';base-uri 'none';manifest-src 'self';script-src 'nonce-ovYyeArk+DEEcfvtTlWweo0H2RI/vIIaSXoRkP8lZ4E=';script-src-elem 'strict-dynamic' 'nonce-ovYyeArk+DEEcfvtTlWweo0H2RI/vIIaSXoRkP8lZ4E=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;font-src 'self' data:;connect-src 'self';media-src 'self';frame-src 'self';frame-ancestors 'self';form-action 'self'
+Feature-Policy: autoplay 'self';camera 'none';fullscreen 'self';geolocation 'none';microphone 'none';payment 'none'

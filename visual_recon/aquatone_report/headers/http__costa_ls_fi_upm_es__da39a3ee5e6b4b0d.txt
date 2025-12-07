@@ -1,0 +1,9 @@
+200 OK
+Content-Type: text/html
+Server: Apache/2.4.58 (Ubuntu) SVN/1.14.3 OpenSSL/3.0.13
+Last-Modified: Tue, 28 Oct 2014 11:45:02 GMT
+Etag: "dd-5067a2d7ced15-gzip"
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:41:54 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding

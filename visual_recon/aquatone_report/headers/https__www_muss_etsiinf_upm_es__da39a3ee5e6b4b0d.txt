@@ -1,0 +1,6 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:54 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Accept-Encoding
+Retry-Count: 0

@@ -1,0 +1,11 @@
+200 OK
+Retry-Count: 0
+Etag: "3f6d-64546772cc9a5"
+Accept-Ranges: bytes
+Content-Length: 16237
+Content-Type: text/html
+Strict-Transport-Security: max-age=63072000;
+Upgrade: h2
+Last-Modified: Sat, 06 Dec 2025 11:00:09 GMT
+Date: Sat, 06 Dec 2025 20:42:04 GMT
+Server: Apache/2.4.65 (Debian)

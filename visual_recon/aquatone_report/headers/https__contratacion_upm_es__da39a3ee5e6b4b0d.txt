@@ -1,0 +1,10 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+Last-Modified: Fri, 29 Jun 2018 09:02:13 GMT
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Etag: "8d-56fc41a8e660b"
+Content-Length: 141
+Retry-Count: 0

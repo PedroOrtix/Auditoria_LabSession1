@@ -1,0 +1,10 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:05 GMT
+Upgrade: h2,h2c
+Last-Modified: Mon, 29 Sep 2025 09:22:34 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Server: Apache
+Retry-Count: 0
+Etag: "bba-63fed2cf7db40-gzip"
+Content-Type: text/html

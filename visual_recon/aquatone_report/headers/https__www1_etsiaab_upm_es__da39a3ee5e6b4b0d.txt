@@ -1,0 +1,9 @@
+200 OK
+Server: Apache/2.4.65 (Debian)
+Etag: "d90-5790bb0591b2a-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Date: Sat, 06 Dec 2025 20:42:59 GMT
+Last-Modified: Thu, 25 Oct 2018 11:13:13 GMT
+Retry-Count: 0

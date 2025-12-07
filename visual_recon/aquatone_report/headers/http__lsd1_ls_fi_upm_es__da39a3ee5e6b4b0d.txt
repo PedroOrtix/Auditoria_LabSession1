@@ -1,0 +1,7 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:08 GMT
+Link: <https://lsd1.ls.fi.upm.es/wp-json/>; rel="https://api.w.org/"
+Server: Apache/2.4.56 (Unix)
+X-Powered-By: PHP/7.4.33
+Retry-Count: 0

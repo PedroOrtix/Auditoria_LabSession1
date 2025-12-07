@@ -1,0 +1,11 @@
+200 OK
+Pragma: no-cache
+Content-Type: text/html; charset=ISO-8859-1
+Date: Sat, 06 Dec 2025 20:42:30 GMT
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Vary: Accept-Encoding
+Retry-Count: 0
+Server: Apache/2
+Set-Cookie: PHPSESSID=4drfvh8u59lpdsuker5i8fmj9b; path=/

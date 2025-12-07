@@ -1,0 +1,9 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:51 GMT
+Last-Modified: Thu, 20 Nov 2008 18:02:24 GMT
+Etag: "ae82c-2d-45c22bb11ec00"
+Retry-Count: 0
+Server: Apache/2.2.22 (Ubuntu)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html

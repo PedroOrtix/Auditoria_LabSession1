@@ -1,0 +1,12 @@
+200 OK
+Date: Sat, 06 Dec 2025 20:42:12 GMT
+Server: Apache
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Pragma: no-cache
+X-Cache: pag
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PHPSESSID=5avo31bimnd1p8k2pahtj9ansl; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Retry-Count: 0

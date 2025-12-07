@@ -1,0 +1,15 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+X-Powered-By: PHP/7.3.33
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: glpi_3f946f74140a3178722cb675d5bf6b47=tbesprp8vtp8cksfapq53sot8n; path=/cau/gico; HttpOnly
+Pragma: no-cache
+Vary: Accept-Encoding
+Server: nginx
+Date: Sat, 06 Dec 2025 20:42:34 GMT
+X-Frame-Options: sameorigin
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Retry-Count: 0
+X-Content-Type-Options: nosniff
+Cache-Control: no-store, no-cache, must-revalidate

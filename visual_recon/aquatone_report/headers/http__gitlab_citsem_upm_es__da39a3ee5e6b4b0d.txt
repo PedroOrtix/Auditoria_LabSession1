@@ -1,0 +1,22 @@
+200 OK
+Server: nginx
+Set-Cookie: preferred_language=en; path=/; Secure; SameSite=None _gitlab_session=78a125284048b5b89381729a6e3ce8f4; path=/; expires=Sun, 07 Dec 2025 01:50:06 GMT; secure; HttpOnly; SameSite=None
+X-Content-Type-Options: nosniff
+X-Gitlab-Meta: {"correlation_id":"01KBV15724CWE1H65KQQSW6C76","version":"1"}
+Date: Sat, 06 Dec 2025 23:50:06 GMT
+Vary: Accept-Encoding
+Etag: W/"10f2021e9a21fe0cb7b2ce2c7960d8a1"
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.133884
+X-Ua-Compatible: IE=edge
+Cache-Control: max-age=0, private, must-revalidate
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Content-Security-Policy: 
+Link: </assets/application_utilities-2cbab288829ca99cf9e28ce29af9c76d5a1091f05c3809a6133dd8ccbbbf1ddf.css>; rel=preload; as=style; type=text/css,</assets/application-8e1fac7546e10d24ab7482b66e2863732a6795cce85e9ff10d8bfd59cad1cd9f.css>; rel=preload; as=style; type=text/css,</assets/highlight/themes/white-96f127bcbdab3caa86a6cc73183496a2fa61f5fdac1f3b410eaf990adbc6ea3b.css>; rel=preload; as=style; type=text/css
+Permissions-Policy: interest-cohort=()
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 01KBV15724CWE1H65KQQSW6C76

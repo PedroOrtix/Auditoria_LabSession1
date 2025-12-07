@@ -1,0 +1,13 @@
+200 OK
+Last-Modified: Mon, 24 Mar 2025 08:46:18 GMT
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:18 GMT
+Server: Apache
+Permissions-Policy: 
+Etag: "b6-63112a33b2a80-gzip"
+Content-Type: text/html
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept-Encoding

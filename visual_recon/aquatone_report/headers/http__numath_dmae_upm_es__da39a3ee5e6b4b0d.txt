@@ -1,0 +1,8 @@
+200 OK
+Retry-Count: 0
+Date: Sat, 06 Dec 2025 20:42:13 GMT
+Upgrade: h2,h2c
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Link: <https://numath.dmae.upm.es/wp-json/>; rel="https://api.w.org/", <https://numath.dmae.upm.es/wp-json/wp/v2/pages/2>; rel="alternate"; title="JSON"; type="application/json", <https://numath.dmae.upm.es/>; rel=shortlink

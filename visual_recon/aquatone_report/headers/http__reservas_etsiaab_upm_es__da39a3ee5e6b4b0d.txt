@@ -1,0 +1,7 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:18 GMT
+Server: Apache/2.4.65 (Debian)
+Refresh: 0;url=Web?
+Content-Length: 0
+Retry-Count: 0

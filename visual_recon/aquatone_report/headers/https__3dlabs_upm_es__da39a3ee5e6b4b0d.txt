@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html
+Server: Apache
+Strict-Transport-Security: max-age=31536000
+Content-Length: 58
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Date: Sat, 06 Dec 2025 20:42:31 GMT
+X-Xss-Protection: 1; mode=block
+Permissions-Policy: 
+Upgrade: h2,h2c
+Last-Modified: Thu, 15 Jul 2021 08:55:59 GMT
+Etag: "3a-5c725a3c705c0"
+Referrer-Policy: strict-origin-when-cross-origin
+Retry-Count: 0

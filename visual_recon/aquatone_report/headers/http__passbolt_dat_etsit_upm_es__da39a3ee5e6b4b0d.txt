@@ -1,0 +1,25 @@
+200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+X-Permitted-Cross-Domain-Policies: all
+Referrer-Policy: same-origin
+X-Gpgauth-Verify-Url: /auth/verify
+X-Gpgauth-Pubkey-Url: /auth/verify.json
+X-Gpgauth-Authenticated: false
+X-Gpgauth-Debug: There is no user associated with this key. No key id set.
+Date: Sat, 06 Dec 2025 20:42:15 GMT
+Content-Type: text/html; charset=UTF-8
+X-Download-Options: noopen
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+X-Gpgauth-Logout-Url: /auth/logout
+Server: nginx/1.18.0
+Pragma: no-cache
+Access-Control-Expose-Headers: X-GPGAuth-Verify-Response X-GPGAuth-Progress X-GPGAuth-User-Auth-Token X-GPGAuth-Authenticated X-GPGAuth-Refer X-GPGAuth-Debug X-GPGAuth-Error X-GPGAuth-Pubkey X-GPGAuth-Logout-Url X-GPGAuth-Version
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self';frame-src 'self' https://*.duosecurity.com;
+X-Gpgauth-Error: true
+Retry-Count: 0
+X-Gpgauth-Version: 1.3.0
+X-Gpgauth-Login-Url: /auth/login
+X-Gpgauth-Progress: stage0
+Set-Cookie: csrfToken=768991aabd176ae70d22f510f87c621da7525b711b5334bde05137cb98e103af2ae4f94590a84137e33e3fbf5ca7a35046e688842d8751731249d7b1c342023a; path=/

@@ -1,0 +1,14 @@
+200 OK
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: strict-origin-when-cross-origin no-referrer-when-downgrade
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Access-Control-Allow-Origin: *
+Content-Security-Policy: frame-ancestors 'self' https://sino-spanishcampus.com https://sino-spanishcampus.es;
+Link: <https://www.lenguas.upm.es/wp-json/>; rel="https://api.w.org/" <https://www.lenguas.upm.es/wp-json/wp/v2/pages/17>; rel="alternate"; title="JSON"; type="application/json" <https://www.lenguas.upm.es/>; rel=shortlink
+Vary: Accept-Encoding
+Date: Sat, 06 Dec 2025 20:42:57 GMT
+Server: Apache
+X-Xss-Protection: 1; mode=block
+Upgrade: h2,h2c
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0

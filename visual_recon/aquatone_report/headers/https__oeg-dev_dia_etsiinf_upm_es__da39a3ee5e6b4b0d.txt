@@ -1,0 +1,18 @@
+200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store, must-revalidate
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 07 Dec 2023 08:04:16 GMT
+X-Xss-Protection: 1; mode=block
+Etag: "1aae-60be6e9f82000-gzip"
+Referrer-Policy: strict-origin
+X-Permitted-Cross-Domain-Policies: none
+Content-Type: text/html
+Server: Apache
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+X-Robots-Tag: none
+X-Download-Options: noopen
+Date: Sat, 06 Dec 2025 20:47:45 GMT
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload

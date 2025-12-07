@@ -1,0 +1,11 @@
+200 OK
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=1bkqjqv5qoihbks6tcqb55frln; path=/
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 06 Dec 2025 20:42:57 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Cache: pag
+Retry-Count: 0
