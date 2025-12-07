@@ -295,67 +295,50 @@ python3 main.py -q "%.target.com" -o "scan_$(date +%Y%m%d).txt"
 - La herramienta desactiva la verificación SSL para testing
 - Se recomienda usar solo en entornos controlados y con autorización
 - Los logs pueden contener información sensible
-- Respeta los términos de servicio de crt.sh y no abuses de la API
-- Las búsquedas muy amplias (`%.domain.com`) pueden fallar o tardar mucho
+# Subdomain Checker
 
-## 🐛 Solución de Problemas
+Descubre subdominios vía `crt.sh` y verifica cuáles están activos (HTTP/HTTPS).
 
-### Error: Timeout en crt.sh
+## Qué hace
+- Consulta Certificate Transparency (API JSON o HTML).
+- Deduplica y verifica concurréntemente.
+- Guarda activos en `subdominios_activos.txt` y logs.
 
-**Problema**: La búsqueda `%.upm.es` es demasiado amplia.
-
-**Solución**: Usa búsquedas más específicas:
-```bash
-python3 main.py -q "%.fi.upm.es"  # En vez de %.upm.es
+## Configuración
+Edita `config/config.yaml`:
+```yaml
+search_query: "%.fi.upm.es"   # dominio o wildcard
+use_json_api: true             # API recomendada
+verification_timeout: 3        # segundos
+protocols: ["https", "http"]
+output_file: "subdominios_activos.txt"
 ```
 
-### Error: ModuleNotFoundError
-
-**Problema**: Faltan dependencias.
-
-**Solución**:
+## Instalación rápida
 ```bash
-pip install -r requirements.txt
+conda env create -f config/environment.yml
+conda activate subdomain_checker
+# Alternativa
+pip install -r config/requirements.txt
 ```
 
-### Pocos subdominios encontrados
-
-**Problema**: Búsqueda demasiado específica.
-
-**Solución**: Usa wildcards:
+## Uso
 ```bash
-python3 main.py -q "%.moodle.upm.es"  # En vez de moodle.upm.es
+# Interactivo
+bash run.sh
+
+# CLI
+python3 main.py -q "%.fi.upm.es"
+python3 main.py -q "moodle.upm.es" --no-verify
+python3 main.py --help
 ```
 
-## 📚 Recursos Adicionales
-
-- **[EJEMPLOS.md](EJEMPLOS.md)**: Guía completa de ejemplos
-- **Certificate Transparency**: https://crt.sh/
-- **UPM**: https://www.upm.es/
-
-## 👨‍💻 Autor
-
-Proyecto creado para la asignatura de **Auditoría de Seguridad** - Master en Ciberseguridad
-
-## 📝 Licencia
-
-Uso educativo - Master Ciberseguridad UPM
-
+## Estructura mínima
+```
+subdomain_checker/
+├── config/ (config.yaml, requirements.txt, environment.yml)
+├── src/ (crtsh_scraper.py, subdomain_verifier.py, logger.py)
+├── run.sh
+└── main.py
+```
 ---
-
-## 🎓 Aprendizajes del Proyecto
-
-Este proyecto demuestra:
-- ✅ Uso de Certificate Transparency logs para reconocimiento
-- ✅ Scraping web con BeautifulSoup
-- ✅ Programación concurrente con ThreadPoolExecutor
-- ✅ Logging estructurado y profesional
-- ✅ Configuración externa con YAML
-- ✅ Diseño modular y reutilizable
-- ✅ Manejo de errores y timeouts
-- ✅ CLI amigable con argparse
-- ✅ Buenas prácticas de Python (PEP 8)
-
----
-
-**¿Necesitas ayuda?** Consulta `EJEMPLOS.md` o ejecuta `python3 main.py --help`

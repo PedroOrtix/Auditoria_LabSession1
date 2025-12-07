@@ -1,55 +1,44 @@
-# Subdomain Discovery and Verification Tool
+# Subdomain Discovery
 
-A comprehensive tool for discovering and verifying live subdomains, mimicking a real Bug Bounty workflow: **Discovery → Resolution → Filtering**. This tool addresses the critical problem that ~90% of Certificate Transparency (CT) log entries are "dead" domains.
+Descubre subdominios con `subfinder`, verifica cuáles están vivos (DNS + HTTP/HTTPS) y genera informes en `output/`.
 
-## 🎯 Purpose
+## Qué hace
+- `discover`: usa subfinder para enumerar subdominios.
+- `verify`: resuelve DNS y comprueba accesibilidad.
+- `analyze`: encadena todo y produce métricas e informes.
 
-Security analysts must filter noise to find live signals. This tool:
-1. **Discovers** subdomains using `subfinder` (fast passive reconnaissance)
-2. **Resolves** DNS to check if subdomains exist
-3. **Filters** by verifying HTTP/HTTPS accessibility with proper timeout handling
-4. **Analyzes** assets to identify high-value targets (admin portals, VPNs, etc.)
-5. **Calculates** efficiency metrics to quantify reconnaissance quality
+## Prerrequisitos
+- `subfinder` instalado y en `PATH`.
+- Entorno Python (Conda recomendado).
 
-## 🏗️ Project Structure
+## Instalación rápida
+```bash
+conda env create -f config/environment.yml
+conda activate subdomain_discovery
+# Alternativa
+pip install -r config/requirements.txt
+```
 
+## Uso
+```bash
+# Descubrir
+python main.py discover upm.es -o subdomains.txt
+
+# Verificar
+python main.py verify -i subdomains.txt
+
+# Flujo completo
+python main.py analyze upm.es
+```
+Resultados en `output/` (`*_raw.txt`, `*_live.txt`, `*_results.json`, `*_report.txt`).
+
+## Estructura mínima
 ```
 subdomain_discovery/
-├── main.py                    # Main CLI entry point
-├── run.sh                     # Convenience wrapper script
-├── config/
-│   ├── config.yaml           # Configuration (timeouts, keywords, etc.)
-````markdown
-# Descubrimiento y Verificación de Subdominios
-
-Herramienta integral para descubrir y verificar subdominios activos, simulando un flujo de trabajo real de Bug Bounty: **Descubrimiento → Resolución → Filtrado**. Esta herramienta aborda el problema de que aproximadamente el 90% de las entradas en los logs de Certificate Transparency (CT) son dominios "muertos".
-
-## 🎯 Objetivo
-
-Los analistas de seguridad deben filtrar el ruido para encontrar señales en vivo. Esta herramienta:
-1. **Descubre** subdominios usando `subfinder` (reconocimiento pasivo y rápido)
-2. **Resuelve** DNS para comprobar si los subdominios existen
-3. **Filtra** verificando accesibilidad HTTP/HTTPS con timeouts adecuados
-4. **Analiza** assets para identificar objetivos de alto valor (paneles admin, VPNs, etc.)
-5. **Calcula** métricas de eficiencia para cuantificar la calidad del reconocimiento
-
-## 🏗️ Estructura del Proyecto
-
-```
-subdomain_discovery/
-├── main.py                    # Punto de entrada CLI
-├── run.sh                     # Script wrapper
-├── config/
-│   ├── config.yaml           # Configuración (timeouts, keywords, etc.)
-│   ├── requirements.txt      # Dependencias Python
-│   └── environment.yml       # Definición del entorno Conda
-├── src/
-│   ├── __init__.py           # Inicialización del paquete
-│   ├── logger.py             # Configuración de logging
-│   ├── subdomain_verifier.py # Verificación DNS y HTTP
-│   └── asset_analyzer.py     # Análisis y priorización
-├── output/                   # Informes y resultados generados
-└── README.md                 # Este archivo
+├── config/ (config.yaml, requirements.txt, environment.yml)
+├── src/ (subdomain_verifier.py, asset_analyzer.py, logger.py)
+├── output/
+└── main.py
 ```
 
 ## 📋 Prerrequisitos
