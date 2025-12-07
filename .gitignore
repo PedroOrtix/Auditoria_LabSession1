@@ -19,3 +19,7 @@ ENV/
 # Pytest cache
 .pytest_cache/
 
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
