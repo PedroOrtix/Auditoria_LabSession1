@@ -1,0 +1,1898 @@
+{
+    "https://drive.upm.es": [
+        "138.100.4.11"
+    ],
+    "https://webmail.etsii.upm.es": [
+        "138.100.71.59"
+    ],
+    "http://webmail.etsii.upm.es": [
+        "138.100.71.59"
+    ],
+    "http://drive.upm.es": [
+        "138.100.4.11"
+    ],
+    "https://portaldecompras.upm.es": [
+        "138.100.200.99"
+    ],
+    "http://www.montegancedo.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://www.montegancedo.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://dlsiisv.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://portaldecompras.upm.es": [
+        "138.100.200.99"
+    ],
+    "https://aetel.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://aetel.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://erma.etsidi.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://erma.etsidi.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://www.ceigram.upm.es": [
+        "138.4.92.216"
+    ],
+    "http://www.ceigram.upm.es": [
+        "138.4.92.216"
+    ],
+    "https://www.industriales.upm.es": [
+        "138.100.71.59"
+    ],
+    "http://www.industriales.upm.es": [
+        "138.100.71.59"
+    ],
+    "https://www.theia.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "http://www.theia.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "http://gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "https://i2a2.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://i2a2.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://smtp.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://smtp.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "https://www.inef.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.inef.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://survey.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "https://survey.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://siu.upm.es": [
+        "138.100.200.90"
+    ],
+    "https://siu.upm.es": [
+        "138.100.200.90"
+    ],
+    "https://etsiaab.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://etsiaab.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://lsd1.ls.fi.upm.es": [
+        "138.100.12.161"
+    ],
+    "http://lsd1.ls.fi.upm.es": [
+        "138.100.12.161"
+    ],
+    "http://msde.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "https://msde.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "https://www.etsidi.upm.es": [
+        "138.100.103.12"
+    ],
+    "http://www.etsidi.upm.es": [
+        "138.100.103.12"
+    ],
+    "https://www.gr.ssr.upm.es": [
+        "138.4.92.245"
+    ],
+    "http://www.gr.ssr.upm.es": [
+        "138.4.92.245"
+    ],
+    "http://biba.industriales.upm.es": [
+        "138.4.92.150"
+    ],
+    "https://biba.industriales.upm.es": [
+        "138.4.92.150"
+    ],
+    "https://www.topografia.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.topografia.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://webmail.industriales.upm.es": [
+        "138.100.71.59"
+    ],
+    "http://webmail.industriales.upm.es": [
+        "138.100.71.59"
+    ],
+    "https://indusnet.industriales.upm.es": [
+        "138.100.71.77"
+    ],
+    "https://www.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "http://www.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "http://ibeerc.gmr.ssr.upm.es": [
+        "138.4.36.9"
+    ],
+    "https://ibeerc.gmr.ssr.upm.es": [
+        "138.4.36.9"
+    ],
+    "https://nube.cesvima.upm.es": [
+        "138.100.4.11"
+    ],
+    "http://nube.cesvima.upm.es": [
+        "138.100.4.11"
+    ],
+    "https://ofs.fi.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://ofs.fi.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://www2.caminos.upm.es": [
+        "138.100.67.134"
+    ],
+    "https://www2.caminos.upm.es": [
+        "138.100.67.134"
+    ],
+    "https://reservas.etsiaab.upm.es": [
+        "138.100.88.204"
+    ],
+    "http://reservas.etsiaab.upm.es": [
+        "138.100.88.204"
+    ],
+    "https://ae2015.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "http://ae2015.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "https://lists.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://lists.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://gea.ssr.upm.es": [
+        "138.4.92.186"
+    ],
+    "http://gea.ssr.upm.es": [
+        "138.4.92.186"
+    ],
+    "https://eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "http://clubdeportivo.etsit.upm.es": [
+        "138.100.17.22"
+    ],
+    "https://clubdeportivo.etsit.upm.es": [
+        "138.100.17.22"
+    ],
+    "http://laurel.datsi.etsiinf.upm.es": [
+        "138.100.9.35"
+    ],
+    "https://laurel.datsi.etsiinf.upm.es": [
+        "138.100.9.35"
+    ],
+    "https://listas.fi.upm.es": [
+        "138.100.243.17"
+    ],
+    "http://listas.fi.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://solidario.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://lists.sscc.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://lists.sscc.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://solidario.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://svn.dit.upm.es": [
+        "138.4.5.111"
+    ],
+    "http://svn.dit.upm.es": [
+        "138.4.5.111"
+    ],
+    "https://www.digym.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://www.digym.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://costa.ls.fi.upm.es": [
+        "138.100.12.150"
+    ],
+    "https://costa.ls.fi.upm.es": [
+        "138.100.12.150"
+    ],
+    "http://isp2.etsit.upm.es": [
+        "138.100.17.22"
+    ],
+    "https://dcain.etsin.upm.es": [
+        "138.100.112.71"
+    ],
+    "http://dcain.etsin.upm.es": [
+        "138.100.112.71"
+    ],
+    "https://www.edificacion.upm.es": [
+        "138.100.109.110"
+    ],
+    "https://jglopez.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://jglopez.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://www.edificacion.upm.es": [
+        "138.100.109.110"
+    ],
+    "https://cloud8.cesvima.upm.es": [
+        "138.4.110.58"
+    ],
+    "http://cloud8.cesvima.upm.es": [
+        "138.4.110.58"
+    ],
+    "https://docker.lst.tfo.upm.es": [
+        "138.4.10.201"
+    ],
+    "http://docker.lst.tfo.upm.es": [
+        "138.4.10.201"
+    ],
+    "https://datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://www.etsin.upm.es": [
+        "138.100.113.20"
+    ],
+    "https://apiict00.etsii.upm.es": [
+        "138.100.82.170"
+    ],
+    "http://apiict00.etsii.upm.es": [
+        "138.100.82.170"
+    ],
+    "https://www.etsin.upm.es": [
+        "138.100.113.20"
+    ],
+    "http://ies.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://ies.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://registry.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://registry.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://www.montesymedionatural.upm.es": [
+        "138.100.124.26"
+    ],
+    "https://delicias.dia.fi.upm.es": [
+        "138.100.11.144"
+    ],
+    "http://delicias.dia.fi.upm.es": [
+        "138.100.11.144"
+    ],
+    "http://emprende.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://utm.grpss.ssr.upm.es": [
+        "138.4.40.10"
+    ],
+    "http://utm.grpss.ssr.upm.es": [
+        "138.4.40.10"
+    ],
+    "https://pruebas.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://pruebas.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://delicias.dia.etsiinf.upm.es": [
+        "138.100.11.144"
+    ],
+    "https://www.montesymedionatural.upm.es": [
+        "138.100.124.26"
+    ],
+    "http://oeg-dev.dia.fi.upm.es": [
+        "138.100.11.145"
+    ],
+    "https://api.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://api.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://request.cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "https://request.cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "http://apps2.aq.upm.es": [
+        "138.100.40.210"
+    ],
+    "https://oeg-dev.dia.fi.upm.es": [
+        "138.100.11.145"
+    ],
+    "http://sqf.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://sqf.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://drivetest.upm.es": [
+        "138.100.4.12"
+    ],
+    "http://drivetest.upm.es": [
+        "138.100.4.12"
+    ],
+    "https://ticvpn.rectorado.upm.es": [
+        "138.100.255.132"
+    ],
+    "https://alias.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://alias.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://intra.etsist.upm.es": [
+        "138.100.52.115"
+    ],
+    "https://www.fundetel.etsit.upm.es": [
+        "138.100.17.109"
+    ],
+    "https://www.ice.upm.es": [
+        "138.100.233.200"
+    ],
+    "http://www.ice.upm.es": [
+        "138.100.233.200"
+    ],
+    "http://www.fundetel.etsit.upm.es": [
+        "138.100.17.109"
+    ],
+    "http://master.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://master.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://muss.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://muss.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://appsrv.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://appsrv.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://www.lenguas.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://www.lenguas.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://dia.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://dia.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://www.etsiaab.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.etsiaab.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://blogs.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://giematic.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://giematic.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://lanzadera.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://lanzadera.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://blogs.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://admision.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://admision.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.innopro.upm.es": [
+        "138.4.92.167"
+    ],
+    "https://www.innopro.upm.es": [
+        "138.4.92.167"
+    ],
+    "https://acorral.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://acorral.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://whiteclub.radio.clubs.etsit.upm.es": [
+        "138.4.51.66"
+    ],
+    "http://whiteclub.radio.clubs.etsit.upm.es": [
+        "138.4.51.66"
+    ],
+    "https://specmanager.upm.es": [
+        "138.100.3.26"
+    ],
+    "http://www.ies.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://www.ies.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://torroja.dmt.upm.es": [
+        "138.4.116.3"
+    ],
+    "http://torroja.dmt.upm.es": [
+        "138.4.116.3"
+    ],
+    "https://encuestas.etsiaab.upm.es": [
+        "138.100.88.204"
+    ],
+    "http://encuestas.etsiaab.upm.es": [
+        "138.100.88.204"
+    ],
+    "https://www.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "http://www.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "https://cloud.dcta.upm.es": [
+        "138.100.21.36"
+    ],
+    "http://cloud.dcta.upm.es": [
+        "138.100.21.36"
+    ],
+    "https://passbolt.dat.etsit.upm.es": [
+        "138.4.51.80"
+    ],
+    "http://passbolt.dat.etsit.upm.es": [
+        "138.4.51.80"
+    ],
+    "http://cau.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://cau.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://smtp.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "http://smtp.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "http://mx.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "https://mx.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "http://s3.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://mail.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://mail.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "https://biba.etsii.upm.es": [
+        "138.4.92.150"
+    ],
+    "http://biba.etsii.upm.es": [
+        "138.4.92.150"
+    ],
+    "https://mcm19.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://mcm19.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://acceso.upm.es": [
+        "138.100.200.72"
+    ],
+    "http://acceso.upm.es": [
+        "138.100.200.72"
+    ],
+    "https://digym.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://smtp.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://smtp.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://digym.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://ws.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://ws.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://cloud2.cesvima.upm.es": [
+        "138.4.110.52"
+    ],
+    "http://cloud2.cesvima.upm.es": [
+        "138.4.110.52"
+    ],
+    "https://intranet.etsiaab.upm.es": [
+        "138.100.88.203"
+    ],
+    "http://intranet.etsiaab.upm.es": [
+        "138.100.88.203"
+    ],
+    "https://gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "http://gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "https://ws.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://www.emse.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.emse.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://mail.cedint.upm.es": [
+        "138.4.140.3"
+    ],
+    "https://mail.cedint.upm.es": [
+        "138.4.140.3"
+    ],
+    "http://ws.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://upmlaser.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://upmlaser.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://pop.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://pop.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "https://www1.etsiaab.upm.es": [
+        "138.100.88.210"
+    ],
+    "http://www1.etsiaab.upm.es": [
+        "138.100.88.210"
+    ],
+    "https://dat.etsit.upm.es": [
+        "138.4.92.27"
+    ],
+    "http://dat.etsit.upm.es": [
+        "138.4.92.27"
+    ],
+    "https://datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://ingenio.upm.es": [
+        "216.147.214.138"
+    ],
+    "https://ingenio.upm.es": [
+        "216.147.214.138"
+    ],
+    "https://automatricula.upm.es": [
+        "138.100.200.70"
+    ],
+    "http://automatricula.upm.es": [
+        "138.100.200.70"
+    ],
+    "https://grc.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://grc.upm.es": [
+        "138.100.52.113"
+    ],
+    "https://docentia.upm.es": [
+        "138.100.200.159"
+    ],
+    "http://docentia.upm.es": [
+        "138.100.200.159"
+    ],
+    "http://etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "https://www.etsiae.upm.es": [
+        "138.4.74.3"
+    ],
+    "https://uxxisso.upm.es": [
+        "138.100.200.31"
+    ],
+    "http://www.etsiae.upm.es": [
+        "138.4.74.3"
+    ],
+    "http://serviciosgate.upm.es": [
+        "138.100.6.213"
+    ],
+    "http://uxxisso.upm.es": [
+        "138.100.200.31"
+    ],
+    "https://serviciosgate.upm.es": [
+        "138.100.6.213"
+    ],
+    "https://pga.etsii.upm.es": [
+        "138.100.71.77"
+    ],
+    "https://cloud.cesvima.upm.es": [
+        "138.4.110.50"
+    ],
+    "http://cloud.cesvima.upm.es": [
+        "138.4.110.50"
+    ],
+    "https://contratacion.upm.es": [
+        "138.100.200.92"
+    ],
+    "https://iptc.upm.es": [
+        "138.4.144.43"
+    ],
+    "http://iptc.upm.es": [
+        "138.4.144.43"
+    ],
+    "https://software.upm.es": [
+        "138.100.6.213"
+    ],
+    "http://software.upm.es": [
+        "138.100.6.213"
+    ],
+    "https://etsit.upm.es": [
+        "138.4.51.123"
+    ],
+    "http://vps130.cesvima.upm.es": [
+        "138.4.92.130"
+    ],
+    "http://etsit.upm.es": [
+        "138.4.51.123"
+    ],
+    "https://josemanuel.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://josemanuel.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://relay.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://relay.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "https://www.labdoc.ssr.upm.es": [
+        "138.4.43.11"
+    ],
+    "http://www.labdoc.ssr.upm.es": [
+        "138.4.43.11"
+    ],
+    "https://topografia.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://topografia.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://apps.upm.es": [
+        "138.100.200.21"
+    ],
+    "https://apps.upm.es": [
+        "138.100.200.21"
+    ],
+    "https://fis.etsisi.upm.es": [
+        "138.100.152.56"
+    ],
+    "http://fis.etsisi.upm.es": [
+        "138.100.152.56"
+    ],
+    "http://gitlab.citsem.upm.es": [
+        "138.100.58.25"
+    ],
+    "https://gitlab.citsem.upm.es": [
+        "138.100.58.25"
+    ],
+    "https://docs.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://docs.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://www.upm.es": [
+        "138.100.200.6"
+    ],
+    "http://www.upm.es": [
+        "138.100.200.6"
+    ],
+    "https://servicios.aq.upm.es": [
+        "138.100.44.131"
+    ],
+    "http://servicios.aq.upm.es": [
+        "138.100.44.131"
+    ],
+    "http://chotis2.dit.upm.es": [
+        "138.4.7.62"
+    ],
+    "https://emse.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://chotis2.dit.upm.es": [
+        "138.4.7.62"
+    ],
+    "http://emse.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://ams.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://ams.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://www.citsem.upm.es": [
+        "138.100.58.23"
+    ],
+    "http://www.citsem.upm.es": [
+        "138.100.58.23"
+    ],
+    "https://vpn.upm.es": [
+        "138.100.255.8"
+    ],
+    "https://www.cedint.upm.es": [
+        "138.4.140.5"
+    ],
+    "http://www.cedint.upm.es": [
+        "138.4.140.5"
+    ],
+    "https://cloud.tige.ior.etsit.upm.es": [
+        "138.100.21.10"
+    ],
+    "http://cloud9.cesvima.upm.es": [
+        "138.4.110.59"
+    ],
+    "https://cloud9.cesvima.upm.es": [
+        "138.4.110.59"
+    ],
+    "http://cloud.tige.ior.etsit.upm.es": [
+        "138.100.21.10"
+    ],
+    "https://ceigram.upm.es": [
+        "138.4.92.216"
+    ],
+    "http://ceigram.upm.es": [
+        "138.4.92.216"
+    ],
+    "http://fi.upm.es": [
+        "138.100.243.16"
+    ],
+    "https://fi.upm.es": [
+        "138.100.243.16"
+    ],
+    "http://hypatia.agricolas.upm.es": [
+        "138.100.88.161"
+    ],
+    "https://hypatia.agricolas.upm.es": [
+        "138.100.88.161"
+    ],
+    "http://etsiinf.upm.es": [
+        "138.100.243.16"
+    ],
+    "https://montegancedo.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://montegancedo.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://etsiinf.upm.es": [
+        "138.100.243.16"
+    ],
+    "https://www.upmlaser.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.upmlaser.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://emse.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://emse.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://pga.industriales.upm.es": [
+        "138.100.71.77"
+    ],
+    "http://voicechat.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://voicechat.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://www.dlsiis.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.dlsiis.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://www.etsist.upm.es": [
+        "138.100.52.111"
+    ],
+    "http://www.etsist.upm.es": [
+        "138.100.52.111"
+    ],
+    "https://cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "http://cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "http://apii01.etsii.upm.es": [
+        "138.100.82.181"
+    ],
+    "https://www.ofs.etsiinf.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://www.ofs.etsiinf.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://relay.fi.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://relay.fi.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://isp1.etsit.upm.es": [
+        "138.100.17.19"
+    ],
+    "http://ageinglab.ctb.upm.es": [
+        "138.4.92.130"
+    ],
+    "https://ageinglab.ctb.upm.es": [
+        "138.4.92.130"
+    ],
+    "https://guindo.datsi.fi.upm.es": [
+        "138.100.9.129"
+    ],
+    "http://guindo.datsi.fi.upm.es": [
+        "138.100.9.129"
+    ],
+    "https://ldapupm.cesvima.upm.es": [
+        "138.4.110.26"
+    ],
+    "http://ldapupm.cesvima.upm.es": [
+        "138.4.110.26"
+    ],
+    "http://lenguas.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://lenguas.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://caus.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://caus.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://www.dssc.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.dssc.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://avellano.datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://avellano.datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "https://sanjose.industriales.upm.es": [
+        "138.100.73.2"
+    ],
+    "http://sanjose.industriales.upm.es": [
+        "138.100.73.2"
+    ],
+    "http://3dlabs.upm.es": [
+        "138.100.6.221"
+    ],
+    "https://3dlabs.upm.es": [
+        "138.100.6.221"
+    ],
+    "https://portal.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "http://portal.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://jbernal.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://jbernal.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://www.etsii.upm.es": [
+        "138.100.71.59"
+    ],
+    "https://cf4j.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://www.etsii.upm.es": [
+        "138.100.71.59"
+    ],
+    "http://cf4j.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://www.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://www.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://laurel.datsi.fi.upm.es": [
+        "138.100.9.35"
+    ],
+    "https://laurel.datsi.fi.upm.es": [
+        "138.100.9.35"
+    ],
+    "https://www2.upm.es": [
+        "138.100.200.6"
+    ],
+    "http://www2.upm.es": [
+        "138.100.200.6"
+    ],
+    "https://vpnssl.upm.es": [
+        "138.100.255.9"
+    ],
+    "https://upm.es": [
+        "138.100.200.6"
+    ],
+    "http://upm.es": [
+        "138.100.200.6"
+    ],
+    "https://status.gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "http://status.gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "https://cloud3.cesvima.upm.es": [
+        "138.4.110.53"
+    ],
+    "http://aranjuez.dia.fi.upm.es": [
+        "138.100.11.160"
+    ],
+    "https://aranjuez.dia.fi.upm.es": [
+        "138.100.11.160"
+    ],
+    "http://cloud3.cesvima.upm.es": [
+        "138.4.110.53"
+    ],
+    "https://vps136.cesvima.upm.es": [
+        "138.4.92.136"
+    ],
+    "http://idefix.dit.upm.es": [
+        "138.4.7.228"
+    ],
+    "https://idefix.dit.upm.es": [
+        "138.4.7.228"
+    ],
+    "https://git.etsit.upm.es": [
+        "138.100.17.60"
+    ],
+    "https://tools.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "http://tools.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://masterciberseguridad.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://masterciberseguridad.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://ecodeteleco.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://ecodeteleco.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://relay.etsiinf.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://relay.etsiinf.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://radio.clubs.etsit.upm.es": [
+        "138.4.51.66"
+    ],
+    "http://radio.clubs.etsit.upm.es": [
+        "138.4.51.66"
+    ],
+    "https://sede.upm.es": [
+        "138.100.200.108"
+    ],
+    "http://sede.upm.es": [
+        "138.100.200.108"
+    ],
+    "https://www.dcta.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://dlsiis.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://mmtc.etsiae.upm.es": [
+        "138.4.74.33"
+    ],
+    "http://mmtc.etsiae.upm.es": [
+        "138.4.74.33"
+    ],
+    "http://dlsiis.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.dcta.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://ofs.etsiinf.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://ofs.etsiinf.upm.es": [
+        "138.100.9.202"
+    ],
+    "https://zion.ieeesb.etsit.upm.es": [
+        "138.100.31.24"
+    ],
+    "http://www.caminos.upm.es": [
+        "138.100.67.133"
+    ],
+    "https://www.caminos.upm.es": [
+        "138.100.67.133"
+    ],
+    "http://zion.ieeesb.etsit.upm.es": [
+        "138.100.31.24"
+    ],
+    "https://dssc.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://dssc.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://listas.etsiinf.upm.es": [
+        "138.100.243.17"
+    ],
+    "https://www.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://listas.etsiinf.upm.es": [
+        "138.100.243.17"
+    ],
+    "http://www.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://correo.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://correo.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://theia.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://theia.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://web.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "http://web.dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "https://dcta.upm.es": [
+        "138.4.92.195"
+    ],
+    "http://dcta.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://correo.topografia.upm.es": [
+        "138.100.63.21"
+    ],
+    "http://correo.topografia.upm.es": [
+        "138.100.63.21"
+    ],
+    "http://reservas.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "https://reservas.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "https://www3.caminos.upm.es": [
+        "138.100.67.138"
+    ],
+    "https://xuxa.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "http://xuxa.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "http://futurosalumnos.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://futurosalumnos.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://apiict01.etsii.upm.es": [
+        "138.100.82.171"
+    ],
+    "http://apiict01.etsii.upm.es": [
+        "138.100.82.171"
+    ],
+    "https://miw.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "http://www3.caminos.upm.es": [
+        "138.100.67.138"
+    ],
+    "https://etsam.aq.upm.es": [
+        "138.100.44.173"
+    ],
+    "http://miw.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "http://industriales.upm.es": [
+        "138.100.73.2"
+    ],
+    "https://industriales.upm.es": [
+        "138.100.73.2"
+    ],
+    "http://etsam.aq.upm.es": [
+        "138.100.44.173"
+    ],
+    "https://www.mhi.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://www.mhi.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://www.master.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://www.master.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://communications.reset.etsii.upm.es": [
+        "138.100.72.182"
+    ],
+    "https://www.datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "https://gitlab.etsisi.upm.es": [
+        "138.100.152.56"
+    ],
+    "http://gitlab.etsisi.upm.es": [
+        "138.100.152.56"
+    ],
+    "http://www.datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://ma.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://ma.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://pasarela.etsiae.upm.es": [
+        "138.4.74.46"
+    ],
+    "http://pasarela.etsiae.upm.es": [
+        "138.4.74.46"
+    ],
+    "https://caminos.upm.es": [
+        "138.100.67.133"
+    ],
+    "http://caminos.upm.es": [
+        "138.100.67.133"
+    ],
+    "http://guindo.datsi.etsiinf.upm.es": [
+        "138.100.9.129"
+    ],
+    "https://fmartin.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://guindo.datsi.etsiinf.upm.es": [
+        "138.100.9.129"
+    ],
+    "http://fmartin.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "https://arcdc.etsiae.upm.es": [
+        "138.4.74.48"
+    ],
+    "http://dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://arcdc.etsiae.upm.es": [
+        "138.4.74.48"
+    ],
+    "https://www.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "https://innovacioneducativa.upm.es": [
+        "138.4.89.5"
+    ],
+    "http://innovacioneducativa.upm.es": [
+        "138.4.89.5"
+    ],
+    "https://imap.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://www.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "https://list.gr.ssr.upm.es": [
+        "138.4.37.2"
+    ],
+    "http://imap.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://list.gr.ssr.upm.es": [
+        "138.4.37.2"
+    ],
+    "http://mat.caminos.upm.es": [
+        "138.100.67.140"
+    ],
+    "https://mat.caminos.upm.es": [
+        "138.100.67.140"
+    ],
+    "https://www.etsit.upm.es": [
+        "138.4.51.123"
+    ],
+    "http://www.etsit.upm.es": [
+        "138.4.51.123"
+    ],
+    "http://acdc.gmr.ssr.upm.es": [
+        "138.4.36.8"
+    ],
+    "https://acdc.gmr.ssr.upm.es": [
+        "138.4.36.8"
+    ],
+    "https://www.gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "http://www.gsi.upm.es": [
+        "138.4.92.161"
+    ],
+    "https://www.campussur.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://www.campussur.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://cdcrom.clubs.etsit.upm.es": [
+        "138.100.17.22"
+    ],
+    "http://cdcrom.clubs.etsit.upm.es": [
+        "138.100.17.22"
+    ],
+    "http://www.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://www.gea.ssr.upm.es": [
+        "138.4.92.186"
+    ],
+    "https://www.gea.ssr.upm.es": [
+        "138.4.92.186"
+    ],
+    "https://www.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://indusnet.etsii.upm.es": [
+        "138.100.71.77"
+    ],
+    "https://matap.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://matap.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://indusnet.etsii.upm.es": [
+        "138.100.71.77"
+    ],
+    "http://web-gestores.caminos.upm.es": [
+        "138.100.67.165"
+    ],
+    "https://web-gestores.caminos.upm.es": [
+        "138.100.67.165"
+    ],
+    "https://www.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "http://www.eusoc.upm.es": [
+        "138.4.132.194"
+    ],
+    "https://apiict03.etsii.upm.es": [
+        "138.100.82.173"
+    ],
+    "http://apiict03.etsii.upm.es": [
+        "138.100.82.173"
+    ],
+    "https://www.emse.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.emse.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://www.muss.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.muss.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://unifi.dat.etsit.upm.es": [
+        "138.4.51.80"
+    ],
+    "http://unifi.dat.etsit.upm.es": [
+        "138.4.51.80"
+    ],
+    "https://dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "http://dit.upm.es": [
+        "138.4.2.56"
+    ],
+    "http://meg.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://meg.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://nextcloud.reset.etsii.upm.es": [
+        "138.100.72.182"
+    ],
+    "https://nextcloud.reset.etsii.upm.es": [
+        "138.100.72.182"
+    ],
+    "http://rstudio.apii01.etsii.upm.es": [
+        "138.100.82.181"
+    ],
+    "https://imap.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://imap.ies.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://www.mhi.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://documentos.etsidi.upm.es": [
+        "138.100.101.231"
+    ],
+    "http://investigacion.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "https://investigacion.etsisi.upm.es": [
+        "138.100.152.54"
+    ],
+    "https://www.dlsiis.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.dlsiis.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://pc30.grpss.ssr.upm.es": [
+        "138.4.40.30"
+    ],
+    "http://pc30.grpss.ssr.upm.es": [
+        "138.4.40.30"
+    ],
+    "https://imap.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "http://imap.gr.ssr.upm.es": [
+        "138.4.37.12"
+    ],
+    "https://telecode.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://www.lab.dit.upm.es": [
+        "138.4.26.40"
+    ],
+    "http://telecode.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://www.dssc.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.lab.dit.upm.es": [
+        "138.4.26.40"
+    ],
+    "https://correo.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://www.dssc.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://correo.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "https://clip.dia.fi.upm.es": [
+        "138.100.11.74"
+    ],
+    "http://cau-secretaria.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://cau-secretaria.etsit.upm.es": [
+        "138.100.18.250"
+    ],
+    "https://dlsiis.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://montesymedionatural.upm.es": [
+        "138.100.124.26"
+    ],
+    "http://dlsiis.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://clip.dia.fi.upm.es": [
+        "138.100.11.74"
+    ],
+    "https://cloud7.cesvima.upm.es": [
+        "138.4.110.57"
+    ],
+    "http://cloud7.cesvima.upm.es": [
+        "138.4.110.57"
+    ],
+    "https://montesymedionatural.upm.es": [
+        "138.100.124.26"
+    ],
+    "https://sw.upm.es": [
+        "138.100.4.13"
+    ],
+    "http://sw.upm.es": [
+        "138.100.4.13"
+    ],
+    "https://numath.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://numath.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "https://servicios.upm.es": [
+        "138.100.200.55"
+    ],
+    "http://servicios.upm.es": [
+        "138.100.200.55"
+    ],
+    "http://mhi.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://lab.dit.upm.es": [
+        "138.4.26.40"
+    ],
+    "https://lab.dit.upm.es": [
+        "138.4.26.40"
+    ],
+    "https://www.erma.etsidi.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://mhi.etsiinf.upm.es": [
+        "138.100.243.18"
+    ],
+    "http://www.erma.etsidi.upm.es": [
+        "138.4.92.195"
+    ],
+    "https://edificacion.upm.es": [
+        "138.100.109.110"
+    ],
+    "http://edificacion.upm.es": [
+        "138.100.109.110"
+    ],
+    "http://oeg-dev.dia.etsiinf.upm.es": [
+        "138.100.11.145"
+    ],
+    "https://oeg-dev.dia.etsiinf.upm.es": [
+        "138.100.11.145"
+    ],
+    "https://muss.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://muss.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://git.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "http://git.gti.ssr.upm.es": [
+        "138.4.32.2"
+    ],
+    "https://cic.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "http://cic.etsisi.upm.es": [
+        "138.100.152.2"
+    ],
+    "http://gitlab.reset.etsii.upm.es": [
+        "138.100.72.182"
+    ],
+    "http://aranjuez.dia.etsiinf.upm.es": [
+        "138.100.11.160"
+    ],
+    "https://aranjuez.dia.etsiinf.upm.es": [
+        "138.100.11.160"
+    ],
+    "https://www.i2a2.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://www.i2a2.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://dlsiisv.etsiinf.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://webmail.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://webmail.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "https://sacoc.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://sacoc.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://wiki.hi.ee.upm.es": [
+        "138.4.92.181"
+    ],
+    "https://correo.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "http://correo.ies-def.upm.es": [
+        "138.4.46.124"
+    ],
+    "https://www.muss.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.muss.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://inacc.etsiae.upm.es": [
+        "138.4.74.32"
+    ],
+    "https://inacc.etsiae.upm.es": [
+        "138.4.74.32"
+    ],
+    "https://wiki.hi.ee.upm.es": [
+        "138.4.92.181"
+    ],
+    "https://mhi.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://eventos.upm.es": [
+        "34.246.31.188"
+    ],
+    "http://eventos.upm.es": [
+        "34.246.31.188"
+    ],
+    "http://mhi.fi.upm.es": [
+        "138.100.243.18"
+    ],
+    "https://aida.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://aida.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://ldap.caminos.upm.es": [
+        "138.100.67.138"
+    ],
+    "http://ldap.caminos.upm.es": [
+        "138.100.67.138"
+    ],
+    "http://midas.ctb.upm.es": [
+        "138.4.92.128"
+    ],
+    "https://midas.ctb.upm.es": [
+        "138.4.92.128"
+    ],
+    "https://ingenieroiot.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://ingenieroiot.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "https://cloud11.cesvima.upm.es": [
+        "138.4.110.61"
+    ],
+    "http://cloud11.cesvima.upm.es": [
+        "138.4.110.61"
+    ],
+    "https://www.masterciberseguridad.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "https://fireextinction.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "http://www.masterciberseguridad.etsit.upm.es": [
+        "138.100.17.24"
+    ],
+    "http://fireextinction.dmae.upm.es": [
+        "138.4.112.195"
+    ],
+    "https://tesis.biblioteca.upm.es": [
+        "138.100.6.200"
+    ],
+    "http://tesis.biblioteca.upm.es": [
+        "138.100.6.200"
+    ],
+    "https://gblanco.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://gblanco.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://www.montes.upm.es": [
+        "138.100.124.26"
+    ],
+    "https://topprofe.dat.etsit.upm.es": [
+        "138.4.92.27"
+    ],
+    "https://www.montes.upm.es": [
+        "138.100.124.26"
+    ],
+    "http://topprofe.dat.etsit.upm.es": [
+        "138.4.92.27"
+    ],
+    "https://www.aero.upm.es": [
+        "138.4.74.3"
+    ],
+    "http://www.aero.upm.es": [
+        "138.4.74.3"
+    ],
+    "https://campussur.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://servicios.topografia.upm.es": [
+        "138.100.63.5"
+    ],
+    "http://campussur.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://servicios.topografia.upm.es": [
+        "138.100.63.5"
+    ],
+    "https://practicas.etsidi.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://practicas.etsidi.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://portalvpn.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://portalvpn.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://curly.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://curly.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "https://gitlab.lst.tfo.upm.es": [
+        "138.4.10.214"
+    ],
+    "http://gitlab.lst.tfo.upm.es": [
+        "138.4.10.214"
+    ],
+    "https://medal.ctb.upm.es": [
+        "138.4.92.128"
+    ],
+    "http://medal.ctb.upm.es": [
+        "138.4.92.128"
+    ],
+    "https://www.datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "http://www.datsi.etsiinf.upm.es": [
+        "138.100.9.22"
+    ],
+    "https://moodle.upm.es": [
+        "138.100.200.11"
+    ],
+    "http://moodle.upm.es": [
+        "138.100.200.11"
+    ],
+    "https://www.ofs.fi.upm.es": [
+        "138.100.9.202"
+    ],
+    "http://www.ofs.fi.upm.es": [
+        "138.100.9.202"
+    ],
+    "https://www.euita.upm.es": [
+        "138.4.74.3"
+    ],
+    "http://www.euita.upm.es": [
+        "138.4.74.3"
+    ],
+    "http://dma.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://phi.aq.upm.es": [
+        "138.100.44.143"
+    ],
+    "http://phi.aq.upm.es": [
+        "138.100.44.143"
+    ],
+    "https://sanjose.etsii.upm.es": [
+        "138.100.73.2"
+    ],
+    "http://sanjose.etsii.upm.es": [
+        "138.100.73.2"
+    ],
+    "https://masteriot.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://masteriot.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "https://imdea-software.fi.upm.es": [
+        "138.100.13.220"
+    ],
+    "http://www1.caminos.upm.es": [
+        "138.100.67.165"
+    ],
+    "http://imdea-software.fi.upm.es": [
+        "138.100.13.220"
+    ],
+    "https://www1.caminos.upm.es": [
+        "138.100.67.165"
+    ],
+    "http://avellano.datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "https://avellano.datsi.fi.upm.es": [
+        "138.100.9.22"
+    ],
+    "https://dssc.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "https://www.practicas.etsidi.upm.es": [
+        "138.100.6.231"
+    ],
+    "http://dssc.fi.upm.es": [
+        "138.100.240.198"
+    ],
+    "http://www.practicas.etsidi.upm.es": [
+        "138.100.6.231"
+    ],
+    "https://transparencia.upm.es": [
+        "138.100.200.9"
+    ],
+    "http://transparencia.upm.es": [
+        "138.100.200.9"
+    ],
+    "https://abraham.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "http://abraham.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://hogardigitalaccesible.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "https://etsist.upm.es": [
+        "138.100.52.111"
+    ],
+    "http://etsist.upm.es": [
+        "138.100.52.111"
+    ],
+    "https://naturalinterfaces.etsist.upm.es": [
+        "138.100.52.113"
+    ],
+    "http://ope.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://ope.etsisi.upm.es": [
+        "138.100.152.8"
+    ],
+    "https://doctorado.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "http://doctorado.lst.tfo.upm.es": [
+        "138.4.10.196"
+    ],
+    "https://cloud1.cesvima.upm.es": [
+        "138.4.110.51"
+    ],
+    "http://cloud1.cesvima.upm.es": [
+        "138.4.110.51"
+    ],
+    "https://www.cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "http://www.cesvima.upm.es": [
+        "138.4.110.5"
+    ],
+    "https://sgame.dit.upm.es": [
+        "138.100.158.172"
+    ],
+    "http://sgame.dit.upm.es": [
+        "138.100.158.172"
+    ]
+}

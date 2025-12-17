@@ -42,20 +42,38 @@ def load_config(config_path: str = "config/config.yaml") -> Dict:
         sys.exit(1)
 
 
-def save_results(live_urls: list, output_file: str):
+import json
+
+def save_results(live_results: list, output_file: str):
     """
-    Save live subdomain URLs to a file
+    Save live subdomain results to a file in JSON or TXT format
     
     Args:
-        live_urls: List of live subdomain URLs
+        live_results: List of result dictionaries
         output_file: Output file path
     """
     try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write("# Subdominios Activos (HTTP 200)\n")
-            f.write(f"# Total encontrados: {len(live_urls)}\n\n")
-            for url in sorted(live_urls):
-                f.write(f"{url}\n")
+        # Determine format based on extension
+        is_json = not output_file.lower().endswith('.txt')
+        
+        if is_json:
+            output_data = {}
+            for r in live_results:
+                url = r['url']
+                ip = r.get('ip')
+                if ip:
+                    output_data[url] = [ip]
+                else:
+                    output_data[url] = []
+
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=4)
+        else:
+            # TXT format: just the URLs, one per line
+            with open(output_file, 'w', encoding='utf-8') as f:
+                for r in live_results:
+                    f.write(f"{r['url']}\n")
+            
         print(f"\n✓ Resultados guardados en: {output_file}")
     except IOError as e:
         print(f"Error al guardar resultados: {e}")
@@ -71,7 +89,7 @@ def main():
 Ejemplos de uso:
   %(prog)s                                # Usar configuración por defecto
   %(prog)s -q "%%.google.com"             # Buscar subdominios de google.com
-  %(prog)s -q "%%.upm.es" -o results.txt  # Especificar archivo de salida
+  %(prog)s -q "%%.upm.es" -o results.json # Especificar archivo de salida
   %(prog)s -c mi_config.yaml              # Usar archivo de configuración personalizado
         """
     )
@@ -158,7 +176,9 @@ Ejemplos de uso:
     )
     
     results = verifier.verify_subdomains(subdomains)
-    live_urls = verifier.get_live_subdomains(results)
+    # Get the raw results dicts that have is_live=True
+    live_results = [r for r in results if r['is_live']]
+    live_urls = [r['url'] for r in live_results]
     
     # Display results
     logger.info("="*60)
@@ -172,8 +192,8 @@ Ejemplos de uso:
         for url in sorted(live_urls):
             print(f"  ✓ {url}")
         
-        # Save results
-        save_results(live_urls, config['output_file'])
+        # Save results (pass live_results instead of just URLs)
+        save_results(live_results, config['output_file'])
     else:
         logger.warning("No se encontraron subdominios activos.")
     

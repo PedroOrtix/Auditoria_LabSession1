@@ -2,6 +2,7 @@
 Subdomain verifier module
 """
 import requests
+import socket
 from typing import List, Dict, Set
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from logger import setup_logger
@@ -47,10 +48,17 @@ class SubdomainVerifier:
             'protocol': protocol,
             'is_live': False,
             'status_code': None,
+            'ip': None,
             'error': None
         }
         
         try:
+            # Resolve IP first
+            try:
+                result['ip'] = socket.gethostbyname(subdomain)
+            except socket.error:
+                pass
+
             response = self.session.get(
                 url,
                 timeout=self.timeout,
@@ -62,7 +70,7 @@ class SubdomainVerifier:
             result['is_live'] = (response.status_code == 200)
             
             if result['is_live']:
-                logger.info(f"✓ {url} - HTTP {response.status_code}")
+                logger.info(f"✓ {url} - HTTP {response.status_code} [{result['ip']}]")
             else:
                 logger.debug(f"✗ {url} - HTTP {response.status_code}")
                 
