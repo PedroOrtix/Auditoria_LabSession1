@@ -1,0 +1,5439 @@
+{
+    "results": [
+        {
+            "domain": "aranjuez.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.11.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aranjuez.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.11.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.labdoc.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.43.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.214"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.214"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.labdoc.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.43.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "s3.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.123"
+            ],
+            "nameservers": [
+                {
+                    "name": "dns2.etsit.upm.es",
+                    "ip": "138.100.17.134"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.emse.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.emse.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aetel.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.123"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns2.etsit.upm.es",
+                    "ip": "138.100.17.134"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "aetel.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": [
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                }
+            ]
+        },
+        {
+            "domain": "datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": [
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                }
+            ]
+        },
+        {
+            "domain": "www.fundetel.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.109"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.fundetel.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.109"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": [
+                {
+                    "name": "sun.rediris.es",
+                    "ip": "199.184.182.1"
+                },
+                {
+                    "name": "chico.rediris.es",
+                    "ip": "162.219.54.2"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": [
+                {
+                    "name": "sun.rediris.es",
+                    "ip": "199.184.182.1"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "chico.rediris.es",
+                    "ip": "162.219.54.2"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mail.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mail.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.63.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.63.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud9.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud9.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dlsiisv.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "boss.dit.upm.es",
+            "ip_addresses": [
+                "138.4.4.221"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "boss.dit.upm.es",
+            "ip_addresses": [
+                "138.4.4.221"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "status.gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "status.gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "fmartin.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fmartin.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "laurel.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.35"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "laurel.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.35"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "practicas.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cic.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cic.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "meg.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "meg.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud11.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.61"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud11.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.61"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "avellano.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "practicas.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "avellano.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aida.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aida.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.reset.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.72.182"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ams.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ams.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "muss.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "midas.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.128"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "muss.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "reservas.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.204"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "reservas.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.204"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "midas.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.128"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docs.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docs.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.mhi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.mhi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "appsrv.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "appsrv.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "guindo.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.129"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "guindo.datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.129"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "iptc.upm.es",
+            "ip_addresses": [
+                "138.4.144.43"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "iptc.upm.es",
+            "ip_addresses": [
+                "138.4.144.43"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "passbolt.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.80"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "passbolt.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.80"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.citsem.upm.es",
+            "ip_addresses": [
+                "138.100.58.25"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gitlab.citsem.upm.es",
+            "ip_addresses": [
+                "138.100.58.25"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mhi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mhi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sanjose.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "barajas.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.15.147"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "barajas.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.15.147"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sanjose.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "webmail.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "webmail.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portaldecompras.upm.es",
+            "ip_addresses": [
+                "138.100.200.99"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portaldecompras.upm.es",
+            "ip_addresses": [
+                "138.100.200.99"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cau-secretaria.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cau-secretaria.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "voicechat.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "voicechat.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "automatricula.upm.es",
+            "ip_addresses": [
+                "138.100.200.70"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "montesymedionatural.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "montesymedionatural.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "clip.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.74"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "clip.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.74"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "automatricula.upm.es",
+            "ip_addresses": [
+                "138.100.200.70"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "documentos.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.101.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sede.upm.es",
+            "ip_addresses": [
+                "138.100.200.108"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns1.cesvima.upm.es",
+                    "ip": "138.4.110.4"
+                }
+            ]
+        },
+        {
+            "domain": "cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns1.cesvima.upm.es",
+                    "ip": "138.4.110.4"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "sede.upm.es",
+            "ip_addresses": [
+                "138.100.200.108"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "git.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.60"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ws.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ws.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "request.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns1.cesvima.upm.es",
+                    "ip": "138.4.110.4"
+                }
+            ]
+        },
+        {
+            "domain": "request.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns1.cesvima.upm.es",
+                    "ip": "138.4.110.4"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.dssc.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dssc.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": [
+                {
+                    "name": "dns.dit.upm.es",
+                    "ip": "138.4.2.10"
+                },
+                {
+                    "name": "dns2.dit.upm.es",
+                    "ip": "138.4.2.32"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                }
+            ]
+        },
+        {
+            "domain": "dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": [
+                {
+                    "name": "dns2.dit.upm.es",
+                    "ip": "138.4.2.32"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns.dit.upm.es",
+                    "ip": "138.4.2.10"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "hogardigitalaccesible.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "hogardigitalaccesible.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docker.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.201"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "josemanuel.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docker.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.201"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "josemanuel.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ofs.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ofs.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.50"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "serviciosgate.upm.es",
+            "ip_addresses": [
+                "138.100.6.213"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.50"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "serviciosgate.upm.es",
+            "ip_addresses": [
+                "138.100.6.213"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portal.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portal.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "phi.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.143"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "phi.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.143"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "biba.etsii.upm.es",
+            "ip_addresses": [
+                "138.4.92.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "biba.etsii.upm.es",
+            "ip_addresses": [
+                "138.4.92.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "3dlabs.upm.es",
+            "ip_addresses": [
+                "138.100.6.221"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "3dlabs.upm.es",
+            "ip_addresses": [
+                "138.100.6.221"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "innovacioneducativa.upm.es",
+            "ip_addresses": [
+                "138.4.89.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "innovacioneducativa.upm.es",
+            "ip_addresses": [
+                "138.4.89.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.master.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.master.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "solidario.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "solidario.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "intra.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.115"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "software.upm.es",
+            "ip_addresses": [
+                "138.100.6.213"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "software.upm.es",
+            "ip_addresses": [
+                "138.100.6.213"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "quiz.dit.upm.es",
+            "ip_addresses": [
+                "138.4.4.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "quiz.dit.upm.es",
+            "ip_addresses": [
+                "138.4.4.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lenguas.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "avellano.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lenguas.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dlsiis.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dlsiis.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "avellano.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apii01.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.181"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "api.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "api.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud1.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.51"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud1.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.51"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apps.upm.es",
+            "ip_addresses": [
+                "138.100.200.21"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apps.upm.es",
+            "ip_addresses": [
+                "138.100.200.21"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sqf.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imap.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sqf.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imap.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.upm.es",
+            "ip_addresses": [
+                "138.100.200.55"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.upm.es",
+            "ip_addresses": [
+                "138.100.200.55"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "caus.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "caus.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "miw.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "emprende.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "miw.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pop.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pop.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "reservas.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "reservas.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "listas.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "listas.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aeroempleo.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.42"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aeroempleo.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.42"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "abraham.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "abraham.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "specmanager.upm.es",
+            "ip_addresses": [
+                "138.100.3.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "delicias.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.144"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.inef.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.inef.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "delicias.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.144"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lenguas.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lenguas.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "eventos.upm.es",
+            "ip_addresses": [
+                "34.248.128.41"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "eventos.upm.es",
+            "ip_addresses": [
+                "34.248.128.41"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "registry.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "registry.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "tibu.alumnos.topografia.upm.es",
+                    "ip": "138.100.148.8"
+                },
+                {
+                    "name": "kite.topografia.upm.es",
+                    "ip": "138.100.62.8"
+                }
+            ]
+        },
+        {
+            "domain": "www.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "kite.topografia.upm.es",
+                    "ip": "138.100.62.8"
+                },
+                {
+                    "name": "tibu.alumnos.topografia.upm.es",
+                    "ip": "138.100.148.8"
+                }
+            ]
+        },
+        {
+            "domain": "correo.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ies.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ies.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dssc.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dssc.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "jglopez.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "jglopez.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "emse.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "emse.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.mhi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.mhi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "intranet.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.203"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "intranet.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.203"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sanjose.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sanjose.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www1.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.210"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www1.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.210"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.emse.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.emse.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "utm.grpss.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.40.10"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "utm.grpss.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.40.10"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "industriales.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": [
+                {
+                    "name": "sanjose.industriales.upm.es",
+                    "ip": "138.100.73.2"
+                }
+            ]
+        },
+        {
+            "domain": "industriales.upm.es",
+            "ip_addresses": [
+                "138.100.73.2"
+            ],
+            "nameservers": [
+                {
+                    "name": "sanjose.industriales.upm.es",
+                    "ip": "138.100.73.2"
+                }
+            ]
+        },
+        {
+            "domain": "www.etsin.upm.es",
+            "ip_addresses": [
+                "138.100.113.20"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "moodle.upm.es",
+            "ip_addresses": [
+                "138.100.200.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "moodle.upm.es",
+            "ip_addresses": [
+                "138.100.200.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsin.upm.es",
+            "ip_addresses": [
+                "138.100.113.20"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.aero.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "telecode.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.aero.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "whiteclub.radio.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.66"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "telecode.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "whiteclub.radio.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.66"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.103.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.103.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.245"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.245"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "webmail.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "webmail.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "vpnssl.upm.es",
+            "ip_addresses": [
+                "138.100.255.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.erma.etsidi.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.erma.etsidi.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": [
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "datsi.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                }
+            ]
+        },
+        {
+            "domain": "www3.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www3.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "blogs.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ibeerc.gmr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.36.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "numath.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ibeerc.gmr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.36.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "numath.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.muss.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.muss.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "blogs.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.theia.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.theia.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "grc.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "grc.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dcta.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dcta.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "biba.industriales.upm.es",
+            "ip_addresses": [
+                "138.4.92.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "biba.industriales.upm.es",
+            "ip_addresses": [
+                "138.4.92.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apiict00.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.170"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apiict00.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.170"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "indusnet.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.77"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud8.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.58"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud8.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.58"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud7.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.57"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud7.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.57"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ceigram.upm.es",
+            "ip_addresses": [
+                "138.4.92.216"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ceigram.upm.es",
+            "ip_addresses": [
+                "138.4.92.216"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gblanco.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gblanco.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mail.cedint.upm.es",
+            "ip_addresses": [
+                "138.4.140.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mail.cedint.upm.es",
+            "ip_addresses": [
+                "138.4.140.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.92.27"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                }
+            ]
+        },
+        {
+            "domain": "dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.92.27"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                }
+            ]
+        },
+        {
+            "domain": "www.montegancedo.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.montegancedo.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.campussur.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.campussur.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ingenieroiot.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ingenieroiot.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ticvpn.rectorado.upm.es",
+            "ip_addresses": [
+                "138.100.255.132"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "delicias.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.11.144"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "nextcloud.reset.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.72.182"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.131"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "servicios.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.131"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imap.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "nextcloud.reset.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.72.182"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fireextinction.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imap.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fireextinction.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ingenio.upm.es",
+            "ip_addresses": [
+                "216.147.214.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ingenio.upm.es",
+            "ip_addresses": [
+                "216.147.214.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www2.upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www2.upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ies.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                }
+            ]
+        },
+        {
+            "domain": "ies.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pga.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.77"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "vpn.upm.es",
+            "ip_addresses": [
+                "138.100.255.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "hypatia.agricolas.upm.es",
+            "ip_addresses": [
+                "138.100.88.161"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "hypatia.agricolas.upm.es",
+            "ip_addresses": [
+                "138.100.88.161"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "alias.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "alias.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns.etsisi.upm.es",
+                    "ip": "138.100.152.2"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "imap.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imap.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mat.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.140"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mat.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.140"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dcta.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": [
+                {
+                    "name": "glo.etsit.upm.es",
+                    "ip": "138.100.16.173"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "dcta.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": [
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "glo.etsit.upm.es",
+                    "ip": "138.100.16.173"
+                }
+            ]
+        },
+        {
+            "domain": "www.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.111"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns.etsist.upm.es",
+                    "ip": "138.100.52.102"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "apps2.aq.upm.es",
+            "ip_addresses": [
+                "138.100.40.210"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.111"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns.etsist.upm.es",
+                    "ip": "138.100.52.102"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.upmlaser.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.upmlaser.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "torroja.dmt.upm.es",
+            "ip_addresses": [
+                "138.4.116.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "torroja.dmt.upm.es",
+            "ip_addresses": [
+                "138.4.116.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ldapupm.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ldapupm.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lab.dit.upm.es",
+            "ip_addresses": [
+                "138.4.26.40"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.dit.upm.es",
+                    "ip": "138.4.2.10"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns2.dit.upm.es",
+                    "ip": "138.4.2.32"
+                },
+                {
+                    "name": "dns.lab.dit.upm.es",
+                    "ip": "138.4.26.2"
+                }
+            ]
+        },
+        {
+            "domain": "lab.dit.upm.es",
+            "ip_addresses": [
+                "138.4.26.40"
+            ],
+            "nameservers": [
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.dit.upm.es",
+                    "ip": "138.4.2.10"
+                },
+                {
+                    "name": "dns.lab.dit.upm.es",
+                    "ip": "138.4.26.2"
+                },
+                {
+                    "name": "dns2.dit.upm.es",
+                    "ip": "138.4.2.32"
+                }
+            ]
+        },
+        {
+            "domain": "cloud2.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.52"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud2.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.52"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "curly.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "curly.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "siu.upm.es",
+            "ip_addresses": [
+                "138.100.200.90"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "siu.upm.es",
+            "ip_addresses": [
+                "138.100.200.90"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "futurosalumnos.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "futurosalumnos.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.digym.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.digym.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lanzadera.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lanzadera.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "edificacion.upm.es",
+            "ip_addresses": [
+                "138.100.109.110"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "edificacion.upm.es",
+            "ip_addresses": [
+                "138.100.109.110"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.euita.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.euita.upm.es",
+            "ip_addresses": [
+                "138.4.74.3"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "i2a2.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": [
+                {
+                    "name": "vps146.cesvima.upm.es",
+                    "ip": "138.4.92.146"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "i2a2.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": [
+                {
+                    "name": "vps146.cesvima.upm.es",
+                    "ip": "138.4.92.146"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.133"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.caminos.upm.es",
+                    "ip": "138.100.67.130"
+                }
+            ]
+        },
+        {
+            "domain": "erma.etsidi.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "erma.etsidi.upm.es",
+            "ip_addresses": [
+                "138.4.92.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.133"
+            ],
+            "nameservers": [
+                {
+                    "name": "dns.caminos.upm.es",
+                    "ip": "138.100.67.130"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "cau.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cau.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mx.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "svn.dit.upm.es",
+            "ip_addresses": [
+                "138.4.5.111"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "rstudio.apii01.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.181"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "svn.dit.upm.es",
+            "ip_addresses": [
+                "138.4.5.111"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mx.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                }
+            ]
+        },
+        {
+            "domain": "dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": [
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                }
+            ]
+        },
+        {
+            "domain": "www.upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.upm.es",
+            "ip_addresses": [
+                "138.100.200.6"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "tools.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "tools.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "survey.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "survey.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "doctorado.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "doctorado.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sacoc.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sacoc.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "radio.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.66"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "radio.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.66"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.practicas.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pruebas.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pruebas.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.practicas.etsidi.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "muss.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "muss.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "master.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                }
+            ]
+        },
+        {
+            "domain": "master.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "dns.etsit.upm.es",
+                    "ip": "138.100.17.4"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                }
+            ]
+        },
+        {
+            "domain": "isp2.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.133"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.133"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsam.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.173"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsam.aq.upm.es",
+            "ip_addresses": [
+                "138.100.44.173"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "idefix.dit.upm.es",
+            "ip_addresses": [
+                "138.4.7.228"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "idefix.dit.upm.es",
+            "ip_addresses": [
+                "138.4.7.228"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dcain.etsin.upm.es",
+            "ip_addresses": [
+                "138.100.112.71"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dcain.etsin.upm.es",
+            "ip_addresses": [
+                "138.100.112.71"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ageinglab.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.130"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ageinglab.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.130"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acorral.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acorral.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.cedint.upm.es",
+            "ip_addresses": [
+                "138.4.140.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.cedint.upm.es",
+            "ip_addresses": [
+                "138.4.140.5"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "chotis2.dit.upm.es",
+            "ip_addresses": [
+                "138.4.7.62"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "chotis2.dit.upm.es",
+            "ip_addresses": [
+                "138.4.7.62"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "jbernal.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "jbernal.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.muss.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.muss.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "emse.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lists.sscc.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "emse.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lists.sscc.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.18.250"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "smtp.ies.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portalvpn.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "portalvpn.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "unifi.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.80"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pc30.grpss.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.40.30"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "unifi.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.80"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pc30.grpss.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.40.30"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "theia.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "theia.eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "guindo.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.129"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "guindo.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.129"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.123"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.51.123"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "costa.ls.fi.upm.es",
+            "ip_addresses": [
+                "138.100.12.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "costa.ls.fi.upm.es",
+            "ip_addresses": [
+                "138.100.12.150"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "naturalinterfaces.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "naturalinterfaces.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mhi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acceso.upm.es",
+            "ip_addresses": [
+                "138.100.200.72"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dlsiis.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dlsiis.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acceso.upm.es",
+            "ip_addresses": [
+                "138.100.200.72"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dssc.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dssc.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "upmlaser.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "upmlaser.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "mhi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dlsiis.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.dlsiis.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "vps136.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.92.136"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "barajas.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.15.147"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "barajas.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.15.147"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mmtc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.33"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mmtc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.33"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "matap.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "matap.dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.tige.ior.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.21.10"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.tige.ior.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.21.10"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ofs.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ofs.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ofs.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ofs.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "communications.reset.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.72.182"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.innopro.upm.es",
+            "ip_addresses": [
+                "138.4.92.167"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.innopro.upm.es",
+            "ip_addresses": [
+                "138.4.92.167"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.ies-def.upm.es",
+            "ip_addresses": [
+                "138.4.46.124"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "oeg-dev.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.145"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "oeg-dev.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.145"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aranjuez.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "aranjuez.dia.fi.upm.es",
+            "ip_addresses": [
+                "138.100.11.160"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "topografia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "tibu.alumnos.topografia.upm.es",
+                    "ip": "138.100.148.8"
+                },
+                {
+                    "name": "kite.topografia.upm.es",
+                    "ip": "138.100.62.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "topografia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "kite.topografia.upm.es",
+                    "ip": "138.100.62.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "tibu.alumnos.topografia.upm.es",
+                    "ip": "138.100.148.8"
+                }
+            ]
+        },
+        {
+            "domain": "www.gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "masterciberseguridad.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "masterciberseguridad.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "medal.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.128"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "medal.ctb.upm.es",
+            "ip_addresses": [
+                "138.4.92.128"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": [
+                {
+                    "name": "sirio.eusoc.upm.es",
+                    "ip": "138.4.132.194"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "eusoc.upm.es",
+            "ip_addresses": [
+                "138.4.132.194"
+            ],
+            "nameservers": [
+                {
+                    "name": "sirio.eusoc.upm.es",
+                    "ip": "138.4.132.194"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "transparencia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "transparencia.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "uxxisso.upm.es",
+            "ip_addresses": [
+                "138.100.200.31"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "uxxisso.upm.es",
+            "ip_addresses": [
+                "138.100.200.31"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "topprofe.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.92.27"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "topprofe.dat.etsit.upm.es",
+            "ip_addresses": [
+                "138.4.92.27"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "gti-router.gti.ssr.upm.es",
+                    "ip": "138.4.47.32"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                }
+            ]
+        },
+        {
+            "domain": "gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": [
+                {
+                    "name": "gti-router.gti.ssr.upm.es",
+                    "ip": "138.4.47.32"
+                },
+                {
+                    "name": "dir.etsit.upm.es",
+                    "ip": "138.100.17.10"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "correo.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.63.21"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "correo.topografia.upm.es",
+            "ip_addresses": [
+                "138.100.63.21"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www1.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.165"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www1.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.165"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "nube.cesvima.upm.es",
+            "ip_addresses": [
+                "138.100.4.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "nube.cesvima.upm.es",
+            "ip_addresses": [
+                "138.100.4.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "grupos.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "grupos.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ldap.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ldap.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.138"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fis.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fis.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "investigacion.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lab.dit.upm.es",
+            "ip_addresses": [
+                "138.4.26.40"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lab.dit.upm.es",
+            "ip_addresses": [
+                "138.4.26.40"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sgame.dit.upm.es",
+            "ip_addresses": [
+                "138.100.158.172"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sgame.dit.upm.es",
+            "ip_addresses": [
+                "138.100.158.172"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud3.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.53"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud3.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.110.53"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "investigacion.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.dcta.upm.es",
+            "ip_addresses": [
+                "138.100.21.36"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "contratacion.upm.es",
+            "ip_addresses": [
+                "138.100.200.92"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cloud.dcta.upm.es",
+            "ip_addresses": [
+                "138.100.21.36"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "wiki.hi.ee.upm.es",
+            "ip_addresses": [
+                "138.4.92.181"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imdea-software.fi.upm.es",
+            "ip_addresses": [
+                "138.100.13.220"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www2.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.134"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "imdea-software.fi.upm.es",
+            "ip_addresses": [
+                "138.100.13.220"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www2.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.134"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ceigram.upm.es",
+            "ip_addresses": [
+                "138.4.92.216"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "arcdc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.48"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ceigram.upm.es",
+            "ip_addresses": [
+                "138.4.92.216"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "arcdc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.48"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "wiki.hi.ee.upm.es",
+            "ip_addresses": [
+                "138.4.92.181"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acdc.gmr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.36.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "drive.upm.es",
+            "ip_addresses": [
+                "138.100.4.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "acdc.gmr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.36.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "drive.upm.es",
+            "ip_addresses": [
+                "138.100.4.11"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.masterciberseguridad.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.masterciberseguridad.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "espacios-si.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.156.16"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dlsiis.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "espacios-si.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.156.16"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.111"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns.etsist.upm.es",
+                    "ip": "138.100.52.102"
+                }
+            ]
+        },
+        {
+            "domain": "dlsiis.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.111"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns.etsist.upm.es",
+                    "ip": "138.100.52.102"
+                }
+            ]
+        },
+        {
+            "domain": "vps130.cesvima.upm.es",
+            "ip_addresses": [
+                "138.4.92.130"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dlsiisv.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "masteriot.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "masteriot.etsist.upm.es",
+            "ip_addresses": [
+                "138.100.52.113"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "xuxa.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "campussur.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "campussur.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "xuxa.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "listas.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "listas.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docentia.upm.es",
+            "ip_addresses": [
+                "138.100.200.159"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "docentia.upm.es",
+            "ip_addresses": [
+                "138.100.200.159"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "drivetest.upm.es",
+            "ip_addresses": [
+                "138.100.4.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "drivetest.upm.es",
+            "ip_addresses": [
+                "138.100.4.12"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "encuestas.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.204"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "encuestas.etsiaab.upm.es",
+            "ip_addresses": [
+                "138.100.88.204"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sw.upm.es",
+            "ip_addresses": [
+                "138.100.4.13"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apiict03.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.173"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "apiict03.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.82.173"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "sw.upm.es",
+            "ip_addresses": [
+                "138.100.4.13"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lsd1.ls.fi.upm.es",
+            "ip_addresses": [
+                "138.100.12.161"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lsd1.ls.fi.upm.es",
+            "ip_addresses": [
+                "138.100.12.161"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gea.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.186"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "gea.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.186"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "zion.ieeesb.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.31.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "zion.ieeesb.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.31.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ice.upm.es",
+            "ip_addresses": [
+                "138.100.233.200"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "www.ice.upm.es",
+            "ip_addresses": [
+                "138.100.233.200"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dmae.upm.es",
+            "ip_addresses": [
+                "138.4.112.195"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "clubdeportivo.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.edificacion.upm.es",
+            "ip_addresses": [
+                "138.100.109.110"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "clubdeportivo.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "web.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.edificacion.upm.es",
+            "ip_addresses": [
+                "138.100.109.110"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "web.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.montesymedionatural.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.montesymedionatural.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.citsem.upm.es",
+            "ip_addresses": [
+                "138.100.58.23"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.citsem.upm.es",
+            "ip_addresses": [
+                "138.100.58.23"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "inacc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.32"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "inacc.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.32"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ope.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ope.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cdcrom.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cdcrom.clubs.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "oeg-dev.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.11.145"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "oeg-dev.dia.etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.11.145"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "digym.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                }
+            ]
+        },
+        {
+            "domain": "web-gestores.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.165"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "web-gestores.caminos.upm.es",
+            "ip_addresses": [
+                "138.100.67.165"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "digym.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": [
+                {
+                    "name": "einstein.ccupm.upm.es",
+                    "ip": "138.100.4.8"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                }
+            ]
+        },
+        {
+            "domain": "gsi.upm.es",
+            "ip_addresses": [
+                "138.4.92.161"
+            ],
+            "nameservers": [
+                {
+                    "name": "isp1.etsit.upm.es",
+                    "ip": "138.100.17.19"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "www.i2a2.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.i2a2.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "admision.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "admision.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.16"
+            ],
+            "nameservers": [
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                }
+            ]
+        },
+        {
+            "domain": "etsiinf.upm.es",
+            "ip_addresses": [
+                "138.100.243.16"
+            ],
+            "nameservers": [
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "webmail.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cf4j.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "webmail.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.59"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "cf4j.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ae2015.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ae2015.dit.upm.es",
+            "ip_addresses": [
+                "138.4.2.56"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mcm19.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "mcm19.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.16"
+            ],
+            "nameservers": [
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                }
+            ]
+        },
+        {
+            "domain": "fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.16"
+            ],
+            "nameservers": [
+                {
+                    "name": "chita.fi.upm.es",
+                    "ip": "138.100.8.23"
+                },
+                {
+                    "name": "zape.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "tarzan.fi.upm.es",
+                    "ip": "138.100.8.6"
+                },
+                {
+                    "name": "ns.fi.upm.es",
+                    "ip": "138.100.8.1"
+                },
+                {
+                    "name": "galileo.ccupm.upm.es",
+                    "ip": "138.100.4.4"
+                }
+            ]
+        },
+        {
+            "domain": "git.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "git.gti.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.32.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lists.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "lists.lst.tfo.upm.es",
+            "ip_addresses": [
+                "138.4.10.196"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pasarela.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.46"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pasarela.etsiae.upm.es",
+            "ip_addresses": [
+                "138.4.74.46"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dma.upm.es",
+            "ip_addresses": [
+                "138.100.6.231"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "tesis.biblioteca.upm.es",
+            "ip_addresses": [
+                "138.100.6.200"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "tesis.biblioteca.upm.es",
+            "ip_addresses": [
+                "138.100.6.200"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "msde.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "msde.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.54"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ecodeteleco.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "relay.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.17"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ecodeteleco.etsit.upm.es",
+            "ip_addresses": [
+                "138.100.17.24"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dssc.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "dssc.fi.upm.es",
+            "ip_addresses": [
+                "138.100.240.198"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.montes.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "pga.industriales.upm.es",
+            "ip_addresses": [
+                "138.100.71.77"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ma.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ma.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "laurel.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.35"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.montes.upm.es",
+            "ip_addresses": [
+                "138.100.124.26"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "laurel.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.35"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.gea.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.186"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ofs.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.ofs.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.202"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ws.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.gea.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.92.186"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "ws.fi.upm.es",
+            "ip_addresses": [
+                "138.100.243.18"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "www.datsi.fi.upm.es",
+            "ip_addresses": [
+                "138.100.9.22"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "list.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "list.gr.ssr.upm.es",
+            "ip_addresses": [
+                "138.4.37.2"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "indusnet.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.77"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "indusnet.etsii.upm.es",
+            "ip_addresses": [
+                "138.100.71.77"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "montegancedo.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "montegancedo.upm.es",
+            "ip_addresses": [
+                "138.100.200.9"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "giematic.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        },
+        {
+            "domain": "giematic.etsisi.upm.es",
+            "ip_addresses": [
+                "138.100.152.8"
+            ],
+            "nameservers": []
+        }
+    ]
+}
