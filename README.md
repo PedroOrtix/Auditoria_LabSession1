@@ -7,6 +7,7 @@
 - **`subdomain_checker/`**: Implementación propia para la extracción y verificación de dominios utilizando la plataforma `crt.sh` (consulta pública de certificados). El código relevante está en `subdomain_checker/src/` y se ha desarrollado un scraper/verificador propio para este propósito.
 - **`visual_recon/`**: Carpeta destinada al reconocimiento visual y la organización de los resultados de los subdominios. Contiene el pipeline que procesa las URLs con Aquatone y captura con GoWitness; se incluyen los informes (`aquatone_report/`) y capturas (`gowitness_screens/`).
 - **`email_scraper/`**: Implementación del email scrapper incluida en el ejercicio 5 de Automated Information Gathering. El scrapper y sus configuraciones se encuentran en `email_scraper/` (`main.py`, `config/`, `run.sh`).
+- **`dns_lab_tool/`**: Herramienta unificada de enumeración DNS. Orquesta el descubrimiento de subdominios (reutilizando `subdomain_checker`) y añade resolución de registros NS (Name Servers) e IPs tanto para el subdominio como para sus servidores de nombres. El script principal es `unified_scanner.py`.
 
 **Cómo ejecutar (rápido)**
 - Subdomain Discovery:
@@ -22,6 +23,9 @@
 - Email Scraper (Ejercicio 5):
   - `cd email_scraper`
   - Ejecutar: `./run.sh` o `python3 main.py`
+- DNS Lab Tool (Unified Scanner):
+  - `cd dns_lab_tool`
+  - Ejecutar: `python3 unified_scanner.py <dominio>` (ej. `python3 unified_scanner.py upm.es`) - Realiza escaneo completo y genera JSON con subdominios, IPs y Nameservers.
 
 **Configuración y dependencias**
 - Cada subproyecto incluye su `config/config.yaml` y un fichero de entorno `environment.yml` o `requirements.txt` para recrear dependencias.
